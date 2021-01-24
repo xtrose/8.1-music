@@ -1,0 +1,516 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MyMusicPlayer.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="clr-namespace:Coding4Fun.Toolkit.Controls;assembly=Coding4Fun.Toolkit.Controls"
+    xmlns:Toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" OrientationChanged="ChangeOrientation"
+    shell:SystemTray.IsVisible="False" Orientation="Portrait">
+
+    <!--HauptGrid-->
+    <Grid Name="LayoutRoot" Background="{StaticResource PhoneBackgroundBrush}">
+
+
+
+
+        <!--Logo-->
+        <Image Name="ImgLogo" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Opacity="0.2" Source="/Images/Logo.Dark.png" Margin="-30,-30"/>
+
+
+
+
+
+        <!--Pivot Control-->
+        <phone:Pivot Name="MainPivotItem" Title=" " Foreground="{StaticResource PhoneForegroundBrush}">
+
+
+            <!--Songs-->
+            <phone:PivotItem Header="{Binding LocalizedResources.Z001_Music, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="20">
+
+                <ListBox Name="LBSongs" ItemsSource="{Binding ClassMedia}" SelectionChanged="LBSongs_SelectionChanged" Margin="0,-18,0,72">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Background="{Binding Background}" Margin="{Binding Margin}" Orientation="Horizontal">
+                                <Image Source="{Binding ImageSource2}" Width="{Binding ImageSize2}" Height="{Binding ImageSize2}" Visibility="{Binding ImageVisibility2}" Margin="6,0,6,0" MouseLeftButtonUp="LBSongs_ButtonPlaySong"/>
+                                <Image Source="{Binding ImageSource}" Width="{Binding ImageSize}" Height="{Binding ImageSize}" Visibility="{Binding ImageVisibility}" Margin="6,0,6,0" MouseLeftButtonUp="LBSongs_ButtonPlay"/>
+                                <StackPanel Margin="6,0,0,0">
+                                    <TextBlock Text="{Binding Name}" Width="776" Foreground="{Binding Foreground}" FontFamily="{Binding FontFamily}" FontSize="{Binding FontSize}" VerticalAlignment="Center" MouseLeftButtonUp="LBSongs_ButtonName" />
+                                    <TextBlock Text="{Binding ExtendedInfoText}" Width="776" Foreground="{Binding Foreground}" FontFamily="Segoe WP Light" FontSize="{Binding ExtendedInfoFontSize}" VerticalAlignment="Center" Opacity="0.8" Visibility="{Binding ExtendedInfoVisibility}" MouseLeftButtonUp="LBSongs_ButtonName"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+            </phone:PivotItem>
+
+
+
+
+
+            <!--Playlists-->
+            <phone:PivotItem Header="{Binding LocalizedResources.Z001_Playlists, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Foreground="{StaticResource PhoneForegroundBrush}" FontSize="20">
+
+                <!--Auflistung der Playlists-->
+                <ListBox Name="LBPlaylists" ItemsSource="{Binding ClassMedia}" SelectionChanged="LBPlaylists_SelectionChanged" Margin="0,-18,0,72" >
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Background="{Binding Background}" Margin="{Binding Margin}" Orientation="Horizontal">
+                                <Image Source="{Binding ImageSource2}" Width="{Binding ImageSize2}" Height="{Binding ImageSize2}" Visibility="{Binding ImageVisibility2}" Margin="6,0,6,0" MouseLeftButtonUp="LBPlaylists_ButtonPlaySong"/>
+                                <Image Source="{Binding ImageSource}" Width="{Binding ImageSize}" Height="{Binding ImageSize}" Visibility="{Binding ImageVisibility}" Margin="6,0,6,0" MouseLeftButtonUp="LBPlaylists_ButtonPlay"/>
+                                <StackPanel Margin="6,0,0,0">
+                                    <TextBlock Text="{Binding Name}" Width="776" Foreground="{Binding Foreground}" FontFamily="{Binding FontFamily}" FontSize="{Binding FontSize}" VerticalAlignment="Center" MouseLeftButtonUp="LBPlaylists_ButtonName" />
+                                    <TextBlock Text="{Binding ExtendedInfoText}" Width="776" Foreground="{Binding Foreground}" FontFamily="Segoe WP Light" FontSize="{Binding ExtendedInfoFontSize}" VerticalAlignment="Center" Opacity="0.8" Visibility="{Binding ExtendedInfoVisibility}" MouseLeftButtonUp="LBPlaylists_ButtonName" />
+                                </StackPanel>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+            </phone:PivotItem>
+
+
+
+
+
+            <!--Aktuelle Abspielliste, bei Select and Play-->
+            <phone:PivotItem Header="{Binding LocalizedResources.ZZ005_CurrentPlaylist, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="20" >
+
+                <!--Auflistung der Aktuellen Abspielliste-->
+                <ListBox Name="LBCurrentPlaylist" ItemsSource="{Binding ClassActivePlayList}" SelectionChanged="LBCurrentPlaylist_SelectionChanged" Margin="0,-18,0,72" >
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Background="{Binding Background}" Margin="0,12,0,0" Orientation="Horizontal">
+                                <Image Source="{Binding ImageSource2}" Width="{Binding ImageSize2}" Height="{Binding ImageSize2}" Visibility="{Binding ImageVisibility2}" Margin="6,0,6,0" MouseLeftButtonUp="LBCurrentPlaylist_ButtonUp"/>
+                                <Image Source="{Binding ImageSource}" Width="{Binding ImageSize}" Height="{Binding ImageSize}" Visibility="{Binding ImageVisibility}" Margin="6,0,6,0"  MouseLeftButtonUp="LBCurrentPlaylist_ButtonDown"/>
+                                <Image Source="{Binding ImageSource3}" Width="{Binding ImageSize}" Height="{Binding ImageSize}" Visibility="{Binding ImageVisibility3}" Margin="6,0,6,0"  MouseLeftButtonUp="LBCurrentPlaylist_ButtonDelete"/>
+                                <StackPanel Margin="6,0,0,0">
+                                    <TextBlock Text="{Binding Song}" Width="776" Foreground="{Binding Foreground}" FontFamily="{Binding FontFamily}" FontSize="{Binding FontSize}" VerticalAlignment="Center" />
+                                    <TextBlock Text="{Binding ExtendedInfoText}" Width="776" Foreground="{Binding Foreground}" FontFamily="Segoe WP Light" FontSize="{Binding ExtendedInfoFontSize}" VerticalAlignment="Center" Opacity="0.8" Visibility="{Binding ExtendedInfoVisibility}" />
+                                </StackPanel>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+            </phone:PivotItem>
+
+
+
+            
+
+            <!--Einstellungen-->
+            <phone:PivotItem Header="{Binding LocalizedResources.Z001_Settings, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="20" >
+
+                <ScrollViewer Name="SVSetting" Margin="0,-18,0,72">
+                    <StackPanel>
+                        <TextBlock Text="{Binding LocalizedResources.ZZ004_RenewCache, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                        <Button Name="BtnRenewCache" Content="{Binding LocalizedResources.ZZ004_Renew, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="23" FontFamily="Segoe WP Light" Click="BtnRenewCache_Click" Margin="0,0,0,48" />
+                        
+                        <TextBlock Text="{Binding LocalizedResources.Z001_StopPlayback, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                        <Button Name="BtnStopPlayback" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnStopPlayback_Click" Margin="0,0,0,12" />
+
+                        <TextBlock Text="{Binding LocalizedResources.Z001_DeleteLastPlaybacks, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                        <Button Name="BtnDeleteLastPlaybacks" Content="{Binding LocalizedResources.Z001_Delete, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="23" FontFamily="Segoe WP Light" Click="BtnDeleteLastPlaybacks_Click" Margin="0,0,0,60" />
+
+                        <TextBlock Text="{Binding LocalizedResources.ZZ003_StopTimer, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                        <StackPanel Orientation="Horizontal">
+                            <Grid>
+                                <Rectangle Fill="White" Margin="14"/>
+                                <TextBox Name="TB_Timer" Width="300" BorderBrush="#BF818181" ManipulationStarted="TBTimer_Click" InputScope="Number"/>
+                            </Grid>
+                            <Image Name="ImgTimerPlay" Source="/Images/Play.Dark.png" Margin="12,0,12,0" Height="60" MouseLeftButtonUp="TimerPlay_Click"/>
+                            <Image Name="ImgTimerDelete" Source="/Images/Delete.Dark.png" Height="60" Opacity="0.5" MouseLeftButtonUp="TimerDelete_Click"/>
+                        </StackPanel>
+                        <TextBlock Text="{Binding LocalizedResources.ZZ003_Minutes, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,60" FontSize="20" FontFamily="Segoe WP Light" />
+
+                        <TextBlock Text="{Binding LocalizedResources.Z001_Settings, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                        <Button Name="BtnSettings" Content="{Binding LocalizedResources.Z001_Settings, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="23" FontFamily="Segoe WP Light" Click="BtnSettings_Click" Margin="0,0,0,12" />
+
+                        <TextBlock Text="{Binding LocalizedResources.ZZ002_Design, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                        <Button Name="BtnDesignSettings" Content="{Binding LocalizedResources.ZZ002_Design, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="23" FontFamily="Segoe WP Light" Click="BtnDesignSettings_Click" Margin="0,0,0,12" />
+
+                        <TextBlock Text="{Binding LocalizedResources.ZZ003_StartMenüSettings, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                        <Button Name="BtnStartScreenSettings" Content="{Binding LocalizedResources.ZZ003_StartScreen, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="23" FontFamily="Segoe WP Light" Click="BtnStartScreenSettings_Click" Margin="0,0,0,60" />
+                        
+                        <!--
+                        <TextBlock Text="{Binding LocalizedResources.ZZ003_RunUnderLockScreen, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                        <Button Name="BtnRunUnderLockScreen" Content="{Binding LocalizedResources.Z001_Delete, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="23" FontFamily="Segoe WP Light" Click="BtnRunUnderLockScreen_Click" Margin="0,0,0,60" />
+                        -->
+                        
+                    </StackPanel>
+                </ScrollViewer>
+
+            </phone:PivotItem>
+
+
+
+
+
+            <!--Über-->
+            <phone:PivotItem Header="{Binding LocalizedResources.Z001_About, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="20">
+
+                <ScrollViewer Name="SVAbout" Margin="0,-18,0,72">
+                    <Grid>
+
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="12,0,0,20" HorizontalAlignment="Left" VerticalAlignment="Top" Width="444">
+                                <StackPanel Height="46" Width="46" MouseLeftButtonUp="BtnBuy" >
+                                    <Image Source="/Images/buy.png" Height="46" Width="46" MouseLeftButtonUp="BtnBuy"/>
+                                </StackPanel>
+                                <StackPanel Height="46" Width="385" Margin="12,0,0,0" >
+                                    <TextBlock FontSize="30" Text="{Binding LocalizedResources.Z001_Buy, Mode=OneWay, Source={StaticResource LocalizedStrings}}" MouseLeftButtonUp="BtnBuy" FontFamily="Segoe WP Light" />
+                                </StackPanel>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="12,0,0,20" HorizontalAlignment="Left" VerticalAlignment="Top" Width="444">
+                                <StackPanel Height="46" Width="46" MouseLeftButtonUp="BtnRate" >
+                                    <Image Source="/Images/rate.png" Height="46" Width="46" MouseLeftButtonUp="BtnRate" />
+                                </StackPanel>
+                                <StackPanel Height="46" Width="386" Margin="12,0,0,0" >
+                                    <TextBlock FontSize="30" Text="{Binding LocalizedResources.Z001_Rate, Mode=OneWay, Source={StaticResource LocalizedStrings}}" MouseLeftButtonUp="BtnRate" FontFamily="Segoe WP Light" />
+                                </StackPanel>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="12,0,0,20" HorizontalAlignment="Left" VerticalAlignment="Top" Width="444">
+                                <StackPanel Height="46" Width="46" MouseLeftButtonUp="BtnFacebook" >
+                                    <Image Source="/Images/Facebook.png" Height="46" Width="46" MouseLeftButtonUp="BtnFacebook" />
+                                </StackPanel>
+                                <StackPanel Height="46" Width="385" Margin="12,0,0,0" >
+                                    <TextBlock FontSize="30" Text="{Binding LocalizedResources.Z001_Like, Mode=OneWay, Source={StaticResource LocalizedStrings}}" MouseLeftButtonUp="BtnFacebook" FontFamily="Segoe WP Light" />
+                                </StackPanel>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="12,0,0,20" HorizontalAlignment="Left" VerticalAlignment="Top" Width="444">
+                                <StackPanel Height="46" Width="46" MouseLeftButtonUp="BtnOther" >
+                                    <Image Source="/Images/xtrose.png" Height="46" Width="46" MouseLeftButtonUp="BtnOther" />
+                                </StackPanel>
+                                <StackPanel Height="46" Width="387" Margin="12,0,0,0" MouseLeftButtonUp="BtnOther" >
+                                    <TextBlock FontSize="30" Text="{Binding LocalizedResources.Z001_Other, Mode=OneWay, Source={StaticResource LocalizedStrings}}"  MouseLeftButtonUp="BtnOther" FontFamily="Segoe WP Light" />
+                                </StackPanel>
+                            </StackPanel>
+
+
+
+                            <StackPanel Orientation="Horizontal" Margin="0,36,0,0">
+                                <Image Name="ImgInstructions" Source="/Images/Instruction.Dark.png" Width="45" Height="45" VerticalAlignment="Center" MouseLeftButtonUp="BtnInstructions" Opacity="0.8" Margin="12,0,0,0" />
+                                <TextBlock Text="{Binding LocalizedResources.Z001_Instructions, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="40" VerticalAlignment="Center" Opacity="0.8" MouseLeftButtonUp="BtnInstructions" Foreground="{StaticResource PhoneForegroundBrush}"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                                <Image Name="ImgSupport" Source="/Images/Support.Dark.png" Width="45" Height="45" VerticalAlignment="Center" MouseLeftButtonUp="BtnSupport" Opacity="0.8" Margin="12,0,0,0" />
+                                <TextBlock Text="{Binding LocalizedResources.Z001_Contact, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="40" VerticalAlignment="Center" Opacity="0.8" MouseLeftButtonUp="BtnSupport" Foreground="{StaticResource PhoneForegroundBrush}"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                                <Image Name="ImgGlobe" Source="/Images/Globe.Dark.png" Width="45" Height="45" VerticalAlignment="Center" MouseLeftButtonUp="BtnLanguage" Opacity="0.8" Margin="12,0,0,0" />
+                                <TextBlock Text="{Binding LocalizedResources.Z001_Language, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="40" VerticalAlignment="Center" Opacity="0.8" MouseLeftButtonUp="BtnLanguage" Foreground="{StaticResource PhoneForegroundBrush}"/>
+                            </StackPanel>
+
+                            <StackPanel Margin="12,36,0,0" Name="SPTrial" >
+                                <TextBlock Name="TBTrial" Text="{Binding LocalizedResources.Z001_TrialVersion, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontFamily="Segoe WP" FontSize="26"/>
+                                <TextBlock Name="TBTialTime" FontFamily="Segoe WP Light" FontSize="22" />
+                            </StackPanel>
+
+
+                            <StackPanel Margin="12,36,0,36">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding LocalizedResources.Z001_AppTitle, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontFamily="Segoe WP" FontSize="20" Width="443" />
+                                    <TextBlock Text=" v1.0" FontFamily="Segoe WP" FontSize="20" Foreground="Black" />
+                                </StackPanel>
+                                <TextBlock Text="{Binding LocalizedResources.Z001_ThankYou, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontFamily="Segoe WP Light" FontSize="18"/>
+                                <TextBlock Text="Copyright xtrose 2014" FontFamily="Segoe WP Light" FontSize="18" />
+                            </StackPanel>
+                        </StackPanel>
+
+                    </Grid>
+                </ScrollViewer>
+
+            </phone:PivotItem>
+
+        </phone:Pivot>
+
+
+
+
+        <!--Suche, Logo-->
+        <Image Name="ImgXtroseLogo" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/Images/Logo40X40.Dark.png" Margin="24,12,0,0" MouseLeftButtonUp="OpenHelp"/>
+        <Rectangle Name="RTSearch" Fill="White" Height="40" VerticalAlignment="Top" Margin="25,9,15,0" Visibility="Collapsed"/>
+        <TextBox Name="TBSearch" Height="70" VerticalAlignment="Top" Margin="10,-6,0,0" Background="White" BorderBrush="#BF818181" KeyDown="TBSearch_KeyDown" Visibility="Collapsed" />
+        
+        <StackPanel Name="SPTopButtons" Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="6,12,24,0">
+            <StackPanel Name="SPTopButtons01" Orientation="Horizontal">
+                <Image Name="ImgLock" Width="40" Source="/Images/Lock.Dark.png" MouseLeftButtonUp="ImgLock_Click" Margin="0,0,36,0" Opacity="0.5"/>
+                <Image Name="ImgSelectAndPlay" Width="40" Source="/Images/Select.Dark.png" MouseLeftButtonUp="ImgSelectAndPlayClick" Margin="0,0,36,0" Opacity="0.5"/>
+                <Image Name="ImgSearch" Width="40" Source="/Images/Search.Dark.png" MouseLeftButtonUp="ImgSearch_Click" Margin="0,0,36,0" />
+                <Image Name="ImgRefresh" Width="40" Source="/Images/Refresh.Dark.png" MouseLeftButtonUp="CloseAllLists_Click" />
+            </StackPanel>
+            <StackPanel Name="SPTopButtons02" Orientation="Horizontal">
+                <Image Name="ImgDeletePlaylist" Width="40" Source="/Images/Delete.Dark.png" MouseLeftButtonUp="DeletePlaylist_Click" Margin="0,0,36,0" />
+                <Image Name="ImgSavePlaylist" Width="40" Source="/Images/Save.Dark.png" MouseLeftButtonUp="SavePlaylist_Click" />
+            </StackPanel>
+        </StackPanel>
+        <Grid Name="GRNote" Background="#1f1f1f" Height="52" VerticalAlignment="Top" Visibility="Collapsed" MouseLeftButtonUp="GRNote_Click">
+            <TextBlock Name="TBNote" Text="{Binding LocalizedResources.ZZ002_AgainClose, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" Margin="24,0,0,0"/>
+        </Grid>
+        
+
+
+
+        <!--MediaPlayer-->
+        <Grid Name="GRMediaPlayer" Height="200" VerticalAlignment="Bottom" Margin="0,0,0,-128" Background="#1f1f1f">
+
+            <!--Bilder in der PlayerLeiste-->
+            <Ellipse Name="MPBackBg" Width="46" Height="46" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="132,13,0,0" />
+            <Image Name="MPBack" Height="48" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/Images/Back.Dark.png" Margin="131,12,0,0" MouseLeftButtonDown="MPBack_Down" MouseLeftButtonUp="MPBack_Click" MouseLeave="MPBack_Leave" />
+            <Ellipse Name="MPPlayPauseBg" Width="46" Height="46" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="217,13,0,0" />
+            <Ellipse Name="MPPlayOnBg" Width="46" Height="46" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="217,13,0,0" />
+            <Image Name="MPPlayPause" Height="48" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/Images/Play.Dark.png" Margin="216,12,0,0" MouseLeftButtonDown="MPPlayPause_Down" MouseLeftButtonUp="MPPlayPause_Up" MouseLeave="MPPlayPause_Leave"/>
+            <Ellipse Name="MPForwardBg" Width="46" Height="46" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="302,13,0,0" />
+            <Image Name="MPForward" Height="48" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/Images/Forward.Dark.png" Margin="301,12,0,0" MouseLeftButtonDown="MPForward_Down" MouseLeftButtonUp="MPForward_Click" MouseLeave="MPForward_Leave"/>
+            <!--Punkte Open Close-->
+            <Image Name="FPOpen" Source="/Images/Arrow.Right.Dark.png" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,25,0,0"/>
+            <Rectangle Name="FPOpenBg" Fill="#00FFFFFF" Width="48" Height="65" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="FPOpenClose_Click" />
+            <Image Name="MPOpenClose" Source="/Images/Arrow.Up.Dark.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,25,12,0"/>
+            <Rectangle Name="MPOpenCloseBg" Fill="#00FFFFFF" Width="48" Height="65" VerticalAlignment="Top" HorizontalAlignment="Right" MouseLeftButtonUp="MPOpenClose_Click" />
+            <!--Balken wenn MediaPlayer geschlossen-->
+            <Rectangle Name="MPStatBarSmall" Fill="White" Width="480" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,70,0,00"/>
+            <!--Song Daten-->
+            <Rectangle Name="MPImageFrame" Height="100" Width="100" Fill="{StaticResource PhoneForegroundBrush}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,83,0,0"/>
+            <Image Name="MPImageAlbumImage" Height="98" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/Images/300X300.png" Margin="11,84,0,0"/>
+            <StackPanel Name="MPSPData" Width="260" Height="70" Margin="124,80,96,52" VerticalAlignment="Top" HorizontalAlignment="Left">
+                <TextBlock Name="MPSongName" Text="{Binding LocalizedResources.Z001_Song, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="16" FontFamily="Segoe WP Semibold" Foreground="{StaticResource PhoneForegroundBrush}"/>
+                <TextBlock Name="MPSongArtist" Text="{Binding LocalizedResources.Z001_Artist, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="16" Margin="0,-1,0,0" Foreground="{StaticResource PhoneForegroundBrush}"/>
+                <TextBlock Name="MPSongAlbum" Text="{Binding LocalizedResources.Z001_Album, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="16" FontFamily="Segoe WP Light" Margin="0,-1,0,0" Foreground="{StaticResource PhoneForegroundBrush}"/>
+            </StackPanel>
+            <!--Shuffle und Repead-->
+            <Image Name="MPRepead" Height="48" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/Images/Repeat.Dark.png" Margin="419,81,0,0" MouseLeftButtonUp="MPRepead_Click"/>
+            <Image Name="MPShuffle" Height="48" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/Images/Shuffle.Dark.png" Margin="419,141,0,0" MouseLeftButtonUp="MPShuffle_Click"/>
+            <TextBlock Name="MPTBRepead" Text="1" FontFamily="Segoe WP Light" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="461,87,0,0" Foreground="{StaticResource PhoneForegroundBrush}"/>
+            <!--Fortschrittsanzeige-->
+            <Rectangle Name="MPStatFrame" Fill="{StaticResource PhoneForegroundBrush}" Width="260" Height="12" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="125,149,0,0"/>
+            <Rectangle Name="MPStatEmpty" Fill="#1f1f1f" Width="258" Height="10" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="126,150,0,0"/>
+            <Rectangle Name="MPStatBar" Fill="{StaticResource PhoneForegroundBrush}" Width="260" Height="12" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="125,149,0,0"/>
+            <TextBlock Name="MPPlayTime" Text="00:00:00" Foreground="{StaticResource PhoneForegroundBrush}" FontSize="14" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="126,165,0,0" />
+            <TextBlock Name="MPTime" Text="00:00:00" Foreground="{StaticResource PhoneForegroundBrush}" FontSize="14" VerticalAlignment="Top" HorizontalAlignment="right" Margin="0,165,95,0" />
+        </Grid>
+
+
+
+
+        <!--ListSelector-->
+        <Grid Name="GRListSelector" Width="480" Height="854" Visibility="Collapsed">
+
+            <Rectangle Fill="{StaticResource PhoneBackgroundBrush}" Opacity="0.5"/>
+
+            <Grid Name="GridSharp" Background="#ff1f1f1f" Width="100" Height="100" Margin="22,14,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSSharp_Click">
+                <TextBlock Text="#" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0"  />
+            </Grid>
+            <Grid Name="Grida" Background="#ff1f1f1f" Width="100" Height="100" Margin="134,14,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSa_Click" >
+                <TextBlock Text="a" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Gridb" Background="#ff1f1f1f" Width="100" Height="100" Margin="246,14,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSb_Click" >
+                <TextBlock Text="b" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Gridc" Background="#ff1f1f1f" Width="100" Height="100" Margin="358,14,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSc_Click">
+                <TextBlock Text="c" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+
+            <Grid Name="Gridd" Background="#ff1f1f1f" Width="100" Height="100" Margin="22,126,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSd_Click">
+                <TextBlock Text="d" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Gride" Background="#ff1f1f1f" Width="100" Height="100" Margin="134,126,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSe_Click">
+                <TextBlock Text="e" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Gridf" Background="#ff1f1f1f" Width="100" Height="100" Margin="246,126,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSf_Click">
+                <TextBlock Text="f" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Gridg" Background="#ff1f1f1f" Width="100" Height="100" Margin="358,126,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSg_Click">
+                <TextBlock Text="g" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+
+            <Grid Name="Gridh" Background="#ff1f1f1f" Width="100" Height="100" Margin="22,238,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSh_Click">
+                <TextBlock Text="h" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Gridi" Background="#ff1f1f1f" Width="100" Height="100" Margin="134,235,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSi_Click">
+                <TextBlock Text="i" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Gridj" Background="#ff1f1f1f" Width="100" Height="100" Margin="246,238,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSj_Click">
+                <TextBlock Text="j" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Gridk" Background="#ff1f1f1f" Width="100" Height="100" Margin="358,238,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSk_Click">
+                <TextBlock Text="k" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+
+            <Grid Name="Gridl" Background="#ff1f1f1f" Width="100" Height="100" Margin="22,350,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSl_Click">
+                <TextBlock Text="l" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Gridm" Background="#ff1f1f1f" Width="100" Height="100" Margin="134,350,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSm_Click">
+                <TextBlock Text="m" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Gridn" Background="#ff1f1f1f" Width="100" Height="100" Margin="246,350,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSn_Click">
+                <TextBlock Text="n" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Grido" Background="#ff1f1f1f" Width="100" Height="100" Margin="358,350,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSo_Click">
+                <TextBlock Text="o" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+
+            <Grid Name="Gridp" Background="#ff1f1f1f" Width="100" Height="100" Margin="22,462,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSp_Click">
+                <TextBlock Text="p" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Gridq" Background="#ff1f1f1f" Width="100" Height="100" Margin="134,462,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSq_Click">
+                <TextBlock Text="q" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Gridr" Background="#ff1f1f1f" Width="100" Height="100" Margin="246,462,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSr_Click">
+                <TextBlock Text="r" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Grids" Background="#ff1f1f1f" Width="100" Height="100" Margin="358,462,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSs_Click">
+                <TextBlock Text="s" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+
+            <Grid Name="Gridt" Background="#ff1f1f1f" Width="100" Height="100" Margin="22,576,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSt_Click">
+                <TextBlock Text="t" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Gridu" Background="#ff1f1f1f" Width="100" Height="100" Margin="134,576,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSu_Click">
+                <TextBlock Text="u" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Gridv" Background="#ff1f1f1f" Width="100" Height="100" Margin="246,576,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSv_Click">
+                <TextBlock Text="v" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Gridw" Background="#ff1f1f1f" Width="100" Height="100" Margin="358,576,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSw_Click">
+                <TextBlock Text="w" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+
+            <Grid Name="Gridx" Background="#ff1f1f1f" Width="100" Height="100" Margin="22,686,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSx_Click">
+                <TextBlock Text="x" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Gridy" Background="#ff1f1f1f" Width="100" Height="100" Margin="134,686,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSy_Click">
+                <TextBlock Text="y" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="Gridz" Background="#ff1f1f1f" Width="100" Height="100" Margin="246,686,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSz_Click">
+                <TextBlock Text="z" Foreground ="White"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="50" FontFamily="Segoe WP Semibold" Margin="12,0,0,0" />
+            </Grid>
+            <Grid Name="GridGlobal" Background="#ff1f1f1f" Width="100" Height="100" Margin="358,686,12,0" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="LSGlobal_Click">
+                <Image Name="ImageGlobe" Source="/Images/Globe.Wire.Dark.png" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="70"/>
+            </Grid>
+        </Grid>
+
+
+
+
+
+        <!--FullScreenPlayer-->
+        <Grid Name="GRFullscreenPlayer" Width="480" HorizontalAlignment="Left" Margin="-480,0,0,0" Background="{StaticResource PhoneBackgroundBrush}">
+            <!--Album Art-->
+            <Grid Name="FPGRImage" Height="350" Width="350" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,40,0,0">
+                <Rectangle Name="FPImageFrame" Fill="{StaticResource PhoneForegroundBrush}" Width="350" Height="350" VerticalAlignment="Top" Visibility="Visible"/>
+                <Image Name="FPImageAlbumImage" Width="348" Height="348" VerticalAlignment="Top" Margin="0,1,0,0" Source="/Images/300X300.png" Visibility="Visible">
+                    <Image.RenderTransform>
+                        <CompositeTransform x:Name="transform" />
+                    </Image.RenderTransform>
+                    <Toolkit:GestureService.GestureListener>
+                        <Toolkit:GestureListener  
+                        DragStarted="OnDragStarted" DragDelta="OnDragDelta" DragCompleted="OnDragCompleted" />
+                    </Toolkit:GestureService.GestureListener>
+                </Image>
+            </Grid>
+
+            <!--Buttons Control-->
+            <StackPanel Name="FPSPButtons" Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,430,0,0">
+                <Grid>
+                    <Ellipse Name="FPBackBg" Width="76" Height="76" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <Image Name="FPBack" Source="/Images/Back.Dark.png" Height="76" MouseLeftButtonDown="MPBack_Down" MouseLeftButtonUp="MPBack_Click" MouseLeave="MPBack_Leave" />
+                </Grid>
+                <Grid Margin="61,0,61,0">
+                    <Ellipse Name="FPPlayPauseBg" Width="76" Height="76" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <Ellipse Name="FPPlayOnBg" Width="76" Height="76" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <Image Name="FPPlayPause" Source="/Images/Play.Dark.png" Height="76" MouseLeftButtonDown="MPPlayPause_Down" MouseLeftButtonUp="MPPlayPause_Up" MouseLeave="MPPlayPause_Leave" />
+                </Grid>
+                <Grid>
+                    <Ellipse Name="FPForwardBg" Width="76" Height="76" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <Image Name="FPForward" Source="/Images/Forward.Dark.png" Height="76" MouseLeftButtonDown="MPForward_Down" MouseLeftButtonUp="MPForward_Click" MouseLeave="MPForward_Leave"/>
+                </Grid>
+            </StackPanel>
+
+            <!--Song Daten-->
+            <StackPanel Name="FPSPSongData" Margin="0,530,0,0">
+                <TextBlock Name="FPSongName" Text="{Binding LocalizedResources.Z001_Song, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Width="350" FontSize="26" FontFamily="Segoe WP Semibold" Foreground="{StaticResource PhoneForegroundBrush}"/>
+                <TextBlock Name="FPSongArtist" Text="{Binding LocalizedResources.Z001_Artist, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Width="350" FontSize="24" Margin="0,-1,0,0" Foreground="{StaticResource PhoneForegroundBrush}"/>
+                <TextBlock Name="FPSongAlbum" Text="{Binding LocalizedResources.Z001_Album, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Width="350" FontSize="24" FontFamily="Segoe WP Light" Margin="0,-1,0,0" Foreground="{StaticResource PhoneForegroundBrush}"/>
+            </StackPanel>
+
+            <!--Progress Bar-->
+            <Grid Name="FPGRBar" Width="350" Height="50" VerticalAlignment="Top" Margin="0,650,0,0">
+                <Rectangle Name="FPStatFrame" Fill="{StaticResource PhoneForegroundBrush}" Width="350" Height="15" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                <Rectangle Name="FPStatEmpty" Fill="Black" Width="348" Height="13" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1,1,0,0"/>
+                <Rectangle Name="FPStatBar" Fill="{StaticResource PhoneForegroundBrush}" Width="350" Height="15" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                <TextBlock Name="FPPlayTime" Text="00:00:00" Foreground="{StaticResource PhoneForegroundBrush}" FontSize="24" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,20,0,0" />
+                <TextBlock Name="FPTime" Text="00:00:00" Foreground="{StaticResource PhoneForegroundBrush}" FontSize="24" VerticalAlignment="Top" HorizontalAlignment="right" Margin="0,20,0,0" />
+            </Grid>
+
+            <!--Untere Leiste-->
+            <Grid Name="FPGRButtons2" Width="350" Height="50" VerticalAlignment="Top" Margin="0,736,0,0">
+                <Rectangle Name="RTCloseBg" Fill="#00FFFFFF" Width="50" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="FPOpenClose_Click" Margin="-15,0,0,0" />
+                <Image Name="FPClose" Source="/Images/Arrow.Left.Dark.png" Width="20" Height="20"  VerticalAlignment="Top" HorizontalAlignment="Left" MouseLeftButtonUp="FPOpenClose_Click" Margin="0,14,0,0" />
+                <Image Name="FPRepead" Height="48" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/Images/Repeat.Dark.png" MouseLeftButtonUp="MPRepead_Click" Margin="222,0,0,0"/>
+                <Image Name="FPShuffle" Height="48" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/Images/Shuffle.Dark.png" MouseLeftButtonUp="MPShuffle_Click" Margin="310,0,-8,0"/>
+                <TextBlock Name="FPTBRepead" Text="1" FontFamily="Segoe WP Light" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="266,5,0,0" Visibility="Collapsed" Foreground="{StaticResource PhoneForegroundBrush}"/>
+            </Grid>
+        </Grid>
+
+
+
+
+
+        <!--Warte Bildschirm-->
+        <Grid Name="GRUpdateList" Width="480" Height="854" HorizontalAlignment="Left" Visibility="Collapsed" >
+            <Grid Background="{StaticResource PhoneBackgroundBrush}" Opacity="0.8" />
+            <TextBlock Name="TBUpdateList" Text="{Binding LocalizedResources.Z001_OneMomentPlease, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,-100,0,0"/>
+        </Grid>
+
+
+
+
+
+        <!--Bewertung-->
+        <Grid Name="GRRate" Width="480" Height="854" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-00,0,0,0" Background="{StaticResource PhoneBackgroundBrush}" Visibility="Collapsed">
+            <Image Name="LogoRate" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Opacity="0.2" Source="/Images/Logo.Dark.png" Margin="-30,-30"/>
+
+            <ScrollViewer>
+                <StackPanel Margin="0,0,0,100" >
+                    <TextBlock Name="TBTop" Text="{Binding LocalizedResources.Z001_Rate, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,12,0,0" FontSize="40" FontFamily="Segoe WP"/>
+                    <TextBlock TextWrapping="Wrap" Text="{Binding LocalizedResources.Z001_RateText, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,24,12,0" FontSize="25" />
+
+                    <Button Name="BtnRateRate" Content="{Binding LocalizedResources.Z001_RateNow, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="23" FontFamily="Segoe WP Light" HorizontalAlignment="Left" Click="BtnRateRate_click" Margin="0,36,0,0" Width="480"/>
+                    <Button Name="BtnRateLater" Content="{Binding LocalizedResources.Z001_RateLater, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="23" FontFamily="Segoe WP Light" HorizontalAlignment="Left" Click="BtnRateLater_click" Margin="0,12,0,0" Width="480"/>
+                    <Button Name="BtnRateNever" Content="{Binding LocalizedResources.Z001_RateNever, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="23" FontFamily="Segoe WP Light" HorizontalAlignment="Left" Click="BtnRateNever_click" Margin="0,12,0,0" Width="480"/>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
+
+
+
+
+        <!--Animation-->
+        <Grid Name="GRAnimation" Background="{StaticResource PhoneBackgroundBrush}" Visibility="Collapsed" MouseLeftButtonUp="AnimationStop">
+            <Viewbox Margin="-150,-50,-150,50">
+                <Grid Width="1920" Height="1080" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image Name="Img2" Height="225" Source="Images/StartUp/Logo800_2.png" HorizontalAlignment="Center" Margin="529,248,258,295" />
+                    <Image Name="ImgSchein" Width="1500" Height="450" Source="Images/StartUp/Schein.png" HorizontalAlignment="Center" Margin="-150,159,0,159" />
+                    <Image Name="Img1" Width="221" Source="Images/StartUp/Logo800_1.png" HorizontalAlignment="center" Margin="303,248,842,295" Opacity="0.0"/>
+                </Grid>
+            </Viewbox>
+            <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,6">
+                <TextBlock Name="StartUpInfo" Text="{Binding LocalizedResources.Z001_StartInfo, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Foreground="#FF232323" HorizontalAlignment="Center" FontWeight="Bold" FontSize="19" />
+                <TextBlock Name="Greetings" Text="[thank you to all users word wide]" Foreground="#FF232323" HorizontalAlignment="Center" FontSize="13" />
+            </StackPanel>
+        </Grid>
+
+
+
+    </Grid>
+</phone:PhoneApplicationPage>

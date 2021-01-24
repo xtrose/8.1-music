@@ -1,0 +1,970 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>hu-HU</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>SAJÁT ALKALMAZÁSOM</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>hozzáad</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menüpont</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>Névjegy</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 Zene</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>Előadó</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>Több</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>Zene</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>Listák</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>Dal</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>Albumok</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>Műfajok</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>Vásárolja meg az alkalmazást</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>Frissitések ellenőrzése</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>Kapcsolat</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>Betűméret</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>Használati útmutató</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>Nyelv</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>xtrose kedvelése</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>Logó megjelenítése indításkor</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>nem</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>igen</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>Egyéb xtrose alkalmazások</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>Alkalmazás értékelése</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>Kattintson a képernyőre a továbblépéshez</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>Köszönjük a letöltést</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>Díszítés színe</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>szín</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>nem</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>Telefon háttérképe</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>Szín beállítása</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>igen</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>Szín lista kiválasztása</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>Kiterjesztett információk</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>Műfaj</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Médialejátszó díszítésének színe</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>Lejátszási lista</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>Dalok</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>Beállítások visszaállítása</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>Album háttere</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>Album előtere</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>Előadó háttére</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>Előadó előtére</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>Előtér színe</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>Kiválasztott háttér</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>Kiválasztott előtér</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>Dal háttere</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>Dal előtere</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>Átlátszóság</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>fekete</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>fehér</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>Minden dal</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>A kiválasztott dal nem játszható le</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>Utolsó lejátszás</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>Cím</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>Átfedés</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>Átfedési idő</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>Később</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>Soha</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>Most</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>Úgy tűnik ez az alkalmazás elnyerte a tetszését.
+Az alkalmazások fejlesztése időigényes és nehéz.
+Egy jó visszajelzés segíthet nekünk a továbbfejlesztésben.
+
+Köszönjük szépen!</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>Támogatás</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>Megnyit</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>Lejátszás</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>Album lejátszása</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>Dal lejátszása</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>Töröl</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>Utolsó lejátszások törlése</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>Utolsó lejátszási lista törlése</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>Szünet</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>Visszajátszás</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>Leállítás</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>Lejátszás leállítása és eltávolítása</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>Lejátszás leállítása és eltávolítása a lejátszóból</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>FIGYELEM!</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>Kattintson a megnyitáshoz</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>Csatlakozás</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>Sikertelen csatlakozás</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>Időtúllépés a csatlakozásban</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>Design beállítások</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>Gratulálunk, a teljes verzió már elérhető</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>Nincs elérhető frissítés</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>Egy pillanat türelmet</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>óra</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>óra</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>perc</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>perc</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>Köszönjük, hogy megvásárolta ezt az alkalmazást</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>A próbaverzió lejárt</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>A próbaverzió lejárt! Az alkalmazások fejlesztése sok időt fog igénybe venni. Az ára ennek a munkának nem nagy. Ha továbbra is létre szeretne hozni lezárási képeket, meg kell vásárolnia az alkalmazást. Köszönjük!</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>Próbaverzió</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>Szín beállítások</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>Listák bezárása</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>Nyomja meg a rejtett gombot, a bal felső sarokban, hogy bezárja az összes listát.</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>A bal nyílra kattintva megnyitja a teljes képernyős lejátszót.</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>Általános</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>Ezzel az alkalmazással jut el leghamarabb a zenéihez. Kiválaszthatja a zenéit mindössze két listából. Ezen kívül, az alkalmazás sok nagyszerű kiterjesztést biztosít az ön számára.</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>Lista nézet</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>A lista nézet használatával gyorsan elérheti a zenéit. Minden előadó szerepel az első listán. Ha rákattint a kívánt előadóra, megtekintheti az összes albumot. Az albumra kattintva megjelenik az albumon található összes dal.
+A második listán lejátszási listák, műfajok, albumok és az összes zeneszám szerepel.</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>Egyéb</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>Kérjük ha kedveli az alkalmazást, akkor adjon jó értékelést. Ha problémája van az alkalmazással kapcsolatban, a támogatás segítségével jelezze felénk. A kérdések és problémák elvesznek az értékeléseknél.
+Köszönjük szépen!</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>Lejátszás ekkor</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>Ezzel a funkcióval beállíthatja, hogy a dalok csak a beállított időben játszódjanak le újra. Ahhoz, hogy beállítsa a funkciót, tartsa lenyomva a lejátszás gombot egy másodpercig a lejátszás alatt.</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>Menü médialejátszó</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>Egy kis lejátszó telepítve van az alsó menüben.</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>A közepes méretű lejátszó megnyitható a bal nyílra kattintással</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 Zene végre gyorsabban éri el a zenéit.
+Az új lista nézet segít az előadók, albumok és dalok szupergyors megtalálásában. 
+A mini-lejátszó, a kis lejátszó, és a teljes képernyős lejátszó teljes felügyeletet biztosít a zenéi fölött. Álló és fekvő módban egyaránt elérhető.
+Ezen kívül, sok extrát is tartalmaz.
+
+- A zenék listanézete
+- Lejátszási listák listanézete
+- 3 különböző médialejátszó
+- Támogatja az álló és fekvő módot
+- Cím rövid lejátszása
+- Zene leállítása és törlése a listából
+- 100 Utolsó másolat tárolása
+- Színek teljes  testreszabás
+- Sok jó extra</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>Zene</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>Médialejátszó</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>Visszajátszás</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>Gyors</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>Hang előadó művészek dal dalok album címke albumok</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>Nyelvválasztás</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>Alkalmazás újraindítása</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>Válassza ki a nyelvet</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>Háttérszín</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>Fekvő háttérkép</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>Álló háttérkép</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>HIBA
+Az előtér színe megegyezik a háttér színével.</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>Előtér színe</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>Design beállítások visszaállítása</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>Visszaállít</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>Kép törlése</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>Kis médialejátszó háttérszíne</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Kis médialejátszó díszítése</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>Nagy médialejátszó díszítése</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>Nagy médialejátszó háttérszíne</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>Fekvő médialejátszó képe</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>Álló médialejátszó képe</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>Alkalmaz</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>Koncert</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>Másol</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>Töröl</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>Designok</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>Szerkeszt</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>Átnevezés</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>Mentés</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>Fekete háttérkép</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>Fehér háttérkép</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>A nem mentett tervezési beállítások elvesznek</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>Kiválasztott</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>HIBA! A név már használatban van, vagy érvénytelen karaktereket tartalmaz!</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>Új név</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>Kiválasztott Háttér</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>Kiválasztott Előtér</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>Desing</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>Beállítások visszaállítása</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>Csatlakozás .....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>A csatlakozás nem sikerült</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>Kapcsolatba lépés xtrose-al</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>Időtúllépés a kapcsolatban</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>A próbaverzió lejárt! Az alkalmazások létrehozása sok időt fog igénybe venni. Az ára ennek a munkának nem sok. Ha továbbra is szeretné használni az alkalmazást, akkor meg kell vennie. Köszönjük!</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>Szerző</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>Kategória</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>Design telepítése.....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>Design telepítése</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>Név</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>Értesítés</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>Kérjük, várjon</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>Így működik:
+- A háttérképek a "mentett képek"-be másolódnak
+- Koppintson és megnyilik egy e-mailt xtrose-nak
+- Szerző nevének hozzáadása
+- Képek hozzáadása a "mentett képekből"-ből
+- Üzenet küldése
+
+Az értékelést követően hozzáadjuk az adatokat a szerveren.
+Köszönöm szépen</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>Kérjük, töltse ki és mellékelje a készített képeket.</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>Szerző neve:</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>Ne változtasson</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>Háttérkép hozzáadás a "mentett képekből"-ből</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>Közzétesz</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>Nyomja meg újra a bezárásához</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>Gombok és funkciók</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>Elforgatási zár</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>Következő dal</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>(Press) Szünet
+(Hold) Scan</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>Lejátszás</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>Előző dal</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>Lista frissítése</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Repead</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>Keresés</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>Keverés</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 Zene végre gyorsabban éri el a zenéit.
+Az új lista nézet segít az előadók, albumok és dalok szupergyors megtalálásában. 
+A mini-lejátszó, a kis lejátszó, és a teljes képernyős lejátszó teljes felügyeletet biztosít a zenéi fölött. Álló és fekvő módban egyaránt elérhető.
+Ezen kívül, sok extrát is tartalmaz.
+
+- A zenék listanézete
+- Lejátszási listák listanézete
+- 3 különböző médialejátszó
+- Támogatja az álló és fekvő módot
+- Cím rövid lejátszása
+- Zene leállítása és törlése a listából
+- 100 Utolsó másolat tárolása
+- Színek teljes  testreszabás
+- Sok jó extra</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>Nyomja meg kétszer a cache megújításához</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>Nyomja meg ismét a cache megújításához</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>Háttérkép</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>Logó az album képén</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>Főoldali csempe</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>Főoldali csempe visszaállítása</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>Start képernyő-beállítások</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>Start képernyő</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>Csempe stop és törlés</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>Kattintson ide stop és törlés csempe létrehozásához</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>Visszaállítás</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>Adjon meg egy számot 0-360 között</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0-360 perc</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>Fusson zárképernyő alatt</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>Időzítő megállítása</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>Az időzítőhöz engedélyezni kell az alkalmazás futtatását zárképernyő alatt. Engedélyezze a zárképernyő alatti futást.</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>Lista frissitése
+Dupla kattintás az értesítésen a lista frissítéséhez. Csak akkor szükséges, ha változtatott a zenéken.</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8.1 Zene végre gyorsabban éri el a zenéit.
+Az új lista nézet segít az előadók, albumok és dalok szupergyors megtalálásában. 
+A mini-lejátszó, a kis lejátszó, és a teljes képernyős lejátszó teljes felügyeletet biztosít a zenéi fölött. Álló és fekvő módban egyaránt elérhető.
+Ezen kívül, sok extrát is tartalmaz.
+
+- A zenék listanézete
+- Lejátszási listák listanézete
+- 3 különböző médialejátszó
+- Támogatja az álló és fekvő módot
+- Cím rövid lejátszása
+- Zene leállítása és törlése a listából
+- 100 Utolsó másolat tárolása
+- Színek teljes  testreszabás
+- Sok jó extra</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>Nyomja meg kétszer a cache megújításához</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>Megújítás</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>Cache megújítása</value>
+  </data>
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+<value>Aktuális lejátszási lista</value>
+</data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+<value>Aktuális lejátszási lista törlése</value>
+</data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+<value>Nem érhető el dal az aktuális lejátszásban</value>
+</data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+<value>Ugyan ezen a néven már létezik lejátszási lista.
+Írja felül a listát</value>
+</data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+<value>Lejátszási lista törlése</value>
+<comment>NOTE FOR Translators, please enter a return at the end of the text.</comment>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+<value>Betöltött</value>
+</data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+<value>Gomb médialejátszó</value>
+</data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+<value>Lista gombjai</value>
+</data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+<value>Kattintson a logóra a súgó megnyitásához</value>
+</data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+<value>Aktuális lejátszás törlése</value>
+</data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+<value>Lejátszási lista törlése</value>
+</data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+<value>Ez a gomb törli az aktuális lejátszási listát és törli a kiválasztásokat a listákon</value>
+</data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+<value>Súgó</value>
+</data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+<value>Használja ezt a gombot, hogy rögzítse a tájolást.
+Ez mindig blokkolni fogja az aktuális tájolást.
+Nyomja meg a gombot újra a feloldáshoz.</value>
+</data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+<value>Ezzel a gombbal a listák bezáródnak és megújulnak. Az értesítésre duplán kattintva a chache frissül.
+A cache-t csak akkor kell megújítani ha frissültek a zenék a telefonon.</value>
+</data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+<value>Ezzel a gombbal az aktuális lejátszást listaként lehet menteni. Csak kiválasztás és lejátszás módokban elérhető.</value>
+</data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+<value>Egy kattintás a keresőre és egy szöveg beviteli mező nyílik meg. Gépelje be a keresendő szöveget és nyomjon entert. A kereső minden listát megszűr. Használja a kilépést és a lista megújítását a keresés törlésére.</value>
+</data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+<value>Design szerkesztő</value>
+</data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+<value>Ebben az alkalmazásban szinte minden állítható.
+Háttérképek, háttér színek, előtér színek, az egyes színek a listán.
+A szín beállítások megváltoztatásához nyissa meg a design-t. Itt az alkalmazás az Ön tetszésére szabható.
+
+Letöltheti a témákat és telepítheti őket közvetlenül.
+
+A megosztás gomb segítségével elküldheti nekünk az Ön design-ját.
+Kérjük ne felejtse el hozzáadni a generált képeket.
+Szeretnénk feltölteni az Ön design-ját.</value>
+</data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+<value>Tervezési hiba</value>
+</data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+<value>Letöltés közben tervezési hibák jelentkezhetnek.
+A témák kiválasztásánál az alkalmazás összeomlik.
+A design visszaáll a következő indításkor.
+Ahhoz, hogy használhassa a design-t újra kell telepítenie.</value>
+</data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+<value>Lejátszási lista kiválasztása</value>
+</data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+<value>Áttekintés</value>
+</data>
+  <data name="ZZ005_Play" xml:space="preserve">
+<value>Lejátszás</value>
+</data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+<value>Csak az adott cím lejátszása</value>
+</data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+<value>Lejátszási lista mentése</value>
+</data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+<value>A kiválasztás és lejátszás módban a lejátszási lista menthető. Ez a gomb az aktuális lejátszás mezőjében jelenik meg. 
+A gombra kattintva egy szövegbeviteli mező jelenik meg. 
+Miután beírt egy nevet ide nyomjon egy entert. 
+Kihozza a lejátszási listákat, amelyekbe mentve lett.
+Megtalálja ezeket a második listában.</value>
+</data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+<value>Kiválasztás és lejátszása
+Ez a gomb megváltoztatja az alkalmazás üzemmódját
+
+Normál üzemmód
+Az alapértelmezett módban az alkalmazás a megadott API-t használja.
+Előnyök
+- Az alkalmazást be lehet zárni a kiválasztást követően.
+- A zene vezérelhető a rendszer által.
+Hátrányok
+- Csak azt lehet lejátszani, amit az API lehetővé tesz. nem hozhatóak létre saját mixek.
+- Nem hozható létre lejátszási lista.
+- Aktuális lejátszást nem lehet megváltoztatni.
+
+Kiválasztás és lejátszás üzemmód
+Ebben az üzemmódban, mindent ki lehet kiválasztani és lejátszani közvetlenül.
+Előnyök
+- Bármi kiválaszható és lejátszható a listából
+- Létrehozhat egyéni lejátszási listákat.
+- A lejátszási listákat menteni lehet.
+- Az aktuális lejátszás megjelenik, változtatható és rendezhető.
+Hátrányok
+- Az alkalmazás megköveteli a vezérlést lejátszás közben.Az alkalmazásnak futnia kell zárképernyő alatt is. Az alkalmazás nem vihető háttérbe.
+- A lejátszás csakis az alkalmazáson keresztül változtatható meg.</value>
+</data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+<value>Kiválasztás és lejátszás</value>
+</data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+<value>Kiválasztás és lejátszás üzemmód</value>
+</data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+<value>Jelölje be vagy törölje a kijelölést</value>
+</data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+<value>Normál üzemmód</value>
+</data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+<value>Felső gombsor</value>
+</data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+<value>Automatikus fordítás</value>
+</data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+<value>Tervezési hiba!
+Törölje a design-t és töltse le újra, hogy orvosolja a hibát.</value>
+</data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+<value>Kérjük, olvassa el!
+Üdvözöljük az 8.1 zene új verziójában.
+Annak érdekében, hogy bevezessük létrehoztunk egy új súgót. Koppintson a fenti logóra, hogy megnyissa a súgót.
+Ettől a kiadástól kezdve megjelenik egy teljesen új üzemmód.
+Kérjük vegye figyelembe, hogy az új mód, "kiválasztás és lejátszás" még tesztelés alatt áll.
+Kérjük adja tudtunkra, ha hibát tapasztal.
+Köszönöm szépen!
+
+Jó szórakozást az új verzióhoz</value>
+</data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+<value>Lejátszási lista létrehozása</value>
+</data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+<value>Lejátszási lista csak a "kiválasztás és lejátszás" üzemmódban hozható létre
+- Aktiválja a "Kiválasztás és Lejátszás" üzemmmódot
+- Menjen az aktuális lejátszásba és törölje őket
+- Válassza ki zenéit a listából
+- Menjen az aktuális lejátszásra és koppintson a mentésre
+- Írjon be egy nevet az új listának
+- Az új listát a lejátszási listák alatt találja meg</value>
+</data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+<value>Rendszer gyorsítótár</value>
+</data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+<value>A tartalom első betöltéséhez szükség van némi időre. Aztán betölti a tartalmakat a cache-ből. Ha új tartalmat ad a telefonjához mindenképpen frissitse a cache-t. Ezt megteheti a beállítások menüpont alatt.</value>
+</data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+<value>Megjelenítési problémák</value>
+</data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+<value>Sok dal problémát okozhat a megjelenítésben. A hibák a desinghoz kapcsolódó átlátszódáshoz kapcsolhatóak.Orvosolhatja a hibát, ha eltávolítja az átlátszódást a desing-ból.</value>
+</data>
+</root>

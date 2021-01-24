@@ -1,0 +1,101 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MyMusicPlayer.Pages.SystemSettings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+
+
+
+        <!--Logo-->
+        <Image Name="ImgLogo" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Opacity="0.2" Source="/Images/Settings.Dark.png" Margin="-30,-30"/>
+
+
+
+
+
+        <!--TitlePanel-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="{Binding LocalizedResources.Z001_AppTitle, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="{Binding LocalizedResources.Z001_Settings, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        
+        
+        
+        
+        
+        <!--ContentPanel-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            
+            
+            <ScrollViewer>
+                <StackPanel>
+
+
+                    <TextBlock Text="{Binding LocalizedResources.Z001_ExtendedInfo, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                    <Button Name="BtnExtendedInfo" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnExtendedInfo_Click" Margin="0,0,0,60" />
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding LocalizedResources.Z001_FontSize, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Width="240" Margin="12,0,0,0" FontSize="24" VerticalAlignment="Bottom" />
+                        <TextBlock Name="TBFontSizeDemo" Text="CODE" Width="192" FontSize="24" HorizontalAlignment="Right" TextAlignment="Right" VerticalAlignment="Bottom" />
+                    </StackPanel>
+                    <Slider Name="SliderFontSize" Minimum="20" Maximum="50" ManipulationCompleted="SliderFontSize_ManipulationCompleted" ManipulationStarted="SliderFontSize_ManipulationStarted" Margin="0,0,0,48"/>
+                    
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding LocalizedResources.Z001_PlayOnTime, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Width="240" Margin="12,0,0,0" FontSize="24" VerticalAlignment="Bottom" />
+                        <TextBlock Name="TBPlayOnTimeDemo" Text="CODE" Width="192" FontSize="24" HorizontalAlignment="Right" TextAlignment="Right" VerticalAlignment="Bottom" />
+                    </StackPanel>
+                    <Slider Name="SliderPlayOnTime" Minimum="3" Maximum="30" ManipulationCompleted="SliderPlayOnTime_ManipulationCompleted" ManipulationStarted="SliderPlayOnTime_ManipulationStarted" Margin="0,0,0,48"/>
+
+                    <TextBlock Text="{Binding LocalizedResources.Z001_LogoStart, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                    <Button Name="BtnLogoStart" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnLogoStart_Click" Margin="0,0,0,60" />
+
+                    <TextBlock Text="{Binding LocalizedResources.Z001_CheckUpdate, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                    <Button Name="BtnCheckUpdate" Content="{Binding LocalizedResources.Z001_CheckUpdate, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="23" FontFamily="Segoe WP Light" Click="BtnCheckUpdate_Click" Margin="0,0,0,60" />
+
+                    <StackPanel Background="#FFFFDEDE" Margin="0,0,0,60" >
+                        <TextBlock Text="{Binding LocalizedResources.ZZ002_ResetSettings, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,24,12,0" FontSize="24" Foreground="Red" />
+                        <Button Name="BtnResetSettings" Content="{Binding LocalizedResources.ZZ002_Restore, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="23" FontFamily="Segoe WP Light" Click="BtnResetSettings_Click" Margin="0,0,0,24" Foreground="Red" BorderBrush="Red" />
+                    </StackPanel>
+
+                </StackPanel>
+            </ScrollViewer>
+            
+            
+        </Grid>
+
+
+
+
+
+        <!--Warte Bildschirm-->
+        <Grid Name="GRUpdateList" Width="480" Height="854" HorizontalAlignment="Left" Visibility="Collapsed" >
+            <Grid Background="{StaticResource PhoneBackgroundBrush}" Opacity="0.8" />
+            <TextBlock Name="TBUpdateList" Text="{Binding LocalizedResources.Z001_OneMomentPlease, Mode=OneWay, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,-100,0,0"/>
+        </Grid>
+        
+        
+        
+        
+        
+    </Grid>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,996 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>id-ID</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>APLIKASI MY</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>menambahkan</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>menu Item</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>tentang</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>album</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 Musik</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>artis</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>lebih</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>musik</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>Playlist</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>lagu</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>genre</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>Beli aplikasi ini</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>Periksa pembaruan</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>kontak</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>ukuran font</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>instruksi</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>bahasa</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>seperti xtrose</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>Tampilkan logo di mulai</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>ya</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>Apps xtrose lainnya</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>Beri aplikasi ini</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>klik layar untuk melewati</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>Terima kasih untuk men-download</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>warna aksen</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>warna</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>background Telepon</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>mengatur warna</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>ya</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>Temukan daftar warna</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>informasi diperpanjang</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>jenis</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Media player warna aksen</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>Playlist</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>lagu</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>mengembalikan pengaturan</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>background album</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>foreground album</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>Artist latar belakang</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>Artist foreground</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>Telepon Foreground</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>latar belakang yang dipilih</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>foreground yang dipilih</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>lagu latar belakang</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>lagu foreground</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>transparansi</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>hitam</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>putih</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>semua lagu</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>Seleksi tidak dapat diputar</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>Pemutaran terakhir</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>alamat</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>bermain di</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>Putar di waktu</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>kemudian</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>tak pernah</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>laju</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>Aplikasi ini tampaknya menarik bagi Anda .
+Untuk program aplikasi memakan waktu dan sulit.
+Sebuah review yang baik dapat membantu kita untuk menyebarkan lebih lanjut .
+
+Terima kasih banyak</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>mendukung</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>Buka</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>Putar</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>bermain album</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>memutar lagu</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>Hapus Pemutaran terakhir</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>Hapus daftar dengan Pemutaran lalu</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>istirahat</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>playback</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>berhenti</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>Berhenti dan menghapus pemutaran</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>Menghentikan pemutaran dan menghapus dari pemain</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>PERINGATAN</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>Klik untuk membuka</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>Menghubungkan</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>koneksi gagal</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>Connection waktu</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>pengaturan desain</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>Selamat , versi lengkap Anda telah dirilis</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>Tidak ada update yang tersedia</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>Tunggu sebentar</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>jam</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>jam</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>menit</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>menit</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>Terima kasih telah membeli aplikasi ini</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>Trial Version Expired</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>Versi trial kadaluarsa ! Untuk membuat aplikasi akan menghabiskan banyak waktu . Harga untuk pekerjaan ini tidak mahal . Untuk melanjutkan membuat layar kunci Images , Anda harus membeli aplikasi . Terima kasih !</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>versi trial</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>pengaturan warna</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>Tutup daftar</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>Tekan tombol tersembunyi , kiri atas untuk menutup semua daftar .</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>Mengklik pada tanda panah kiri membuka pemutar fullscreen .</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>umum</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>Dengan aplikasi ini , Anda mendapatkan tercepat untuk musik Anda . Anda dapat memilih semua musik Anda dari hanya dua daftar . Selain itu, aplikasi ini memberikan Anda banyak ekstensi yang besar .</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>Tampilan daftar</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>Menggunakan tampilan daftar , Anda dapat dengan cepat mencapai musik Anda . Semua seniman tercantum dalam daftar pertama . Jika Anda klik pada diinginkan kemudian membuka albumnya . Sebuah klik lebih lanjut tentang album menampilkan semua lagu .
+Dalam daftar kedua , playlist , genre , album dan semua lagu yang terdaftar.</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>bermacam-macam</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>Silakan menilai baik aplikasi ini jika Anda suka. Jika Anda memiliki masalah dengan aplikasi ini , maka silakan hubungi dukungan ! Pertanyaan dan masalah telah kehilangan apa-apa dalam tinjauan .
+Terima kasih banyak !</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>Putar di</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>Aplikasi ini memiliki fungsi bermain . Dengan fungsi ini , judul akan diputar hanya waktu yang ditetapkan . Untuk mengaktifkan bermain , Anda harus menahan tombol putar untuk kedua selama pemutaran .</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>Menu media player</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>Sebuah media player kecil dipasang di menu yang lebih rendah .</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>Pemain menengah dibuka dengan klik pada tanda panah kanan .</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 Musik akhirnya mencapai musik Anda lebih cepat .
+Baru tampilan daftar memungkinkan Anda Super cepat menemukan artis , album atau lagu .
+Sebuah mini Player, pemain kecil , dan pemutar layar penuh memungkinkan untuk memberikan kontrol penuh atas musik Anda . Dalam potret serta modus lansekap .
+Selain itu, ada banyak tambahan .
+
+- Tampilan daftar musik Anda
+- Tampilan daftar playlist Anda
+-3 Media player yang berbeda
+- Mendukung portrait dan landscape
+Pendek bermain judul
+- Hentikan musik dan menghapus dari media player
+-100 Reproduksi terakhir disimpan
+-Full kustomisasi warna
+- Banyak ekstra besar</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>musik</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>Pemain MediaPlayer</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>playback</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>cepat</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>Album tag album artis artis suara lagu lagu</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>Ubah bahasa</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>Restart aplikasi</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>Pilih bahasa</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>warna latar belakang</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>Latar belakang landscape gambar</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>Latar belakang gambar potret</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>ERROR
+Warna foreground adalah sama dengan warna latar belakang .</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>warna Foreground</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>Mengembalikan pengaturan desain</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>mengembalikan</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>Hapus gambar</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>Media player warna background kecil</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Media player warna aksen kecil</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>Media pemain besar warna aksen</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>Media pemain besar warna latar belakang</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>Media player landscape gambar</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>Media player gambar potret</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>menerapkan</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>konser</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>salinan</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>desain</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>Sunting</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>online</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>rename</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>menyimpan</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>latar belakang hitam</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>latar belakang putih</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>Menurunkan pengaturan desain yang belum disimpan</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>terpilih</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>ERROR ! Nama sudah digunakan atau karakter yang tidak valid !</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>nama baru</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>dipilih Latar Belakang</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>dipilih Foreground</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>disain</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>mengembalikan pengaturan</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>Menghubungkan .....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>koneksi gagal</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>Terhubung dengan xtrose</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>Connection waktu</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>Versi trial kadaluarsa ! Untuk membuat aplikasi akan menghabiskan banyak waktu . Harga untuk pekerjaan ini tidak mahal . Untuk terus menggunakan aplikasi ini , Anda harus membelinya . Terima kasih !</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>penulis</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>kategori</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>Instal desain .....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>Instal desain</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>nama</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>pemberitahuan</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>Please wait</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>Ini adalah cara kerjanya .
+- Latar belakang gambar akan disalin ke " gambar yang disimpan "
+- Tunjukkan membuka email untuk xtrose
+- Tambahkan nama pengarang
+- Tambahkan gambar dari " gambar yang disimpan "
+- Kirim pesan
+
+Setelah review, kami akan memberikan data pada server kami .
+Terima kasih banyak</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>Silahkan isi dan termasuk gambar yang dibuat</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>Penulis Nama :</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>Jangan mengubah</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>Tambahkan gambar latar belakang dari " gambar yang disimpan "</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>menerbitkan</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>Tekan lagi untuk menutup</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>Tombol dan fungsi</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>kunci orientasi</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>lagu berikutnya</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>( Press) Pause
+( Hold ) Pindai</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>Putar</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>lagu sebelumnya</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>Refresh daftar</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Repead</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>pencarian</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>pengocokan</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 music akhirnya mencapai musik Anda lebih cepat .
+Baru tampilan daftar memungkinkan Anda Super cepat menemukan artis , album atau lagu .
+Sebuah mini Player, pemain kecil , dan pemutar layar penuh memungkinkan untuk memberikan kontrol penuh atas musik Anda . Dalam potret serta modus lansekap .
+Buat desain Anda sendiri atau download desain selesai dari Internet .
+Selain itu, ada banyak tambahan .
+
+- Tampilan daftar musik Anda
+- Tampilan daftar playlist Anda
+-3 Media player yang berbeda
+- Mendukung portrait dan landscape
+Pendek bermain judul
+Desain Editor
+-Download desain selesai dari Internet
+- Hentikan musik dan menghapus dari media player
+-100 Reproduksi terakhir disimpan
+-Full kustomisasi warna
+- Banyak ekstra besar</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>Tekan dua kali lagi untuk memperbaharui tembolok</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>Tekan lagi untuk memperbaharui catch</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>gambar latar belakang</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>Logo pada gambar album</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>ubin utama</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>Ulang ubin utama</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>Mulai pengaturan layar</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>start screen</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>Tile berhenti dan menghapus</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>Klik di sini untuk membuat berhenti dan menghapus ubin</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>Atur ulang</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>Silakan masukkan nomor 0-360</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0-360 Menit</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>Berjalan di bawah layar kunci</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>menghentikan timer</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>Untuk timer aplikasi harus berjalan di bawah layar kunci .
+Aktifkan untuk berjalan di bawah layar kunci</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>daftar pembaruan
+Double klik pada pemberitahuan untuk menciptakan daftar . Hanya diperlukan jika mengubah musik pada ponsel Anda .</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8.1 music akhirnya mencapai musik Anda lebih cepat .
+Baru tampilan daftar memungkinkan Anda Super cepat menemukan artis , album atau lagu .
+Sebuah mini Player, pemain kecil , dan pemutar layar penuh memungkinkan untuk memberikan kontrol penuh atas musik Anda . Dalam potret serta modus lansekap .
+Buat desain Anda sendiri atau download desain selesai dari Internet .
+Selain itu, ada banyak tambahan .
+
+- Tampilan daftar musik Anda
+- Tampilan daftar playlist Anda
+-3 Media player yang berbeda
+- Mendukung portrait dan landscape
+Pendek bermain judul
+Desain Editor
+-Download desain selesai dari Internet
+- Hentikan musik dan menghapus dari media player
+-100 Reproduksi terakhir disimpan
+-Full kustomisasi warna
+- Banyak ekstra besar</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>Tekan dua kali lagi untuk memperbaharui tembolok</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>memperbarui</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>Renew Cache</value>
+  </data>
+  
+  
+  
+  
+  
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+<value>Playlist Current</value>
+</data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+<value>Batal playlist saat ini</value>
+</data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+<value>Tidak ada lagu di ulangan yang tersedia saat ini</value>
+</data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+<value>Sebuah playlist dengan nama yang sama sudah ada.</value>
+</data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+<value>Hapus playlist</value>
+<comment>NOTE FOR Translators, please enter a return at the end of the text.</comment>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+<value>Dimuat</value>
+</data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+<value>Tombol media player</value>
+</data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+<value>Buttons daftar</value>
+</data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+<value>Tekan logo untuk membuka bantuan</value>
+</data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+<value>Hapus pemutaran saat ini</value>
+</data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+<value>Hapus playlist</value>
+</data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+<value>Tombol ini menghapus pemutaran saat ini dan unselct semua lagu dalam daftar.</value>
+</data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+<value>Bantuan</value>
+</data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+<value>Gunakan tombol ini untuk mengunci orientasi.
+Ini akan diblokir selalu orientasi saat ini.
+Tekan tombol lagi untuk membuka kunci.</value>
+</data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+<value>Dengan tombol ini, daftar tertutup dan diperbaharui.
+Dengan mengklik dua kali pada pemberitahuan diterbitkan, cache diperbarui.
+Cache harus diperbarui hanya jika musik dari Smartphone telah berubah.</value>
+</data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+<value>Dengan tombol ini, pemutaran saat ini sebagai playlist dapat diselamatkan. Hanya tersedia dalam mode, pilih dan bermain.</value>
+</data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+<value>Satu tekan pada pencarian, kemudian membuka input teks.
+Masukkan istilah pencarian Anda dan tekan ENTER.
+Pencarian menyaring semua daftar.
+Gunakan dekat dan memperbaharui daftar untuk menghapus pencarian.
+Editor</value>
+</data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+<value>Desain</value>
+</data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+<value>Hampir semuanya dapat disesuaikan dalam aplikasi ini.
+Gambar latar belakang, warna latar belakang, warna foreground, warna individual daftar.
+Untuk mengubah pengaturan warna, Anda perlu membuka desain.
+Di sini, Anda dapat membuat aplikasi sesuai dengan keinginan Anda.
+
+Anda dapat men-download tema lengkap dan menginstal langsung.
+
+Dengan tombol share Anda dapat mengirimkan desain Anda.
+Harap ingat untuk menambahkan gambar yang dihasilkan.
+Kami akan ingin meng-upload desain Anda.
+Error</value>
+</data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+<value>Desain</value>
+</data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+<value>Ketika download kesalahan desain dapat terjadi.
+Di pilih tema crash app.
+Desain ulang pada startup berikutnya.
+Untuk menggunakan desain, itu harus diinstal lagi.</value>
+</data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+<value>Pilih playlist</value>
+</data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+<value>Ikhtisar</value>
+</data>
+  <data name="ZZ005_Play" xml:space="preserve">
+<value>Putar</value>
+</data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+<value>Bermain satunya gelar ini</value>
+</data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+<value>Simpan playlist</value>
+</data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+<value>Dalam modus memilih dan memainkan playlist dapat disimpan.
+Tombol ini muncul di bidang pemutaran saat ini.
+Mengklik tombol membuka kolom input teks.
+Setelah nama telah dimasukkan di sini Anda harus menekan tombol kembali.
+Tekankan playlist dalam playlist disimpan.
+Anda dapat menemukan mereka dalam daftar kedua.</value>
+</data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+<value>Select and play
+Tombol ini mengubah modus dari app.
+
+Modus standar
+Dalam modus default app menggunakan API tertentu.
+Keuntungan
+- Aplikasi ini dapat ditutup setelah seleksi.
+- Musik dapat dikontrol oleh sistem.
+Kekurangan
+- Hal ini dapat dimainkan hanya apa yang memungkinkan API. Tidak ada campuran sendiri dapat dibuat.
+- Tidak ada daftar putar yang dapat dibuat.
+- Sekarang bermain tidak dapat diubah.
+
+Pilih dan bermain modus
+Dalam mode ini, semuanya dapat dipilih dan diputar ulang secara langsung.
+Keuntungan
+- Hal ini dapat apa-apa yang dipilih dari daftar dan bermain.
+- Anda dapat membuat playlist kustom.
+- Playlist dapat disimpan.
+- Sekarang memainkan ditampilkan dan dapat diubah dan diurutkan.
+Kekurangan
+- Aplikasi ini membutuhkan kontrol selama pemutaran. Aplikasi ini harus berjalan di bawah layar kunci. Aplikasi ini tidak boleh dipindahkan ke latar belakang.
+- Pemutaran dapat diubah hanya melalui pemain app.</value>
+</data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+<value>Select and play</value>
+</data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+<value>Pilih dan bermain modus</value>
+</data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+<value>Pilih atau batalkan
+Modus</value>
+</data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+<value>Standard</value>
+</data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+<value>Top bar tombol
+Terjemahan</value>
+</data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+<value>Otomatis
+Error</value>
+</data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+<value>Desain!
+Hapus desain dan men-download lagi untuk memperbaiki kesalahan ini.</value>
+</data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+<value>Silakan baca!
+Selamat datang di versi baru 8.1 music.
+Untuk membantu Anda memulai, kami telah membuat bantuan baru. Tekan logo di atas untuk membuka bantuan.
+Dimulai dengan rilis ini, ada modus yang sama sekali baru.
+Harap dicatat modus baru, "memilih dan memainkan" masih dalam tahap uji coba.
+Berikan kami silahkan jika Anda menemukan kesalahan.
+Terima kasih banyak!
+
+Bersenang-senang dengan versi baru</value>
+</data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+<value>Buat playlist</value>
+</data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+<value>Playlist dapat hanya dalam "memilih dan memainkan" mode akan dibuat.
+- Aktifkan "Pilih and Play"
+- Pergi ke pemutaran saat ini dan menghapusnya
+- Pilih dari daftar musik Anda
+- Pergi ke pemutaran saat ini dan tekan save
+- Masukkan nama untuk playlist baru Anda
+- Anda akan menemukan playlist baru Anda dalam daftar kedua di bawah playlist
+Sistem</value>
+</data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+<value>Cache</value>
+</data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+<value>Beban pertama konten membutuhkan beberapa waktu. Kemudian memuat isi dari cache. Jika Anda menambahkan konten baru ke perangkat Anda, Anda harus me-refresh cache.
+Anda dapat me-refresh cache dalam pengaturan.
+Masalah Tampilan</value>
+</data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+<value></value>
+</data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+<value>Banyak lagu yang dapat menyebabkan masalah dengan layar. Masalah yang terkait dengan warna transparan dari desain.
+Anda dapat memperbaiki masalah jika Anda menghapus transparansi desain.</value>
+</data>
+</root>

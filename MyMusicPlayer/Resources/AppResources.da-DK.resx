@@ -1,0 +1,984 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>da-DK</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Min ansøgning</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>tilføje</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menupunkt</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>om</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 Musik</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>Kunstner</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>mere</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>Musik</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>Afspilningslister</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>Indstillinger</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>Song</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>albums</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>Genrer</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>Køb denne app</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>Check for opdatering</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>skriftstørrelse</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>Instruktioner</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>sprog</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>ligesom xtrose</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>Vis logo på start</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>Andre xtrose apps</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>Bedøm denne app</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>klik skærmen for at springe</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>Tak for at hente</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>accent farve</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>farve</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>telefon baggrund</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>sæt farve</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>Color valglisten</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>udvidede informationer</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>Kind</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Medieafspiller accent farve</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>Playlist</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>Songs</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>Gendan indstillinger</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>Album baggrund</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>album forgrunden</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>Kunstner baggrund</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>Kunstner forgrunden</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>telefon forgrund</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>valgt baggrund</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>valgt forgrunden</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>Song baggrund</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>Song forgrunden</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>gennemsigtighed</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>sort</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>hvid</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>alle sange</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>Valg kan ikke afspilles</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>Nyeste afspilninger</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>adresse</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>spille på</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>Spil på tid</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>senere</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>aldrig</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>rate</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>Dette program ser ud til at appellere til dig .
+For at programmere apps er tidskrævende og vanskeligt.
+En god gennemgang kan hjælpe os med at sprede det yderligere.
+
+Mange tak</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>åbent</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>Afspil</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>Afspil album</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>Afspil sang</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>Slet sidste afspilninger</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>Slet liste med sidste afspilninger</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>Break</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>Afspilning</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>Stands</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>Stop og fjerne afspilning</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>Stands afspilning og slette fra spiller</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>ADVARSEL</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>Klik for at åbne</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>Tilslutning</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>forbindelse mislykkedes</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>Connection timeout</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>Design -indstillinger</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>Tillykke, din fulde version er blevet frigivet</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>Ingen opdatering tilgængelig</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>Et øjeblik</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>time</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>timer</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>minut</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>minutter</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>Tak for dit køb denne app</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>Prøveversion Udløbet</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>Prøveversion udløbet! At skabe apps vil koste en masse tid. Prisen for dette arbejde er ikke dyrt. For at fortsætte oprette låseskærme Billeder , skal du købe den app . Tak !</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>prøveversion</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>farveindstillinger</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>Luk lister</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>Tryk på den skjulte knap , venstre top til at lukke alle lister .</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>Ved at klikke på venstre pil åbner fullscreen afspilleren.</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>Generelt</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>Med dette program får du den hurtigste til din musik. Du kan vælge al din musik fra kun to lister. Desuden giver programmet dig mange store udvidelser.</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>Listevisningen</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>Brug af listen visning, kan du hurtigt nå din musik. Alle kunstnere er opført i den første liste . Hvis du klikker på det ønskede derefter åbnede hans albums . En yderligere klik på albummet viser alle de sange.
+I den anden liste , er spillelister , genrer , album og alle sange på listen.</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>Diverse</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>Please rate god denne ansøgning, hvis du vil. Hvis du har problemer med denne ansøgning , så kontakt venligst support ! Spørgsmål og problemer har mistet noget i anmeldelser.
+Mange tak !</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>Spil på</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>Ansøgningen har en spiller på funktion. Med denne funktion, vil titlerne afspilles kun den indstillede tid . For at aktivere spille på , skal du holde på play-knappen for en anden under afspilningen .</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>Menu medieafspiller</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>En lille media player er installeret i nederste menu .</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>Den mellemstore spiller åbnes med et klik på højre pil.</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 Musik endelig nå din musik hurtigere.
+Den nye liste visning kan du Super hurtigt finde dine kunstnere, album eller sange .
+En mini -afspiller, en lille afspiller, og en fuld skærm spiller det muligt at give dig fuld kontrol over din musik. I stående samt liggende tilstand .
+Desuden er der mange ekstra.
+
+- Liste visning af din musik
+- Liste visning af dine spillelister
+-3 Forskellige medieafspillere
+-Understøtter stående og liggende
+- Korte spille titlen
+- Stop musik og slette fra medieafspilleren
+-100 Sidste reproduktioner gemmes
+- Fuld farve tilpasning
+- Masser af store ekstramateriale</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>Musik</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>Spiller Mediaplayer</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>Afspilning</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>hurtig</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>Lydkunstner kunstnere sang sange album tag album</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>Skift sprog</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>Genstart programmet</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>Vælg sprog</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>baggrundsfarve</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>Baggrundsbillede landskab</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>Baggrund portræt</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>FEJL
+Forgrundsfarven er den samme som baggrundsfarven.</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>forgrundsfarve</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>Gendan design indstillinger</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>Gendan</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>Slet billede</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>Medieafspiller lille baggrundsfarve</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Medieafspiller lille accent farve</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>Medieafspiller stor accent farve</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>Medieafspiller stor baggrundsfarve</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>Medieafspiller billede landskab</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>Medieafspiller portræt</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>Anvend</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>koncert</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>Kopiér</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>Omdøb</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>Gem</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>baggrund sort</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>baggrund hvid</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>Mister ikke-gemt design indstillinger</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>valgt</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>FEJL ! Navnet er allerede i brug eller ugyldige tegn !</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>nyt navn</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>valgt Baggrund</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>valgte forgrund</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>design</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>Gendan indstillinger</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>Tilslutning .....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>forbindelse mislykkedes</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>Slut med xtrose</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>Connection timeout</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>Prøveversion udløbet! At skabe apps vil koste en masse tid. Prisen for dette arbejde er ikke dyrt. At fortsætte med at bruge denne app , er du nødt til at købe det . Tak !</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>Forfatter</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>Installer design .....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>Installer design</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>underretning</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>Vent venligst</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>Dette er, hvordan det fungerer.
+- Baggrund billeder kopieres ind i " gemte billeder "
+- Påpeg åbner en e-mail til xtrose
+- Tilføj forfatterens navn
+- Tilføj billeder fra " gemte billeder "
+- Send besked
+
+Efter en gennemgang , vil vi give data på vores server.
+Mange tak</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>Venligst udfyld og indeholde billeder skabt</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>Forfatter navn :</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>Du må ikke ændre</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>Tilføj baggrundsbilleder fra " gemte billeder "</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>Udgiv</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>Tryk igen for at lukke</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>Knapper og funktioner</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>orientering lås</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>Næste sang</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>(Tryk ) Pause
+(Hold) Scan</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>Afspil</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>forrige sang</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>Opdater liste</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Repead</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>Søg</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>shuffle</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 musikken endelig nå din musik hurtigere.
+Den nye liste visning kan du Super hurtigt finde dine kunstnere, album eller sange .
+En mini -afspiller, en lille afspiller, og en fuld skærm spiller det muligt at give dig fuld kontrol over din musik. I stående samt liggende tilstand .
+Lav dit eget design eller downloade færdige designs fra internettet.
+Desuden er der mange ekstra.
+
+- Liste visning af din musik
+- Liste visning af dine spillelister
+-3 Forskellige medieafspillere
+-Understøtter stående og liggende
+- Korte spille titlen
+-Design Editor
+-Download færdige design fra internettet
+- Stop musik og slette fra medieafspilleren
+-100 Sidste gengivelser er gemt
+- Fuld farve tilpasning
+- Masser af store ekstramateriale</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>Tryk to gange igen for at forny cache</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>Tryk igen for at forny fangst</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>baggrundsbillede</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>Logo på albummet billedet</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>Main flise</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>Reset vigtigste flise</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>Start skærmindstillinger</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>Start skærm</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>Tile stoppe og slette</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>Klik her for at oprette stop og slette flise</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>Nulstil</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>Angiv et tal fra 0 til 360</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0-360 minutter</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>Kør under lås skærm</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>Stop timeren</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>For timeren app skal køre under skærmlås.
+Aktiver for at køre under låseskærmen</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>Opdater liste
+Dobbeltklik på meddelelsen for at genskabe listen. Kun nødvendigt, hvis skiftet musik på din mobil.</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8.1 musikken endelig nå din musik hurtigere.
+Den nye liste visning kan du Super hurtigt finde dine kunstnere, album eller sange .
+En mini -afspiller, en lille afspiller, og en fuld skærm spiller det muligt at give dig fuld kontrol over din musik. I stående samt liggende tilstand .
+Lav dit eget design eller downloade færdige designs fra internettet.
+Desuden er der mange ekstra.
+
+- Liste visning af din musik
+- Liste visning af dine spillelister
+-3 Forskellige medieafspillere
+-Understøtter stående og liggende
+- Korte spille titlen
+-Design Editor
+-Download færdige design fra internettet
+- Stop musik og slette fra medieafspilleren
+-100 Sidste gengivelser er gemt
+- Fuld farve tilpasning
+- Masser af store ekstramateriale</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>Tryk to gange igen for at forny cache</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>forny</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>forny cache</value>
+  </data>
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+    <value>Aktuel spilleliste igen</value>
+  </data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+    <value>Clear aktuelle spilleliste</value>
+  </data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+    <value>Ingen sange i den nuværende replay tilgængelige</value>
+  </data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+    <value>A playlist med samme navn findes allerede.</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+    <value>Slette afspilningslisten</value>
+    <comment>NOTE FOR Translators, please enter a return at the end of the text.</comment>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+    <value>indlæst</value>
+  </data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+    <value>Knapper medieafspiller</value>
+  </data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+    <value>På listen knapper</value>
+  </data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+    <value>Tryk på logoet for at åbne hjælp</value>
+  </data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+    <value>Slet aktuelle afspilning</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+    <value>Slette afspilningslisten</value>
+  </data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+    <value>Denne knap sletter den aktuelle afspilning og fravælge alle sange i listerne.</value>
+  </data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+    <value>Hjælp</value>
+  </data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+    <value>Brug denne knap til at låse orienteringen.
+Det vil være blokeret altid den aktuelle orientering.
+Tryk på knappen igen for at låse den op.</value>
+  </data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+    <value>Med denne knap, listerne er lukket og fornyet.
+Ved at dobbeltklikke på den offentliggjorte meddelelse, opdateres cachen.
+Cachen skal fornys, kun hvis musik af Smartphone er blevet ændret.</value>
+  </data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+    <value>Med denne knap, den aktuelle afspilning som en afspilningsliste kan blive frelst. Fås kun i mode, Vælg og Afspil.</value>
+  </data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+    <value>Et enkelt tryk på Søg, så åbner en tekstindtastning.
+Indtaste din søgeterm og trykke retur.
+Søgningen filtrerer alle lister.
+Brug lukke og forny lister for at slette søgningen.</value>
+  </data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+    <value>Design editor</value>
+  </data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+    <value>Næsten alt kan justeres i denne app.
+Baggrundsbilleder, baggrundsfarver, forgrundsfarve, de enkelte farver i listen.
+Hvis du vil ændre farveindstillingerne for, skal du åbne design.
+Her, kan du gøre app til din smag.
+
+Du kan downloade komplette temaer og installere direkte.
+
+Med knappen del kan du sende os dit design.
+Husk at tilføje de genererede billeder.
+Vi vil gerne uploade dit design.</value>
+  </data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+    <value>Designfejl</value>
+  </data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+    <value>Når download af designfejl kan opstå.
+Vælg temaer krak app.
+Designet er nulstillet ved næste start.
+For at bruge design, skal det installeres igen.</value>
+  </data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+    <value>Vælg afspilningsliste</value>
+  </data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+    <value>Oversigt</value>
+  </data>
+  <data name="ZZ005_Play" xml:space="preserve">
+    <value>Spil</value>
+  </data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+    <value>Spiller kun denne titel</value>
+  </data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+    <value>Gem afspilningsliste</value>
+  </data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+    <value>i mode Vælg og Afspil spillelisten kan blive frelst.
+Denne knap vises i feltet i den aktuelle afspilning.
+At klikke på knappen åbner et tekstindtastningsfelt.
+Når et navn er angivet her skal du trykke på knappen Retur.
+Påpege spilleliste i en afspilningsliste gemmes.
+Du kan finde dem i den anden liste.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+    <value>Vælg og Afspil
+Denne knap Skifter tilstand af app.
+
+Standardtilstand
+I standardtilstanden app bruger den angivne API.
+Fordele
+-Appen kan lukkes efter valget.
+-Musik kan styres af systemet.
+Ulemper
+-Det kan spilles, kun hvad den API tillader. Ingen egen blander kan oprettes.
+-Der er ingen afspilningslister, der kan oprettes.
+-Nu spiller ikke kan ændres.
+
+Vælg og Afspil tilstand
+I denne tilstand, kan alt vælges og afspilles direkte.
+Fordele
+-Det kan noget valgt fra listen og spillede.
+-Du kan oprette brugerdefinerede afspilningslister.
+-Afspilningslister kan gemmes.
+-Nu er at spille vises og kan ændres og sorteret.
+Ulemper
+-App kræver kontrol under afspilning. App skal køre under skærmlåsen. App skal ikke flyttes til baggrunden.
+-Afspilningen kan ændres kun gennem afspiller af app.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+    <value>Vælg og Afspil</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+    <value>Vælg og Afspil tilstand</value>
+  </data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+    <value>Vælg eller fravælg</value>
+  </data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+    <value>Standardtilstand</value>
+  </data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+    <value>Øverste knap bar</value>
+  </data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+    <value>Automatisk oversættelse</value>
+  </data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+    <value>Designfejl!
+Slette design og downloade igen for at rette fejlen.</value>
+  </data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+    <value>Læs venligst!
+Velkommen til den nye version 8.1 musik.
+For at hjælpe dig i gang, har vi lavet en ny hjælp. Tryk på logoet ovenfor for at åbne hjælp.
+Start med denne udgivelse, er der en helt ny mode.
+Venligst er Bemærk den nye tilstand, "Vælg og Afspil" stadig i testfasen.
+Giv os venligst vide, hvis du finder en fejl.
+Mange tak!
+
+Have det sjovt med den nye version</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+    <value>Opret afspilningsliste</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+    <value>Afspilningslister kan kun i tilstanden "Vælg og Afspil" vil blive oprettet.
+-Aktivere "Vælg and Play"
+-Gå til den aktuelle afspilning og slette dem.
+-Vælg fra listen din musik
+-Gå til den aktuelle afspilning og tryk Gem
+-Indtast et navn til din nye afspilningsliste
+-Du vil finde din nye afspilningsliste på den anden liste under spillelister</value>
+  </data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+    <value>Cache system</value>
+  </data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+    <value>Den første belastning af indholdsbehov nogen tid. Derefter indlæse indholdet fra en cache. Hvis du tilføjer nye indhold til din enhed skal du forny cachen.
+Du kan forny cachen i indstillingerne.</value>
+  </data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+    <value>Display problemer</value>
+  </data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+    <value>Mange sange kan give problemer med displayet. Problemerne i forbindelse med den gennemsigtige farve design.
+Du kan løse problemet, hvis du fjerner gennemsigtigheden af designene.</value>
+  </data>
+</root>

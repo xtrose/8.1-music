@@ -1,0 +1,986 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>el-GR</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>ΑΙΤΗΣΗ ΜΟΥ</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>προσθήκη</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Στοιχείο Μενού</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>περίπου</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>άλμπουμ</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 Μουσική</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>καλλιτέχνης</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>περισσότερο</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>μουσική</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>Λίστες αναπαραγωγής</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>ρυθμίσεις</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>τραγούδι</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>άλμπουμ</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>είδη</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>Αγοράστε αυτό το app</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>Έλεγχος για ενημερώσεις</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>επαφή</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>μέγεθος γραμματοσειράς</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>οδηγίες</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>γλώσσα</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>Όπως xtrose</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>Δείτε το λογότυπο κατά την εκκίνηση</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>ναί</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>Άλλες εφαρμογές xtrose</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>Βαθμολογήστε αυτό το app</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>κάντε κλικ στην οθόνη για να παρακάμψετε</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>Σας ευχαριστώ για τη λήψη</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>χρώμα Accent</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>χρώμα</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>Τηλέφωνο φόντο</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>Ορισμός χρώματος</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>ναί</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>Επιλογή λίστας χρώμα</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>Επέκταση πληροφορίες</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>είδος</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Media player χρώμα έμφασης</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>playlist</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>τραγούδια</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>Επαναφορά ρυθμίσεων</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>φόντο άλμπουμ</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>album προσκήνιο</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>φόντο Καλλιτέχνης</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>Καλλιτέχνης προσκήνιο</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>Τηλέφωνο Προσκήνιο</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>επιλεγμένο φόντο</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>Επιλεγμένα προσκήνιο</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>φόντο το τραγούδι</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>τραγούδι προσκήνιο</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>διαφάνεια</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>μαύρος</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>λευκό</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>Όλα τα τραγούδια</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>Η επιλογή δεν μπορεί να παίξει</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>Τελευταία αναπαραγωγές</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>διεύθυνση</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>παίξετε σε</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>Παίξτε στην ώρα τους</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>αργότερα</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>ποτέ</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>τιμή</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>Αυτή η εφαρμογή φαίνεται να απευθύνονται σε σας .
+Για να προγραμματίσετε apps είναι χρονοβόρα και δύσκολη .
+Μια καλή κριτική μπορεί να μας βοηθήσει να εξαπλωθεί περαιτέρω .
+
+Σας ευχαριστώ πολύ</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>υποστήριξη</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>ανοιχτό</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>παιχνίδι</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>Παίξτε άλμπουμ</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>Παίξτε το τραγούδι</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>Διαγραφή τελευταία αναπαραγωγές</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>Διαγραφή λίστας με την τελευταία αναπαραγωγές</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>διακοπή</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>αναπαραγωγή</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>Σταματήστε και αφαιρέστε την αναπαραγωγή</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>Διακοπή της αναπαραγωγής και να διαγράψετε από τη συσκευή αναπαραγωγής</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>ΠΡΟΕΙΔΟΠΟΙΗΣΗ</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>Κάντε κλικ για να ανοίξετε</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>συνδετικός</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>Η σύνδεση απέτυχε</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>Χρόνο σύνδεσης από</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>ρυθμίσεις σχεδιασμού</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>Συγχαρητήρια , την πλήρη έκδοση έχει κυκλοφορήσει</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>Δεν υπάρχει διαθέσιμη ενημέρωση</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>Μια στιγμή παρακαλώ</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>ώρα</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>ώρες</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>λεπτό</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>πρακτικά</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>Σας ευχαριστούμε για την αγορά αυτού του app</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>Δοκιμαστική έκδοση Έληξε</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>Δοκιμαστική έκδοση Έληξε ! Για να δημιουργήσετε εφαρμογές θα κοστίσει πολύ χρόνο . Η τιμή για αυτό το έργο δεν είναι ακριβό . Για να συνεχίσετε τη δημιουργία οθονών κλειδώματος Εικόνες , θα πρέπει να αγοράσετε το app . Σας ευχαριστούμε !</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>Η δοκιμαστική έκδοση</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>ρυθμίσεις χρωμάτων</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>Κλείσιμο λίστες</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>Πατήστε το κρυφό κουμπί , πάνω αριστερά για να κλείσετε όλες τις λίστες .</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>Κάνοντας κλικ στο αριστερό βέλος ανοίγει το fullscreen παίκτη .</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>γενικός</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>Με την εφαρμογή αυτή , μπορείτε να πάρετε την ταχύτερη τη μουσική σας . Μπορείτε να επιλέξετε τη μουσική σας από μόνο δύο λίστες . Επιπλέον , η εφαρμογή σας δίνει πολλές μεγάλες επεκτάσεις .</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>Η προβολή λίστας</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>Χρησιμοποιώντας προβολή λίστας , μπορείτε να φτάσετε γρήγορα τη μουσική σας . Όλοι οι καλλιτέχνες που αναφέρονται στον πρώτο κατάλογο . Εάν κάνετε κλικ στην επιθυμητή συνέχεια άνοιξε άλμπουμ του . Μια περαιτέρω κλικ στο άλμπουμ εμφανίζει όλα τα τραγούδια .
+Στη δεύτερη λίστα , οι λίστες αναπαραγωγής , μουσικής , άλμπουμ και όλα τα τραγούδια που περιλαμβάνονται .</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>Διάφορα</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>Παρακαλώ αξιολογήστε καλά την αίτηση αυτή , αν θέλετε . Αν έχετε προβλήματα με την εφαρμογή αυτή , στη συνέχεια, επικοινωνήστε με την υποστήριξη ! Ερωτήσεις και προβλήματα έχουν χάσει τίποτα στα σχόλια .
+Σας ευχαριστώ πολύ !</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>Παίξτε στο</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>Η εφαρμογή έχει ένα παιχνίδι σε λειτουργία . Με αυτή τη λειτουργία , οι τίτλοι θα πρέπει να επαναληφθεί μόνο την καθορισμένη ώρα . Για να ενεργοποιήσετε το παιχνίδι , μπορείτε να κρατήσετε πατημένο το κουμπί play για ένα δευτερόλεπτο κατά τη διάρκεια της αναπαραγωγής .</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>Μενού media player</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>Μια μικρή συσκευή αναπαραγωγής πολυμέσων έχει εγκατασταθεί στην κάτω μενού .</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>Η μεσαίου μεγέθους player ανοίγει με ένα κλικ στο δεξί βέλος .</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 Μουσική φτάσει τελικά τη μουσική σας γρηγορότερα .
+Η νέα προβολή λίστα σας επιτρέπει να βρείτε γρήγορα Σούπερ σας καλλιτέχνες , άλμπουμ ή τραγούδια .
+Ένα μίνι Player , ένας μικρός παίκτης , ένας παίκτης και πλήρους οθόνης σας επιτρέπει να έχετε πλήρη έλεγχο της μουσικής σας . Στο πορτρέτο , καθώς και τη λειτουργία του τοπίου .
+Επιπλέον , υπάρχουν πολλά extras .
+
+- Λίστα προβολή της μουσικής σας
+- Λίστα προβολή των λιστών αναπαραγωγής σας
+-3 Διαφορετικές συσκευές αναπαραγωγής πολυμέσων
+-Υποστηρίζει πορτρέτο και το τοπίο
+- Σύντομη παίζει τον τίτλο
+- Σταματήστε τη μουσική και να διαγράψετε από τη συσκευή αναπαραγωγής πολυμέσων
+Οι -100 Τελευταία αναπαραγωγές αποθηκεύονται
+- Πλήρης παραμετροποίηση χρώμα
+- Πολλά από τα σπουδαία extras</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>μουσική</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>παίκτης Mediaplayer</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>αναπαραγωγή</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>γρήγορα</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>Τραγούδια καλλιτεχνών ήχου καλλιτέχνης άλμπουμ τραγούδι άλμπουμ tag</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>Αλλαγή γλώσσας</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>Επανεκκινήστε την εφαρμογή</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>Επιλογή γλώσσας</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>χρώμα φόντου</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>Ιστορικό τοπίο εικόνα</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>Ιστορικό πορτρέτο εικόνα</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>ΣΦΑΛΜΑ
+Το χρώμα προσκηνίου είναι το ίδιο με το χρώμα του φόντου.</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>χρώμα προσκηνίου</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>Επαναφορά των ρυθμίσεων του σχεδιασμού</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>Επαναφορά</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>Διαγραφή εικόνας</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>Media player μικρό χρώμα του φόντου</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Media player μικρό χρώμα έμφασης</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>Media player μεγάλο χρώμα έμφασης</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>Media player μεγάλο χρώμα του φόντου</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>Media player τοπίο εικόνα</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>Media player πορτρέτο εικόνα</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>Εφαρμογή</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>συναυλία</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>αντίγραφο</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>σχέδια</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>Συνδεδεμένοι</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>μετονομάζω</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>εκτός</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>Ιστορικό μαύρο</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>Ιστορικό λευκό</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>Χάστε μη αποθηκευμένες ρυθμίσεις σχεδιασμού</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>Επιλεγμένα</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>ΛΑΘΟΣ ! Όνομα ήδη σε χρήση ή μη έγκυρους χαρακτήρες !</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>νέο όνομα</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>Επιλεγμένα Ιστορικό</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>Επιλεγμένα Προσκήνιο</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>σχέδιο</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>Επαναφορά ρυθμίσεων</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>Σύνδεση .....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>Η σύνδεση απέτυχε</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>Σύνδεση με xtrose</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>Χρόνο σύνδεσης από</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>Δοκιμαστική έκδοση Έληξε ! Για να δημιουργήσετε εφαρμογές θα κοστίσει πολύ χρόνο . Η τιμή για αυτό το έργο δεν είναι ακριβό . Για να συνεχίσετε να χρησιμοποιείτε αυτό το app , θα πρέπει να το αγοράσει . Σας ευχαριστούμε !</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>συγγραφέας</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>κατηγορία</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>Εγκαταστήστε το σχεδιασμό .....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>εγκαταστήστε το σχεδιασμό</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>όνομα</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>κοινοποίηση</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>Παρακαλώ περιμένετε</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>Αυτό είναι το πώς λειτουργεί .
+Οι - Ιστορικό εικόνες αντιγράφονται " αποθηκευμένες εικόνες "
+- Τονίστε ανοίγει ένα email στο xtrose
+- Προσθέστε το όνομα του συγγραφέα
+- Προσθήκη εικόνων από το " αποθηκευμένες εικόνες "
+- Αποστολή μηνύματος
+
+Μετά την επανεξέταση , θα παρέχει τα δεδομένα στον server μας .
+Σας ευχαριστώ πολύ</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>Παρακαλώ συμπληρώστε και περιλαμβάνουν εικόνες που δημιουργούνται</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>Όνομα συγγραφέα :</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>Μην αλλάξετε</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>Προσθήκη φόντο εικόνες από " αποθηκευμένες εικόνες "</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>Δημοσιεύστε</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>Πιέστε ξανά για να κλείσει</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>Κουμπιά και λειτουργίες</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>κλείδωμα προσανατολισμού</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>Επόμενο τραγούδι</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>( Press ) Παύση
+( Hold ) Σάρωση</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>παιχνίδι</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>προηγούμενο τραγούδι</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>Ανανέωση λίστας</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Repead</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>έρευνα</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>ανάμιξη</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 μουσικής φτάσει τελικά τη μουσική σας γρηγορότερα .
+Η νέα προβολή λίστα σας επιτρέπει να βρείτε γρήγορα Σούπερ σας καλλιτέχνες , άλμπουμ ή τραγούδια .
+Ένα μίνι Player , ένας μικρός παίκτης , ένας παίκτης και πλήρους οθόνης σας επιτρέπει να έχετε πλήρη έλεγχο της μουσικής σας . Στο πορτρέτο , καθώς και τη λειτουργία του τοπίου .
+Δημιουργήστε το δικό σας σχέδιο ή να κατεβάσετε τα τελικά σχέδια από το Internet .
+Επιπλέον , υπάρχουν πολλά extras .
+
+- Λίστα προβολή της μουσικής σας
+- Λίστα προβολή των λιστών αναπαραγωγής σας
+-3 Διαφορετικές συσκευές αναπαραγωγής πολυμέσων
+-Υποστηρίζει πορτρέτο και το τοπίο
+- Σύντομη παίζει τον τίτλο
+Σχεδιασμός - Επιμέλεια
+-Λήψη ολοκληρώσει τον σχεδιασμό από το Internet
+- Σταματήστε τη μουσική και να διαγράψετε από τη συσκευή αναπαραγωγής πολυμέσων
+Οι -100 τελευταία αναπαραγωγές αποθηκεύονται
+- Πλήρης παραμετροποίηση χρώμα
+- Πολλά από τα σπουδαία extras</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>Πιέστε δύο φορές για να ανανεώσουν την cache</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>Πιέστε ξανά για να ανανεώσει αλιευμάτων</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>εικόνα φόντου</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>Λογότυπο στην εικόνα του άλμπουμ</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>κύρια κεραμίδι</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>Επαναφορά κύρια κεραμίδι</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>Ξεκινήστε τις ρυθμίσεις της οθόνης</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>οθόνη έναρξης</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>Πλακάκια σταματήσει και να διαγράψετε</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>Κάντε κλικ εδώ για να δημιουργήσετε και να διαγράψετε στάση κεραμίδι</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>επαναφορά</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>Παρακαλούμε εισάγετε έναν αριθμό 0-360</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0-360 Λεπτά</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>Λειτουργούν υπό την οθόνη κλειδώματος</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>Σταματήστε το χρονόμετρο</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>Για το χρονόμετρο η εφαρμογή πρέπει να εκτελείται κάτω από την οθόνη κλειδώματος .
+Ενεργοποίηση για να τρέξει κάτω από την οθόνη κλειδώματος</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>Ενημέρωση λίστας
+Κάντε διπλό κλικ στην κοινοποίηση στη λίστα αναδημιουργήσει . Είναι απαραίτητο μόνο αν αλλάξει τη μουσική στο κινητό σας .</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8.1 μουσικής φτάσει τελικά τη μουσική σας γρηγορότερα .
+Η νέα προβολή λίστα σας επιτρέπει να βρείτε γρήγορα Σούπερ σας καλλιτέχνες , άλμπουμ ή τραγούδια .
+Ένα μίνι Player , ένας μικρός παίκτης , ένας παίκτης και πλήρους οθόνης σας επιτρέπει να έχετε πλήρη έλεγχο της μουσικής σας . Στο πορτρέτο , καθώς και τη λειτουργία του τοπίου .
+Δημιουργήστε το δικό σας σχέδιο ή να κατεβάσετε τα τελικά σχέδια από το Internet .
+Επιπλέον , υπάρχουν πολλά extras .
+
+- Λίστα προβολή της μουσικής σας
+- Λίστα προβολή των λιστών αναπαραγωγής σας
+-3 Διαφορετικές συσκευές αναπαραγωγής πολυμέσων
+-Υποστηρίζει πορτρέτο και το τοπίο
+- Σύντομη παίζει τον τίτλο
+Σχεδιασμός - Επιμέλεια
+-Λήψη ολοκληρώσει τον σχεδιασμό από το Internet
+- Σταματήστε τη μουσική και να διαγράψετε από τη συσκευή αναπαραγωγής πολυμέσων
+Οι -100 τελευταία αναπαραγωγές αποθηκεύονται
+- Πλήρης παραμετροποίηση χρώμα
+- Πολλά από τα σπουδαία extras</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>Πιέστε δύο φορές για να ανανεώσουν την cache</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>Ανανέωση</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>Ανανέωση cache</value>
+  </data>
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+    <value>Τρέχουσα λίστα αναπαραγωγής</value>
+  </data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+    <value>Σαφές τρέχουσα λίστα αναπαραγωγής</value>
+  </data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+    <value>Δεν τραγούδια στην τρέχουσα επανάληψη διαθέσιμα</value>
+  </data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+    <value>Α playlist με το ίδιο όνομα υπάρχει ήδη.</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+    <value>Διαγραφή λίστας αναπαραγωγής</value>
+    <comment>NOTE FOR Translators, please enter a return at the end of the text.</comment>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+    <value>φορτωθεί</value>
+  </data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+    <value>Κουμπιά αναπαραγωγής πολυμέσων</value>
+  </data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+    <value>Κουμπιά της λίστας</value>
+  </data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+    <value>Πιέστε το λογότυπο για να ανοίξετε τη βοήθεια</value>
+  </data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+    <value>Διαγραφή τρέχουσας αναπαραγωγής</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+    <value>Διαγραφή λίστας αναπαραγωγής</value>
+  </data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+    <value>Αυτό το κουμπί διαγράφει την τρέχουσα αναπαραγωγή και unselect όλα τα τραγούδια στους καταλόγους.</value>
+  </data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+    <value>Βοήθεια</value>
+  </data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+    <value>Χρήση αυτό το κουμπί για να κλειδώσετε τον προσανατολισμό.
+Θα είναι πάντα μπλοκαριστεί το σημερινό προσανατολισμό.
+Πατήστε το κουμπί ξανά για να την ξεκλειδώσετε.</value>
+  </data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+    <value>Με αυτό το κουμπί, οι κατάλογοι είναι κλειστά και να ανανεώνεται.
+Κάνοντας διπλό κλικ για τη δημοσίευση, τη μνήμη cache ενημερώνεται.
+Η μνήμη cache πρέπει να ανανεώνεται μόνο αν έχει αλλάξει η μουσική του Smartphone.</value>
+  </data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+    <value>Με αυτό κουμπί, στην τρέχουσα αναπαραγωγή, όπως μια λίστα αναπαραγωγής μπορεί να σωθεί. Διατίθεται μόνο σε λειτουργία, επιλέξτε και να παίξει.</value>
+  </data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+    <value>Ένα πάτημα στην αναζήτηση, στη συνέχεια, ανοίγει ένα εισαγωγής κειμένου.
+Εισάγετε τον όρο αναζήτησης και την επιστροφή τύπου.
+Η αναζήτηση φίλτρα όλες οι λίστες.
+Χρήση Κλείστε και να ανανεώσετε τις λίστες για να διαγράψετε την αναζήτηση.</value>
+  </data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+    <value>Σχεδιασμός επεξεργαστή</value>
+  </data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+    <value>Σχεδόν τα πάντα μπορεί να προσαρμοστεί σε αυτό το app.
+Εικόνες φόντου, χρώματα φόντου, το χρώμα προσκηνίου, τα μεμονωμένα χρώματα της λίστας.
+Για να αλλάξετε τις ρυθμίσεις χρωμάτων, πρέπει να ανοίξετε το σχέδιο.
+Εδώ, μπορείτε να κάνετε το app με τις προτιμήσεις σας.
+
+Μπορείτε να κατεβάσετε την πλήρη θέματα και να εγκαταστήσετε άμεσα.
+
+Με το κουμπί μερίδιο μπορείτε να μας στείλετε το σχέδιό σας.
+Θυμηθείτε να προσθέσετε τις εικόνες που δημιουργούνται.
+Θα θέλαμε να ανεβάσετε το σχέδιο σας.</value>
+  </data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+    <value>Λάθος σχεδιασμό</value>
+  </data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+    <value>Όταν η λήψη σφάλματα σχεδίασης τα μπορεί να συμβεί.
+Στο παράθυρο επιλογή τα θέματα το app συντριβές.
+Το σχέδιο έχει μηδενιστεί κατά την επόμενη εκκίνηση.
+Για να χρησιμοποιήσετε το σχέδιο, πρέπει να εγκατασταθεί πάλι.</value>
+  </data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+    <value>Επιλέξτε λίστα αναπαραγωγής</value>
+  </data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+    <value>Επισκόπηση</value>
+  </data>
+  <data name="ZZ005_Play" xml:space="preserve">
+    <value>Παιχνίδι</value>
+  </data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+    <value>Παίζουν μόνο αυτόν τον τίτλο</value>
+  </data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+    <value>Αποθήκευση λίστας αναπαραγωγής</value>
+  </data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+    <value>Στην επιλογή λειτουργία και παίζουν το playlist μπορεί να σωθεί.
+Αυτό το κουμπί εμφανίζεται στο πεδίο της τρέχουσας αναπαραγωγής.
+Κλικ στο κουμπί ανοίγει ένα πεδίο εισαγωγής κειμένου.
+Μετά από ένα όνομα έχει καταχωρηθεί εδώ θα πρέπει να πατήσετε το κουμπί της επιστροφής.
+Επισημάνω τη λίστα αναπαραγωγής σε μια λίστα αναπαραγωγής αποθηκεύεται.
+Μπορείτε να τα βρείτε στη δεύτερη λίστα.
+Επιλέξτε</value>
+  </data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+    <value>και να παίξει
+Αυτό το κουμπί αλλάζει τη λειτουργία του app.
+
+Τυπική λειτουργία
+Σε λειτουργία το app προεπιλεγμένη χρησιμοποιούν το καθορισμένο API.
+Πλεονεκτήματα
+-Το app μπορεί να κλείσει μετά από την επιλογή.
+-Η μουσική μπορεί να ελέγχεται από το σύστημα.
+Μειονεκτήματα
+-Μπορεί να παίξει μόνο αυτό το API που επιτρέπει. Δεν δική μίγματα μπορούν να δημιουργηθούν.
+-Δεν υπάρχουν καμία λίστες αναπαραγωγής που μπορούν να δημιουργηθούν.
+-Τώρα δεν μπορεί να αλλάξει παίζει.
+
+Επιλέξτε και τρόπος παιχνιδιού
+Σε αυτή την κατάσταση, τα πάντα μπορούν να επιλεγούν και άμεσα αναπαράγεται.
+Πλεονεκτήματα
+-Μπορεί τίποτα να επιλεγεί από τη λίστα και να παίξει.
+-Μπορείτε να δημιουργήσετε προσαρμοσμένες λίστες αναπαραγωγής.
+-Playlists μπορεί να σωθεί.
+-Τώρα παίζει είναι εμφανίζεται και μπορεί να αλλάξει και να ταξινομούνται.
+Μειονεκτήματα
+-Η εφαρμογή απαιτεί τον έλεγχο κατά την αναπαραγωγή. Το app, πρέπει να εκτελείται από την οθόνη κλειδαριών. Η app δεν πρέπει να μετακινείται με το φόντο.
+-Η αναπαραγωγή είναι δυνατή μόνο μέσω του player του app.
+Επιλέξτε</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+    <value>και να παίξει</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+    <value>Επιλογή και τρόπος παιχνιδιού</value>
+  </data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+    <value>, Επιλέξτε ή καταργήστε την επιλογή</value>
+  </data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+    <value>Τυπική λειτουργία</value>
+  </data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+    <value>Μπαρ βρίσκεται στην κορυφή κουμπί</value>
+  </data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+    <value>Αυτόματη μετάφραση</value>
+  </data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+    <value>Λάθος σχεδιασμό!
+Διαγράψετε το σχέδιο και να το κατεβάσετε ξανά για να διορθώσετε αυτό το σφάλμα.</value>
+  </data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+    <value>Παρακαλώ διαβάστε!
+Καλωσορίζουμε τη νέα μουσική έκδοση 8.1.
+Να σας βοηθήσουμε να ξεκινήσετε, έχουμε δημιουργήσει μια νέα βοήθεια. Πατήστε το παραπάνω για να ανοίξετε τη βοήθεια λογότυπο.
+Ξεκινώντας με αυτή την έκδοση, υπάρχει μια εντελώς νέα λειτουργία.
+Παρακαλείστε να σημειώσετε τις νέες λειτουργίες, "Επιλέξτε και να παίξει" είναι ακόμα στο στάδιο των δοκιμών.
+Δώσε μας παρακαλώ να ενημερώσετε αν βρείτε ένα σφάλμα.
+Σε ευχαριστώ πολύ!
+
+Να διασκεδάσουν με τη νέα έκδοση</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+    <value>Επιλογής δημιουργία λίστας αναπαραγωγής</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+    <value>Playlists μπορεί μόνο στο "Επιλέξτε και να παίξει" θα δημιουργηθεί.
+-Ενεργοποίηση "Επιλέξτε και το παιχνίδι"
+-Πηγαίνετε στην τρέχουσα αναπαραγωγή και να διαγράψετε
+-Επιλέξτε από τη λίστα σας μουσική
+-Πηγαίνετε στην τρέχουσα αναπαραγωγή και πατήστε Αποθήκευση
+-Εισάγετε ένα όνομα για τη νέα λίστα αναπαραγωγής
+-Θα βρείτε νέα playlist σας στη δεύτερη λίστα στην περιοχή λίστες αναπαραγωγής</value>
+  </data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+    <value>Σύστημα cache</value>
+  </data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+    <value>Το πρώτο φορτίο των αναγκών περιεχομένου κάποιο χρονικό διάστημα. Στη συνέχεια να φορτώσετε τα περιεχόμενα από ένα χώρο προσωρινής αποθήκευσης. Εάν προσθέσετε νέο περιεχόμενο στη συσκευή σας, πρέπει να ανανεώνετε τη μνήμη cache.
+Μπορείτε να ανανεώσετε τη μνήμη cache στις ρυθμίσεις.</value>
+  </data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+    <value>Προβλήματα εμφάνισης</value>
+  </data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+    <value>Πολλά τραγούδια μπορεί να προκαλέσει προβλήματα με την οθόνη. Τα προβλήματα που συνδέονται με το διαφανές χρώμα από τα σχέδια.
+Μπορείτε να διορθώσετε το πρόβλημα, εάν καταργήσετε τη διαφάνεια των σχεδίων.</value>
+  </data>
+</root>

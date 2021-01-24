@@ -1,0 +1,794 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>fil-PH</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>MY APPLICATION</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>magdagdag</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>menu Item</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>tungkol sa</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>album</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 Music</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>pintor</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>mas</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>musika</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>Mga Playlist</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>Mga Setting</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>kanta</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>Albums</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>Genre</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>Bumili ng app na ito</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>Suriin para sa mga update ng</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>Makipag-ugnay sa</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>sukat ng font</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>tagubilin</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>wika</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>Tulad ng xtrose</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>Ipakita ang logo sa simula</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>oo</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>Iba pang xtrose apps</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>I-rate ang app na ito</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>i-click ang screen upang laktawan</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>Salamat sa iyo para sa pag-download</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>kulay ng tuldik</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>kulay</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>background telepono</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>Itakda ang kulay</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>oo</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>Pagpili listahan ng Kulay</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>Pinalawak ng impormasyong</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>uri</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Kulay ng tuldik Media player</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>Playlist</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>Mga Kanta</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>Ibalik ang mga setting</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>background album</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>harapan album</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>background ng Artist</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>harapan ng Artist</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>telepono Foreground</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>Napiling background</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>Napiling harapan</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>background kanta</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>harapan kanta</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>aninaw</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>itim</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>puti</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>Lahat ng mga kanta</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>Pinili hindi maaaring i-play</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>Huling pag-playback</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>tirahan</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>pagsamantalahan</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>I-play sa oras</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>mamaya</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>hindi kailanman</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>singil</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>Mukhang apela sa iyo ng application na ito .
+Upang program apps ay maka-ubos ng oras at mahirap .
+Ang isang mabuting pagsusuri ay makakatulong sa amin na ikalat ito sa karagdagang .
+
+Maraming salamat sa inyo</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>tulong</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>bukas</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>I-play ang album</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>I-play ang kanta</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>alisin</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>Tanggalin ang huling pag-playback</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>Tanggalin ang listahan na may huling pag-playback</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>mabasag</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>Pag-playback</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>itigil</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>Huminto at alisin sa pag-playback</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>Ihinto ang pag-playback at tanggalin ang mula sa player na</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>BABALA</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>I-click upang buksan ang</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>nag-uugnay</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>Nabigo ang koneksyon</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>Oras out ang koneksyon</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>Mga setting ng Disenyo</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>Binabati kita , ang iyong buong bersyon ay inilabas</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>Walang magagamit na mga pag-update</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>Ang isa sandali mangyaring</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>oras</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>oras</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>minuto</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>minuto</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>Salamat sa pagbili ng app na ito</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>Nag-expire na Bersyon Pagsubok</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>Bersyon Trial Expired ! Upang lumikha ng apps ay gastos ng maraming oras . Ang presyo para sa trabahong ito ay hindi mahal . Upang patuloy na lumikha ng lock screen ng Imahe, dapat kang bumili ng app. Salamat sa iyo!</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>bersyon Pagsubok</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>mga setting ng kulay</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>Isara ang mga listahan</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>Pindutin ang nakatagong button, itaas na kaliwang upang isara ang lahat ng mga listahan .</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>Ang pag-click sa kaliwang arrow nagbukas ang fullscreen player.</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>pangkalahatan</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>Gamit ang application na ito , makukuha mo ang pinakamabilis sa iyong musika . Maaari mong piliin ang lahat ng iyong musika mula sa mga listahan ng dalawang lamang . Bilang karagdagan , nagbibigay sa iyo ang application maraming mga mahusay na mga extension.</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>Ang view ng listahan</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>Paggamit ng view ng listahan , maaari mong mabilis na maabot ang iyong musika . Lahat ng mga artist ay nakalista sa unang listahan . Kung nag-click sa ang nais na pagkatapos ay binuksan ang kanyang album . Ang isang karagdagang pag-click sa album na nagpapakita ng lahat ng mga kanta .
+Sa pangalawang listahan , playlist , genre , album at lahat ng kanta ay nakalista.</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>halu-halo</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>Mangyaring i-rate mahusay na ang application na ito kung nais mo. Kung mayroon kang mga problema sa application na ito, pagkatapos ay mangyaring makipag-ugnay sa suporta ! Mga Tanong at mga problema nawala walang anuman sa mga review.
+Maraming salamat sa inyo !</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>pagsamantalahan</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>Ang application ay ay may -play sa function. Gamit ang function, ang pamagat ay replayed lamang ang set na oras . Upang paganahin ang pag-play sa , dapat mong pindutin nang matagal ang pindutan ng play para sa isang pangalawang panahon ng pag-playback.</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>Menu media player</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>Ang isang maliit na media player na naka-install sa mas mababang menu .</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>Ang medium -sized player binuksan sa isang pag-click sa kanang arrow .</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>Sa wakas naabot 8.1 Music ang iyong musika mas mabilis.
+Hinahayaan ka ng bagong view ng listahan mo Super mabilis na mahanap ang iyong mga artist , album o mga kanta .
+Isang mini Player, sa isang maliit na player, at isang full-screen na player payagan upang bigyan ka ng ganap na kontrol sa iyong musika. Sa portrait pati na rin sa landscape mode.
+Bilang karagdagan , mayroong maraming extras .
+
+- List view ng iyong musika
+- List view ng iyong mga playlist
+-3 Iba't ibang mga media player
+- Sinusuportahan ang portrait at landscape
+Maikling - play ang pamagat
+- Itigil ang musika at tanggalin ang mula sa media player
+-100 Huling reproductions ay naka-imbak
+Buong - customize ng kulay
+- Maraming magagandang extras</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>musika</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>Player Mediaplayer</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>Pag-playback</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>mabilis</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>Kanta artist Sound artist kanta album album tag</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>Baguhin ang wika</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>I-restart ang application</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>Pumili ng wika</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>kulay ng Background</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>Background landscape larawan</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>Background larawan portrait</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>ERROR
+Ang Kulay ng harapan ay kapareho ng kulay ng background.</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>foreground kulay</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>Ibalik ang mga setting ng disenyo</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>ibalik</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>Tanggalin ang larawan</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>Kulay ng background ng maliit Media player</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Kulay ng tuldik maliit Media player</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>Kulay ng tuldik malaki Media player</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>Kulay ng background ng malaki Media player</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>Media player landscape larawan</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>Media player larawan portrait</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>maglagay</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>konsiyerto</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>kopya</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>alisin</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>Mga Disenyo</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>I-edit</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>bigyan ng ibang pangalan</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>iligtas</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>itim na background</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>Background puti</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>Mawalan ng hindi na-save ang mga setting na disenyo</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>Napiling</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>ERROR ! Pangalanan ang ginagamit na o di-wastong character !</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>bagong pangalan</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>Napiling Background</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>Napiling Foreground</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>disenyo</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>Ibalik ang mga setting</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>Kumokonekta .....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>Nabigo ang koneksyon</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>Makipag-ugnay sa xtrose</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>Oras out ang koneksyon</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>Bersyon Trial Expired ! Upang lumikha ng apps ay gastos ng maraming oras . Ang presyo para sa trabahong ito ay hindi mahal . Upang patuloy na gamitin ang app na ito , kailangan mong bilhin ito . Salamat sa iyo!</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>may-akda</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>kategorya</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>I-install ang disenyo .....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>I-install ang disenyo</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>pangalan</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>abiso</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>Mangyaring maghintay</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>Ito ay kung paano ito gumagana .
+- Background mga imahe ay kinopya sa " naka-save na mga larawan "
+Ituro - out ay nagbukas ng isang e-mail sa xtrose
+- Idagdag pangalan ng may-akda
+- Magdagdag ng mga larawan mula sa " naka-save na mga larawan "
+- Ipadala ang mensahe
+
+Pagkatapos ng pagsusuri , magbibigay kami ng mga data sa aming mga server.
+Maraming salamat sa inyo</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>Mangyaring punan at isama ang mga imahe na nilikha</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>Pangalan ng May-akda:</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>Huwag baguhin</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>Magdagdag ng larawan sa background mula sa " naka-save na mga larawan "</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>maglathala</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>Pindutin muli upang isara</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>Pindutan at mga function</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>oryentasyon ng lock</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>Susunod na kanta</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>(Pindutin ) I-pause
+( Hold ) I-scan</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>nakaraang kanta</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>I-refresh ang listahan</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Repead</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>paghahanap</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>kaladkarin ang mga paa</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 musika sa wakas maabot ang iyong musika mas mabilis.
+Hinahayaan ka ng bagong view ng listahan mo Super mabilis na mahanap ang iyong mga artist , album o mga kanta .
+Isang mini Player, sa isang maliit na player, at isang full-screen na player payagan upang bigyan ka ng ganap na kontrol sa iyong musika. Sa portrait pati na rin sa landscape mode.
+Lumikha ng iyong sariling disenyo o i-download tapos mga disenyo mula sa Internet .
+Bilang karagdagan , mayroong maraming extras .
+
+- List view ng iyong musika
+- List view ng iyong mga playlist
+-3 Iba't ibang mga media player
+- Sinusuportahan ang portrait at landscape
+Maikling - play ang pamagat
+- Design Editor
+- Download natapos disenyo mula sa Internet
+- Itigil ang musika at tanggalin ang mula sa media player
+-100 Huling reproductions ay naka-imbak
+Buong - customize ng kulay
+- Maraming magagandang extras</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>Pindutin muli nang dalawang beses upang i-renew ang cache</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>Pindutin muli upang i-renew ang catch</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>Background na larawan</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>Logo sa larawan album</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>Main tile</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>I-reset ang pangunahing tile</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>Simulan ang mga setting ng screen</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>Simulan ang screen</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>Tile titigil at tanggalin</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>Mag-click dito upang lumikha ng stop at tanggalin ang mga tile</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>I-reset ang</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>Mangyaring magpasok ng isang numero ng 0-360</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0-360 Minuto</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>Patakbuhin sa ilalim ng screen ng lock</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>Itigil ang timer</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>Para sa mga timer ang app ay dapat na tumatakbo sa ilalim ng screen ng lock .
+Paganahin ang upang tumakbo sa ilalim ng screen lock</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>I-update ang listahan
+Double -click sa abiso upang muling likhain ang listahan . Tanging kinakailangan kung binago ng musika sa iyong mobile.</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8.1 musika sa wakas maabot ang iyong musika mas mabilis.
+Hinahayaan ka ng bagong view ng listahan mo Super mabilis na mahanap ang iyong mga artist , album o mga kanta .
+Isang mini Player, sa isang maliit na player, at isang full-screen na player payagan upang bigyan ka ng ganap na kontrol sa iyong musika. Sa portrait pati na rin sa landscape mode.
+Lumikha ng iyong sariling disenyo o i-download tapos mga disenyo mula sa Internet .
+Bilang karagdagan , mayroong maraming extras .
+
+- List view ng iyong musika
+- List view ng iyong mga playlist
+-3 Iba't ibang mga media player
+- Sinusuportahan ang portrait at landscape
+Maikling - play ang pamagat
+- Design Editor
+- Download natapos disenyo mula sa Internet
+- Itigil ang musika at tanggalin ang mula sa media player
+-100 Huling reproductions ay naka-imbak
+Buong - customize ng kulay
+- Maraming magagandang extras</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>Pindutin muli nang dalawang beses upang i-renew ang cache</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>baguhin</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>I-renew ang cache</value>
+  </data>
+</root>

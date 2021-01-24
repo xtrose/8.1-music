@@ -1,0 +1,984 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>fi-FI</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>hakemukseni</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>lisätä</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>kohta</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>noin</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>albumi</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 Musiikki</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>taiteilija</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>lisää</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>musiikki</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>soittolistat</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>Asetukset</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>laulu</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>albumit</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>Tyylit</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>Osta tämä app</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>Tarkista päivitykset</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>yhteyshenkilö</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>Fonttikoko</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>ohjeet</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>kieli</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>kuten xtrose</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>Näytä logo alku</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>kyllä</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>Muut xtrose sovellukset</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>Arvostele tämä app</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>klikkaa näytön hypätä</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>Kiitos, että lataat</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>Accent väri</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>väri</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>Puhelin tausta</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>Aseta väri</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>kyllä</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>Väriluettelo valinta</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>Laajennettu informations</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>laji</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Mediasoitin aksentti väri</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>soittolista</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>Songs</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>Palauta asetukset</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>albumi tausta</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>Albumi etualalla</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>artist tausta</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>taiteilija etualalla</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>Puhelin Edustan</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>valittu tausta</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>valittu etualalla</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>Song tausta</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>Song etualalla</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>läpinäkyvyys</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>musta</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>valkoinen</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>kaikki kappaleet</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>Valintaa ei voi toistaa</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>viimeksi toistojen</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>osoite</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>pelata</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>Pelaa aikaa</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>myöhemmin</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>ei koskaan</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>hinta</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>Tämä sovellus näyttää vetoan teihin.
+Ohjelmoida sovellukset on aikaa vievää ja vaikeaa .
+Hyvä tarkastelu voi auttaa meitä levittämään sitä edelleen .
+
+Paljon kiitoksia</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>tuki</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>avoin</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>Play albumi</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>Play song</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>poistaa</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>Poista viimeisin toistojen</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>Poista lista viime toistojen</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>tauko</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>toisto</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>pysäkki</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>Pysäytä ja poista toisto</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>Pysäytä toisto ja poistaa pelaajalta</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>VAROITUS</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>Avaa napsauttamalla</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>Connecting</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>yhteys epäonnistui</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>Yhteys aikalisä</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>Kuvan asetukset</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>Onnittelut, täysi versio on julkaistu</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>Ei saatavana päivitys</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>Odota hetki</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>tunti</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>tuntia</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>minuutti</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>minuuttia</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>Kiitos, että ostit tämän sovelluksen</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>Trial Version vanhentunut</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>Trial Version vanhentunut ! Luoda sovelluksia maksaapaljon aikaa . Hinta tämä työ ei ole kallista . Jatkaa luoda lukitusruuduista Images , sinun täytyy ostaaApp . Kiitos !</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>kokeiluversio</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>väri asetukset</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>Sulje luettelot</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>Painapiilotettu painiketta vasemmassa yläkulmassa sulkea kaikki listat .</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>Klikkaamallavasen nuoli avaafullscreen pelaaja .</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>yleinen</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>Tämän sovelluksen saatnopein musiikkia . Voit valita kaikki musiikkia vain kaksi luetteloa . Lisäksisovellus antaa sinulle monia suuria laajennuksia .</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>Luettelonäkymästä</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>Käyttämällä luettelona, ​​pääset nopeasti musiikkia . Kaikki artistit on lueteltuensimmäisessä luettelossa . Jos klikkaat haluamaasi sitten avasi albumeita. Lisäksi klikkaaalbumi näyttää kaikkikappaleet .
+Toisessa luettelossa , soittolistoja , tyylilajit, albumeja ja kaikki kappaleet on lueteltu .</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>sekalainen</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>Arvioi hyvä tämä hakemus, jos haluat. Jos sinulla on ongelmia tämän sovelluksen , ota tukea! Kysymykset ja ongelmat ovat menettäneet mitäänarvioita.
+Kiitos paljon !</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>Pelaa</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>Hakemus onpelata toiminto . Tämän toiminnonnimikettä toistetaan vainasetetun ajan . Jotta pelata , pidäpelata painikettasekunnin ajan toiston aikana .</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>Menu mediasoitin</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>Pieni Media Player on asennettuna alempaan valikosta .</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>Keskisuurten soitin avataannapsauttamallaoikealle osoittavaa nuolta.</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 Musiikki lopulta saavuttaa musiikkia nopeammin .
+Uusi luettelo näkymän avulla voit Huippunopea löydä artistien, albumien tai kappaleiden .
+Mini -soitin ,pieni toimija , jakoko näytön soittimen avulla antaa sinulle täyden kontrollin musiikkia . Muotokuva sekä vaaka-asentoon.
+Lisäksi on olemassa monia extrat .
+
+- Luettelo näkymän musiikkia
+- Luettelo näkymän soittolistoja
+-3 Eri mediasoittimet
+- Tukee pysty-ja vaaka
+- Lyhyt pelissäotsikko
+- Lopetamusiikkia ja poistaamediasoittimen
+-100 Viimeksi kopioita tallennetaan
+- Värillinen räätälöinti
+- Paljon hyviä ekstroja</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>musiikki</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>pelaaja Mediaplayer</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>toisto</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>nopeasti</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>Äänitaiteilija taiteilijat laulu laulut albumin tag albumit</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>Vaihda kieli</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>Käynnistäsovellus</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>Valitse kieli</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>taustaväri</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>Taustakuvan maisema</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>Background muotokuva</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>ERROR
+Etualan väri on sama kuintaustan väri .</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>piirtovärillä</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>Palauta suunnittelu asetukset</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>palauttaa</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>Poista kuva</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>Mediasoitin pieni taustaväri</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Mediasoitin pieni aksentti väri</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>Mediasoitin iso aksentti väri</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>Mediasoitin iso taustaväri</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>Mediasoitin maisema</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>Mediasoitin muotokuva</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>käyttää</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>konsertti</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>kopio</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>poistaa</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>malleja</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>muokata</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>nimetä uudelleen</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>tallentaa</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>tausta musta</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>tausta valkoinen</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>Menettävät tallentamattomat suunnittelu asetukset</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>valittu</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>ERROR ! Nimi on jo käytössä tai virheellisiä merkkejä !</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>uusi nimi</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>valittu tausta</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>valittu Edustan</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>suunnittelu</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>Palauta asetukset</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>Kytkeminen .....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>yhteys epäonnistui</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>Yhdistä xtrose</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>Yhteys aikalisä</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>Trial Version vanhentunut ! Luoda sovelluksia maksaapaljon aikaa . Hinta tämä työ ei ole kallista . Edelleen käyttää tätä app , sinun täytyy ostaa se . Kiitos !</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>kirjailija</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>luokka</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>Asenna suunnittelu .....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>Asenna suunnittelu</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>nimi</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>ilmoitus</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>odota</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>Näin se toimii .
+- Taustaa kuvat kopioidaan " tallennettuja kuvia "
+- Osoita avaasähköpostia xtrose
+- Lisää tekijän nimen
+- Lisää kuvia " tallennettuja kuvia "
+- Lähetä viesti
+
+Tarkistuksen jälkeen , annammetiedot palvelimelle .
+Paljon kiitoksia</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>Täytä ja sisältää kuvia luotu</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>Tekijän nimi :</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>Älä muuta</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>Lisää taustakuvia " tallennettuja kuvia "</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>julkaista</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>Paina uudelleen sulkeaksesi</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>Painikkeet ja toiminnot</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>Suunta lukko</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>Seuraava kappale</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>( Press) Tauko
+( Hold ) Scan</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>Edellinen kappale</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>päivitä lista</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Repead</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>haku</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>shuffle</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8,1 musiikki lopulta saavuttaa musiikkia nopeammin .
+Uusi luettelo näkymän avulla voit Huippunopea löydä artistien, albumien tai kappaleiden .
+Mini -soitin ,pieni toimija , jakoko näytön soittimen avulla antaa sinulle täyden kontrollin musiikkia . Muotokuva sekä vaaka-asentoon.
+Suunnittele oma tai ladata valmiin malleja Internetistä .
+Lisäksi on olemassa monia extrat .
+
+- Luettelo näkymän musiikkia
+- Luettelo näkymän soittolistoja
+-3 Eri mediasoittimet
+- Tukee pysty-ja vaaka
+- Lyhyt pelissäotsikko
+-Design Editor
+- Lataa viimeistelty rakenne Internetistä
+- Lopetamusiikkia ja poistaamediasoittimen
+-100 Viime kopioita tallennetaan
+- Värillinen räätälöinti
+- Paljon hyviä ekstroja</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>Paina kahdesti uudelleen uudistaa kätkö</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>Paina jälleen uudistaa saalis</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>taustakuva</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>Logoalbumin kuva</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>main laatta</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>Palauta tärkein laatta</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>Aloita näytön asetuksia</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>Aloitusnäyttö</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>Laatta lopettaa ja poistaa</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>Klikkaa tästä ja luo seis ja poistaa laatta</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>asettaa uudelleen</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>Anna numero 0-360</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0-360 minuuttia</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>Kulkea Lukitse näyttö</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>pysäyttää ajastimen</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>Ajastimensovellus on runningLukitse näyttö .
+Ota ajaa alleLukitse näyttö</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>Päivitä lista
+Tuplaklikkaa ilmoituksen luoda luetteloon . Tarpeen vain, jos muuttunut musiikkia matkapuhelimeen .</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8,1 musiikki lopulta saavuttaa musiikkia nopeammin .
+Uusi luettelo näkymän avulla voit Huippunopea löydä artistien, albumien tai kappaleiden .
+Mini -soitin ,pieni toimija , jakoko näytön soittimen avulla antaa sinulle täyden kontrollin musiikkia . Muotokuva sekä vaaka-asentoon.
+Suunnittele oma tai ladata valmiin malleja Internetistä .
+Lisäksi on olemassa monia extrat .
+
+- Luettelo näkymän musiikkia
+- Luettelo näkymän soittolistoja
+-3 Eri mediasoittimet
+- Tukee pysty-ja vaaka
+- Lyhyt pelissäotsikko
+-Design Editor
+- Lataa viimeistelty rakenne Internetistä
+- Lopetamusiikkia ja poistaamediasoittimen
+-100 Viime kopioita tallennetaan
+- Värillinen räätälöinti
+- Paljon hyviä ekstroja</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>Paina kahdesti uudelleen uudistaa kätkö</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>uudistaa</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>Uudista kätkö</value>
+  </data>
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+    <value>Nykyiseen soittolistaan</value>
+  </data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+    <value>Selkeä nykyiseen soittolistaan</value>
+  </data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+    <value>Lauluja ei nykyisen toisto</value>
+  </data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+    <value>A soittolistan kanssa sama nimi on jo olemassa.</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+    <value>Poista soittoluettelo</value>
+    <comment>NOTE FOR Translators, please enter a return at the end of the text.</comment>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+    <value>ladattu</value>
+  </data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+    <value>Painikkeet mediasoitin</value>
+  </data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+    <value>Painikkeita luettelon</value>
+  </data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+    <value>Paina logo Avaa Ohje</value>
+  </data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+    <value>Poistaa käynnissä olevan toiston</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+    <value>Poista soittoluettelo</value>
+  </data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+    <value>Tämä painike poistaa käynnissä olevan toiston ja poista kaikki kappaleet luettelossa.</value>
+  </data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+    <value>Ohje</value>
+  </data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+    <value>Käyttää tätä painiketta lukita suuntaa.
+Se on estänyt aina nykyisessä suunnassa.
+Painamalla painiketta uudelleen avata sitä.</value>
+  </data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+    <value>Tämä painike luettelot ovat suljettu ja uudistaa.
+Tuplaklikkaamalla julkaistu ilmoitus välimuisti päivitetään.
+Välimuisti on uusittava vain, jos Smartphone musiikki on muuttunut.</value>
+  </data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+    <value>Tämä linkki, käynnissä olevan toiston kuten soittolistan tallentamista. Käytettävissä vain tilassa, valitse ja pelata.</value>
+  </data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+    <value>Ainoa ahdistaa model after etsiä, Avaa tekstin syöttötila.
+Kirjoita hakusana ja paina return.
+Haku suodattaa kaikki luettelot.
+Sulje ja uusia luetteloita poistaa haun.</value>
+  </data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+    <value>Design editor</value>
+  </data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+    <value>Lähes kaikki voit säätää tämän app.
+Taustakuvia, taustavärit, tulosaineiston väri, luettelon yksittäisiä värejä.
+Voit muuttaa värin asetuksia haluat avata suunnittelu.
+Täällä voit tehdä app sinun makuusi.
+
+Voit ladata täydellinen teemoja ja asentaa suoraan.
+
+Jaa-painiketta voit lähettää meille suunnittelu.
+Muista lisätä tuottamat kuvat.
+Haluamme ladata suunnittelua.</value>
+  </data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+    <value>Design virhe</value>
+  </data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+    <value>Kun Lataa suunnitteluvirheitä voi esiintyä.
+Valitse Teemat sovellus kaatuu.
+Suunnittelu nollataan seuraavan käynnistyksen.
+Käyttää suunnitteluun, se on asennettava uudelleen.</value>
+  </data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+    <value>Valitse soittolistan</value>
+  </data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+    <value>Yleiskatsaus</value>
+  </data>
+  <data name="ZZ005_Play" xml:space="preserve">
+    <value>Pelaa</value>
+  </data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+    <value>Pelaa vain otsikko</value>
+  </data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+    <value>Tallenna soittolista</value>
+  </data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+    <value>Mode Valitse ja pelata soittolistan tallentamista.
+Tämä painike tulee näkyviin kenttään käynnissä olevan toiston.
+Painikkeen napsauttaminen avaa tekstinsyöttöä kentän.
+Kun nimi on syötetty täällä sinun täytyy painaa takaisin-painiketta.
+Huomauttaa soittolistan soittolistan tallennetaan.
+Löydät ne toisesta luettelosta.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+    <value>Valitse ja pelata
+Tämä painike muuttaa sovelluksen tilassa.
+
+Normaalitilassa
+Oletusasetuksilla app käyttää määritettyä API.
+Edut
+-Sovellus voidaan sulkea valinnan jälkeen.
+-Järjestelmä voidaan ohjata musiikki.
+Haitat
+-Se voidaan toistaa vain mitä API mahdollistaa. Voi luoda omia sekoituksia.
+-Ei ole voidaan luoda soittoluetteloita.
+-Nyt pelissä ei voi muuttaa.
+
+Valitse ja pelata tila
+Tässä tilassa kaikki voidaan valita ja toistaa suoraan.
+Edut
+-Se voi mitään luettelosta valittu ja pelit.
+-Voit luoda mukautetun soittolistoja.
+-Soittolistat voi tallentaa.
+-Nyt on näkyvissä ja voidaan muuttaa ja lajiteltu.
+Haitat
+-Ohjelma edellyttää valvonta toiston aikana. App on suoritettava Lukitse näyttö. App ei voitu siirtää taustalla.
+-Toisto voi muuttaa vain app Playerin kautta.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+    <value>Valitse ja pelata</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+    <value>Valitse ja pelata tila</value>
+  </data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+    <value>Valitseminen tai valinnan poistaminen</value>
+  </data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+    <value>Alusta moodi</value>
+  </data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+    <value>Ylin nappi Baari</value>
+  </data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+    <value>Automaattinen kääntäminen</value>
+  </data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+    <value>Design virhe!
+Poista suunnittelu ja download se jälleen jotta fiksoida nyt kuluva erehdys.</value>
+  </data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+    <value>Lue!
+Tervetuloa uusi versio 8.1 musiikki.
+Auttaa sinua pääsemään alkuun, olemme luoneet uusi auttaa. Paina logoa edellä ohjeen avaamiseen.
+Tästä julkaisusta alkaen on upouusi.
+Huomaathan uuden mode "Valitse and play" on vielä testausvaiheessa.
+Anna meille Ota yhteyttä, jos löydät virheen.
+Kiitoksia paljon!
+
+Hauskaa uusi versio</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+    <value>Luo soittolista</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+    <value>Soittolistat voi vain tilassa "Valitse ja pelata" luodaan.
+-Aktivoi "Valitse ja pelata"
+-Siirry käynnissä olevan toiston ja poistaa ne
+-Valitse luettelosta musiikkia
+-Siirry käynnissä olevan toiston ja paina Tallenna
+-Anna nimi uudelle soittoluettelolle
+-Löydät uusi soittolista toisessa luettelossa kohdassa Soittolistat</value>
+  </data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+    <value>Cache elimistö</value>
+  </data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+    <value>Ensimmäinen kuorma sisältötarpeiden jonkin aikaa. Sitten ladata sisällön välimuistiin. Jos lisäät uutta sisältöä laitteeseen välimuisti täytyy päivittää.
+Voit päivittää välimuistin asetukset.</value>
+  </data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+    <value>Näyttöongelmat</value>
+  </data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+    <value>Monta kappaletta voi aiheuttaa ongelmia näytön. Ongelmat liittyvät mallit läpinäkyvä väri.
+Voit korjata ongelman, jos poistat mallit avoimuutta.</value>
+  </data>
+</root>

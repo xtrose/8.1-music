@@ -1,0 +1,976 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>zh-CN</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>我的应用</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>菜单项</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>专辑</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>艺术家</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>更多</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>音乐</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>播放列表</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>歌曲</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>专辑</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>流派</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>购买此应用</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>检查更新</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>联系与支持</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>字体大小</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>帮助与说明</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>界面语言</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>喜欢xtrose，来交流吧</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>显示启动标志</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>开启</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>更多xtrose的应用</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>评价此应用</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>点击屏幕跳过</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>感谢您的使用</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>主题色</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>手机背景色</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>设置颜色</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>开启</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>字母列表颜色</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>扩展信息</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>流派</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>播放器主题色</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>播放列表</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>歌曲</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>恢复默认设置</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>专辑栏背景色</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>专辑栏前景色</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>艺术家栏背景色</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>艺术家栏前景色</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>手机前景色</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>选定项背景色</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>选定项前景色</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>歌曲栏背景色</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>歌曲栏前景色</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>透明度</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>黑色</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>白色</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>所有歌曲</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>无法播放选定歌曲</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>最后回放</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>试听</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>试听时间（秒）</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>稍后评价</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>我不想评价</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>立即评价</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>我们的应用似乎很对您的口味。
+编写应用是非常耗时和困难的，我们在此希望您能给予一个良好的评价来帮助我们进一步推广它。
+
+我们再次对您表示感谢！</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>反馈与支持</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>播放</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>播放专辑</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>播放歌曲</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>删除最后回放</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>是否删除最后回放的列表</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>暂停</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>回放</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>停止并删除回放</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>是否停止回放并从播放器中删除</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>点击打开</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>连接中</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>连接失败</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>连接超时</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>设计设置</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>恭喜！您已升级到完整版</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>暂无可用更新</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>请稍等</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>感谢您购买此应用</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>试用版已过期</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>试用版已过期！编写此应用将花费我们大量的时间。相对来说，此应用的价格并不昂贵。您如果想继续创建锁屏图片，请购买的此应用。谢谢！</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>试用版</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>颜色设置</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>关闭列表</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>点击左上方的隐藏按钮关闭所有列表。</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>点击左侧的箭头打开全屏播放器。</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>通用</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>有了这个应用，您可以更加快捷得享受您的音乐。您只需在仅仅两个列表中就可以选择所有的音乐。此外，该应用为您提供了许多不错的扩展。</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>列表视图</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>您可以通过使用列表视图来快速找到您的音乐。艺术家列表被排在首位。单击您喜爱的艺术家，您就可以打开他的专辑。进一步点击专辑就会显示此专辑包含的所有歌曲。
+在第二个列表，播放列表、流派、专辑以及全部歌曲被依次列出。</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>杂项</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>如果您喜欢我们的应用，请给予好的评价。如果您有任何疑问，请通过反馈与支持来联系我们！当然您也可以在评论中表达您的疑问以及问题。
+我们再次表示衷心的感谢！</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>试听模式</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>该应用内置试听功能。激活此功能时，选定歌曲将在开始到设定试听时间间重复播放。您可以在回放中长按播放按钮达一秒以激活试听模式。</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>迷你播放器</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>一个下边栏的迷你播放器。</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>点击右侧的箭头打开窗口播放器。</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 Music能让您更加快捷的享受专属于您的音乐盛宴。
+全新的列表视图让您非常快速得找到您喜爱的艺术家、专辑或歌曲。
+无论是纵向或者横向模式，迷您播放、窗口播放以及全屏播放的混合都让您可以完全控制您的音乐。
+您可以创建您的个性设计或从互联网上下载被分享的设计。
+此外，还有不少附加功能期待您的发掘。
+
+ - 全部音乐的列表视图
+ - 播放列表的列表视图
+ - 3种不同风格的播放器
+ - 支持纵向和横向模式
+ - 便捷试听模式
+ - 主题设计编辑器
+ - 支持从互联网下载共享设计
+ - 完全停止音乐并从播放器中删除
+ - 支持自动保存最多100项的回放
+ - 全主题颜色定制
+ - 更多额外的功能</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>音乐</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>播放器</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>回放</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>快速</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>声音 艺术家 艺术家 歌曲 歌曲 专辑 标签 专辑</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>是否更改界面语言为</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>重启应用以使语言变更生效</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>选择界面语言</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>横向背景图片</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>纵向背景图片</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>错误
+前景色与背景色相同。</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>前景色</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>恢复默认设计设置</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>恢复默认</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>是否删除背景图片</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>窗口播放背景色</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>窗口播放进度条颜色</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>全屏播放进度条颜色</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>全屏播放背景色</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>横向播放器背景图片</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>纵向播放器背景图片</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>颜色一致</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>设计模版</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>在线</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>黑色背景</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>白色背景</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>是否放弃未保存的设计设置</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>选定项</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>错误！此名称已被使用或包含有无效字符！</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>新建名称</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>选定项背景色</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>选定项前景色</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>设计</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>恢复默认设置</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>连接中.....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>连接失败</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>连接到xtrose</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>连接超时</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>试用版已过期！编写此应用程序将花费大量的时间。相对而言，应用的价格并不昂贵。您如果想继续使用，请购买此应用。谢谢！</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>安装设计中.....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>安装设计</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>请稍候</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>下面我们来看看如何分享您的设计。
+ - 背景图片会被复制到“保存的图片”文件夹
+ - 书写一封发给xtrose的电子邮件
+ - 附上设计作者姓名
+ - 从“保存图片”中添加此图片
+ - 发送邮件
+
+通过复查后，我们将在我们的服务器上提供您的设计数据。
+我们非常感谢您的设计！</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>请您填写邮件内容并附上背景图片</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>作者：</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>以下内容请不要更改</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>从“保存的图片”中添加背景图片</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>发布</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>再按一次返回以退出应用</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>按键和功能</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>方向锁定</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>下一首</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>（短按）暂停
+（长按）扫描</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>播放</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>上一首</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>刷新列表</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>重复播放</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>随机播放</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 Music能让您更加快捷的享受专属于您的音乐盛宴。
+全新的列表视图让您非常快速得找到您喜爱的艺术家、专辑或歌曲。
+无论是纵向或者横向模式，迷您播放、窗口播放以及全屏播放的混合都让您可以完全控制您的音乐。
+您可以创建您的个性设计或从互联网上下载被分享的设计。
+此外，还有不少附加功能期待您的发掘。
+
+ - 全部音乐的列表视图
+ - 播放列表的列表视图
+ - 3种不同风格的播放器
+ - 支持纵向和横向模式
+ - 便捷试听模式
+ - 主题设计编辑器
+ - 支持从互联网下载共享设计
+ - 完全停止音乐并从播放器中删除
+ - 支持自动保存最多100项的回放
+ - 全主题颜色定制
+ - 更多额外的功能</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>请按两次以更新缓存</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>请再按一次以更新缓存</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>背景图片</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>在磁帖上显示专辑图片</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>主磁帖</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>重置主磁帖</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>开始屏幕磁帖设置</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>开始屏幕磁帖设置</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>停止和删除磁帖</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>点击此处来创建停止和删除磁帖</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>请输入一个在0 - 360的数字</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0 - 360分钟</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>在锁屏下继续运行</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>停止定时器</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>应用必须启用锁屏界面下运行才能使用定时器功能。
+请您启用锁屏继续下运行的功能</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>更新列表
+当您的手机上的音乐有所变更时，您可以通过双击通知栏来更新列表。</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8.1 Music能让您更加快捷的享受专属于您的音乐盛宴。
+全新的列表视图让您非常快速得找到您喜爱的艺术家、专辑或歌曲。
+无论是纵向或者横向模式，迷您播放、窗口播放以及全屏播放的混合都让您可以完全控制您的音乐。
+您可以创建您的个性设计或从互联网上下载被分享的设计。
+此外，还有不少附加功能期待您的发掘。
+
+ - 全部音乐的列表视图
+ - 播放列表的列表视图
+ - 3种不同风格的播放器
+ - 支持纵向和横向模式
+ - 便捷试听模式
+ - 主题设计编辑器
+ - 支持从互联网下载共享设计
+ - 完全停止音乐并从播放器中删除
+ - 支持自动保存最多100项的回放
+ - 全主题颜色定制
+ - 更多额外的功能</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>请按两次以更新缓存</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>更新缓存</value>
+  </data>
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+    <value>当前播放列表</value>
+  </data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+    <value>删除当前播放列表</value>
+  </data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+    <value>暂无可回放歌曲</value>
+  </data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+    <value>同名播放列表已存在。是否覆盖？</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+    <value>删除播放列表</value>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+    <value>已载入</value>
+  </data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+    <value>底部窗口播放器</value>
+  </data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+    <value>按钮列表</value>
+  </data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+    <value>点击标志打开帮助</value>
+  </data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+    <value>删除当前回放</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+    <value>删除播放列表</value>
+  </data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+    <value>此功能仅会删除当前回放而不会删除列表中所有的歌曲。</value>
+  </data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+    <value>点击此按钮来锁定屏幕方向。
+它会被一直锁定在当前方向。
+再次点击此按钮可解锁屏幕。</value>
+  </data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+    <value>点击此按钮后，列表将会被关闭和更新。
+通过双击顶部通知，您可以更新音乐缓存。
+只有在您的智能手机里的音乐发生改变时,此缓存才会被更新。</value>
+  </data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+    <value>使用此按钮后，您将暂存当前回放为一个播放列表。此功能仅能在选择和播放模式下使用。</value>
+  </data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+    <value>点击搜索后，您将可看到一个搜索框。
+输入您的搜索关键词，然后点击搜索。
+此时将会搜索所有列表。
+您可以使用关闭和更新列表来删除当前搜索。</value>
+  </data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+    <value>主题设计编辑器</value>
+  </data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+    <value>您可以自定义此应用的几乎所有主题设计样式。
+背景图片，背景色，前景色，以及各种列表配色。
+如果您想要更改颜色设置，您可以使用设计功能。
+您可以打造专属于自己的播放器。
+
+您也可以下载我们提供的完整的主题，直接安装即可。
+
+您也可以点击分享按钮来向我们提交您的独特设计。
+注意，请记得附上您设计中使用的图片。
+我们将会上传您的主题设计到服务器上。</value>
+  </data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+    <value>应用主题错误</value>
+  </data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+    <value>当下载的主题设计不完整时会出现应用主题错误。
+当应用不完整的主题时，应用将会崩溃退出。
+在下次启动时，应用将被重置到默认主题。
+如果您仍旧想使用此主题设计，您必须再次下载并安装。</value>
+  </data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+    <value>选择播放列表</value>
+  </data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+    <value>概述</value>
+  </data>
+  <data name="ZZ005_Play" xml:space="preserve">
+    <value>播放</value>
+  </data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+    <value>播放此标题</value>
+  </data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+    <value>保存播放列表</value>
+  </data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+    <value>在选择和播放模式下，播放列表可以被保存。
+此按钮将会出现在当前回放界面。
+点击此按钮后，将会出现一个文本输入框。
+您可以在此输入播放列表的名称来保存播放列表。
+之后，您可以在第二个列表中找到您保存的播放列表。</value>
+  </data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+    <value>选择和播放
+点击此按钮来切换应用运行模式。
+
+标准模式
+在此默认模式下，应用将使用指定的API。
+优点
+ - 应用可以选择播放后关闭。
+ - 音乐可以通过系统顶部栏来控制。
+缺点
+ - 只能使用当前API限定的功能。杂项设置无效。
+ - 无法创建播放列表。
+ - 无法更改正在播放歌曲。
+
+选择和播放模式
+在此模式下，可以选择任意歌曲，并直接播放。
+优点
+ - 可以从列表中选择并播放任意歌曲。
+ - 可以创建自定义播放列表。
+ - 可以保存播放列表。
+ - 可以显示正在播放歌曲，并且可以更改和排序。
+缺点
+ - 应用控制歌曲的回放状态。此时，该应用程序必须在锁屏下运行且不能被切换到后台。
+ - 只有此应用可以更改回放状态。</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+    <value>选择和播放</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+    <value>选择和播放模式</value>
+  </data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+    <value>选择或取消选择</value>
+  </data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+    <value>标准模式</value>
+  </data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+    <value>顶部按钮栏</value>
+  </data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+    <value>机器翻译</value>
+  </data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+    <value>应用主题设计错误！
+请删除当前主题设计，您可以重新下载此主题来修复此错误。</value>
+  </data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+    <value>新版声明！
+欢迎使用全新设计的8.1 Music。
+为了您可以轻松使用新功能，我们创建了一个新的说明文档。您可以点击顶部按标志来打开帮助。
+从此版本开始，您将拥有一个全新8.1 Music。
+请注意，新加入的“选择和播放”模式仍处于测试阶段。
+如果您在使用中发现任何问题，请及时反馈我们！
+我们在此非常感谢您！
+
+快去体验有全新的8.1 Music吧！</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+    <value>创建播放列表</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+    <value>播放列表只能在“选择和播放”模式下保存。
+ - 切换到“选择和播放”模式
+ - 删除当前回放
+ - 从列表中选择您的音乐列表
+ - 转到当前播放界面，然后点击保存
+ - 输入您的播放列表的名称
+ - 您将会在播放列表下的第二个列表中找到您新建播放列表</value>
+  </data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+    <value>缓存系统</value>
+  </data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+    <value>应用需要一定的时间来完成首次载入，然后从缓存中读取信息。如果您添加了新的歌曲，您必须更新缓存才能找到它们。
+您也在设置页更新缓存。</value>
+  </data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+    <value>歌曲显示问题</value>
+  </data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+    <value>一些歌曲可能会在显示时出现问题。此问题大部分和主题设计透明度有关。
+您可以删除主题设计的透明度来解决这个问题。</value>
+  </data>
+</root>

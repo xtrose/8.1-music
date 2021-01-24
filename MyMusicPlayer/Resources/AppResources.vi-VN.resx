@@ -1,0 +1,989 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>vi-VN</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>ÁP DỤNG CỦA TÔI</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>thêm</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menu Item</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>về</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>album</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 Âm nhạc</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>nghệ sĩ</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>hơn</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>nhạc</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>danh sách nhạc</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>thiết lập</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>bài hát</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>album</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>thể loại</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>Mua ứng dụng này</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>Kiểm tra các bản cập nhật</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>Liên hệ</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>kích thước phông chữ</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>hướng dẫn</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>ngôn ngư</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>như xtrose</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>Hiển thị biểu trưng trên đầu</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>vâng</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>Ứng dụng xtrose khác</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>Đánh giá ứng dụng này</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>nhấp vào màn hình để bỏ qua</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>Cảm ơn bạn đã tải về</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>màu nhấn</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>màu</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>nền điện thoại</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>thiết lập màu</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>vâng</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>Lựa chọn danh sách màu</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>Thông tin mở rộng</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>loại</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Máy nghe nhạc phương tiện truyền thông màu nhấn</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>danh sách nhạc</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>bài hát</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>Khôi phục cài đặt</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>nền album</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>Album foreground</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>nền nghệ sĩ</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>nghệ sĩ foreground</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>điện thoại Foreground</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>nền được lựa chọn</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>foreground chọn</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>bài hát nền</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>bài hát nền trước</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>minh bạch</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>đen</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>trắng</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>tất cả bài hát</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>Lựa chọn không thể được phát</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>phát lại cuối cùng</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>địa chỉ</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>chơi trên</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>Chơi trên thời gian</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>sau</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>không bao giờ</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>tỷ lệ</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>Ứng dụng này có vẻ hấp dẫn đối với bạn .
+Để chương trình ứng dụng là tốn thời gian và khó khăn.
+Một đánh giá tốt có thể giúp chúng ta nên mở rộng hơn nữa .
+
+Cảm ơn bạn rất nhiều</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>hỗ trợ</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>công khai</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>chơi</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>chơi album</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>chơi bài hát</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>xóa</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>Xóa phát lại cuối cùng</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>Xóa danh sách cuối cùng với phát lại</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>nghỉ</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>phát lại</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>thôi</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>Ngăn chặn và loại bỏ phát lại</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>Dừng lại và xóa từ máy nghe nhạc</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>CẢNH BÁO</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>Nhấn vào đây để mở</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>kết nối</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>kết nối không thành</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>Thời gian kết nối ra</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>thiết lập thiết kế</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>Xin chúc mừng, phiên bản đầy đủ của bạn đã được phát hành</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>Không có bản cập nhật có sẵn</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>Một thời điểm xin vui lòng</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>Cảm ơn bạn đã mua ứng dụng này</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>Phiên bản dùng thử hết hạn</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>Phiên bản dùng thử hết hạn ! Để tạo ra các ứng dụng sẽ chi phí rất nhiều thời gian . Giá cho công việc này là không tốn kém. Tiếp tục tạo ra màn hình khóa hình ảnh , bạn phải mua các ứng dụng. Cảm ơn bạn!</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>phiên bản dùng thử</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>cài đặt màu sắc</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>danh sách gần</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>Nhấn nút ẩn, phía trên bên trái để đóng tất cả các danh sách .</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>Nhấp vào mũi tên bên trái mở máy nghe nhạc toàn màn hình.</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>chung</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>Với ứng dụng này , bạn sẽ có được nhanh nhất để âm nhạc của bạn . Bạn có thể chọn tất cả âm nhạc của bạn từ chỉ có hai danh sách . Ngoài ra, ứng dụng cung cấp cho bạn nhiều phần mở rộng tuyệt vời.</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>Xem danh sách</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>Sử dụng xem danh sách, bạn có thể nhanh chóng tiếp cận âm nhạc của bạn . Tất cả các nghệ sĩ được liệt kê trong danh sách đầu tiên . Nếu bạn bấm vào mong muốn sau đó mở album của mình . Một nhấp chuột hơn nữa trong album hiển thị tất cả các bài hát.
+Trong danh sách thứ hai , danh sách nhạc , thể loại, album và tất cả các bài hát được liệt kê.</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>linh tinh</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>Vui lòng đánh giá tốt ứng dụng này nếu bạn muốn. Nếu bạn có vấn đề với ứng dụng này, sau đó xin vui lòng liên hệ với hỗ trợ! Câu hỏi và vấn đề này đã bị mất không có gì trong phần đánh giá.
+Cảm ơn bạn rất nhiều!</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>chơi trên</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>Ứng dụng này có một vở kịch về chức năng . Với chức năng này , các chức danh sẽ được thực hiện lại chỉ là thời gian thiết lập . Để cho phép chơi trên , bạn phải giữ nút play trong một giây trong khi phát.</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>Đơn media player</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>Máy nghe nhạc nhỏ được cài đặt trong trình đơn thấp hơn.</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>Các cầu thủ vừa được mở ra với một nhấp chuột vào mũi tên bên phải .</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 Âm nhạc cuối cùng đã đạt âm nhạc của bạn nhanh hơn.
+Xem danh sách mới cho phép bạn tìm các nghệ sĩ siêu nhanh của bạn , album hoặc bài hát .
+Thủ nhỏ, một máy nghe nhạc nhỏ , và một cầu thủ toàn màn hình cho phép cung cấp cho bạn toàn quyền kiểm soát âm nhạc của bạn . Trong bức chân dung cũng như chế độ phong cảnh .
+Ngoài ra, có rất nhiều tính năng bổ sung .
+
+- Xem danh sách nhạc của bạn
+- Xem danh sách các danh sách nhạc của bạn
+-3 Cầu thủ phương tiện truyền thông khác nhau
+- Hỗ trợ chân dung và phong cảnh
+- Ngắn chơi danh hiệu
+-Stop âm nhạc và xóa từ máy nghe nhạc phương tiện truyền thông
+-100 Tái tạo cuối được lưu trữ
+- Họ và tuỳ chỉnh màu sắc
+- Rất nhiều tính năng bổ sung tuyệt vời</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>nhạc</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>máy nghe nhạc Media player</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>phát lại</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>nhanh</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>Album tag album nghệ sĩ nghệ sĩ âm thanh bài hát bài hát</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>thay đổi ngôn ngữ</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>Khởi động lại ứng dụng</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>Chọn ngôn ngữ</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>màu nền</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>Cảnh quan hình nền</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>Hình ảnh nền chân dung</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>LỖI
+Màu nền trước là tương tự như màu nền .</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>màu nền trước</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>Khôi phục cài đặt thiết kế</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>khôi phục</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>xóa hình ảnh</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>Máy nghe nhạc phương tiện truyền thông màu nền nhỏ</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Máy nghe nhạc phương tiện truyền thông màu giọng nhỏ</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>Máy nghe nhạc phương tiện truyền thông màu nhấn lớn</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>Máy nghe nhạc phương tiện truyền thông màu nền lớn</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>Máy nghe nhạc phương tiện truyền thông cảnh quan hình ảnh</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>Máy nghe nhạc phương tiện truyền thông hình ảnh chân dung</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>áp dụng</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>buổi hòa nhạc</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>bản sao</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>xóa</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>thiết kế</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>chỉnh sửa</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>trực tuyến</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>đổi tên</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>tiết kiệm</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>nền đen</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>nền trắng</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>Mất các thiết lập thiết kế chưa được lưu</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>chọn</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>LỖI ! Tên đã được sử dụng hoặc các ký tự không hợp lệ !</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>tên mới</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>Bối cảnh được chọn</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>chọn Foreground</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>thiết kế</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>Khôi phục cài đặt</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>Kết nối .....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>kết nối không thành</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>Kết nối với xtrose</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>Thời gian kết nối ra</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>Phiên bản dùng thử hết hạn ! Để tạo ra các ứng dụng sẽ chi phí rất nhiều thời gian . Giá cho công việc này là không tốn kém. Tiếp tục sử dụng ứng dụng này, bạn phải mua nó . Cảm ơn bạn!</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>tác giả</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>thể loại</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>Cài đặt thiết kế .....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>cài đặt thiết kế</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>tên</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>thông báo</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>xin vui lòng chờ đợi</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>Đây là cách nó hoạt động.
+- Bối cảnh hình ảnh được sao chép vào " hình ảnh được lưu "
+- Chỉ ra mở một email đến xtrose
+- Thêm tên tác giả
+- Thêm hình ảnh từ " hình ảnh được lưu "
+- Gửi tin nhắn
+
+Sau khi xem xét , chúng tôi sẽ cung cấp các dữ liệu trên máy chủ của chúng tôi .
+Cảm ơn bạn rất nhiều</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>Vui lòng điền vào và bao gồm hình ảnh tạo ra</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>Tên tác giả:</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>Không thay đổi</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>Thêm hình ảnh nền từ " hình ảnh được lưu "</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>xuất bản</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>Báo chí một lần nữa để đóng</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>Nút và chức năng</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>khóa định hướng</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>bài hát tiếp theo</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>( Báo chí) Tạm dừng
+(Hold) Scan</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>chơi</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>bài hát trước đó</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>cập nhật danh sách</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Repead</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>tìm kiếm</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>ngẫu nhiên</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 âm nhạc cuối cùng đã đạt âm nhạc của bạn nhanh hơn.
+Xem danh sách mới cho phép bạn tìm các nghệ sĩ siêu nhanh của bạn , album hoặc bài hát .
+Thủ nhỏ, một máy nghe nhạc nhỏ , và một cầu thủ toàn màn hình cho phép cung cấp cho bạn toàn quyền kiểm soát âm nhạc của bạn . Trong bức chân dung cũng như chế độ phong cảnh .
+Tạo ra thiết kế của riêng bạn hoặc tải về thiết kế đã hoàn thành từ Internet.
+Ngoài ra, có rất nhiều tính năng bổ sung .
+
+- Xem danh sách nhạc của bạn
+- Xem danh sách các danh sách nhạc của bạn
+-3 Cầu thủ phương tiện truyền thông khác nhau
+- Hỗ trợ chân dung và phong cảnh
+- Ngắn chơi danh hiệu
+- Thiết kế biên tập
+- Tải về thiết kế đã hoàn thành từ Internet
+-Stop âm nhạc và xóa từ máy nghe nhạc phương tiện truyền thông
+-100 Tái tạo cuối cùng được lưu trữ
+- Họ và tuỳ chỉnh màu sắc
+- Rất nhiều tính năng bổ sung tuyệt vời</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>Bấm hai lần một lần nữa để làm mới bộ nhớ cache</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>Bấm một lần nữa để làm mới bắt</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>hình nền</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>Logo trên hình ảnh album</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>ngói chính</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>Thiết lập lại ngói chính</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>Bắt đầu cài đặt màn hình</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>bắt đầu màn hình</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>Gạch ngăn chặn và xóa</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>Click vào đây để tạo dừng và xóa ngói</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>thiết lập lại</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>Xin vui lòng nhập một số 0-360</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0 - 360 phút</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>Chạy theo màn hình khóa</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>ngừng hẹn giờ</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>Đối với bộ đếm thời gian các ứng dụng phải được chạy dưới màn hình khóa.
+Cho phép để chạy theo màn hình khóa</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>cập nhật danh sách
+Kích đúp vào thông báo để tái tạo danh sách . Chỉ cần thiết nếu thay đổi âm nhạc trên điện thoại di động của bạn.</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8.1 âm nhạc cuối cùng đã đạt âm nhạc của bạn nhanh hơn.
+Xem danh sách mới cho phép bạn tìm các nghệ sĩ siêu nhanh của bạn , album hoặc bài hát .
+Thủ nhỏ, một máy nghe nhạc nhỏ , và một cầu thủ toàn màn hình cho phép cung cấp cho bạn toàn quyền kiểm soát âm nhạc của bạn . Trong bức chân dung cũng như chế độ phong cảnh .
+Tạo ra thiết kế của riêng bạn hoặc tải về thiết kế đã hoàn thành từ Internet.
+Ngoài ra, có rất nhiều tính năng bổ sung .
+
+- Xem danh sách nhạc của bạn
+- Xem danh sách các danh sách nhạc của bạn
+-3 Cầu thủ phương tiện truyền thông khác nhau
+- Hỗ trợ chân dung và phong cảnh
+- Ngắn chơi danh hiệu
+- Thiết kế biên tập
+- Tải về thiết kế đã hoàn thành từ Internet
+-Stop âm nhạc và xóa từ máy nghe nhạc phương tiện truyền thông
+-100 Tái tạo cuối cùng được lưu trữ
+- Họ và tuỳ chỉnh màu sắc
+- Rất nhiều tính năng bổ sung tuyệt vời</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>Bấm hai lần một lần nữa để làm mới bộ nhớ cache</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>đổi mới</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>đổi mới bộ nhớ cache</value>
+  </data>
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+    <value>Danh sách hiện tại</value>
+  </data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+    <value>Rõ ràng danh sách hiện tại</value>
+  </data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+    <value>Không có bài hát trong phát lại hiện có sẵn</value>
+  </data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+    <value>Một danh sách nhạc có cùng tên đã tồn tại.</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+    <value>Xóa playlist</value>
+    <comment>NOTE FOR Translators, please enter a return at the end of the text.</comment>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+    <value>Tải</value>
+  </data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+    <value>Nút media player</value>
+  </data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+    <value>Nút của danh sách</value>
+  </data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+    <value>Nhấn biểu tượng để mở sự giúp đỡ</value>
+  </data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+    <value>Xóa phát hiện</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+    <value>Xóa playlist</value>
+  </data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+    <value>Nút này xoá các phát hiện tại và bỏ chọn tất cả bài hát trong danh sách.</value>
+  </data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+    <value>Trợ giúp</value>
+  </data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+    <value>Sử dụng nút này để khóa định hướng.
+Nó sẽ bị chặn luôn luôn định hướng hiện tại.
+Nhấn nút một lần nữa để mở khóa nó.</value>
+  </data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+    <value>Với nút này, các danh sách được đóng cửa và đổi mới.
+Bằng cách nhấn đôi vào thông báo được công bố, bộ nhớ cache được cập nhật.
+Bộ nhớ cache phải được gia hạn nếu âm nhạc của điện thoại thông minh đã được thay đổi.</value>
+  </data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+    <value>Với nút này, phát hiện như là một danh sách có thể được lưu. Chỉ có trong chế độ, chọn và chơi.</value>
+  </data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+    <value>Một báo chí về việc tìm kiếm, sau đó sẽ mở ra một văn bản nhập vào.
+Nhập thuật ngữ tìm kiếm của bạn và nhấn trở lại.
+Tìm kiếm lọc tất cả các danh sách.
+Sử dụng chặt chẽ và làm mới danh sách này để xóa các tìm kiếm.
+Biên tập</value>
+  </data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+    <value>Thiết kế</value>
+  </data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+    <value>Hầu hết mọi thứ có thể được điều chỉnh trong ứng dụng này.
+Hình nền, màu nền, màu nền trước, màu sắc cá nhân của danh sách.
+Để thay đổi các thiết lập màu sắc, bạn cần phải mở các thiết kế.
+Tại đây, bạn có thể làm cho các ứng dụng theo ý thích của bạn.
+
+Bạn có thể tải về các chủ đề đầy đủ và cài đặt trực tiếp.
+
+Với nút chia sẻ, bạn có thể gửi cho chúng tôi thiết kế của bạn.
+Hãy nhớ để thêm các hình ảnh được tạo ra.
+Chúng tôi sẽ muốn tải lên thiết kế của bạn.
+Lỗi</value>
+  </data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+    <value>Thiết kế</value>
+  </data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+    <value>Khi tải về các lỗi thiết kế có thể xảy ra.
+Trong các lựa chọn các chủ đề bị treo ứng dụng.
+Thiết kế được thiết lập lại ở lần khởi động tiếp theo.
+Sử dụng thiết kế, nó phải được cài đặt lại.</value>
+  </data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+    <value>Chọn danh sách nhạc</value>
+  </data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+    <value>Tổng quan</value>
+  </data>
+  <data name="ZZ005_Play" xml:space="preserve">
+    <value>Chơi</value>
+  </data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+    <value>Chơi chỉ tiêu đề này</value>
+  </data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+    <value>Save playlist</value>
+  </data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+    <value>Trong chế độ lựa chọn và chơi các danh sách có thể được lưu.
+Nút này sẽ xuất hiện trong lĩnh vực phát hiện.
+Cách nhấn vào nút mở ra một trường nhập văn bản.
+Sau khi một tên đã được nhập vào đây, bạn phải bấm nút trả lại.
+Chỉ ra những danh sách nhạc trong danh sách nhạc được lưu.
+Bạn có thể tìm thấy chúng trong danh sách thứ hai.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+    <value>Chọn và chơi
+Nút này thay đổi chế độ của các ứng dụng.
+
+Chế độ tiêu chuẩn
+Ở chế độ mặc định các ứng dụng sử dụng API quy định.
+Lợi thế
+- Các ứng dụng có thể được đóng cửa sau khi lựa chọn.
+- Âm nhạc có thể được kiểm soát bởi hệ thống.
+Nhược điểm
+- Nó có thể được chỉ chơi những gì các API cho phép. Không hỗn hợp của riêng có thể được tạo ra.
+- Không có danh sách có thể được tạo ra.
+- Bây giờ chơi không thể thay đổi.
+
+Lựa chọn và chơi chế độ
+Trong chế độ này, tất cả mọi thứ có thể được lựa chọn và phát lại trực tiếp.
+Lợi thế
+- Nó có thể bất cứ điều gì được lựa chọn từ danh sách và chơi.
+- Bạn có thể tạo danh sách nhạc tùy chỉnh.
+- Danh sách bài hát có thể được lưu.
+- Bây giờ chơi sẽ được hiển thị và có thể được thay đổi và sắp xếp.
+Nhược điểm
+- Các ứng dụng đòi hỏi sự kiểm soát trong quá trình phát lại. Các ứng dụng phải chạy dưới màn hình khóa. Các ứng dụng không nên chuyển đến nền.
+- Việc phát lại có thể thay đổi chỉ thông qua các cầu thủ của các ứng dụng.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+    <value>Chọn và chơi</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+    <value>Chọn và chế độ chơi</value>
+  </data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+    <value>Chọn hoặc bỏ chọn
+Chế độ</value>
+  </data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+    <value>chuẩn</value>
+  </data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+    <value>Lên trên nút thanh</value>
+  </data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+    <value>Dịch tự động
+Lỗi</value>
+  </data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+    <value>thiết kế!
+Xóa các thiết kế và tải về nó một lần nữa để khắc phục lỗi này.</value>
+  </data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+    <value>Xin vui lòng đọc!
+Chào mừng bạn đến phiên bản mới 8.1 âm nhạc.
+Để giúp bạn bắt đầu, chúng tôi đã tạo ra một sự trợ giúp mới. Nhấn biểu tượng trên để mở giúp đỡ.
+Bắt đầu với phiên bản này, có một chế độ hoàn toàn mới.
+Xin lưu ý chế độ mới ", lựa chọn và chơi" vẫn còn trong giai đoạn thử nghiệm.
+Cung chúng ta hãy biết nếu bạn tìm thấy một lỗi.
+Cảm ơn bạn rất nhiều!
+
+Vui chơi với các phiên bản mới</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+    <value>Tạo danh sách nhạc</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+    <value>Playlists có thể chỉ trong "lựa chọn và chơi" chế độ sẽ được tạo ra.
+- Kích hoạt "Chọn và Chơi"
+- Tới phát hiện và xóa chúng
+- Chọn từ danh sách nhạc của bạn
+- Tới phát hiện và báo chí tiết kiệm
+- Nhập tên cho danh sách nhạc mới của bạn
+- Bạn sẽ tìm thấy danh sách mới của bạn trong danh sách thứ hai trong danh sách nhạc
+Hệ thống</value>
+  </data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+    <value>cache</value>
+  </data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+    <value>Tải trọng đầu tiên của nội dung cần một thời gian. Sau đó tải các nội dung từ một bộ nhớ cache. Nếu bạn thêm nội dung mới cho thiết bị của bạn, bạn phải làm mới bộ nhớ cache.
+Bạn có thể làm mới bộ nhớ cache trong cài đặt.</value>
+  </data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+    <value>Hiển thị các vấn đề</value>
+  </data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+    <value>Nhiều bài hát có thể gây ra vấn đề với màn hình hiển thị. Các vấn đề liên quan đến màu sắc trong suốt của thiết kế.
+Bạn có thể khắc phục vấn đề nếu bạn loại bỏ tính minh bạch của các mẫu thiết kế.</value>
+  </data>
+</root>

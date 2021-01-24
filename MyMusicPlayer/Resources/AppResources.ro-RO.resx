@@ -1,0 +1,982 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ro-RO</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>titlul aplicaţiei</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>adăuga</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Element de meniu</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>despre</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>album</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 Muzică</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>artist</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>mai mult</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>muzică</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>Playlist</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>setări</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>melodie</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>Albume</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>genuri</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>Cumpără această aplicație</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>Caută după update</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>contact</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>mărimea fontului</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>instrucțiuni</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>limbă</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>Like xtrose</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>Arată logo-ul la start</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>nu</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>da</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>Alte aplicații xtrose</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>Votează această aplicație</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>dă click pe ecran pentru a sări</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>Vă mulțumim pentru descărcare</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>culoarea accentului</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>culoare</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>nu</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>fundalul telefonului</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>Seta culoarea</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>da</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>Lista de selecție de culoare</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>informații extinse</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>gen</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>culoarea de accent al player-ului</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>Playlist</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>Melodii</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>Restabili setările</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>fundal album</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>față album</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>fundal artist</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>față artist</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>față telefon</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>fundal selectat</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>față selectată</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>fundal melodii</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>față melodii</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>transparență</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>negru</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>alb</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>toate melodiile</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>Selecția nu poate fi redată</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>ultimele Playback</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>adresă</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>Suprapunere</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>Joacă în timp</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>mai târziu</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>niciodată</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>rată acum</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>Se pare că aplicația îți place.
+Programarea aplicației este consumatoare de timp și foarte dificult.
+Feedback-ul poate să ne ajuta în dezvoltare.
+
+Mulțumesc mult</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>suport</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>deschide</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>Joacă</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>Joacă album</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>Joacă  melodie</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>șterge</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>Șterge ultimele Playback</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>Șterge lista cu ultimele Playback</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>pauză</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>Playback</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>oprire</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>Opriți-vă și eliminați playback-ul</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>Oprire playback și șterge din player</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>ATENŢIE!</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>Click pentru a deschide</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>conectare</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>conectare eșuată</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>Timeout in conectare</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>setările Design</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>Felicitări, versiunea completă a fost lansată</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>Nici o actualizare nu e disponibilă</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>Un moment, vă rog</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>oră</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>minut</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>minute</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>Vă mulțumim pentru achiziționarea acestei aplicație</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>Versiunea de probă a expirat</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>Versiunea de probă a expirat! Crearea aplicațiilor este foarte timp consumator. Pretul pentru acestui nu este scump . Pentru a continua crearea imaginilor de dezblocare trebuie să cumpărați aplicația. Vă mulțumim !</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>versiune de probă</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>setările de culoare</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>închide listele</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>Apăsați butonul ascuns în partea din stânga sus pentru a închide toate listele .</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>Dacă faceți clic pe săgeata din stânga deschide player- fullscreen .</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>general</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>Cu această aplicație vei ajunge cel mai rapid la muzica ta . Puteți alege muzica din doar două liste. În plus, aplicația vă oferă multe extensii puternice .</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>Vizualizarea listei</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>Folosind vizualizare listă, poți ajunge rapid la muzica ta. Toți artiștii sunt enumerate în prima listă . Dacă dați clic pe artistul dorit apoi puteți alege dintre albumele sale. O altă click pe album afișează toate melodiile.
+În a doua listă, playlist-uri, genuri, albume și toate melodiile sunt listate .</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>Diverse</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>Dacă îți place aplicația vă rugăm să ne dați rată bună. Dacă aveți probleme cu această aplicație vă rugăm să ne contactați! Întrebările și problemele pierd între comentarii.
+Vă mulțumesc foarte mult !</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>Joaca pe</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>Cu această funcție puteți seta timpul când melodiile vor fi jucate.Pentru a seta funcția trebuie să țineți apăsat butonul de redare pentru o secundă în timpul redării.</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>Media player în meniu</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>Un mic media player este instalat în meniul de mai jos.</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>Media player-ul mijlociu se deschide cu un clic pe săgeata din dreapta .</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 Muzică ajunge cel mai repede muzica ta.
+Noul vizualizarea listă vă permite să găsești super rapid artiștile, albumele sau melodiile tale.
+Un mini-player, un player mic, și un player full-screen permite control complet asupra muzicii. În portret, precum și modul peisaj .
+În plus, există multe extra opțiuni.
+
+- Vederea listă a muzicii
+- Vederea listă a listelor
+- 3 player diferit
+- Suportă portret și peisaj
+- Redare șortă a muzicii
+- Opriți muzica și ștergeți din media player
+- Ultimele 100  reproduceri sunt stocate
+- Personalizare completă a culori
+- O mulțime de extra funcții</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>muzică</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>Jucător MediaPlayer</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>redare</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>rapid</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>Sunet artist artiste melodie melodii album tag albume</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>Schimbați limba</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>Reporniți aplicația</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>Selectați limba</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>culoarea de fundal</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>Imagine fundal peisaj</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>Imagine fundal portret</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>EROARE
+Culoarea de față este aceași cu culoarea de fundal.</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>culoare față</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>Revenirea la setările de culoare</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>restabili</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>Ștergeți imaginea</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>Culoare de fundal al media player-ului mic</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Culoarea accentului al media player-ului mic</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>Culoarea accentului al media player-ului mare</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>Culoare de fundal al media player-ului mare</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>Imagine media player peisaj</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>Imagine media player portlet</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>aplică</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>concert</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>copiază</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>șterge</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>Designe</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>edita</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>online</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>redenumi</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>salvează</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>Fundal negru</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>Fundal alb</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>Setările nesalvate vor pierde</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>selectat</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>EROARE! Numele e deja folosită!</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>nume nou</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>Fund selectat</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>Fată selectată</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>Resetarea setărilor</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>Conectare.....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>conexiunea eșuată</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>Conectează-te cu xtrose</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>Timeout in conexiune</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>Versiunea de probă a expirat! Crearea aplicațiilor este foarte timp consumator. Pretul pentru acestui nu este scump . Pentru a continua crearea imaginilor de dezblocare trebuie să cumpărați aplicația. Vă mulțumim !</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>autor</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>categorie</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>Instalează design</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>Instalează design</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>nume</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>notificare</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>Vă rugăm să așteptați</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>Acesta este modul în care funcționează.
+- Imaginile de fond sunt copiate în " imaginile salvate "
+- Dă click pentru a deschide un e-mail la xtrose
+- Adăugați numele autorului
+- Adăugați imagini de la " imaginile salvate "
+- Trimite un mesaj
+
+După o revizuire, vom furniza datele de pe serverul nostru .
+Mulțumesc mult</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>Vă rugăm să completați și includeți imaginile create</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>Nume autor:</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>Nu modificați</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>Adăugați imaginile de fundal din " imaginile salvate "</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>publică</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>Apăsați din nou pentru a închide</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>Butoane și funcții</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>blocare orientare</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>melodia următoare</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>( Press ) Pauză
+( Hold ) Scan</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>Joacă</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>melodia anterioară</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>Recrea lista</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Repead</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>căutare</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>amestecare</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 Muzică ajunge cel mai repede muzica ta.
+Noul vizualizarea listă vă permite să găsești super rapid artiștile, albumele sau melodiile tale.
+Un mini-player, un player mic, și un player full-screen permite control complet asupra muzicii. În portret, precum și modul peisaj .
+În plus, există multe extra opțiuni.
+
+- Vederea listă a muzicii
+- Vederea listă a listelor
+- 3 player diferit
+- Suportă portret și peisaj
+- Redare șortă a muzicii
+- Design Editor
+- Descarcare desingului final de pe Internet
+- Opriți muzica și ștergeți din media player
+- Ultimele 100  reproduceri sunt stocate
+- Personalizare completă a culori
+- O mulțime de extra funcții</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>Apăsați de două ori din nou să-și reînnoiască pe cache</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>Apăsați din nou pentru a reînnoi pe cache</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>imagine de fundal</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>Logo-ul pe imagine album</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>Țiglă principală</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>Resetează țigla principală</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>Începeți setările ecranului</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>ecranul de pornire</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>Țiglă de oprire și ștergere</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>Click aici pentru a crea țigla de oprire și ștergere</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>restabili</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>Vă rugăm să introduceți un număr între 0-360</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0-360 Minute</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>Funcționeză sub ecran de blocare</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>oprește timer-ul</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>Pentru cronometrul aplicația trebuie să se execute sub ecranul de blocare.
+Permite funcția de executare sub ecranul de blocare.</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>Actualizează lista
+Dublu click pe notificare pentru recrearea  listei. E necesar numai în cazul în care muzica a fost schimbată pe telefonul mobil.</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8.1 Muzică ajunge cel mai repede muzica ta.
+Noul vizualizarea listă vă permite să găsești super rapid artiștile, albumele sau melodiile tale.
+Un mini-player, un player mic, și un player full-screen permite control complet asupra muzicii. În portret, precum și modul peisaj .
+În plus, există multe extra opțiuni.
+
+- Vederea listă a muzicii
+- Vederea listă a listelor
+- 3 player diferit
+- Suportă portret și peisaj
+- Redare șortă a muzicii
+- Design Editor
+- Descarcare desingului final de pe Internet
+- Opriți muzica și ștergeți din media player
+- Ultimele 100  reproduceri sunt stocate
+- Personalizare completă a culori
+- O mulțime de extra funcții</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>Apăsați de două ori din nou să-și reînnoiască cache</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>reînnoi</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>Reînnoi cache</value>
+  </data>
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+    <value>Lista actuală</value>
+  </data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+    <value>Șterge lista actuală</value>
+  </data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+    <value>Nu cântece în reluarea curent disponibil</value>
+  </data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+    <value>O listă de redare cu același nume există deja.</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+    <value>Ștergeți lista de redare</value>
+    <comment>NOTE FOR Translators, please enter a return at the end of the text.</comment>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+    <value>Încărcat</value>
+  </data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+    <value>media player butoane</value>
+  </data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+    <value>butoanele listei</value>
+  </data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+    <value>Apăsați pe logo-ul pentru a deschide asistența</value>
+  </data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+    <value>Ștergeți redarea curentă</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+    <value>Ștergeți lista de redare curentă</value>
+  </data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+    <value>Acest buton şterge redarea curentă şi deselectează toate melodiile din listele.</value>
+  </data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+    <value>Ajutor</value>
+  </data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+    <value>Utilizați acest buton pentru a bloca orientarea.
+Acesta va bloca orientarea actuală.
+Apăsați din nou butonul pentru al debloca.</value>
+  </data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+    <value>Cu acest buton, listele sunt închise și reînnoite.
+Prin dublu-click pe anunț, cache-ul este actualizat.
+Cache-ul trebuie să fie reînnoită doar în cazul în care muzica  telefonului a fost schimbat.</value>
+  </data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+    <value>Cu acest buton, redarea curentă se poate salvată ca o listă. Disponibil doar în modul Selectează și Joacă</value>
+  </data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+    <value>O apăsare pe căutare ca să deschide un text box.
+Introduceți termenul de căutare și apăsați pe retur.
+Căutarea filterează toate listele.
+Utilizați deschidere și reînnoire pentru a șterge căutarea.
+</value>
+  </data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+    <value>Editor design</value>
+  </data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+    <value>Aproape totul poate fi reglat în această aplicație.
+Imagini de fundal, culorile de fundal, culorile de față, culorile individuale ale listei.
+Pentru a modifica setările de culoare, deschideți pe design.
+Aici, puteți face aplicația pe placul dumneavoastră.
+
+Puteți descărca teme complete și instala direct.
+
+Cu butonul Publică ne puteti trimite design-ul.
+Vă rugăm să nu uitați să adăugați imaginile generate.
+
+</value>
+  </data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+    <value>Eroare de design</value>
+  </data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+    <value>Când descărcați design-ul erori pot apărea.
+La selectarea temelor eroare apar.
+Design-ul este resetat la următoarea pornire.
+Pentru a utiliza design-uș, acesta trebuie instalat din nou.</value>
+  </data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+    <value>Selectați lista de redare</value>
+  </data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+    <value>Prezentare generală</value>
+  </data>
+  <data name="ZZ005_Play" xml:space="preserve">
+    <value>Joacă</value>
+  </data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+    <value>Joacă doar acest titlu</value>
+  </data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+    <value>Salvare listă de redare</value>
+  </data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+    <value>În modul Selectează și joacă listele pot fi salvate.
+Acest buton apare la redarea curentă.
+Dați click pe buton și un cămp de introducere deschide.
+După introducerea numelui apăsați butonul retur.
+Apar listele de redare în care este salvată.
+Le puteți găsi în a doua listă.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+    <value>
+Modul Standard
+În acest mod aplicația folosește API-ul specificat.
+Avantaje
+- Aplicația poate fi închis după selecție.
+- Muzica poate fi controlată de către sistem.
+Dezavantaje
+- Se poate fi jucate numai formatele suportate de API. Mixele proprie nu poate fi create
+- Nu poți crea liste de redare
+- Redarea actuală nu poate fi modificată
+
+Modul Selectează și Joacă
+În acest mod totul poate fi selectat și redat direct.
+Avantaje
+- Orice poate fi selectată din listă
+- Puteți crea liste de redare personalizate.
+- Liste de redare pot fi salvate.
+- Redarea actuală apare și poate fi modificată și sortată
+Dezavantaje
+- Aplicația necesită control în timpul redării. Aplicația trebuie să executeaző sub ecranul de dezblocare. Aplicația nu poate fi mutată în fundal.
+- Redarea poate fi modificată numai de aplicație.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+    <value>Selecteză și Joacă</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+    <value>Modul Selecteză și Joacă</value>
+  </data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+    <value>Selectați sau deselectați</value>
+  </data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+    <value>Top buton bar</value>
+  </data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+    <value>Traducere automată</value>
+  </data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+    <value>Eroare în Design!
+Ștergeți design-ul și descărcați-l din nou pentru a repara această eroare.</value>
+  </data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+    <value>Vă rugăm să citiți!
+Bine ați venit la noua versiune 8.1 muzică.
+Pentru a vă ajuta în folosirea aplicației am creat un nou ajutor. Apăsați pe logo-ul de mai sus pentru a deschide asistența.
+Începând cu această versiune, există un mod cu totul nou.
+Vă rugăm notați că noul mod "Selectează și Joacă" este încă în faza de testare.
+Vă rugăm să ne contactați dacă ați găsit eroare.
+Vă mulțumesc foarte mult!
+
+Vă dorim distracție bună la aplicație</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+    <value>Creare listă de redare</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+    <value>Liste de redare pot fi create numal în modul "Selectează și Joacă".
+- Activați "Selectează și Joacă"
+- Duceți la redarea curentă și ștergeți
+- Selectați muzica din listă
+- Duceți la redarea curentă și apăsați salvare
+- Introduceți un nume pentru noua listă de redare
+- Veți găsi noua listă de redare în a doua listă în liste de redare</value>
+  </data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+    <value>Cache Sistem</value>
+  </data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+    <value>Prima încărcare a conținutului este consumatoare de timp. Apoi încărcarea se întămplă din cache. Dacă adăugați conținut nou la telefon trubuie să actualizați cache-ul.
+Puteți actualiza cache-ul în setări.</value>
+  </data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+    <value>Probleme de afișare</value>
+  </data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+    <value>Multe melodii pot provoca probleme la afișare. Problemele sunt asociate de tranparența design-ului.
+Puteți rezolva problema dacă scoateți transparența.</value>
+  </data>
+</root>

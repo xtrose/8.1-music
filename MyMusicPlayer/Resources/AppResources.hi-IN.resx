@@ -1,0 +1,992 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>hi-IN</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>अपने आवेदन</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>जोड़ना</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>मेनू आइटम</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>के बारे में</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>एल्बम</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 संगीत</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>कलाकार</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>अधिक</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>संगीत</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>प्लेलिस्ट</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>सेटिंग्स</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>गीत</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>एलबम</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>शैलियों</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>इस एप्लिकेशन को खरीदें</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>अद्यतन के लिए जाँच करें</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>संपर्क</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>फ़ॉन्ट का आकार</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>निर्देश</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>भाषा</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>xtrose तरह</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>Start पर लोगो दिखाएँ</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>हां</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>अन्य xtrose क्षुधा</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>इस ऐप्लिकेशन को रेट</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>छोड़ करने के लिए स्क्रीन पर क्लिक करें</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>डाउनलोडिंग के लिए धन्यवाद</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>उच्चारण रंग</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>रंग</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>फोन पृष्ठभूमि</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>सेट रंग</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>हां</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>रंग सूची चयन</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>विस्तारित informations</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>तरह</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>मीडिया प्लेयर उच्चारण रंग</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>प्लेलिस्ट</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>गाने</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>सेटिंग्स पुनर्स्थापित</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>एल्बम पृष्ठभूमि</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>एल्बम अग्रभूमि</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>कलाकार पृष्ठभूमि</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>कलाकार अग्रभूमि</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>फोन अग्र</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>चयनित पृष्ठभूमि</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>चयनित अग्रभूमि</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>गाने पृष्ठभूमि</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>गाने के अग्रभूमि</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>पारदर्शीता</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>काला</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>सफ़ेद</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>सभी गाने</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>चुनाव में नहीं खेला जा सकता</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>अंतिम प्लेबैक</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>पता</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>पर खेल</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>समय पर प्ले</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>बाद में</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>कभी नहीं</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>दर</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>यह आवेदन आप के लिए अपील करने के लिए लगता है.
+क्षुधा कार्यक्रम समय लगता है और मुश्किल है .
+एक अच्छी समीक्षा हमें इसे आगे प्रसार में मदद कर सकते हैं .
+
+बहुत बहुत धन्यवाद</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>समर्थन</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>खुला</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>प्ले</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>एलबम प्ले</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>गाना प्ले</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>हटाना</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>पिछले प्लेबैक हटाएं</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>पिछले प्लेबैक के साथ सूची हटाएं</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>विराम</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>प्लेबैक</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>रोक</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>प्लेबैक बंद करने और हटाने</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>प्लेबैक बंद और खिलाड़ी से हटाना</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>चेतावनी</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>को खोलने के लिए क्लिक करें</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>कनेक्ट</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>कनेक्शन विफल</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>बाहर कनेक्शन समय</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>डिज़ाइन सेटिंग</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>बधाई, आपका पूर्ण संस्करण जारी कर दिया गया है</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>उपलब्ध नहीं अद्यतन</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>कृपया एक क्षण</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>घंटा</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>घंटे</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>मिनट</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>मिनट</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>इस एप्लिकेशन को खरीदने के लिये धन्यवाद</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>परीक्षण संस्करण की समय सीमा समाप्त</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>परीक्षण संस्करण समाप्त हो ! क्षुधा बनाने के लिए समय की एक बहुत खर्च होंगे . इस काम के लिए मूल्य महंगा नहीं है . लॉक स्क्रीन चित्र बनाने के लिए जारी करने के लिए, आप अनुप्रयोग खरीदना चाहिए . धन्यवाद!</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>परीक्षण संस्करण</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>रंग सेटिंग्स</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>बंद सूचियों</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>छिपे हुए बटन दबाएँ, शीर्ष सभी सूचियों को बंद करने के लिए छोड़ दिया है.</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>बाएँ तीर पर क्लिक फुल स्क्रीन खिलाड़ी को खोलता है.</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>सामान्य</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>इस आवेदन के साथ , आप अपने संगीत के लिए सबसे तेजी से मिलता है. आप केवल दो सूची से अपने सभी संगीत का चयन कर सकते हैं . इसके अलावा , आवेदन आप कई महान एक्सटेंशन देता है .</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>सूची दृश्य</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>सूची दृश्य का उपयोग कर , आप जल्दी से अपने संगीत तक पहुँच सकते हैं . सभी कलाकारों पहली सूची में सूचीबद्ध हैं . आप वांछित पर क्लिक करते हैं तो अपने एलबम खोला . एल्बम पर एक और क्लिक करें सभी गीतों को प्रदर्शित करता है .
+दूसरी सूची में, प्लेलिस्ट , शैलियों , एल्बम और सभी गाने सूचीबद्ध हैं .</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>विविध</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>अगर आप की तरह अच्छा इस आवेदन की दर से करें. आप इस आवेदन के साथ समस्या है , तो समर्थन से संपर्क करें ! सवालों और समस्याओं की समीक्षा में कुछ भी नहीं खोया है.
+बहुत बहुत धन्यवाद !</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>पर खेलें</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>आवेदन समारोह पर एक नाटक है . इस समारोह के साथ, केवल टाइटल निर्धारित समय दोहराई किया जाएगा . पर खेलने के लिए सक्षम करने के लिए, आप प्लेबैक के दौरान एक दूसरे के लिए खेलने के बटन को धारण करना चाहिए .</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>मेनू मीडिया प्लेयर</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>एक छोटी सी मीडिया प्लेयर कम मेनू में स्थापित किया गया है .</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>मध्यम आकार के खिलाड़ी सही तीर पर एक क्लिक के साथ खोला जाता है.</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 संगीत अंत में तेजी से अपने संगीत तक पहुँचने .
+नई सूची दृश्य आप सुपर फास्ट अपने कलाकारों , एलबम या गाने को खोजने की सुविधा देता है .
+एक मिनी प्लेयर , एक छोटा सा खिलाड़ी है, और एक पूर्ण स्क्रीन खिलाड़ी आप अपने संगीत पर पूरा नियंत्रण देने के लिए अनुमति देते हैं. चित्र के रूप में अच्छी तरह से परिदृश्य मोड में .
+इसके अलावा , बहुत सारे हैं .
+
+अपने संगीत की सूची देखें
+अपनी प्लेलिस्ट की सूची देखें
+-3 विभिन्न मीडिया खिलाड़ियों
+चित्र और परिदृश्य का समर्थन करता है
+लघु शीर्षक खेल
+संगीत बंद करो और मीडिया प्लेयर से हटाना
+-100 अंतिम प्रतिकृतियां जमा हो जाती है
+पूर्ण रंग अनुकूलन
+महान एक्स्ट्रा कलाकार के बहुत सारे</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>संगीत</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>प्लेयर Mediaplayer</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>प्लेबैक</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>तेज</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>ध्वनि कलाकार कलाकारों गाना गाने एलबम टैग एल्बम</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>भाषा बदलें</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>आवेदन को पुनः आरंभ</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>भाषा का चयन करें</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>पृष्ठभूमि का रंग</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>पृष्ठभूमि चित्र परिदृश्य</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>पृष्ठभूमि चित्र चित्र</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>त्रुटि
+अग्रभूमि रंग पृष्ठभूमि रंग के रूप में ही है .</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>ऊपरी रंग</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>डिजाइन सेटिंग पुनर्स्थापित</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>पुनर्स्थापित</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>तस्वीर हटाएं</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>मीडिया प्लेयर छोटे पृष्ठभूमि रंग</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>मीडिया प्लेयर छोटे लहजे रंग</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>मीडिया प्लेयर बड़ा उच्चारण रंग</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>मीडिया प्लेयर बड़ा पृष्ठभूमि रंग</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>मीडिया प्लेयर तस्वीर परिदृश्य</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>मीडिया प्लेयर चित्र चित्र</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>लागू करना</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>कॉन्सर्ट</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>नकल</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>हटाना</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>डिजाइन</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>संपादित करें</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>ऑनलाइन</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>नाम बदलें</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>बचाना</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>पृष्ठभूमि काला</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>सफेद पृष्ठभूमि</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>न सहेजे गए डिजाइन सेटिंग्स खो</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>चयनित</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>त्रुटि! पहले से ही उपयोग करें या अमान्य वर्ण में नाम !</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>नया नाम</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>चयनित पृष्ठभूमि</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>अग्र चयनित</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>डिज़ाइन</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>सेटिंग्स पुनर्स्थापित</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>कनेक्ट .....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>कनेक्शन विफल</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>Xtrose साथ कनेक्ट</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>बाहर कनेक्शन समय</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>परीक्षण संस्करण समाप्त हो ! क्षुधा बनाने के लिए समय की एक बहुत खर्च होंगे . इस काम के लिए मूल्य महंगा नहीं है . इस एप्लिकेशन का उपयोग करने के लिए जारी करने के लिए, आप इसे खरीदने के लिए . धन्यवाद!</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>लेखक</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>श्रेणी</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>डिजाइन स्थापित करें .....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>डिजाइन स्थापित करें</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>अधिसूचना</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>कृपया प्रतीक्षा करें</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>यह कैसे काम करता है .
+पृष्ठभूमि छवियों " बचाया छवियों " में नकल कर रहे हैं
+Xtrose के लिए एक ईमेल खुलती बाहर सूत्री
+लेखक का नाम जोड़ें
+"छवियों को बचाया " से छवियों जोड़ें
+संदेश भेजें
+
+एक समीक्षा के बाद , हम अपने सर्वर पर डेटा प्रदान करेगा .
+बहुत बहुत धन्यवाद</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>भरें और बनाया छवियों शामिल करें</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>लेखक का नाम:</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>मत बदलो</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>जोडें पृष्ठभूमि छवियों "छवियों को बचाया "</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>प्रकाशित करना</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>फिर प्रेस बंद करने के लिए</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>बटन और कार्यों</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>अभिविन्यास ताला</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>अगला गीत</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>( प्रेस) रोकें
+( होल्ड) स्कैन</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>प्ले</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>पिछले गीत</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>सूची को ताज़ा</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Repead</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>खोज</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>घसीटना</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 संगीत अंत में तेजी से अपने संगीत तक पहुँचने .
+नई सूची दृश्य आप सुपर फास्ट अपने कलाकारों , एलबम या गाने को खोजने की सुविधा देता है .
+एक मिनी प्लेयर , एक छोटा सा खिलाड़ी है, और एक पूर्ण स्क्रीन खिलाड़ी आप अपने संगीत पर पूरा नियंत्रण देने के लिए अनुमति देते हैं. चित्र के रूप में अच्छी तरह से परिदृश्य मोड में .
+अपने खुद के डिजाइन बनाने के लिए या इंटरनेट से समाप्त डिजाइन डाउनलोड .
+इसके अलावा , बहुत सारे हैं .
+
+अपने संगीत की सूची देखें
+अपनी प्लेलिस्ट की सूची देखें
+-3 विभिन्न मीडिया खिलाड़ियों
+चित्र और परिदृश्य का समर्थन करता है
+लघु शीर्षक खेल
+डिजाइन संपादक
+इंटरनेट से डाउनलोड समाप्त डिजाइन
+संगीत बंद करो और मीडिया प्लेयर से हटाना
+-100 पिछले प्रतिकृतियां जमा हो जाती है
+पूर्ण रंग अनुकूलन
+महान एक्स्ट्रा कलाकार के बहुत सारे</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>प्रेस दो बार फिर से कैश नवीनीकृत करने के लिए</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>पकड़ नवीनीकृत करने के लिए फिर प्रेस</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>पृष्ठभूमि चित्र</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>एलबम छवि पर लोगो</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>मुख्य टाइल</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>मुख्य टाइल रीसेट</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>स्क्रीन सेटिंग्स प्रारंभ</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>स्क्रीन प्रारंभ</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>टाइल बंद करो और हटाना</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>स्टॉप बनाने के लिए यहां क्लिक करें और टाइल हटाना</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>रीसेट करें</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>360 - एक नंबर 0 दर्ज करें</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0-360 मिनट</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>लॉक स्क्रीन के अंतर्गत चलाने</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>टाइमर बंद</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>टाइमर के लिए एप्लिकेशन को लॉक स्क्रीन के नीचे चलना चाहिए .
+लॉक स्क्रीन अंतर्गत चलाने के लिए सक्षम करें</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>अद्यतन सूची
+सूची विश्राम करने की अधिसूचना पर डबल क्लिक करें . अपने मोबाइल पर संगीत बदला केवल यदि आवश्यक है.</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8.1 संगीत अंत में तेजी से अपने संगीत तक पहुँचने .
+नई सूची दृश्य आप सुपर फास्ट अपने कलाकारों , एलबम या गाने को खोजने की सुविधा देता है .
+एक मिनी प्लेयर , एक छोटा सा खिलाड़ी है, और एक पूर्ण स्क्रीन खिलाड़ी आप अपने संगीत पर पूरा नियंत्रण देने के लिए अनुमति देते हैं. चित्र के रूप में अच्छी तरह से परिदृश्य मोड में .
+अपने खुद के डिजाइन बनाने के लिए या इंटरनेट से समाप्त डिजाइन डाउनलोड .
+इसके अलावा , बहुत सारे हैं .
+
+अपने संगीत की सूची देखें
+अपनी प्लेलिस्ट की सूची देखें
+-3 विभिन्न मीडिया खिलाड़ियों
+चित्र और परिदृश्य का समर्थन करता है
+लघु शीर्षक खेल
+डिजाइन संपादक
+इंटरनेट से डाउनलोड समाप्त डिजाइन
+संगीत बंद करो और मीडिया प्लेयर से हटाना
+-100 पिछले प्रतिकृतियां जमा हो जाती है
+पूर्ण रंग अनुकूलन
+महान एक्स्ट्रा कलाकार के बहुत सारे</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>प्रेस दो बार फिर से कैश नवीनीकृत करने के लिए</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>नवीकरण</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>कैश नवीनीकृत</value>
+  </data>
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+    <value>साफ़</value>
+  </data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+    <value>वर्तमान चलाएँ-सूची वर्तमान पुनरावृत्ति के उपलब्ध में कोई गीत</value>
+  </data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+    <value>ए playlist समान नाम के साथ पहले से ही मौजूद है। Delete प्लेलिस्ट</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+    <value />
+    <comment>NOTE FOR Translators, please enter a return at the end of the text.</comment>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+    <value>भरी हुई बटन मीडिया प्लेयर</value>
+  </data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+    <value>सूची का बटन</value>
+  </data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+    <value>प्रेस लोगो की मदद को खोलने के लिए</value>
+  </data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+    <value>हटाएँ वर्तमान प्लेबैक</value>
+  </data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+    <value>Delete प्लेलिस्ट</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+    <value>यह बटन वर्तमान प्लेबैक को हटाता है और सभी गाने सूचियों में उसे अचयनित करें।</value>
+  </data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+    <value>ओरिएंटेशन को अवरोधित करने के लिए इस बटन का उपयोग करें।
+यह हो जाएगा हमेशा वर्तमान उन्मुखीकरण अवरुद्ध।
+इसे फिर से अनलॉक करने के लिए बटन दबाएँ।</value>
+  </data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+    <value>इस बटन के साथ, सूचियों को नए सिरे से बंद कर दिया और कर रहे हैं।
+प्रकाशित सूचना पर डबल-क्लिक करके, कैश अद्यतन किया जाता है।
+अगर केवल स्मार्टफ़ोन का संगीत बदल दिया गया है कैश नए सिरे से करना होगा।
+इस के साथ</value>
+  </data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+    <value>बटन, वर्तमान प्लेबैक के रूप में सहेजा जा सकता है एक playlist. मोड को चुनें और खेलने में ही उपलब्ध है।
+एक प्रेस</value>
+  </data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+    <value>खोज पर, तब एक पाठ इनपुट खोलता है।
+अपने खोज शब्द दर्ज करें और प्रेस वापसी।
+खोज सभी सूचियाँ फ़िल्टर करता है।
+उपयोग बंद करें और खोज को नष्ट करने के लिए सूचियाँ नवीनीकृत करें।
+डिज़ाइन संपादक</value>
+  </data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+    <value>लगभग सब कुछ इस app में समायोजित किया जा सकता।
+पृष्ठभूमि छवियाँ, पृष्ठभूमि रंग, अग्रभूमि रंग, अलग-अलग रंगों की सूची।
+रंग सेटिंग्स को बदलने के लिए, आप डिज़ाइन को खोलने के लिए की जरूरत है।
+यहाँ, आप अपनी पसंद के हिसाब से app कर सकते हैं।
+
+आप डाउनलोड पूरा विषयों और सीधे स्थापित कर सकते हैं।
+
+साझा करें बटन के साथ आप अपने डिजाइन हमें भेज सकते हैं।
+जनित छवियों को जोड़ने के लिए याद कृपया।
+हम अपने डिजाइन को अपलोड करने के लिए पसंद करेंगे।
+डिजाइन त्रुटि</value>
+  </data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+    <value>जब डिजाइन त्रुटियों का डाउनलोड होती कर सकते हैं</value>
+  </data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+    <value>चुनें विषयों में अनुप्रयोग crashes.
+डिजाइन अगले स्टार्टअप पर रीसेट है।
+डिजाइन का उपयोग करने के लिए, इसे पुन: स्थापित किया जाना चाहिए।
+चयन करें चलाएँ-सूची</value>
+  </data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+    <value>अवलोकन प्ले</value>
+  </data>
+  <data name="ZZ005_Play" xml:space="preserve">
+    <value>केवल इस शीर्षक चलायें</value>
+  </data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+    <value>चलाएँ-सूची सहेजें</value>
+  </data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+    <value>मोड का चयन करें और प्लेलिस्ट सहेजा जा कर सकते हैं खेलने में।
+यह बटन वर्तमान प्लेबैक के क्षेत्र में प्रकट होता है।
+बटन क्लिक करने पर एक पाठ इनपुट क्षेत्र खुल जाता है।
+एक नाम यहाँ दर्ज किया गया है के बाद आप वापस बटन दबाएँ करने के लिए है।
+किसी प्लेलिस्ट में चलाएँ सूची बाहर बिंदु सहेजा जाता है।
+आप की दूसरी सूची में उन्हें ढूँढ सकते हैं।</value>
+  </data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+    <value>का चयन करें और चलायें
+यह बटन app का मोड परिवर्तित करता है।
+
+मानक मोड
+डिफ़ॉल्ट मोड में अनुप्रयोग निर्दिष्ट API का उपयोग करें।
+फायदे
+-App चयन के बाद बंद हो सकते हैं।
+-संगीत प्रणाली द्वारा नियंत्रित किया जा सकता है।
+नुकसान
+-यह केवल क्या एपीआई की अनुमति खेला जा सकता है। कोई दम घोला जा सकता है नहीं बनाया जा सकता।
+-वहाँ कोई चलाएँ सूची नहीं बनाई जा सकती हैं।
+-अब बजाना बदला नहीं जा सकता।
+
+का चयन करें और चलायें मोड
+इस मोड में, सब कुछ कर सकते हो चुना और वापस सीधे खेला।
+फायदे
+-यह सूची से चयनित और खेला कुछ भी सकते हैं।
+-आप कस्टम प्लेलिस्ट बना सकते हैं।
+-प्लेलिस्ट बचाया जा सकता है।
+-अब बजाना है प्रदर्शित और बदल गया छाँटे गए और जा कर सकते हैं।
+नुकसान
+-App प्लेबैक के दौरान नियंत्रण की आवश्यकता है। App ताला स्क्रीन के अंतर्गत चलाना आवश्यक है। पृष्ठभूमि करने के लिए app स्थानांतरित नहीं किया जाना चाहिए।
+-प्लेबैक अनुप्रयोग के खिलाड़ी के माध्यम से ही बदला जा सकता है।</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+    <value>का चयन करें और चलायें</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+    <value>का चयन करें और चलायें मोड</value>
+  </data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+    <value>का चयन करना या चयन रद्द करें
+मानक मोड</value>
+  </data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+    <value>शीर्ष बटन पट्टी</value>
+  </data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+    <value>स्वत: अनुवाद</value>
+  </data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+    <value>डिजाइन त्रुटि!
+डिजाइन को हटाने और इसे फिर से इस त्रुटि को ठीक करने के लिए डाउनलोड करें।</value>
+  </data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+    <value>कृपया पढ़ें!
+नया संस्करण 8.1 संगीत के लिए आपका स्वागत है।
+आप आरंभ में मदद करने के लिए, हम एक नई मदद बनाया है। मदद खोलने के लिए ऊपर लोगो दबाएँ।
+इस रिलीज के साथ शुरू, वहाँ एक पूरी तरह से नया मोड है।
+कृपया नोट नया मोड "का चयन करें और चलायें", अभी भी परीक्षण के चरण में है।
+दे हमें कृपया पता है कि यदि आपको कोई त्रुटि ढूँढें।
+बहुत-बहुत धन्यवाद!
+
+नए संस्करण के साथ मज़ा
+प्लेलिस्ट बनाएँ</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+    <value>प्लेलिस्ट केवल "का चयन करें और चलायें" मोड में बनाया जाएगा कर सकते हैं।
+-सक्रिय करें "का चयन करें और चलायें"
+-वर्तमान प्लेबैक करने के लिए जाओ और उन्हें हटाएँ
+-अपने संगीत को सूची से चयन करें
+-वर्तमान प्लेबैक पर जाने के लिए और सहेजें दबाएँ
+-आपकी नई प्लेलिस्ट का नाम दर्ज करें
+-आप अपनी नई प्लेलिस्ट playlists के तहत दूसरी सूची में मिल जाएगा
+कैश प्रणाली</value>
+  </data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+    <value>सामग्री की जरूरत है कुछ समय के पहले लोड। फिर एक कैश से सामग्री लोड। यदि आप अपनी डिवाइस के लिए नई सामग्री जोड़ने के लिए आप कैश ताज़ा करना होगा।
+आप कैश सेटिंग्स में ताज़ा कर सकते हैं।
+प्रदर्शन समस्याओं</value>
+  </data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+    <value>कई गाने प्रदर्शन के साथ समस्याओं के कारण कर सकते हैं। पारदर्शी रंग डिजाइन के साथ जुड़ी समस्याओं।
+यदि आप डिजाइन की पारदर्शिता को दूर आप समस्या को ठीक कर सकते हैं।</value>
+  </data>
+</root>

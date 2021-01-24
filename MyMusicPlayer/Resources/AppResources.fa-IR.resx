@@ -1,0 +1,992 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>RightToLeft</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>fa-IR</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>درخواست من</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>اضافه کردن</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>آیتم های منو</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>در حدود</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>البوم</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 موسیقی</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>هنرمند</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>بیشتر</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>موسیقی</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>لیست های پخش</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>ترانه</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>آلبوم ها</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>گروه فیلم</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>خرید این برنامه</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>چک کردن برای به روز رسانی</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>تماس</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>اندازه فونت ها</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>دستورالعمل</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>زبان</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>مانند xtrose</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>نمایش آرم در شروع</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>بله</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>دیگر برنامه های xtrose</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>امتیاز به این برنامه</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>صفحه نمایش کلیک کنید و به جست و خیز</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>تشکر از شما برای دانلود</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>رنگ لهجه</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>رنگ</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>پس زمینه تلفن</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>تنظیم رنگ</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>بله</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>فهرست رنگ انتخاب</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>اطلاعات تمدید شده</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>نوع</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>دستگاه پخش رسانه ای رنگ لهجه</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>لیست پخش</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>آهنگ ها</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>بازگرداندن تنظیمات</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>پس زمینه آلبوم</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>پیش زمینه آلبوم</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>پس زمینه هنرمندان</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>پیش زمینه هنرمند</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>تلفن پیشزمینه</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>پس زمینه انتخاب شده</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>پیش زمینه انتخاب شده</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>پس زمینه آهنگ</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>پیش زمینه آهنگ</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>شفافیت</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>سیاه</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>سفید</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>تمام آهنگ ها</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>انتخاب قابل پخش نباشند</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>آخرین نظرات</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>نشانی</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>بازی</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>بازی در زمان</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>بعد</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>هرگز</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>نرخ</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>این نرم افزار به نظر می رسد درخواست تجدید نظر به شما .
+به برنامه برنامه های وقت گیر و دشوار است.
+مروری خوب می تواند به ما کمک کند به گسترش آن بیشتر است.
+
+از شما بسیار سپاسگزارم</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>پشتیبانی</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>باز</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>بازی</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>پخش آلبوم</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>بازی آهنگ</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>حذف کردن</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>حذف نظرات آخرین</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>حذف لیست با نظرات آخرین</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>شکست</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>بازنواخت</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>توقف</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>توقف و حذف پخش</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>توقف پخش و حذف از بازیکن</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>WARNING</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>برای باز کردن کلیک کنید</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>اتصال</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>اتصال ناموفق بود</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>زمان اتصال از</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>تنظیمات طراحی</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>تبریک می گویم، نسخه کامل خود را آزاد شده است</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>بدون به روز رسانی در دسترس</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>یک لحظه لطفا</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>ساعت</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>ساعت</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>دقیقه</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>دقیقه</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>تشکر از شما برای خرید این برنامه</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>نسخه آزمایشی منقضی شده</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>نسخه آزمایشی منقضی شده ! برای ایجاد برنامه خواهد زمان زیادی را هزینه. قیمت برای این کار گران قیمت نیست. برای ادامه ایجاد صفحه نمایش قفل تصاویر ، شما باید نرم افزار را خریداری کنید. تشکر از شما !</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>نسخه آزمایشی</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>تنظیمات رنگ</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>فهرستهای</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>دکمه مخفی ، بالا سمت چپ برای بستن تمام لیست ها .</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>با کلیک بر روی فلش سمت چپ بازیکن تمام صفحه باز می شود.</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>عمومی</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>با استفاده از این نرم افزار ، شما سریع ترین به موسیقی خود را دریافت کنید . شما می توانید تمام آهنگ های خود را از تنها دو لیست را انتخاب کنید. علاوه بر این، نرم افزار به شما می دهد بسیاری از پسوند های بزرگ است.</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>این لیست</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>با استفاده از مشاهده لیست ، شما به سرعت می توانید آهنگ های خود برسند. همه هنرمندان در لیست اول ذکر شده است. اگر شما در مورد نظر کلیک کنید و سپس آلبوم خود را باز کرد . کلیک بیشتر در مورد آلبوم نمایش تمام آهنگ ها .
+در فهرست دوم ، لیست پخش، ژانر ، آلبوم و تمام آهنگ ها ذکر شده است.</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>متفرقه</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>لطفا خوب این نرم افزار اگر دوست دارید . اگر شما دچار مشکل با این نرم افزار را داشته باشد، پس لطفا با پشتیبانی تماس بگیرید ! سوالات و مشکلات چیزی در بررسی از دست داده اند .
+خیلی از شما متشکرم !</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>بازی در تاریخ</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>این برنامه یک بازی بر روی عملکرد . با استفاده از این تابع، عنوان خواهد شد پخش تنها در مدت زمان معینی . برای فعال کردن بازی ، شما باید بر روی دکمه بازی برای یک ثانیه در حین پخش را نگه دارید .</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>منوی پخش رسانه ای</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>دستگاه پخش رسانه ای کوچک است در منوی پایین تر نصب شده است.</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>بازیکن متوسط ​​است که با کلیک بر روی فلش سمت راست را باز کرد.</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 موسیقی در نهایت موسیقی خود را سریع تر برسد.
+این لیست جدید شما اجازه می دهد فوق العاده سریع پیدا هنرمندان خود ، آلبوم یا آهنگ .
+مینی پلیر، یک دستگاه پخش کوچک، و یک دستگاه پخش تمام صفحه اجازه می دهد به شما کنترل کامل بر موسیقی خود را به من بدهید. در پرتره و همچنین حالت افقی.
+علاوه بر این، بسیاری از اضافی وجود دارد.
+
+لیست نظر موسیقی خود را
+لیست نظر لیست پخش خود
+بازیکنان رسانه های مختلف -3
+- پشتیبانی از افقی و عمودی
+کوتاه بازی عنوان
+، توقف موسیقی و حذف از دستگاه پخش رسانه ای
+-100 آخرین کپی ذخیره می شوند
+کامل سفارشی سازی رنگ
+، بسیاری از اضافی بزرگ</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>موسیقی</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>پخش Mediaplayer</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>بازنواخت</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>سریع</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>آلبوم برچسب آلبوم آهنگ های هنرمندان هنرمند صدا آهنگ</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>تغییر زبان</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>راه اندازی مجدد نرم افزار</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>انتخاب زبان</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>رنگ پس زمینه</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>سابقه و هدف چشم انداز تصویر</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>سابقه و هدف پرتره تصویر</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>ERROR
+رنگ پیش زمینه همان رنگ پس زمینه است .</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>رنگ پیش زمینه</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>بازگرداندن تنظیمات طراحی</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>بازیابی</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>حذف تصویر</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>دستگاه پخش رسانه ای رنگ پس زمینه کوچک</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>دستگاه پخش رسانه ای رنگ لهجه کوچک</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>دستگاه پخش رسانه ای رنگ لهجه بزرگ</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>دستگاه پخش رسانه ای رنگ پس زمینه بزرگ</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>دستگاه پخش رسانه ای چشم انداز تصویر</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>دستگاه پخش رسانه ای پرتره تصویر</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>درخواست</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>کنسرت</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>نسخه</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>حذف کردن</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>طراحی</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>آنلاین</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>تغییر نام</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>جویی در هزینه</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>پس زمینه سیاه و سفید</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>سفید پس زمینه</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>از دست دادن تنظیمات طراحی ذخیره نشده</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>منتخب</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>ERROR ! نام و نام خانوادگی در حال حاضر در حال استفاده و یا شخصیت های نامعتبر است !</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>نام جدید</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>سابقه و هدف انتخاب شده</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>انتخاب پیش زمینه</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>طرح</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>بازگرداندن تنظیمات</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>اتصال .....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>اتصال ناموفق بود</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>تماس با xtrose</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>زمان اتصال از</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>نسخه آزمایشی منقضی شده ! برای ایجاد برنامه خواهد زمان زیادی را هزینه. قیمت برای این کار گران قیمت نیست. برای ادامه به استفاده از این برنامه ، شما باید آن را خرید . تشکر از شما !</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>نویسنده</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>رده</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>نصب طراحی .....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>نصب طراحی</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>اطلاع</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>لطفا صبر کنید</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>این است که چگونه کار می کند.
+، عکس های پس زمینه را به " تصاویر ذخیره شده " کپی
+نقطه از یک ایمیل به xtrose باز می شود
+، اضافه کردن نام نویسنده
+، اضافه کردن تصاویر را از " ذخیره تصاویر "
+- ارسال پیام
+
+پس از بررسی، ما داده بر روی سرور خود ارائه می کنند .
+از شما بسیار سپاسگزارم</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>لطفا با پر کردن و شامل تصاویر ایجاد شده</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>نام نویسنده:</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>آیا تغییر نمی کند</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>اضافه کردن عکس های پس زمینه از " ذخیره تصاویر "</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>انتشار</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>دوباره فشار دهید تا بسته</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>دکمه ها و توابع</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>قفل جهت</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>آهنگ بعدی</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>مکث ( را فشار دهید )
+( انتظار) اسکن</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>بازی</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>آهنگ قبلی</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>فهرست بارگزاری</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Repead</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>جستجو</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>این سو و ان سو حرکت کردن</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 موسیقی در نهایت موسیقی خود را سریع تر برسد.
+این لیست جدید شما اجازه می دهد فوق العاده سریع پیدا هنرمندان خود ، آلبوم یا آهنگ .
+مینی پلیر، یک دستگاه پخش کوچک، و یک دستگاه پخش تمام صفحه اجازه می دهد به شما کنترل کامل بر موسیقی خود را به من بدهید. در پرتره و همچنین حالت افقی.
+ایجاد طرح خود و یا دانلود طرح تمام شده از اینترنت می باشد.
+علاوه بر این، بسیاری از اضافی وجود دارد.
+
+لیست نظر موسیقی خود را
+لیست نظر لیست پخش خود
+بازیکنان رسانه های مختلف -3
+- پشتیبانی از افقی و عمودی
+کوتاه بازی عنوان
+طراحی ویرایشگر
+- دانلود طرح نهایی از اینترنت
+، توقف موسیقی و حذف از دستگاه پخش رسانه ای
+-100 کپی آخرین ذخیره می شوند
+کامل سفارشی سازی رنگ
+، بسیاری از اضافی بزرگ</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>مطبوعات دو بار دوباره به تجدید کش</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>دوباره فشار دهید به تجدید گرفتن</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>تصویر پس زمینه</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>لوگو بر روی تصویر آلبوم</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>کاشی اصلی</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>تنظیم مجدد کاشی اصلی</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>شروع تنظیمات صفحه نمایش</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>شروع صفحه</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>کاشی متوقف کردن و حذف</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>برای ایجاد توقف اینجا را کلیک کنید و حذف کاشی</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>تنظیم مجدد</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>360 - لطفا یک عدد 0 را وارد کنید</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0 - 360 دقیقه</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>اجرای زیر صفحه نمایش قفل</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>توقف تایمر</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>برای تایمر برنامه باید در حال اجرا در زیر صفحه نمایش قفل.
+فعال کردن به زیر صفحه نمایش قفل اجرا</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>کاربران به روز
+دوبار کلیک کنید در اطلاع رسانی به لیست نو خلق کردن. تنها لازم است اگر موسیقی را بر روی تلفن همراه خود را تغییر داد.</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8.1 موسیقی در نهایت موسیقی خود را سریع تر برسد.
+این لیست جدید شما اجازه می دهد فوق العاده سریع پیدا هنرمندان خود ، آلبوم یا آهنگ .
+مینی پلیر، یک دستگاه پخش کوچک، و یک دستگاه پخش تمام صفحه اجازه می دهد به شما کنترل کامل بر موسیقی خود را به من بدهید. در پرتره و همچنین حالت افقی.
+ایجاد طرح خود و یا دانلود طرح تمام شده از اینترنت می باشد.
+علاوه بر این، بسیاری از اضافی وجود دارد.
+
+لیست نظر موسیقی خود را
+لیست نظر لیست پخش خود
+بازیکنان رسانه های مختلف -3
+- پشتیبانی از افقی و عمودی
+کوتاه بازی عنوان
+طراحی ویرایشگر
+- دانلود طرح نهایی از اینترنت
+، توقف موسیقی و حذف از دستگاه پخش رسانه ای
+-100 کپی آخرین ذخیره می شوند
+کامل سفارشی سازی رنگ
+، بسیاری از اضافی بزرگ</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>مطبوعات دو بار دوباره به تجدید کش</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>تجدید کردن</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>تجدید کش</value>
+  </data>
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+    <value>لیست پخش فعلی</value>
+  </data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+    <value>پاک کردن لیست پخش فعلی</value>
+  </data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+    <value>بدون آهنگ ها در پخش فعلی در دسترس</value>
+  </data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+    <value>یک لیست پخش با نام مشابه در حال حاضر وجود دارد.
+حذف لیست پخش</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+    <value />
+    <comment>NOTE FOR Translators, please enter a return at the end of the text.</comment>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+    <value>لود</value>
+  </data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+    <value>دکمه های مدیا پلیر</value>
+  </data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+    <value>دکمه های لیست</value>
+  </data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+    <value>پرس لوگو برای باز کردن کمک</value>
+  </data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+    <value>حذف پخش کنونی
+حذف لیست پخش</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+    <value>این دکمه پخش کنونی را حذف می کند و عدم انتخاب همه آهنگ ها در لیست.</value>
+  </data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+    <value>کمک
+استفاده از این دکمه برای قفل کردن جهت</value>
+  </data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+    <value>.
+آن خواهد شد همیشه مسدود جهت فعلی.
+مطبوعات دکمه دوباره به آن باز کنید.</value>
+  </data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+    <value>با این دکمه لیست بسته تجدید و.
+با دوبار کلیک کردن در اطلاعیه منتشر شده, کش به روز شده است.
+کش باید به تجدید تنها در صورتی موسیقی گوشی های هوشمند تغییر کرده است.</value>
+  </data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+    <value>با استفاده از این دکمه, پخش فعلی به عنوان یک لیست پخش را می توان نجات داد. فقط در حالت را انتخاب کنید و بازی در دسترس است.</value>
+  </data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+    <value>یک فشار در جستجو، سپس ورودی متن باز می شود.
+عبارت جستجوی خود را وارد کنید و مطبوعات بازگشت.
+جستجو همه لیست فیلتر.
+استفاده را ببندید و لیست حذف جستجو تجدید.
+طراحی ویرایشگر</value>
+  </data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+    <value>تقريباً می توان همه چیز را در این برنامه تنظیم شده است.
+عکس های پس زمینه، رنگ پس زمینه، رنگ پیش زمینه، رنگ منحصر به فرد از لیست.
+برای تغییر تنظیمات رنگ، شما نیاز به باز کردن طراحی.
+در اینجا شما می توانید برنامه را به میل خود.
+
+شما می توانید تم های کامل دانلود و نصب به طور مستقیم.
+
+با دکمه اشتراک گذاری شما طراحی شما می توانید.
+لطفا به یاد داشته باشید برای اضافه کردن تصاویر تولید شده است.
+ما می خواهم برای طراحی خود را آپلود.</value>
+  </data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+    <value>خطا در طراحی</value>
+  </data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+    <value>وقتی که دانلود خطاهای طراحی می تواند رخ دهد.
+در انتخاب تم نرم افزار قفل.
+طراحی مجدد در راه اندازی بعدی.
+برای استفاده از طراحی آن دوباره باید نصب شود.</value>
+  </data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+    <value>لیست پخش را انتخاب کنید</value>
+  </data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+    <value>بررسی اجمالی</value>
+  </data>
+  <data name="ZZ005_Play" xml:space="preserve">
+    <value>بازی</value>
+  </data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+    <value>بازی تنها این عنوان
+ذخیره لیست پخش</value>
+  </data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+    <value>در حالت را انتخاب کنید و لیست پخش را می توان ذخیره بازی.
+این دکمه را در زمینه پخش فعلی ظاهر می شود.
+با کلیک بر روی دکمه زمینه متن ورودی را باز می کند.
+پس از یک نام وارد شده است در اینجا شما باید دکمه بازگشت.
+نقطه ای کردن لیست پخش در لیست پخش ذخیره می شود.
+شما می توانید آنها را در فهرست دوم.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+    <value>را انتخاب کرده و بازی
+این دکمه تغییر حالت نرم افزار.
+
+حالت استاندارد
+در حالت پیش فرض برنامه استفاده از API مشخص شده است.
+مزایای استفاده
+-نرم افزار را می توان پس از انتخاب بسته شده است.
+-موسیقی را می توان توسط سیستم کنترل می شود.
+معایب
+-تنها چه API اجازه می دهد می تواند پخش شود. بدون مخلوط خود می تواند ایجاد شود.
+-پخشی که می تواند ایجاد شده وجود دارد.
+-در حال حاضر بازی نمی تواند تغییر.
+
+را انتخاب کنید و حالت بازی
+در این حالت همه چیز می تواند انتخاب شده و دوباره به طور مستقیم پخش.
+مزایای استفاده
+-می تواند هر چیزی را از لیست انتخاب و بازی.
+-شما می توانید ایجاد فهرست پخش سفارشی.
+-لیست پخش را می توان نجات داد.
+-در حال حاضر بازی نمایش داده شده و تغییر مرتب می تواند و.
+معایب
+-این برنامه نیاز به کنترل در طول پخش. نرم افزار باید تحت قفل صفحه نمایش اجرا می شود. برنامه به پس زمینه منتقل شود باید.
+-پخش را می توان تنها از طریق پخش برنامه تغییر کرد.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+    <value>را انتخاب کرده و بازی</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+    <value>را انتخاب کنید و حالت بازی</value>
+  </data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+    <value>انتخاب یا عدم انتخاب</value>
+  </data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+    <value>حالت استاندارد
+نوار بالا دکمه</value>
+  </data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+    <value>ترجمه خودکار
+خطا در طراحی</value>
+  </data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+    <value>طراحی را حذف کرده و آن را دوباره برای رفع این خطا در دانلود.</value>
+  </data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+    <value>لطفا بخوانید!
+خوش آمدید به نسخه 8.1 موسیقی جدید.
+برای کمک به شما برای شروع، به کمک جدید ایجاد کرده ایم. آرم بالا برای کمک به باز کردن فشار دهید.
+شروع با این انتشار، حالت کاملا جدید وجود دارد.
+لطفا توجه داشته باشید حالت جدید "را انتخاب کنید و بازی" هنوز در مرحله آزمایش است.
+بدهید ما لطفا اطلاع اگر شما یک خطا.
+خیلی متشکرم!
+
+آن لذت ببرید با نسخه جدید
+ایجاد لیست پخش</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+    <value>لیست پخش</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+    <value>فقط در حالت "را انتخاب کنید و بازی" ایجاد خواهد شد می توانید.
+-فعال کردن "را انتخاب کنید و بازی"
+-برو به پخش فعلی و آنها را حذف کنید
+-انتخاب از لیست موسیقی خود را
+-برو به پخش فعلی و ذخیره را فشار دهید
+-نام برای لیست پخش جدید را وارد کنید.
+-لیست پخش جدید در فهرست دوم در لیست پخش شما را</value>
+  </data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+    <value>کش سیستم</value>
+  </data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+    <value>بار اول نیازهای محتوای برخی از زمان. سپس بار مطالب از حافظه پنهان. اگر شما محتوای جدید را به دستگاه خود اضافه کنید باید کش را تازه کنید.
+شما می توانید تازه کش در تنظیمات.
+مشکلات صفحه نمایش</value>
+  </data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+    <value>ترانه های بسیاری می تواند باعث مشکلات با نمایش. مشکلات مرتبط با رنگ شفاف طرح.
+اگر شفافیت طرح حذف می تواند مشکل را حل کنند.</value>
+  </data>
+</root>

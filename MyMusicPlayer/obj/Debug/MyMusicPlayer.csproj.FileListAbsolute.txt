@@ -1,0 +1,275 @@
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Assets\ApplicationIcon.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\MyMusicPlayer.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\MyMusicPlayer.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\AppManifest.xaml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Properties\WMAppManifest.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\MyMusicPlayer_Debug_AnyCPU.xap
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\App.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MainPage.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.g.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.csproj.GenerateResource.Cache
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\XapCacheFile.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\de-DE\MyMusicPlayer.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.de-DE.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\de-DE\MyMusicPlayer.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\WriteableBitmapExWinPhone.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\WriteableBitmapExWinPhoneXnaDependant.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\WriteableBitmapExWinPhone.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\WriteableBitmapExWinPhone.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\WriteableBitmapExWinPhoneXnaDependant.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\WriteableBitmapExWinPhoneXnaDependant.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Coding4Fun.Toolkit.Audio.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Coding4Fun.Toolkit.Controls.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Coding4Fun.Toolkit.Net.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Coding4Fun.Toolkit.Storage.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.csprojResolveAssemblyReference.cache
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\MyAudioPlaybackAgent.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\MyAudioPlaybackAgent.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\Pages\AnimatedPlayer.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\Pages\Instructions.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\Pages\Language.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\Pages\Support.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\Pages\ColorSettings.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Assets\ApplicationIcon.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\empty.wma
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\MyMusicPlayer.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\MyMusicPlayer.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ar-SA\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Az-Latn-AZ\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\be-BY\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\bg-BG\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ca-ES\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\cs-CZ\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\da-DK\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\el-GR\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\en-GB\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\en-US\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\en\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\es-ES\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\et-EE\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\fa-IR\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\fi-FI\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\fr-FR\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\hi-IN\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\hr-HR\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\hu-HU\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\he-IL\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\id-ID\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\it-IT\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ja-JP\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ko-KR\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\lt-LT\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\lv-LV\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\mk-MK\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ms-MY\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\nl-NL\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\nb-NO\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\pl-PL\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\pt-BR\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\pt-PT\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\de-DE\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\es-MX\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\fil-PH\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ro-RO\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ru-RU\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\sk-SK\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\sq-AL\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\sv-SE\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\th-TH\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\tr-TR\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\uk-UA\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\vi-VN\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\zh-CN\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\zh-TW\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\AppManifest.xaml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Properties\WMAppManifest.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\MyMusicPlayer_Debug_AnyCPU.xap
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Coding4Fun.Toolkit.Audio.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Coding4Fun.Toolkit.Controls.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Coding4Fun.Toolkit.Net.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Coding4Fun.Toolkit.Storage.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ICSharpCode.SharpZLib.Phone.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.Controls.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.Filtering.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.IO.Bmp.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.IO.Gif.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.IO.Png.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.Utils.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\PhoneCodeContractsAssemblies.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\System.Windows.Interactivity.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\WriteableBitmapExWinPhone.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\WriteableBitmapExWinPhoneXnaDependant.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ICSharpCode.SharpZLib.Phone.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.Controls.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.Controls.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.Filtering.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.Filtering.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.IO.Bmp.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.IO.Bmp.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.IO.Gif.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.IO.Gif.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.IO.Png.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.IO.Png.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.Utils.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ImageTools.Utils.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\PhoneCodeContractsAssemblies.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\WriteableBitmapExWinPhone.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\WriteableBitmapExWinPhone.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\WriteableBitmapExWinPhoneXnaDependant.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\WriteableBitmapExWinPhoneXnaDependant.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\ru\System.Windows.Interactivity.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.csprojResolveAssemblyReference.cache
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\App.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MainPage.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\Pages\ColorSettings.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\Pages\CopyDesign.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\Pages\GoBack.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\Pages\Instructions.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\Pages\InstructionsDetails.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\Pages\Language.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\Pages\RenameDesign.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\Pages\SaveDesign.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\Pages\Support.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\Pages\SystemSettings.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\Pages\TileSettings.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.g.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.en-EN.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.sl-SL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.sr-Latn-CS.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.ar-SA.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.Az-Latn-AZ.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.be-BY.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.bg-BG.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.ca-ES.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.cs-CZ.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.da-DK.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.el-GR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.en-GB.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.en-US.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.en.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.es-ES.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.et-EE.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.fa-IR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.fi-FI.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.fr-FR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.hi-IN.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.hr-HR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.hu-HU.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.he-IL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.id-ID.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.it-IT.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.ja-JP.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.ko-KR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.lt-LT.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.lv-LV.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.mk-MK.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.ms-MY.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.nl-NL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.nb-NO.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.pl-PL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.pt-BR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.pt-PT.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.de-DE.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.es-MX.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.fil-PH.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.ro-RO.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.ru-RU.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.sk-SK.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.sq-AL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.sv-SE.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.th-TH.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.tr-TR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.uk-UA.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.vi-VN.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.zh-CN.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.Resources.AppResources.zh-TW.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.csproj.GenerateResource.Cache
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\ar-SA\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\Az-Latn-AZ\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\be-BY\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\bg-BG\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\ca-ES\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\cs-CZ\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\da-DK\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\el-GR\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\en-GB\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\en-US\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\en\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\es-ES\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\et-EE\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\fa-IR\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\fi-FI\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\fr-FR\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\hi-IN\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\hr-HR\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\hu-HU\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\he-IL\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\id-ID\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\it-IT\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\ja-JP\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\ko-KR\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\lt-LT\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\lv-LV\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\mk-MK\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\ms-MY\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\nl-NL\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\nb-NO\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\pl-PL\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\pt-BR\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\pt-PT\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\de-DE\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\es-MX\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\fil-PH\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\ro-RO\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\ru-RU\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\sk-SK\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\sq-AL\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\sv-SE\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\th-TH\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\tr-TR\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\uk-UA\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\vi-VN\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\zh-CN\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\zh-TW\MyMusicPlayer.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\MyMusicPlayer.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Debug\XapCacheFile.xml

@@ -1,0 +1,196 @@
+Compile filter specified.  Only the following files will be processed:
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\mymusicplayer.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\ar-sa\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\az-latn-az\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\be-by\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\bg-bg\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\ca-es\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\cs-cz\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\da-dk\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\el-gr\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\en-gb\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\en\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\es-es\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\fa-ir\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\fi-fi\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\fr-fr\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\hi-in\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\hr-hr\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\hu-hu\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\he-il\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\id-id\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\it-it\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\ja-jp\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\ko-kr\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\lt-lt\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\lv-lv\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\mk-mk\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\ms-my\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\nl-nl\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\nb-no\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\pl-pl\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\pt-br\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\pt-pt\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\de-de\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\es-mx\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\fil-ph\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\ro-ro\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\ru-ru\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\sk-sk\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\sq-al\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\sr-latn-cs\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\sv-se\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\th-th\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\tr-tr\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\uk-ua\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\vi-vn\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\zh-cn\mymusicplayer.resources.dll
+d:\eigene dateien\projekte\windows phone\8.1 music\mymusicplayer\mymusicplayer\bin\release\mdil\zh-tw\mymusicplayer.resources.dll
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\AppResLib.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\AppResLib.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\AudioStreamAgent1.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\AudioStreamAgent1.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\Coding4Fun.Toolkit.Audio.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\Coding4Fun.Toolkit.Audio.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\Coding4Fun.Toolkit.Controls.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\Coding4Fun.Toolkit.Controls.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\Coding4Fun.Toolkit.Net.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\Coding4Fun.Toolkit.Net.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\Coding4Fun.Toolkit.Storage.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\Coding4Fun.Toolkit.Storage.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ICSharpCode.SharpZLib.Phone.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ICSharpCode.SharpZLib.Phone.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ImageTools.Controls.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ImageTools.Controls.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ImageTools.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ImageTools.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ImageTools.Filtering.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ImageTools.Filtering.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ImageTools.IO.Bmp.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ImageTools.IO.Bmp.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ImageTools.IO.Gif.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ImageTools.IO.Gif.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ImageTools.IO.Png.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ImageTools.IO.Png.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ImageTools.Utils.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ImageTools.Utils.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\Microsoft.Expression.Interactions.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\Microsoft.Expression.Interactions.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\Microsoft.Phone.Controls.Toolkit.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\Microsoft.Phone.Controls.Toolkit.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\MyAudioPlaybackAgent.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\MyAudioPlaybackAgent.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\MyMusicPlayer.dll
+Calling CrossGen with arguments:
+/nologo /mdil /MissingDependenciesOK /fulltrust  /app_paths "D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL;"  /trusted_platform_assemblies "C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\Microsoft.CSharp.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\mscorlib.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\mscorlib.extensions.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Collections.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.ComponentModel.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.ComponentModel.EventBasedAsync.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Core.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Diagnostics.Contracts.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Diagnostics.Debug.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Diagnostics.Tools.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Dynamic.Runtime.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Globalization.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.IO.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Linq.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Linq.Expressions.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Linq.Queryable.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Net.NetworkInformation.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Net.Primitives.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Net.Requests.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.ObjectModel.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Observable.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Reflection.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Reflection.Emit.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Reflection.Emit.ILGeneration.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Reflection.Emit.Lightweight.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Reflection.Extensions.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Reflection.Primitives.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Resources.ResourceManager.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Runtime.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Runtime.Extensions.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Runtime.InteropServices.WindowsRuntime.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Runtime.Serialization.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Runtime.Serialization.Json.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Runtime.Serialization.Primitives.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Runtime.Serialization.Xml.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Runtime.WindowsRuntime.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Security.Principal.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.ServiceModel.Http.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.ServiceModel.Primitives.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.ServiceModel.Security.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.ServiceModel.Web.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Text.Encoding.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Text.Encoding.Extensions.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Text.RegularExpressions.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Threading.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Threading.Tasks.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Xml.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Xml.Linq.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Xml.ReaderWriter.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Xml.Serialization.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Xml.XDocument.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Xml.XmlSerializer.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\LocationService.Interop.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\Microsoft.Devices.Camera.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\Microsoft.Devices.Sensors.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\Microsoft.Phone.Data.Internal.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\Microsoft.Phone.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\Microsoft.Phone.Interop.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\Microsoft.Phone.Maps.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\Microsoft.Phone.Reactive.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\Microsoft.Xna.Framework.Avatar.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\Microsoft.Xna.Framework.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\Microsoft.Xna.Framework.Game.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\Microsoft.Xna.Framework.GamerServices.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\Microsoft.Xna.Framework.Graphics.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\Microsoft.Xna.Framework.Input.Touch.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\Microsoft.Xna.Framework.Interop.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\Microsoft.Xna.Framework.MediaLibraryExtensions.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Data.Linq.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Device.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Net.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.ServiceModel.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Windows.dll;C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework\System.Windows.RuntimeHost.dll;"  /platform_winmd_paths "C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\WinMds;"  /out "D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Release\MDIL\MyMusicPlayer.dll" "D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\MyMusicPlayer.dll"
+Output:
+MDIL image D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Release\MDIL\MyMusicPlayer.dll generated successfully.
+
+
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\MyMusicPlayer.dll output D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\obj\Release\MDIL\MyMusicPlayer.dll
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\PhoneCodeContractsAssemblies.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\PhoneCodeContractsAssemblies.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\System.Windows.Interactivity.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\System.Windows.Interactivity.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\WMAppManifest.xml
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\WMAppManifest.xml is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\WriteableBitmapExWinPhone.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\WriteableBitmapExWinPhone.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\WriteableBitmapExWinPhoneXnaDependant.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\WriteableBitmapExWinPhoneXnaDependant.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ar-SA\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ar-SA\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\Az-Latn-AZ\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\Az-Latn-AZ\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\be-BY\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\be-BY\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\bg-BG\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\bg-BG\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ca-ES\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ca-ES\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\cs-CZ\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\cs-CZ\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\da-DK\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\da-DK\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\de-DE\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\de-DE\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\el-GR\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\el-GR\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\en\Microsoft.Expression.Interactions.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\en\Microsoft.Expression.Interactions.resources.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\en\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\en\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\en\System.Windows.Interactivity.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\en\System.Windows.Interactivity.resources.dll is not in the compile filter. Skipping.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\en-GB\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\en-GB\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\es-ES\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\es-ES\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\es-MX\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\es-MX\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\fa-IR\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\fa-IR\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\fi-FI\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\fi-FI\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\fil-PH\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\fil-PH\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\fr-FR\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\fr-FR\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\he-IL\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\he-IL\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\hi-IN\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\hi-IN\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\hr-HR\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\hr-HR\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\hu-HU\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\hu-HU\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\id-ID\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\id-ID\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\it-IT\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\it-IT\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ja-JP\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ja-JP\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ko-KR\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ko-KR\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\lt-LT\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\lt-LT\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\lv-LV\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\lv-LV\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\mk-MK\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\mk-MK\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ms-MY\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ms-MY\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\nb-NO\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\nb-NO\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\nl-NL\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\nl-NL\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\pl-PL\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\pl-PL\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\pt-BR\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\pt-BR\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\pt-PT\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\pt-PT\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ro-RO\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ro-RO\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ru-RU\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\ru-RU\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\sk-SK\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\sk-SK\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\sq-AL\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\sq-AL\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\sr-Latn-CS\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\sr-Latn-CS\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\sv-SE\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\sv-SE\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\th-TH\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\th-TH\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\tr-TR\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\tr-TR\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\uk-UA\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\uk-UA\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\vi-VN\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\vi-VN\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\zh-CN\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\zh-CN\MyMusicPlayer.resources.dll is not an IL assembly. Copying.
+Processing file: D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\zh-TW\MyMusicPlayer.resources.dll
+File D:\Eigene Dateien\Projekte\Windows Phone\8.1 Music\MyMusicPlayer\MyMusicPlayer\Bin\Release\MDIL\zh-TW\MyMusicPlayer.resources.dll is not an IL assembly. Copying.

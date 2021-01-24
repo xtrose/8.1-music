@@ -1,0 +1,984 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>nl-NL</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Mijn toepassing</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>toevoegen</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>menu-item</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>over</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>album</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 Muziek</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>kunstenaar</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>meer</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>muziek</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>afspeellijsten</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>instellingen</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>lied</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>albums</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>Genres</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>Koop deze app</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>Controleren op updates</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>contact</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>lettergrootte</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>instructies</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>taal</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>Net xtrose</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>Toon logo op start</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>Andere xtrose apps</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>Beoordeel deze app</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>klik scherm over te slaan</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>Bedankt voor het downloaden</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>accentkleur</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>kleur</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>telefoon achtergrond</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>set kleur</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>Kleur selectielijst</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>Uitgebreide informatie</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>soort</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Mediaspeler accentkleur</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>playlist</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>songs</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>instellingen herstellen</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>achtergrond album</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>album voorgrond</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>achtergrond kunstenaar</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>kunstenaar voorgrond</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>telefoon Voorgrond</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>geselecteerde achtergrond</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>geselecteerde voorgrond</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>Song achtergrond</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>Song voorgrond</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>doorzichtigheid</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>zwart</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>wit</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>Alle liedjes</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>Selectie kan niet worden afgespeeld</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>Laatste playbacks</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>adres</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>spelen op</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>Speel op tijd</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>later</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>nooit</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>tarief</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>Deze applicatie lijkt een beroep op u .
+Om apps te programmeren is tijdrovend en moeilijk.
+Een goede review kan ons helpen om het verder te verspreiden.
+
+Heel hartelijk bedankt</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>ondersteuning</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>open</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>Afspelen</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>spelen album</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>Play song</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>Verwijder</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>Verwijder laatste playbacks</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>Lijst te verwijderen met vorig playbacks</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>breken</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>afspelen</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>stop</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>Stop en verwijder het afspelen</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>Stop het afspelen en verwijderen van speler</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>WAARSCHUWING</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>Klik om te openen</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>Aansluiten</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>verbinding mislukt</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>Verbinding time-out</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>ontwerpinstellingen</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>Gefeliciteerd , uw volledige versie is vrijgegeven</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>Geen update beschikbaar</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>Een ogenblik geduld aub</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>uur</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>uur</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>minuut</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>notulen</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>Dank u voor de aanschaf van deze app</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>Trial Version Verlopen</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>Trial Version verlopen! Om apps te maken zal veel tijd kosten. De prijs voor dit werk is niet duur . Om door te gaan maken lock schermen Images , moet u de app kopen . Dank je wel!</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>proefversie</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>kleurinstellingen</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>Sluiten lijsten</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>Druk op de verborgen knop linksboven om alle lijsten te sluiten .</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>Te klikken op de pijl naar links opent de fullscreen -speler.</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>algemeen</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>Met deze applicatie , krijg je het snelst naar uw muziek. U kunt al uw muziek te kiezen uit slechts twee lijsten . Daarnaast is de applicatie geeft je veel geweldige extensies .</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>De lijstweergave</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>Met behulp lijstweergave kunt u snel uw muziek te bereiken . Alle kunstenaars zijn opgenomen in de eerste lijst . Als u klikt op de gewenste opende toen zijn albums. Een verdere klik op het album toont alle nummers .
+In de tweede lijst , worden afspeellijsten , genres , albums en alle nummers vermeld.</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>Diversen</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>Please rate goed deze toepassing als je wilt. Als u problemen met deze toepassing hebben , neem dan contact op met ondersteuning ! Vragen en problemen hebben niets verloren in de beoordelingen .
+Hartelijk dank !</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>spelen op</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>De applicatie heeft een spel op functie . Met deze functie worden de titels worden afgespeeld alleen de ingestelde tijd . Te spelen op inschakelen, moet u de afspeelknop even vasthouden tijdens het afspelen.</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>Menu mediaspeler</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>Een kleine mediaspeler is geïnstalleerd in de onderste menu .</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>De middelgrote speler wordt geopend met een klik op de pijl naar rechts .</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 Muziek eindelijk je muziek te bereiken sneller.
+De nieuwe lijstweergave kunt u Super snel vinden van uw artiesten, albums of liedjes .
+Een mini -speler, een kleine speler , en een full-screen speler toelaten om u volledige controle over je muziek te geven . In portrait als landscape modus .
+Daarnaast zijn er vele extra's.
+
+- Lijst weergave van uw muziek
+- Lijst weergave van uw afspeellijsten
+-3 Verschillende mediaspelers
+- Ondersteunt portret en landschap
+- Korte spelen de titel
+- Stop de muziek en verwijderen van de mediaspeler
+-100 Laatste reproducties zijn opgeslagen
+- Full colour maatwerk
+- Heel veel leuke extra's</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>muziek</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>Speler Mediaplayer</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>afspelen</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>snel</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>Sound kunstenaar kunstenaars lied liederen album tag albums</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>Verander taal</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>Start de toepassing opnieuw</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>Selecteer taal</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>achtergrond kleur</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>Achtergrondafbeelding landschap</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>Achtergrond portret</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>FOUT
+De voorgrondkleur is hetzelfde als de achtergrondkleur .</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>voorgrondkleur</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>Herstel ontwerp instellingen</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>herstellen</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>Verwijder foto</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>Mediaspeler kleine achtergrondkleur</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Mediaspeler kleine accentkleur</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>Mediaspeler groot accentkleur</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>Mediaspeler groot achtergrondkleur</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>Mediaspeler foto landschap</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>Mediaspeler portret</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>van toepassing zijn</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>concert</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>kopie</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>Verwijder</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>ontwerpen</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>uitgeven</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>online</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>andere naam geven</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>besparen</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>achtergrond zwart</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>achtergrond wit</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>Lose -opgeslagen ontwerp instellingen</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>gekozen</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>FOUT ! Naam al in gebruik is of ongeldige tekens !</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>nieuwe naam</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>geselecteerde Achtergrond</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>geselecteerde Voorgrond</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>ontwerp</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>instellingen herstellen</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>Aansluiten .....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>verbinding mislukt</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>Verbinden met xtrose</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>Verbinding time-out</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>Trial Version verlopen! Om apps te maken zal veel tijd kosten. De prijs voor dit werk is niet duur . Om door te gaan om deze app te gebruiken, moet u om het te kopen . Dank je wel!</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>auteur</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>categorie</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>Installeer ontwerp .....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>Installeer ontwerp</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>naam</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>kennisgeving</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>even geduld aub</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>Dit is hoe het werkt.
+- Achtergrond afbeeldingen worden gekopieerd naar " opgeslagen afbeeldingen "
+- Wijs opent een e-mail naar xtrose
+- Voeg de naam van de auteur
+-Add beelden van " opgeslagen afbeeldingen "
+- Verstuur bericht
+
+Na een evaluatie , zullen we de gegevens op onze server te bieden .
+Heel hartelijk bedankt</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>Vul en omvatten beelden gecreëerd</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>Naam auteur :</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>Niet veranderen</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>Voeg achtergrond beelden van " opgeslagen afbeeldingen "</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>publiceren</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>Druk opnieuw om te sluiten</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>Knoppen en functies</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>oriëntatie lock</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>volgende nummer</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>( Press) Pauze
+( Hold ) Scan</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>Afspelen</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>vorige nummer</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>Vernieuwen lijst</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Repead</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>zoeken</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>schuifelen</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 muziek eindelijk je muziek te bereiken sneller.
+De nieuwe lijstweergave kunt u Super snel vinden van uw artiesten, albums of liedjes .
+Een mini -speler, een kleine speler en een full-screen muzieksysteem is toegestaan ​​om u volledige controle over je muziek LEIDEN. In portrait als landscape modus .
+Maak uw eigen ontwerp of downloaden afgewerkte ontwerpen van het internet .
+Daarnaast zijn er vele extra's.
+
+- Lijst weergave van uw muziek
+- Lijst weergave van uw afspeellijsten
+-3 Verschillende mediaspelers
+- Ondersteunt portret en landschap
+- Korte spelen de titel
+-Design Editor
+-Download voltooid ontwerp van het internet
+- Stop de muziek en verwijderen van de mediaspeler
+-100 Laatste reproducties worden opgeslagen
+- Full colour maatwerk
+- Heel veel leuke extra's</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>Druk nogmaals twee keer om cache te vernieuwen</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>Druk nogmaals op om de vangst te vernieuwen</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>achtergrondafbeelding</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>Logo op de afbeelding van het album</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>belangrijkste tegel</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>Reset belangrijkste tegel</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>Start instellingenscherm</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>startscherm</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>Tegel stoppen en verwijderen</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>Klik hier om een ​​stop maken en verwijderen tegel</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>Voer een getal in 0-360</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0-360 Minuten</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>Ren onder lock screen</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>timer</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>Voor de timer van de app moet worden uitgevoerd onder de lock -scherm .
+Kunnen draaien onder het slot scherm</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>lijst update
+Dubbelklik op de kennisgeving aan de lijst opnieuw . Alleen nodig als gewijzigd muziek op uw mobiele telefoon.</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8.1 muziek eindelijk je muziek te bereiken sneller.
+De nieuwe lijstweergave kunt u Super snel vinden van uw artiesten, albums of liedjes .
+Een mini -speler, een kleine speler , en een full-screen speler toelaten om u volledige controle over je muziek te geven . In portrait als landscape modus .
+Maak uw eigen ontwerp of downloaden afgewerkte ontwerpen van het internet .
+Daarnaast zijn er vele extra's.
+
+- Lijst weergave van uw muziek
+- Lijst weergave van uw afspeellijsten
+-3 Verschillende mediaspelers
+- Ondersteunt portret en landschap
+- Korte spelen de titel
+-Design Editor
+-Download voltooid ontwerp van het internet
+- Stop de muziek en verwijderen van de mediaspeler
+-100 Laatste reproducties worden opgeslagen
+- Full colour maatwerk
+- Heel veel leuke extra's</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>Druk nogmaals twee keer om cache te vernieuwen</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>vernieuwen</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>vernieuwen cache</value>
+  </data>
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+    <value>Huidige afspeellijst</value>
+  </data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+    <value>Clear huidige afspeellijst</value>
+  </data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+    <value>Geen songs in de huidige replay beschikbaar</value>
+  </data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+    <value>Een afspeellijst met dezelfde naam al bestaat.</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+    <value>Afspeellijst verwijderen</value>
+    <comment>NOTE FOR Translators, please enter a return at the end of the text.</comment>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+    <value>Geladen</value>
+  </data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+    <value>Knoppen mediaspeler</value>
+  </data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+    <value>Knoppen van de lijst</value>
+  </data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+    <value>Druk op het logo om de Help te openen</value>
+  </data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+    <value>Huidige weergave verwijderen</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+    <value>Afspeellijst verwijderen</value>
+  </data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+    <value>Deze knop verwijdert u de huidige weergave en alle nummers in de lijst deselecteren.</value>
+  </data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+    <value>Gebruik deze knop om de oriëntatie te vergrendelen.
+Het zal altijd geblokkeerd worden de huidige oriëntatie.
+Druk nogmaals op de knop om het te ontgrendelen.</value>
+  </data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+    <value>Met deze knop worden de lijsten gesloten en vernieuwd.
+Door te dubbelklikken op de bekendgemaakte aankondiging, wordt de cache bijgewerkt.
+De cache moet worden verlengd indien de muziek van de smartphone is gewijzigd.</value>
+  </data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+    <value>Met deze knop, de huidige weergave als een afspeellijst kunnen worden opgeslagen. Alleen beschikbaar in de modus, selecteren en afspelen.</value>
+  </data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+    <value>Een druk op het zoeken, opent vervolgens een tekstinvoer.
+Voer uw zoekterm in en druk op return.
+De zoekopdracht filtert alle lijsten.
+Gebruik dicht en lijsten te vernieuwen om de zoekopdracht te verwijderen.</value>
+  </data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+    <value>Ontwerp editor</value>
+  </data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+    <value>Bijna alles kan worden aangepast in deze app.
+Achtergrondafbeeldingen, achtergrondkleuren, voorgrondkleur, de individuele kleuren van de lijst.
+Om de kleurinstellingen te wijzigen, moet u het ontwerp te openen.
+Hier kunt u de app te maken naar uw wens.
+
+U kunt volledige thema's te downloaden en direct te installeren.
+
+Met de Share-knop kunt u ons uw ontwerp.
+Vergeet niet om de gegenereerde beelden.
+Wij zullen graag uw ontwerp uploaden.</value>
+  </data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+    <value>Ontwerp fout</value>
+  </data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+    <value>Wanneer het downloaden van het ontwerp fouten kunnen optreden.
+In het selecteren van de thema's van de app crasht.
+Het ontwerp wordt gereset tijdens de volgende startup.
+Om het ontwerp te gebruiken, moet het opnieuw worden geïnstalleerd.</value>
+  </data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+    <value>Select afspeellijst</value>
+  </data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+    <value>Overzicht</value>
+  </data>
+  <data name="ZZ005_Play" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+    <value>Speel alleen deze titel</value>
+  </data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+    <value>Playlist opslaan</value>
+  </data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+    <value>In de modus te selecteren en speel de afspeellijst kunnen worden opgeslagen.
+Deze knop verschijnt op het gebied van de actuele weergave.
+Klikken op de knop opent een tekstinvoerveld.
+Nadat een naam is hier ingevoerd moet u op de return-toets.
+Wijs op de afspeellijst in een afspeellijst wordt opgeslagen.
+Je kunt ze vinden in de tweede lijst.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+    <value>Selecteren en afspelen
+Deze knop verandert de modus van de app.
+
+Standaard modus
+In de standaardmodus gebruikt de app de opgegeven API.
+Voordelen
+- De app kan worden gesloten na de selectie.
+- De muziek kan worden gecontroleerd door het systeem.
+Nadelen
+- Het kan alleen gespeeld worden wat de API waardoor. Geen eigen mixen kunnen worden gemaakt.
+- Er zijn geen playlists die kunnen worden gemaakt.
+- Nu spelen niet kan worden gewijzigd.
+
+Selecteer en mode spelen
+In deze modus kan alles worden geselecteerd en direct afgespeeld.
+Voordelen
+- Het kan alles zijn geselecteerd uit de lijst en speelde.
+- U kunt aangepaste afspeellijsten maken.
+- Playlists kunnen worden opgeslagen.
+- Afspelen wordt weergegeven en kan worden veranderd en gesorteerd.
+Nadelen
+- De app vereist de controle tijdens het afspelen. De app moet draaien onder het slot scherm. De app moet niet worden verplaatst naar de achtergrond.
+- Het afspelen kan alleen door de speler van de app worden gewijzigd.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+    <value>Selecteren en afspelen</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+    <value>Selecteer en mode spelen</value>
+  </data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+    <value>Selecteer of deselecteer</value>
+  </data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+    <value>Standaard mode</value>
+  </data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+    <value>Top knoppenbalk</value>
+  </data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+    <value>Automatisch vertalen</value>
+  </data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+    <value>Ontwerp fout!
+Verwijder de afbeelding en download het opnieuw om deze fout te herstellen.</value>
+  </data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+    <value>Lees!
+Welkom op de nieuwe versie 8.1 muziek.
+Om u te helpen de slag te gaan, hebben we een nieuwe hulp gemaakt. Druk boven het logo om hulp te openen.
+Te beginnen met deze release, is er een geheel nieuwe modus.
+Let op de nieuwe modus "te selecteren en af ​​te spelen" is nog steeds in de testfase.
+Geef ons weten als u een fout vinden.
+Hartelijk dank!
+
+Veel plezier met de nieuwe versie</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+    <value>Afspeellijst aanmaken</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+    <value>Afspeellijsten kunnen alleen in de "te selecteren en af ​​te spelen"-modus wordt aangemaakt.
+- Activeren "selecteren en spelen"
+- Ga naar de huidige weergave en verwijder ze
+- Kies uit de lijst van uw muziek
+- Ga naar de huidige weergave en druk op Opslaan
+- Voer een naam voor de nieuwe afspeellijst
+- U zult uw nieuwe afspeellijst te vinden in de tweede lijst onder afspeellijsten</value>
+  </data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+    <value>Cache systeem</value>
+  </data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+    <value>De eerste lading van de inhoud heeft wat tijd. Laad daarna de inhoud van de cache. Als je nieuwe content toe te voegen aan uw apparaat moet u de cache vernieuwen.
+U kunt de cache vernieuwen in de instellingen.</value>
+  </data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+    <value>Display problemen</value>
+  </data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+    <value>Vele songs kunnen problemen met de weergave veroorzaken. De problematiek van de transparante kleur van de ontwerpen.
+U kunt het probleem oplossen als u de transparantie van de ontwerpen te verwijderen.</value>
+  </data>
+</root>

@@ -1,0 +1,986 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>cs-CZ</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Moje aplikace</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>přidat</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Položka Menu</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>album</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 Hudba</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>umělec</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>více</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>hudba</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>Seznamy</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>Nastavení</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>píseň</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>Alba</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>Žánry</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>Prodám tuto aplikaci</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>Zkontrolujte, zda pro aktualizaci</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>kontakt</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>velikost písma</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>instrukce</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>jazyk</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>jako xtrose</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>Zobrazit logo na startu</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>ano</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>Další xtrose aplikace</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>Hodnotit tuto aplikaci</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>klepněte na obrazovku přeskočit</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>Děkujeme za stažení</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>Accent barvy</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>barva</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>Telefon pozadí</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>Nastavení barev</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>ano</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>Výběr ubytování barva</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>Rozšířené informace</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>druh</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Přehrávač médií přízvuk barvy</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>Playlist</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>písně</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>obnovit nastavení</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>album pozadí</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>album popředí</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>Umělec pozadí</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>Umělec popředí</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>Telefon popředí</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>Vybraná pozadí</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>Vybraná popředí</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>Song pozadí</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>Song popředí</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>průhlednost</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>černý</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>bílý</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>Všechny skladby</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>Výběr nelze přehrát</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>Poslední playbacks</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>adresa</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>hrát na</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>Zahrajte si na čas</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>později</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>nikdy</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>sazba</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>Tato aplikace se zdá apelovat na vás .
+Chcete-li naprogramovat aplikace je časově náročné a obtížné .
+Dobrý přehled nám může pomoci ji šířit dál.
+
+Děkuji moc</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>podpora</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>otevřeno</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>Přehrát</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>Přehrát album</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>Přehrát skladbu</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>vymazat</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>Smazat poslední přehrání</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>Smazat seznam s posledních přehrání</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>přestávka</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>Přehrávání</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>stop</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>Zastavit a odstranit přehrávání</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>Zastavení přehrávání a odstranit z přehrávače</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>VAROVÁNÍ</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>Klepnutím na tlačítko otevřete</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>spojovací</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>Připojení se nezdařilo</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>Doba připojení se</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>nastavení designu</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>Gratulujeme , vaše plná verze byla uvolněna</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>Žádná aktualizace k dispozici</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>Okamžik, prosím</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>hodina</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>hodin</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>minuta</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>minut</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>Děkujeme, že jste si zakoupili tuto aplikaci</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>Trial verze vypršela</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>Trial verze vypršela ! Chcete-li vytvořit aplikace bude stát spoustu času . Cena za tuto práci není drahé . Chcete-li pokračovat vytvořit zámek obrazovek obrázky , musíte si koupit aplikaci . Děkuji vám !</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>Trial verze</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>nastavení barev</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>Zavřít seznamy</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>Stiskněte tlačítko skrytý , vlevo nahoře zavřete všechny seznamy .</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>Kliknutím na levé šipky se otevře fullscreen přehrávač .</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>obecný</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>S touto aplikací , dostanetenejrychleji k vaší hudbě . Můžete si vybrat veškerou vaši hudbu z pouhých dvou seznamů . Navíc ,aplikace vám dává mnoho skvělých rozšíření .</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>Zobrazení seznamu</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>Pomocí zobrazení seznamu můžete rychle dostat svou hudbu . Všichni umělci jsou uvedeny v prvním seznamu . Pokud kliknete napožadovanou pak otevřel svá alba . Dále klikněte na albu se zobrazí všechny skladby .
+Ve druhém seznamu , seznamy skladeb , žánrů , alb a všechny skladby jsou uvedeny .</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>smíšený</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>Ohodnoťte, prosíme, dobré tuto žádost , pokud se vám líbí . Pokud máte problémy s touto aplikací , kontaktujte podporu ! Otázky a problémy se nic neztratil v hodnocení .
+Děkuji moc !</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>hrát na</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>Aplikace má hru na funkci . Díky této funkci budou tituly budou přehrány pouze na nastavený čas . Chcete-li povolit hrát na , musíte držet tlačítko přehrávání na vteřinu během přehrávání .</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>Menu media player</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>Malý multimediální přehrávač je instalován do spodní menu.</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>Střední hráč se otevírá kliknutím na šipku vpravo .</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 Hudební konečně dostat svou hudbu rychleji .
+Nový pohled na seznam umožňuje Super rychlá najít své umělce , alba a skladby .
+Mini přehrávač,malý hráč , a hráčna celou obrazovku , aby vám plnou kontrolu nad vaší hudbou . V portrétu , jakož i na šířku .
+Navíc , existuje mnoho doplňky .
+
+- Seznam pohled na hudbu
+- Zobrazení seznamu vašich playlistů
+-3 Různé multimediální přehrávače
+- Podporuje portrét a krajina
+-Short přehrávání titulu
+- Zastavte hudbu a odstranit z přehrávače médií
+-100 Poslední reprodukce jsou uloženy
+- Plně barevný přizpůsobení
+- Spousta skvělých bonusů</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>hudba</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>přehrávač Mediaplayer</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>Přehrávání</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>rychle</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>Zvuk umělci song songs album tag album</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>Změnit jazyk</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>Restartujte aplikaci</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>Zvolte jazyk</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>barva pozadí</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>Obrázek na pozadí krajiny</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>Obrázek na pozadí portrétu</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>ERROR
+Barva popředí jestejná jako barva pozadí .</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>barva popředí</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>Obnovení nastavení designu</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>obnovit</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>Odstranit obrázek</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>Media player malé barevné pozadí</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Media player malé přízvuk barvy</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>Media player velký důraz barva</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>Media player velké barevné pozadí</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>Media player fotografie krajiny</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>Přehrávač médií obrázek portrét</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>platit</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>koncert</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>kopie</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>vymazat</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>vzory</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>Upravit</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>přejmenovat</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>uložit</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>černými</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>bílé pozadí</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>Ztrátě neuložených nastavení designu</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>vybraný</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>CHYBA ! Název se již používá nebo neplatné znaky !</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>nový název</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>Vybraná pozadí</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>Vybraný v popředí</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>design</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>obnovit nastavení</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>Připojení .....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>Připojení se nezdařilo</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>Spojte se s xtrose</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>Doba připojení se</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>Trial verze vypršela ! Chcete-li vytvořit aplikace bude stát spoustu času . Cena za tuto práci není drahé . Chcete-li nadále používat tuto aplikaci , budete muset koupit . Děkuji vám !</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>autor</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>kategorie</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>Nainstalujte designu .....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>nainstalujte designu</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>název</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>oznámení</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>Čekejte prosím</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>To je, jak to funguje .
+- Pozadí obrazy jsou zkopírovány do " uložených snímků "
+- Zdůrazněte otevře e-mail na xtrose
+Přidat jméno autora
+- Vložit obrázky z " uložených snímků "
+- Poslat zprávu
+
+Po přezkoumání , budeme poskytovat údaje o našem serveru .
+Děkuji moc</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>Prosím, vyplňte a zahrnují obrazy vytvořené</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>Jméno autora :</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>Neměňte</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>Přidat obrázky pozadí z " uložených snímků "</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>publikovat</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>Stiskněte znovu pro zavření</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>Tlačítka a funkce</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>Orientace zámek</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>Další song</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>( Press ) Pauza
+( Pozastavení) Scan</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>Přehrát</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>Předchozí skladba</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>Obnovit seznam</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Repead</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>hledání</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>míchání</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 hudba konečně dostat svou hudbu rychleji .
+Nový pohled na seznam umožňuje Super rychlá najít své umělce , alba a skladby .
+Mini přehrávač,malý hráč , a hráčna celou obrazovku , aby vám plnou kontrolu nad vaší hudbou . V portrétu , jakož i na šířku .
+Vytvořte si vlastní design nebo si stáhnout hotové designy z Internetu .
+Navíc , existuje mnoho doplňky .
+
+- Seznam pohled na hudbu
+- Zobrazení seznamu vašich playlistů
+-3 Různé multimediální přehrávače
+- Podporuje portrét a krajina
+-Short přehrávání titulu
+-Design Editor
+-Stažení dokončení konstrukce z internetu
+- Zastavte hudbu a odstranit z přehrávače médií
+-100 Poslední reprodukce jsou uloženy
+- Plně barevný přizpůsobení
+- Spousta skvělých bonusů</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>Dvakrát stiskněte znovu obnovit vyrovnávací paměť</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>Stiskněte znovu pro obnovení úlovek</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>obrázek na pozadí</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>Logo na obrázku alba</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>Hlavní dlaždice</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>Obnovit hlavní dlaždice</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>Začněte nastavení obrazovky</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>Úvodní obrazovka</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>Deska zastavit a odstranit</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>Klikněte zde pro vytvoření zastavit a odstranit dlaždice</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>Obnovit</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>Prosím zadejte číslo 0-360</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0-360 minut</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>Spusťte pod zámkem obrazovky</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>zastavit měřič</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>Pro časovače musí býtaplikace spuštěna pod uzamčené obrazovce .
+Povolit spuštění v uzamčené obrazovce</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>Aktualizovat seznam
+Dvojitým kliknutím na oznámení do seznamu znovu . Nutné pouze při změně hudby na vašem mobilu .</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8.1 hudba konečně dostat svou hudbu rychleji .
+Nový pohled na seznam umožňuje Super rychlá najít své umělce , alba a skladby .
+Mini přehrávač,malý hráč , a hráčna celou obrazovku , aby vám plnou kontrolu nad vaší hudbou . V portrétu , jakož i na šířku .
+Vytvořte si vlastní design nebo si stáhnout hotové designy z Internetu .
+Navíc , existuje mnoho doplňky .
+
+- Seznam pohled na hudbu
+- Zobrazení seznamu vašich playlistů
+-3 Různé multimediální přehrávače
+- Podporuje portrét a krajina
+-Short přehrávání titulu
+-Design Editor
+-Stažení dokončení konstrukce z internetu
+- Zastavte hudbu a odstranit z přehrávače médií
+-100 Poslední reprodukce jsou uloženy
+- Plně barevný přizpůsobení
+- Spousta skvělých bonusů</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>Dvakrát stiskněte znovu obnovit vyrovnávací paměť</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>obnovit</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>Obnovit mezipaměť</value>
+  </data>
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+    <value>Aktuální seznam stop</value>
+  </data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+    <value>Vymazat aktuální seznam stop</value>
+  </data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+    <value>Skladby v dostupné aktuální zßznam
+Seznam stop A</value>
+  </data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+    <value>se stejným názvem již existuje.</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+    <value>Odstranit seznam stop</value>
+    <comment>NOTE FOR Translators, please enter a return at the end of the text.</comment>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+    <value>načten</value>
+  </data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+    <value>Tlačítka media player</value>
+  </data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+    <value>Tlačítka v seznamu</value>
+  </data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+    <value>Stisknutím loga otevřít nápovědu</value>
+  </data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+    <value>Odstranit aktuální přehrávání</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+    <value>Odstranit seznam stop</value>
+  </data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+    <value>Toto tlačítko odstraní aktuální přehrávání a zrušit všechny skladby v seznamech.</value>
+  </data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+    <value>Použijte toto tlačítko Zamknout orientace.
+To bude blokované vždy aktuální orientaci.
+Stisknutím tlačítka znovu odemknout.
+</value>
+  </data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+    <value>s tímto tlačítkem, seznamy jsou uzavřeny a obnovena.
+Poklepáním na zveřejněné oznámení se aktualizuje mezipaměť.
+Mezipaměti musí být obnovováno, pouze v případě, že hudební Smartphone se změnila.</value>
+  </data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+    <value>s touto tlačítko, současné přehrávání jako seznamu stop lze uložit. Je k dispozici pouze v režimu, vybrat a hrát.</value>
+  </data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+    <value>Jeden lis na hledání, pak otevře zadávání textu.
+Zadejte hledaný výraz a stiskněte ENTER.
+Hledání filtruje všechny seznamy.
+Zavřít a obnovit seznamy Smazat hledání.</value>
+  </data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+    <value>Design editor</value>
+  </data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+    <value>Téměř vše lze upravit v této aplikaci.
+Obrázky na pozadí, barvy pozadí, barvou popředí, jednotlivé barvy v seznamu.
+Chcete-li změnit nastavení barev, je třeba otevřít návrh.
+Tady aby aplikace podle vašich představ.
+
+Můžete stáhnout kompletní témata a instalovat přímo.
+
+Podíl tlačítkem můžete nám zaslat svůj návrh.
+Prosím, nezapomeňte přidat generované obrazy.
+Rádi se nahrát váš návrh.</value>
+  </data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+    <value>Design chyba</value>
+  </data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+    <value>Při stahování designu chyby může dojít.
+V seznamu vyberte témata zhroucení aplikace.
+Design je obnovena při příštím spuštění počítače.
+Chcete-li použít design, je třeba znovu nainstalovat.</value>
+  </data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+    <value>Vyberte seznam stop</value>
+  </data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+    <value>Přehled</value>
+  </data>
+  <data name="ZZ005_Play" xml:space="preserve">
+    <value>Hry</value>
+  </data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+    <value>Hrát jen tento titul</value>
+  </data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+    <value>Uložit seznam stop</value>
+  </data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+    <value>v režimu výběr a přehrávání seznamu stop lze uložit.
+Toto tlačítko se zobrazí v poli aktuální přehrávání.
+Klepnutím na tlačítko se otevře vstupní textové pole.
+Po názvu zde budete muset stiskněte tlačítko return.
+Poukázat na seznam skladeb v seznamu stop je uložen.
+Najdete je v druhém seznamu.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+    <value>Vybrat a hrát
+Klepnutím na toto tlačítko změní režim aplikace.
+
+Standardní režim
+Ve výchozím režimu aplikace pomocí zadaného rozhraní API.
+Výhody
+-App lze uzavřít po výběru.
+-Hudba může být řízena systémem.
+Nevýhody
+-Je možné hrát pouze co rozhraní API umožňuje. Lze vytvořit žádné vlastní směsi.
+-Neexistují žádné seznamy stop, které lze vytvořit.
+-Nyní hraje nelze změnit.
+
+Vybrat a hrát mód
+V tomto režimu vše lze vybrat a přehrát přímo.
+Výhody
+-To může něco vybráno v seznamu a hrál.
+-Můžete vytvářet vlastní playlisty.
+-Seznamy stop lze uložit.
+-Nyní hraje se zobrazí a lze změnit a seřazeny.
+Nevýhody
+-Aplikace vyžaduje ovládací prvek během přehrávání. Aplikace musí být spuštěna pod zámek obrazovky. Aplikace by neměla přesunout na pozadí.
+-Přehrávání lze změnit pouze prostřednictvím hráč app.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+    <value>Vybrat a hrát</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+    <value>Vybrat a hrát mód</value>
+  </data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+    <value>Vyberte nebo zrušte výběr</value>
+  </data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+    <value>Standardní režim</value>
+  </data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+    <value>Horní tlačítko panel</value>
+  </data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+    <value>Automatický překlad</value>
+  </data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+    <value>Design chyba!
+Odstraňte design a stáhněte jej znovu, chcete-li opravit tuto chybu.
+Přečtěte si</value>
+  </data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+    <value>Vítejte na nové hudební verze 8.1.
+Abyste mohli začít, jsme vytvořili novou pomoc. Stiskněte logo nahoře otevřít nápovědu.
+Počínaje tímto vydáním, je zcela nový mód.
+Upozorňujeme nový režim, "vybrat a hrát" je stále ve fázi testování.
+Dejte nám prosím vědět, pokud najdete chybu.
+Mockrát děkuju!
+
+Bavte se s novou verzí</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+    <value>Vytvořit seznam stop</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+    <value>Seznamy stop lze pouze v režimu "vybrat a hrát" bude vytvořen.
+-Aktivovat "Select and Play"
+-Přejít na aktuální přehrávání a odstranit je
+-Vyberte v seznamu hudby
+-Přejít na aktuální přehrávání a stiskněte tlačítko Uložit
+-Zadejte název pro nový seznam stop
+-Najdete nový seznam stop v druhém seznamu skladeb</value>
+  </data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+    <value>Systém mezipaměti</value>
+  </data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+    <value>První načtení obsahu potřebuje nějaký čas. Pak načtete obsah z mezipaměti. Pokud přidáte nový obsah do zařízení je třeba aktualizovat mezipaměť.
+Můžete aktualizovat mezipaměť v nastavení.</value>
+  </data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+    <value>Problémy se zobrazením</value>
+  </data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+    <value>Mnoho písní může způsobit problémy s displejem. Problémy spojené s průhlednou barvou vzorů.
+Problém můžete vyřešit, pokud odeberete transparentnost návrhů.</value>
+  </data>
+</root>

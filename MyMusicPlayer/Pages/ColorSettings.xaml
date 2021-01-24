@@ -1,0 +1,333 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MyMusicPlayer.Pages.ColorSettings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="clr-namespace:Coding4Fun.Toolkit.Controls;assembly=Coding4Fun.Toolkit.Controls"
+    xmlns:Toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False">
+
+    
+    
+    
+    
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        
+        
+        
+        
+        <!--Logo-->
+        <Image Name="ImgLogo" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Opacity="0.2" Source="/Images/Brush.Dark.png" Margin="-30,-30"/>
+
+
+
+
+
+        <!--Pivot Control-->
+        <phone:Pivot Name="MainPivotItem" Title="{Binding LocalizedResources.Z001_AppTitle, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Foreground="{StaticResource PhoneForegroundBrush}">
+
+
+
+
+
+            <!--Design bearbeiten-->
+            <phone:PivotItem Header="{Binding LocalizedResources.ZZ002_Edit, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="20">
+
+
+                <!--ContentPanel - place additional content here-->
+                <ScrollViewer Margin="0,-18,0,0" Height="650" VerticalAlignment="Top">
+                    <StackPanel>
+                        <TextBlock Text="{Binding LocalizedResources.ZZ002_BackgroundColor, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,24,12,0" FontSize="24" />
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,24">
+                            <Button Name="BtnBackgroundColor" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnBackgroundColor_Click" Width="388" />
+                            <Rectangle Name="RTBackgroundColorDemo" Fill="Gray" Width="60" Height="60" VerticalAlignment="Top" Margin="0,6,0,0" />
+                        </StackPanel>
+                        <TextBlock Text="{Binding LocalizedResources.ZZ002_ForegroundColor, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                        <Button Name="BtnForegroundColor" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnForegroundColor_Click" Margin="0,0,0,24" />
+                        <TextBlock Text="{Binding LocalizedResources.ZZ002_BackgroundPicturePortrait, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,24">
+                            <Button Name="BtnBackgroundPicturePortrait" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnBackgroundPicturePortrait_Click" Width="388" />
+                            <Image Name="ImgDeleteBackgroundPicturePortrait" Source="/Images/Delete.Dark.png" Height="60" MouseLeftButtonUp="BtnBackgroundPicturePortraitDelete_Click" />
+                        </StackPanel>
+                        <TextBlock Text="{Binding LocalizedResources.ZZ002_BackgroundPictureLandscape, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,72">
+                            <Button Name="BtnBackgroundPictureLandscape" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnBackgroundPictureLandscape_Click" Width="388" />
+                            <Image Name="ImgDeleteBackgroundPictureLandscape" Source="/Images/Delete.Dark.png" Height="60" MouseLeftButtonUp="BtnBackgroundPictureLandscapeDelete_Click" />
+                        </StackPanel>
+
+                        <TextBlock Text="{Binding LocalizedResources.ZZ002_MediaPlayerBackgroundColor, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,24,0,0" FontSize="24" />
+                        <StackPanel Orientation="Horizontal">
+                            <Button Name="BtnMediaPlayerBackgroundColor" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnMediaPlayerBackgroundColor_Click" Width="388" />
+                            <Rectangle Name="RTMediaPlayerBackgroundDemo" Fill="Gray" Width="60" Height="60" VerticalAlignment="Top" Margin="0,6,0,0" />
+                        </StackPanel>
+                        <TextBlock Text="{Binding LocalizedResources.ZZ002_MediaPlayerAccentColor, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,24,0,0" FontSize="24" />
+                        <StackPanel Orientation="Horizontal">
+                            <Button Name="BtnMediaPlayerAccentColor" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnMediaPlayerAccentColor_Click" Margin="0,0,0,60" Width="388" />
+                            <Rectangle Name="RTMediaPlayerAccentDemo" Fill="Gray" Width="60" Height="60" VerticalAlignment="Top" Margin="0,6,0,0" />
+                        </StackPanel>
+
+                        <TextBlock Text="{Binding LocalizedResources.ZZ002_MediaPlayerBigBackgroundColor, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,24,0,0" FontSize="24" />
+                        <StackPanel Orientation="Horizontal">
+                            <Button Name="BtnMediaPlayerBigBackgroundColor" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnMediaPlayerBigBackgroundColor_Click" Width="388" />
+                            <Rectangle Name="RTMediaPlayerBigBackgroundDemo" Fill="Gray" Width="60" Height="60" VerticalAlignment="Top" Margin="0,6,0,0" />
+                        </StackPanel>
+                        <TextBlock Text="{Binding LocalizedResources.ZZ002_MediaPlayerBigAccentColor, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,24,0,0" FontSize="24" />
+                        <StackPanel Orientation="Horizontal">
+                            <Button Name="BtnMediaPlayerBigAccentColor" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnMediaPlayerBigAccentColor_Click" Margin="0,0,0,24" Width="388" />
+                            <Rectangle Name="RTMediaPlayerBigAccentDemo" Fill="Gray" Width="60" Height="60" VerticalAlignment="Top" Margin="0,6,0,0" />
+                        </StackPanel>
+                        <TextBlock Text="{Binding LocalizedResources.ZZ002_MPBigBackgroundPicturePortrait, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,24">
+                            <Button Name="BtnMPBigBackgroundPicturePortrait" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnMPBigBackgroundPicturePortrait_Click" Width="388" />
+                            <Image Name="ImgMPBigDeleteBackgroundPicturePortrait" Source="/Images/Delete.Dark.png" Height="60" MouseLeftButtonUp="BtnMPBigBackgroundPicturePortraitDelete_Click" />
+                        </StackPanel>
+                        <TextBlock Text="{Binding LocalizedResources.ZZ002_MPBigBackgroundPictureLandscape, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,60">
+                            <Button Name="BtnMPBigBackgroundPictureLandscape" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnMPBigBackgroundPictureLandscape_Click" Width="388" />
+                            <Image Name="ImgMPBigDeleteBackgroundPictureLandscape" Source="/Images/Delete.Dark.png" Height="60" MouseLeftButtonUp="BtnMPBigBackgroundPictureLandscapeDelete_Click" />
+                        </StackPanel>
+
+                        <TextBlock Text="{Binding LocalizedResources.Z001_ListSelectionColor, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,24,0,0" FontSize="24" />
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,60">
+                            <Button Name="BtnListSelectorColor" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnListSelectorColor_Click" Margin="0,0,0,60" Width="388" />
+                            <Rectangle Name="RTListSelectorDemo" Fill="Gray" Width="60" Height="60" VerticalAlignment="Top" Margin="0,6,0,0" />
+                        </StackPanel>
+
+                        <Grid Name="GRArtistDemo" Background="Gray" Width="432">
+                            <TextBlock Name="TBArtistDemo" Width="408" Text="{Binding LocalizedResources.Z001_Artist, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="0,6,0,6"/>
+                        </Grid>
+                        <TextBlock Text="{Binding LocalizedResources.Z001_ArtistBackground, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,24,12,0" FontSize="24" />
+                        <Button Name="BtnArtistBackgroundColor" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnArtistBackgroundColor_Click" Margin="0,0,0,24" />
+                        <TextBlock Text="{Binding LocalizedResources.Z001_ArtistForeground, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                        <Button Name="BtnArtistForegroundColor" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnArtistForegroundColor_Click" Margin="0,0,0,60" />
+
+                        <Grid Name="GRAlbumDemo" Background="Gray" Width="432">
+                            <TextBlock Name="TBAlbumDemo" Width="408" Text="{Binding LocalizedResources.Z001_Album, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="0,6,0,6"/>
+                        </Grid>
+                        <TextBlock Text="{Binding LocalizedResources.Z001_AlbumBackground, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,24,12,0" FontSize="24" />
+                        <Button Name="BtnAlbumBackgroundColor" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnAlbumBackgroundColor_Click" Margin="0,0,0,24" />
+                        <TextBlock Text="{Binding LocalizedResources.Z001_AlbumForeground, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                        <Button Name="BtnAlbumForegroundColor" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnAlbumForegroundColor_Click" Margin="0,0,0,60" />
+
+                        <Grid Name="GRSongDemo" Background="Gray" Width="432">
+                            <TextBlock Name="TBSongDemo" Width="408" Text="{Binding LocalizedResources.Z001_Song, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="0,6,0,6"/>
+                        </Grid>
+                        <TextBlock Text="{Binding LocalizedResources.Z001_SongBackground, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,24,12,0" FontSize="24" />
+                        <Button Name="BtnSongBackgroundColor" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnSongBackgroundColor_Click" Margin="0,0,0,24" />
+                        <TextBlock Text="{Binding LocalizedResources.Z001_SongForeground, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                        <Button Name="BtnSongForegroundColor" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnSongForegroundColor_Click" Margin="0,0,0,60" />
+
+                        <Grid Name="GRSelectedDemo" Background="Gray" Width="432">
+                            <TextBlock Name="TBSelectedDemo" Width="408" Text="{Binding LocalizedResources.ZZ002_ColorSelected, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="0,6,0,6"/>
+                        </Grid>
+                        <TextBlock Text="{Binding LocalizedResources.ZZ002_SelectedBackground, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,24,12,0" FontSize="24" />
+                        <Button Name="BtnSelectedBackgroundColor" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnSelectedBackgroundColor_Click" Margin="0,0,0,24" />
+                        <TextBlock Text="{Binding LocalizedResources.ZZ002_SelectedForeground, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" FontSize="24" />
+                        <Button Name="BtnSelectedForegroundColor" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnSelectedForegroundColor_Click" Margin="0,0,0,60" />
+
+                        <StackPanel Background="#FFFFDEDE" Margin="0,0,0,60" >
+                            <TextBlock Text="{Binding LocalizedResources.ZZ002_ResetColorSettings, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,24,12,0" FontSize="24" Foreground="Red" />
+                            <Button Name="BtnResetDesignSettings" Content="{Binding LocalizedResources.ZZ002_Restore, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="23" FontFamily="Segoe WP Light" Click="BtnResetDesignSettings_Click" Margin="0,0,0,24" Foreground="Red" BorderBrush="Red" />
+                        </StackPanel>
+                    </StackPanel>
+                </ScrollViewer>
+
+
+            </phone:PivotItem>
+
+
+
+
+
+            <!--Design bearbeiten-->
+            <phone:PivotItem Header="{Binding LocalizedResources.ZZ002_Designs, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="20">
+                
+                
+                <StackPanel Margin="0,-6,0,0">
+                    <!--Neuen Style erstellen-->
+                    <StackPanel Orientation="Horizontal">
+                        <Image Name="ImgPictureSave" Source="/Images/Save.Dark.png" Width="45" Height="45" VerticalAlignment="Center" MouseLeftButtonUp="BtnSaveDesign" Opacity="0.8" />
+                        <TextBlock Text="{Binding LocalizedResources.ZZ002_Save, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="40" VerticalAlignment="Center" Opacity="0.8" MouseLeftButtonUp="BtnSaveDesign" Foreground="{StaticResource PhoneForegroundBrush}"/>
+                    </StackPanel>
+
+
+                    <!--Auflistung der Designs-->
+                    <ListBox Name="LBDesigns" Margin="0,12,0,0" Height="570" ItemsSource="{Binding ClassDesigns}" SelectionChanged="LBDesigns_SelectionChanged">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="0,12,0,0">
+                                    <TextBlock Text="{Binding Name}" TextWrapping="NoWrap" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="40" VerticalAlignment="Center" Foreground="{StaticResource PhoneForegroundBrush}" Margin="0,0,0,0"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </StackPanel>
+                
+                
+            </phone:PivotItem>
+
+
+
+
+
+            <!--Online-->
+            <phone:PivotItem Header="{Binding LocalizedResources.ZZ002_Online, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="20">
+                <StackPanel Margin="12,0,0,0">
+
+                    <!--=Online Styles laden-->
+                    <StackPanel Name="StpConnect" Orientation="Horizontal" >
+                        <Image Name="ImgImgLoad" Source="/Images/Globe.Dark.png" Width="45" Height="45" VerticalAlignment="Center" MouseLeftButtonUp="BtnConnect" Opacity="0.8" />
+                        <TextBlock Name="TxtConnect" Text="{Binding LocalizedResources.ZZ002_ConnectXtrose, Mode=OneWay, Source={StaticResource LocalizedStrings}}" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="40" VerticalAlignment="Center" Opacity="0.8" MouseLeftButtonUp="BtnConnect"/>
+                    </StackPanel>
+
+
+                    <!--Auflistung der Styles-->
+                    <!--SelectionChanged="BtnOpenImageOnline"-->
+                    <ListBox Name="LBOnlineDesigns" Margin="0,12,0,0" Height="540" ItemsSource="{Binding ClassOnlineDesignImages}" SelectionChanged="InstallDesign_Click"  >
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="0,0,0,60" Orientation="Horizontal">
+                                    <Image Source="{Binding Image}" Width="150" VerticalAlignment="Center"/>
+                                    <StackPanel Margin="12,0,0,0" >
+                                        <TextBlock Text="{Binding LocalizedResources.ZZ002_Name, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontFamily="Segoe WP" FontSize="20" FontWeight="Bold" />
+                                        <TextBlock Text="{Binding Name}" FontFamily="Segoe WP Light" FontSize="30" Margin="0,0,0,12" />
+                                        <TextBlock Text="{Binding LocalizedResources.ZZ002_Autor, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontFamily="Segoe WP" FontSize="20" FontWeight="Bold" />
+                                        <TextBlock Text="{Binding Autor}" FontFamily="Segoe WP Light" FontSize="30" Margin="0,0,0,12" />
+                                        <TextBlock Text="{Binding LocalizedResources.ZZ002_Category, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontFamily="Segoe WP" FontSize="20" FontWeight="Bold" />
+                                        <TextBlock Text="{Binding Category}" FontFamily="Segoe WP Light" FontSize="30" />
+                                    </StackPanel>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    
+                    <StackPanel Orientation="Horizontal" Margin="0,24,0,0">
+                        <Image Name="ArrowBack" Source="/Images/Arrow.Left.Big.Dark.png" Width="40" Visibility="Collapsed" MouseLeftButtonUp="BtnDesignBack"/>
+                        <TextBlock Name="TBDesignsArea" Width="340" TextAlignment="Center" />
+                        <Image Name="ArrowNext" Source="/Images/Arrow.Right.Big.Dark.png" Width="40" Visibility="Collapsed" MouseLeftButtonUp="BtnDesignNext"/>
+                    </StackPanel>
+                    
+                    
+                    
+                </StackPanel>
+            </phone:PivotItem>
+
+
+
+
+
+        </phone:Pivot>
+
+
+
+
+
+        <!--Color Picker -->
+        <Grid x:Name="GRColor" Width="480" Height="854" VerticalAlignment="Top" HorizontalAlignment="Left" Background="{StaticResource PhoneBackgroundBrush}" Visibility="Collapsed">
+            <StackPanel Name="SPColor" Background="{StaticResource PhoneBackgroundBrush}">
+                <Controls:ColorPicker x:Name="CP" HorizontalAlignment="Left" VerticalAlignment="Top" Height="456" Width="456" Margin="24,12,24,12" ColorChanged="CP_ColorChanged"/>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="{Binding LocalizedResources.Z001_Transparency, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="18" Margin="12,12,0,0" FontFamily="Segoe WP" FontWeight="Bold"/>
+                    <TextBlock Name="CPTransparency" Text="CODE" FontSize="18" Margin="12,12,0,0" FontFamily="Segoe WP"/>
+                </StackPanel>
+                <Slider Name="CPSlider"  Minimum="0" Maximum="255" ManipulationCompleted="CPSlider_ManipulationCompleted" ManipulationStarted="CPSlider_ManipulationStarted" />
+
+                <StackPanel Orientation="Horizontal" Margin="12,-24,0,0">
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal" Width="200">
+                            <TextBlock Text="{Binding LocalizedResources.Z001_Color, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="18" Margin="0,6,0,0" FontFamily="Segoe WP" FontWeight="Bold"/>
+                            <TextBlock Name="CPColor" Text="CODE" FontSize="18" Margin="12,6,0,0" FontFamily="Segoe WP"/>
+                        </StackPanel>
+                        <Grid Name="CPColorGrid" Width="200" Height="35" Background="{StaticResource PhoneAccentBrush}" />
+                    </StackPanel>
+                    <StackPanel Margin="12,0,0,0" HorizontalAlignment="Left">
+                        <TextBlock Text="{Binding LocalizedResources.Z001_SetColor, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="18" Margin="0,6,0,0" FontFamily="Segoe WP" FontWeight="Bold"/>
+                        <StackPanel Orientation="Horizontal">
+                        <Grid Width="116" Height="35" MouseLeftButtonUp="CP_Yes_Click" Background="{StaticResource PhoneAccentBrush}" Margin="0,0,0,0" HorizontalAlignment="Left" >
+                            <TextBlock Text="{Binding LocalizedResources.Z001_Yes, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" Foreground="White"/>
+                        </Grid>
+                            <Grid Width="116" Height="35" MouseLeftButtonUp="CP_No_Click" Margin="12,0,12,0" Background="{StaticResource PhoneAccentBrush}" VerticalAlignment="Bottom" >
+                                <TextBlock Text="{Binding LocalizedResources.Z001_No, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" Foreground="White" />
+                            </Grid>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+
+                <Grid Width="456" Margin="12,12,0,0" MouseLeftButtonUp="CP_AccentColor_Click" Background="{StaticResource PhoneAccentBrush}" HorizontalAlignment="Left" >
+                    <TextBlock Text="{Binding LocalizedResources.Z001_AccentColor, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" Foreground="White" />
+                </Grid>
+                <Grid Width="456" Margin="12,12,0,0" MouseLeftButtonUp="CP_BackgroundColor_Click" Background="{StaticResource PhoneAccentBrush}" HorizontalAlignment="Left" >
+                    <TextBlock Text="{Binding LocalizedResources.Z001_PhoneBackground, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" Foreground="White" />
+                </Grid>
+                <Grid Width="456" Margin="12,12,0,0" MouseLeftButtonUp="CP_ForegroundColor_Click" Background="{StaticResource PhoneAccentBrush}" HorizontalAlignment="Left" >
+                    <TextBlock Text="{Binding LocalizedResources.Z001_ForegroundColor, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" Foreground="White" />
+                </Grid>
+            </StackPanel>
+        </Grid>
+
+
+
+
+        
+        <!--Design Menü-->
+        <Grid Name="GRDesignMenu" Width="480" Height="854" VerticalAlignment="Top" HorizontalAlignment="Left" Background="{StaticResource PhoneBackgroundBrush}" Visibility="Collapsed">
+            <Image Name="ImgDesignMenu" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Opacity="0.2" Source="/Images/Brush.Dark.png" Margin="-30,-30"/>
+            <StackPanel>
+                <TextBlock Name="TBDesignMenuName" Text="Hier kommt der Name" Margin="24,12,0,0" FontSize="40" FontFamily="Segoe WP" />
+                <StackPanel Orientation="Horizontal" Margin="24,24,0,0">
+                    <Image Name="ImgDesignOpen" Source="/Images/Brush.Dark.png" Height="45" MouseLeftButtonUp="BtnApplyDesign" />
+                    <TextBlock Text="{Binding LocalizedResources.ZZ002_Apply, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="40" Margin="12,0,0,0" MouseLeftButtonUp="BtnApplyDesign" FontFamily="Segoe WP Light" Width="404" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="24,24,0,0">
+                    <Image Name="ImgDesignEdit" Source="/Images/Edit.Dark.png" Height="45" MouseLeftButtonUp="BtnRemaneDesign" />
+                    <TextBlock Name="TBDesignEdit" Text="{Binding LocalizedResources.ZZ002_Rename, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="40" Margin="12,0,0,0" MouseLeftButtonUp="BtnRemaneDesign" FontFamily="Segoe WP Light" Width="404" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="24,24,0,0">
+                    <Image Name="ImgDesignCopy" Source="/Images/Copy.Dark.png" Height="45" MouseLeftButtonUp="BtnCopyDesign" />
+                    <TextBlock Text="{Binding LocalizedResources.ZZ002_Copy, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="40" Margin="12,0,0,0" FontFamily="Segoe WP Light" MouseLeftButtonUp="BtnCopyDesign" Width="403" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="24,24,0,0">
+                    <Image Name="ImgDesignDelete" Source="/Images/Delete.Dark.png" Height="45" MouseLeftButtonUp="BtnDeleteDesign" />
+                    <TextBlock Name="TBDesignDelete" Text="{Binding LocalizedResources.ZZ002_Delete, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="40" Margin="12,0,0,0" FontFamily="Segoe WP Light" MouseLeftButtonUp="BtnDeleteDesign" Width="404" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="24,24,0,0">
+                    <Image Name="ImgShare" Source="/Images/Share.Dark.png" Height="45" MouseLeftButtonUp="BtnShareDesign" />
+                    <TextBlock Name="TBShare" Text="{Binding LocalizedResources.ZZ002_Share, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="40" Margin="12,0,0,0" FontFamily="Segoe WP Light" MouseLeftButtonUp="BtnShareDesign" Width="404" />
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+
+
+
+
+
+        <!--Design Menü-->
+        <Grid Name="GRInstall" Width="480" Height="854" VerticalAlignment="Top" HorizontalAlignment="Left" Background="{StaticResource PhoneBackgroundBrush}" Visibility="Collapsed">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,100">
+            <TextBlock Text="{Binding LocalizedResources.ZZ002_InstallDesign, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="30"/>
+                <TextBlock Text="{Binding LocalizedResources.ZZ002_PleaseWait, Mode=OneWay, Source={StaticResource LocalizedStrings}}" FontSize="26"/>
+            </StackPanel>
+        </Grid>
+
+
+
+
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,970 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>it-IT</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>LA MIA APPLICAZIONE</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Voci di menù</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>Crediti</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 Musica</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>Artista</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>Altro</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>Musica</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>Playlist</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>Impostazioni</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>Canzone</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>Generi</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>Acquista questa app</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>Controllare l'aggiornamento</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>Contattaci</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>Dimensione dei caratteri</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>Guida</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>Lingua</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>Segui xtrose</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>Mostra logo all'avvio</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>Altre applicazioni xtrose</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>Vota questa app</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>Clic su schermo per saltare</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>Grazie per aver scaricato</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>Colore barra scorrimento musicale</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>Colore</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>Sfondo telefono</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>Imposta colore</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>Selezione lista di colore</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>Estendi informazioni</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Tonalità colore lettore multimediale</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>Playlist</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>Canzoni</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>Ripristina impostazioni</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>Sfondo album</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>Testo album</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>Sfondo artista</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>Testo artista</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>Testo telefono</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>Sfondo selezionato</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>Primo piano selezionato</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>Sfondo canzone</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>Testo canzone</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>Trasparenza</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>Nero</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>Bianco</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>Tutte le canzoni</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>La selezione non può essere riprodotta</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>Ultime riproduzioni</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>Indirizzo</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>Riproduci su</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>Tempo di riproduzione</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>Più tardi</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>Mai</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>Sembra che questa applicazione ti piaccia. Lo sviluppo di applicazioni è impegnativo e richiede molto tempo.
+Una buona recensione può aiutarci a migliorarla ulteriormente in futuro.
+
+Grazie mille.</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>Supporto</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>Aperto</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>Ascolta</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>Ascolta album</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>Ascolta Canzone</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>Cancellare</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>Elimina ultime riproduzioni</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>Elimina lista con le ultime riproduzioni</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>Pausa</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>Riproduzione</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>Arrestare e rimuovere la riproduzione</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>Interrompere la riproduzione e cancellarla dal lettore</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>ATTENZIONE</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>Clicca per aprire</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>Collegamento</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>Connessione non riuscita</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>Timeout di connessione</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>Impostazioni design</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>Complimenti , la versione completa è stato sbloccata</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>Nessun aggiornamento disponibile</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>Un momento per favore</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>Ora</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>Ore</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>Minuto</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>Minuti</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>Grazie per aver acquistato questa app</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>Versione di prova scaduta</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>Versione di prova scaduta ! Lo sviluppo di applicazioni è impegnativo e richiede molto tempo. Il prezzo per questo lavoro non è costoso . Per continuare ad uttilizzare tutte le funzioni è necessario acquistare l'app . Grazie!</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>Versione di prova</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>Impostazioni corole</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>Chiudi liste</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>Premere il tasto nascosto in alto a sinistra per chiudere tutte le liste.</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>Facendo clic sulla freccia a sinistra si apre il lettore in fullscreen</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>Generale</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>Con questa applicazione potrete accedere alla vostra musica velocemente . È possibile scegliere tutta la vostra musica da due sole liste. Inoltre l'applicazione presenta molte personalizzazioni.</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>Visualizza lista</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>Utilizzando Visualizza lista , è possibile raggiungere rapidamente la vostra musica . Tutti gli artisti sono elencati nella prima lista. Se si fa clic sull'artisa desiderato si aprono i suoi album . Un ulteriore click sul disco visualizza tutte le canzoni .
+Nel secondo elenco sono elencati playlist, generi , album e tutti i brani .</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>Vario</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>Si prega di valutare l'applicazione se lo si desidera. Se avete problemi contattate il supporto!
+Grazie mille.</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>Riproduci su</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>L' applicazione ha una funzione timer di riproduzione . Con questa funzione i titoli verranno riprodotti solo per il tempo impostato . Per attivare tale funzione è necessario tenere premuto il pulsante di riproduzione per un secondo durante la riproduzione.</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>Menù lettore multimediale</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>Un piccolo lettore multimediale viene visualizzato nel menu in basso .</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>Un  lettore multimediale di medie dimensioni può essere aperto con un clic sulla freccia a destra .</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 Musica.Finalmente raggiungere la vostra musica velocemente adesso è possibile .
+La nuova visualizzazione elenco consente di trovare velocemente i vostri artisti, album o canzoni .
+Un mini lettore multimediale, un lettore multimediale medio e unlettore multimediale a schermo intero permettono di darvi il pieno controllo sulla vostra musica . Nel ritratto come modalità orizzontale.
+In aggiunta  ci sono molti extra .
+
+- Lista della vostra musica
+- Lista delle playlist
+-3 Lettori multimediali diversi
+- Orientamento sia verticale che orizzontale
+-Riproduzione breve di un brano
+-Fermare la riproduzione ed eliminarla dal lettore
+-100 Ultimi riproduzioni vengono memorizzati
+-Personalizzazione totale dei colori
+-E tanto altro ancora</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>Musica</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>Lettore multimediale</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>Riproduzione</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>Veloce</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>Artista album Artisti partecipanti Canzoni album Tag album</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>Cambia lingua</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>Riavviare l'applicazione</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>Scegli la lingua</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>Colore di sfondo</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>Immagine di sfondo in senso orizzontale</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>Immagine di sfondo in senso verticale</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>ERRORE
+Il colore in primo piano è lo stesso del colore di sfondo .</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>Colore in primo piano</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>Ripristinare le impostazioni</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>Ripristinare</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>Elimina foto</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>Colore di sfondo lettore multimediale piccolo</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Colore barra ricerca lettore multimediale piccolo</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>Colore barra ricerca lettore multimediale grande</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>Colore di sfondo lettore multimediale grande</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>Sfondo orizzontale lettore multimediale</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>Sfondo verticale lettore multimediale</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>Applica</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>Concerto</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>Copia</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>Cancella</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>Designs</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>Rinomina</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>Sfondo nero</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>Sfondo vianco</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>Verranno perse le impostazioni non salvate</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>Selezionato</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>ERRORE ! Nome già in uso o caratteri non validi !</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>Nuovo nome</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>Sfondo selezionato</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>Primo piano selezionato</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>Ripristina impostazioni</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>Collegamento .....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>Connessione non riuscita</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>Connettiti con xtrose</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>Timeout di connessione</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>Versione di prova scaduta ! Lo sviluppo di applicazioni è impegnativo e richiede molto tempo. Il prezzo per questo lavoro non è costoso . Per continuare ad uttilizzare tutte le funzioni è necessario acquistare l'app . Grazie!</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>Autore</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>Applicare disegno .....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>Applicare il design</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>Notifica</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>Attendere prego</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>Come funziona :
+- Le immagini di sfondo vengono salvate in" immagini salvate "
+- Informazioni apre una mail a xtrose
+- Aggiungere il nome dell'autore
+- Aggiungere immagini da " Immagini salvate "
+- Invia messaggio
+
+Dopo aver effettuato una verifica , forniremo i dati sul nostro server .
+Grazie mille</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>Si prega di compilare ed includere le immagini create</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>Nome autore :</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>Non cambiare</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>Aggiungere immagini di sfondo da " Immagini salvate "</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>Pubblicare</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>Premere di nuovo per chiudere</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>Pulsanti e funzioni</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>Blocco orientamento</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>Brano successivo</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>( Pressione) Pausa
+(Pressione prolungata ) Random canzone</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>Ascolta</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>Brano precedente</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>Aggiorna lista</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Ripeti</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>Ricerca</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>Casuale</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 Musica.Finalmente raggiungere la vostra musica velocemente adesso è possibile .
+La nuova visualizzazione elenco consente di trovare velocemente i vostri artisti, album o canzoni .
+Un mini lettore multimediale, un lettore multimediale medio e unlettore multimediale a schermo intero permettono di darvi il pieno controllo sulla vostra musica . Nel ritratto come modalità orizzontale.
+In aggiunta  ci sono molti extra .
+
+- Lista della vostra musica
+- Lista delle playlist
+-3 Lettori multimediali diversi
+- Orientamento sia verticale che orizzontale
+-Riproduzione breve di un brano
+-Fermare la riproduzione ed eliminarla dal lettore
+-100 Ultimi riproduzioni vengono memorizzati
+-Personalizzazione totale dei colori
+-E tanto altro ancora</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>Premere di nuovo due volte per rinnovare la cache</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>Premere di nuovo per rinnovare cattura</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>Immagine di sfondo</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>Immagine di logo sull'album</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>Menù principale</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>Resetta menù principale</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>Impostazioni schermata di avvio</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>Schermata di avvio</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>Tile "arresta e cancella"</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>Clicca qui per creare la tile "arresta e cancella"</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>Si prega di inserire un numero 0-360</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0-360 Minuti</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>Eseguire con blocco schermo</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>Ferma il timer</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>Per il timer l'applicazione deve essere in esecuzione con blocco schermo .
+Attiva tale funzione per eseguire con blocco schermo</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>Aggiorna elenco
+Fare doppio click sulla notifica per ricreare la lista. Ciò è necessario solamente se sono stati aggiunti o rimossi brani dal telefono.</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    
+  <value>8.1 Musica.Finalmente raggiungere la vostra musica velocemente adesso è possibile .
+La nuova visualizzazione elenco consente di trovare velocemente i vostri artisti, album o canzoni .
+Un mini lettore multimediale, un lettore multimediale medio e unlettore multimediale a schermo intero permettono di darvi il pieno controllo sulla vostra musica . Nel ritratto come modalità orizzontale.
+In aggiunta  ci sono molti extra .
+
+- Lista della vostra musica
+- Lista delle playlist
+-3 Lettori multimediali diversi
+- Orientamento sia verticale che orizzontale
+-Riproduzione breve di un brano
+-Fermare la riproduzione ed eliminarla dal lettore
+-100 Ultimi riproduzioni vengono memorizzati
+-Personalizzazione totale dei colori
+-E tanto altro ancora</value></data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>Premere di nuovo due volte a rinnovare la cache</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>Aggiornare</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>Aggiornare la cache</value>
+  </data>
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+<value>Playlist corrente</value>
+</data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+<value>Cancella playlist attuale</value>
+</data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+<value>Nessuna canzone in riproduzione corrente disponibile</value>
+</data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+<value>Una playlist con lo stesso nome esiste già.</value>
+</data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+<value>Elimina playlist</value>
+<comment>NOTE FOR Translators, please enter a return at the end of the text.</comment>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+<value>Caricato</value>
+</data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+<value>Pulsanti lettore multimediale</value>
+</data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+<value>Pulsanti della lista</value>
+</data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+<value>Premere il logo per aprire la guida</value>
+</data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+<value>Elimina riproduzione corrente</value>
+</data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+<value>Elimina playlist</value>
+</data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+<value>Questo pulsante elimina la riproduzione e rimuove la selezione corrente di tutti i brani negli elenchi.</value>
+</data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+<value>Aiuto</value>
+</data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+<value>Utilizzare questo pulsante per bloccare l'orientamento.
+Verrà bloccato sempre l'orientamento corrente.
+Premere nuovamente il pulsante per sbloccarlo.</value>
+</data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+<value>Con questo pulsante le liste vengono aggiornate.
+Facendo doppio clic sul bando in riproduzione la cache viene aggiornata.
+La cache deve essere aggiornata solo se la musica dello smartphone è stata modificata.</value>
+</data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+<value>Con questo tasto la riproduzione corrente può essere salvata in una playlist. Disponibile solo in modalità "seleziona e riproduci"</value>
+</data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+<value>Premendo sul tasto ricerca si aprirà una casella di testo.
+Immettere il termine di ricerca e premere invio.
+La ricerca filtra tutte le liste. Per eliminare la ricerca basta chiudere la casella di testo e premere il tasto di aggiornamento.</value>
+</data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+<value>Design editor</value>
+</data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+<value>In questa applicatione quasi tutto può essere personalizzato :
+le immagini di sfondo, colori di sfondo, colore di primo piano, i singoli colori della lista,...
+Per modificare le impostazioni di colore è necessario aprire il progetto.
+Qui è possibile peronalizzare l'applicazione a proprio piacimento.
+inoltre è possibile scaricare temi completi ed installarli direttamente.
+Con il pulsante di condivisione potete inviarci il vostro disegno da condividere.
+Ricordatevi di aggiungere le immagini generate.</value>
+</data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+<value>Design error</value>
+</data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+<value>Durante il download di temi possono verificarsi degli errori.
+In questo caso l'applicazione può avere dei problemi di visualizzazione che possono essere risolti semplicemente riavviandola o applicando un'altro tema.
+Per utilizzare il disegno che ha causato l'errore deve essere scaricato ed installato nuovamente.</value>
+</data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+<value>Playlist selezionata</value>
+</data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+<value>Presentazione</value>
+</data>
+  <data name="ZZ005_Play" xml:space="preserve">
+<value>Riproduci</value>
+</data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+<value>Riproduci solo questo titolo</value>
+</data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+<value>Salva playlist</value>
+</data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+<value>Nella modalità "seleziona e riproduci" può essere creata una playlist.
+In questa modalità apparirà un pulsante nel campo di riproduzione corrente e facendo click su di esso comparirà un campo di immissione testo tramite il quale possiamo dare un nome alla nostra playlist.
+Dopo che un nome è stato inserito è necessario premere il tasto di ritorno per salvare la playlist.
+Le playlist salvate vengono elencate nel sottomenù Playlist.</value>
+</data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+<value>Seleziona e riproduci
+Questo pulsante cambia in base alla modalità della app.
+
+Modalità standard
+Nella modalità predefinita l'applicazione utilizza l'API specificato.
+Vantaggi
+- L'applicazione può essere chiusa dopo la selezione.
+- La musica può essere controllata dal sistema.
+Svantaggi
+- Può essere riprodotto solo ciò che l'API permette.
+- Non ci sono liste di brani che possono essere create.
+- "In riproduzione" non può essere modificato.
+
+Modalità seleziona e riproduci
+In questa modalità tutto può essere selezionato e riprodotto
+Vantaggi
+- Si può nulla selezionato dall'elenco e suonato.
+- È possibile creare playlist personalizzate.
+- Le playlist possono essere salvate.
+- "In riproduzione" viene visualizzato e può essere modificato e ordinato.
+Svantaggi
+- L'applicazione richiede il controllo durante la riproduzione. - L'applicazione deve essere eseguita con la schermata di blocco. - L'app non funziona in modalità background.
+- La riproduzione può essere modificata solo attraverso il lettore della app.</value>
+</data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+<value>Seleziona e riproduci</value>
+</data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+<value>Modalità Seleziona e riproduci</value>
+</data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+<value>Selezionare o deselezionare</value>
+</data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+<value>Modalità standard</value>
+</data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+<value>Barra dei pulsanti superiore</value>
+</data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+
+<value>Traduzione automatica</value></data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+<value>Errore nel Design!
+Eliminare la progettazione e scaricarla di nuovo per correggere questo errore.</value>
+</data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+<value>Si prega di leggere!
+Benvenuti nella nuova versione di 8.1 Musica.
+Per aiutarti a iniziare abbiamo creato un nuovo aiuto. Premere il logo qui sopra per aprire la guida.
+A partire da questa versione è presente una nuova modalita : Seleziona e riproduci.
+Si prega di notare che la nuova modalità "Seleziona e riproduci" è ancora in fase di test.
+Vi siamo grati se ci segnalaste eventuali errori.
+Grazie per la vostra attenzioe!
+
+Buon divertimento con la nuova versione</value>
+</data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+<value>Crea playlist</value>
+</data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+<value>Playlist saranno creati solo in modalità "Seleziona e riproduci".
+- Attivare "Seleziona e riproduc"
+- Vai alla riproduzione corrente ed eliminarli
+- Selezionare dall'elenco la tua musica
+- Vai alla riproduzione corrente e premere salva
+- Immettere un nome per la nuova playlist
+- Troverete la nuova playlist nel secondo elenco sotto le playlist</value>
+</data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+<value>Sistema cache</value>
+</data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+<value>Il primo caricamento della cache impiega un pò di tempo. Se si aggiungono nuovi contenuti nel il proprio dispositivo è necessario aggiornare la cache.
+È possibile aggiornare la cache nelle impostazioni.</value>
+</data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+<value>Problemi di visualizzazione</value>
+</data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+<value>Alcune canzoni possono causare problemi con la visualizzazione. Tali problemi sono causati dalla trasparenza dei colori e dei disegni.
+È possibile risolvere il problema rimuovendo la trasparenza dei disegni.</value>
+</data>
+</root>

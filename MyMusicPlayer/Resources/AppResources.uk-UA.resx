@@ -1,0 +1,990 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>uk-UA</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>моє додаток</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>додавати</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>пункт меню</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>Про</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>альбом</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 Музика</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>художник</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>більш</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>Музика</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>Плейлисти</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>налаштування</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>пісня</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>Альбоми</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>жанри</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>Купити цей додаток</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>Перевірити оновлення</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>Контакт</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>розмір шрифту</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>інструкції</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>як xtrose</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>Показати логотип на старті</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>Інші програми xtrose</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>Оцінити це додаток</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>натисніть екран , щоб пропустити</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>Дякуємо Вам за завантаження</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>колір для акцентів</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>колір</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>Телефон фон</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>Встановіть колір</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>Вибір списку Колір</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>розширені відомості</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>вид</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Медіаплеєр колірний акцент</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>плейлист</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>пісні</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>відновлення налаштувань</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>фон Альбом</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>на передньому плані Альбом</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>виконавець фон</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>виконавець на передньому плані</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>Телефон переднього плану</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>Обраний фон</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>Обраний план</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>пісня фон</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>пісня на передньому плані</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>прозорість</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>чорний</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>білий</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>всі пісні</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>Вибір не можуть бути відтворені</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>Останні відтворень</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>Адреса</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>грати</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>Грати на час</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>пізніше</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>ніколи не</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>швидкість</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>Ця програма була звернутися до вас.
+Для програмування додатків займає багато часу і важко .
+Хороший огляд може допомогти нам поширити його далі.
+
+Велике спасибі</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>підтримка</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>відкрито</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>грати</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>грати альбом</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>грати пісню</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>видаляти</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>Видалити останні відтворень</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>Видалити список з останніми відтворень</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>перерва</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>відтворення</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>стоп</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>Зупинити і видалити відтворення</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>Зупинка відтворення і видалення від гравця</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>ПОПЕРЕДЖЕННЯ</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>Натисніть , щоб відкрити</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>з'єднувальний</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>не вдалося встановити з'єднання</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>Час з'єднання з</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>налаштування Дизайн</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>Вітаємо , ваша повна версія була випущена</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>Немає доступних оновлень</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>Зачекайте , будь ласка</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>годину</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>годин</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>хвилин</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>хвилин</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>Дякуємо Вам за покупку цього додатка</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>Пробна версія закрив його вчасно</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>Пробна версія закрив його вчасно ! Для створення додатків буде коштувати багато часу. Ціна за цю роботу не дорого. Щоб продовжити створювати екрани заблокувати зображення , необхідно купити додаток . Спасибо!</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>пробна версія</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>налаштування кольору</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>Закрити списки</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>Натисніть прихований кнопку , угорі ліворуч , щоб закрити всі списки .</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>Натискання на ліву стрілку відкриває повноекранний плеєр.</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>Загальний</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>За допомогою цієї програми , ви отримаєте найшвидший вашу музику. Ви можете вибрати всі свої музичні композиції тільки з двох списків. Крім того , додаток дає вам багато великих розширень.</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>Подання списку</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>Використання подання списку , можна швидко дістатися до музики. Всі художники , перераховані в першому списку . Якщо ви натиснете на потрібний потім відкрив свої альбоми . Ще Натисніть на альбомі відображаються всі пісні.
+У другому списку , плейлисти , жанри , альбоми та пісні , перераховані.</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>Різне</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>Оцініть хороший це додаток , якщо вам подобається. Якщо у вас є проблеми з цим додатком, то , будь ласка , зверніться в службу підтримки! Питання і проблеми нічого не втратили у відгуках .
+Большое спасибо!</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>грати</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>Додаток має гру на функції . За допомогою цієї функції , назви буде відтворюватися тільки встановлений час . Щоб включити гру , ви повинні тримати кнопку відтворення на секунду під час відтворення.</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>Меню медіаплеєр</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>Невеликий медіаплеєр встановлений у нижній меню.</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>Середнього розміру гравець відкривається з натисканням на праву стрілку.</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 Музика , нарешті , досягти музику ще швидше.
+Новий вид списку дозволяє Супер швидка знайти свої художники , альбоми або пісні.
+Міні- плеєр , невеликий плеєр , і повноекранний плеєр дозволить , щоб дати вам повний контроль над вашою музикою. У портреті , а також ландшафтному режимі.
+Крім того , є багато доповнень .
+
+- Список вигляд вашої музики
+- Список вид плейлисти
+-3 Різних медіа- плеєрів
+- Підтримка портрет і пейзаж
+- Короткий грати титул
+- Зупиніть музику і видалити з медіа-плеєр
+-100 Останні репродукції зберігаються
+- Повна настройка кольору
+- Багато відмінних статистів</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>Музика</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>гравця Медіаплеєр</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>відтворення</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>швидко</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>Звук художник художників пісня пісні альбом тегів альбоми</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>змінити мову</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>Перезапустіть додаток</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>Виберіть мову</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>колір фону</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>Фонова картинка краєвид</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>Фон портрет фотографія</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>ПОМИЛКА
+Колір переднього плану є таким же , як колір фону.</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>колір переднього плану</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>Відновлення налаштувань дизайну</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>відновлення</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>видалити фотографію</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>Медіаплеєр невеликої колір фону</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Медіаплеєр невеликої колірний акцент</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>Медіаплеєр великий акцент колір</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>Медіаплеєр великий колір фону</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>Медіаплеєр картина краєвид</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>Медіаплеєр портрет фотографія</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>застосовувати</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>концерт</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>Копія</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>видаляти</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>конструкції</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>редагувати</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>Онлайн</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>перейменувати</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>економити</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>фон чорний</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>фон білий</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>Втратити незбережені налаштування дизайну</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>Обраний</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>ПОМИЛКА! Ім'я вже використовується або неприпустимих символів!</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>нове найменування</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>Обраний фон</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>Обраний передньому плані</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>Дизайн</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>відновлення налаштувань</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>Підключення .....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>не вдалося встановити з'єднання</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>Зв'язатися з xtrose</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>Час з'єднання з</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>Пробна версія закрив його вчасно ! Для створення додатків буде коштувати багато часу. Ціна за цю роботу не дорого. Щоб продовжувати використовувати цей додаток, ви повинні купити його. Спасибо!</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>Категорія</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>Встановіть дизайн .....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>Встановіть дизайн</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>Назва</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>повідомлення</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>Будь ласка , почекайте</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>Ось як це працює.
+- Фонові зображення копіюються в " збережених зображень "
+- Вкажіть , відкриває лист на xtrose
+- Додати ім'я автора
+- Додати зображення з " збережені зображення "
+- Надіслати повідомлення
+
+Після розгляду , ми надамо дані про нашому сервері.
+Велике спасибі</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>Будь ласка , заповніть і включають в себе зображення, створені</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>Ім'я автора:</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>Не змінюйте</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>Додати фонові зображення з " збережені зображення "</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>Опублікувати</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>Натисніть ще раз , щоб закрити</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>Кнопки та функції</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>орієнтація замок</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>Наступна пісня</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>( Прессе ) Пауза
+(Утримування ) сканування</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>грати</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>Попередня пісня</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>оновити список</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Repead</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>Пошук</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>перемішати</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 музика , нарешті , досягти музику ще швидше.
+Новий вид списку дозволяє Супер швидка знайти свої художники , альбоми або пісні.
+Міні- плеєр , невеликий плеєр , і повноекранний плеєр дозволить , щоб дати вам повний контроль над вашою музикою. У портреті , а також ландшафтному режимі.
+Створіть свій власний дизайн або завантажити готові проекти з Інтернету.
+Крім того , є багато доповнень .
+
+- Список вигляд вашої музики
+- Список вид плейлисти
+-3 Різних медіа- плеєрів
+- Підтримка портрет і пейзаж
+- Короткий грати титул
+Дизайн редактор
+- Завантажити закінчив дизайн з Інтернету
+- Зупиніть музику і видалити з медіа-плеєр
+-100 Останні репродукції зберігаються
+- Повна настройка кольору
+- Багато відмінних статистів</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>Двічі Знову натисніть, щоб відновити кеш</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>Натисніть знову , щоб відновити видобуток</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>фонова картинка</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>Логотип на зображенні альбому</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>Головна плитка</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>Скидання головного плитку</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>Почніть настройки екрану</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>стартовий екран</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>Плитка зупинки і видалення</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>Хочете створити зупинку і видаляти плитку</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>Скидання</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>Будь ласка , введіть номер 0 - 360</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0 - 360 хвилин</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>Запустити від блокування екрану</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>зупинити таймер</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>Для таймера додаток повинен бути запущено в екрані блокування .
+Включити для роботи під екрані блокування</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>оновити список
+Двічі клацніть на повідомлення відтворити список. Необхідно тільки , якщо змінився музику на своєму мобільному телефоні.</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8.1 музика , нарешті , досягти музику ще швидше.
+Новий вид списку дозволяє Супер швидка знайти свої художники , альбоми або пісні.
+Міні- плеєр , невеликий плеєр , і повноекранний плеєр дозволить , щоб дати вам повний контроль над вашою музикою. У портреті , а також ландшафтному режимі.
+Створіть свій власний дизайн або завантажити готові проекти з Інтернету.
+Крім того , є багато доповнень .
+
+- Список вигляд вашої музики
+- Список вид плейлисти
+-3 Різних медіа- плеєрів
+- Підтримка портрет і пейзаж
+- Короткий грати титул
+Дизайн редактор
+- Завантажити закінчив дизайн з Інтернету
+- Зупиніть музику і видалити з медіа-плеєр
+-100 Останні репродукції зберігаються
+- Повна настройка кольору
+- Багато відмінних статистів</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>Двічі Знову натисніть , щоб відновити кеш</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>відновити</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>оновити кеш</value>
+  </data>
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+    <value>Список відтворення</value>
+  </data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+    <value>Ясно ток плейлист</value>
+  </data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+    <value>Ні пісні в поточній відтворення доступні</value>
+  </data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+    <value>Плейлист з тим же ім'ям вже існує.</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+    <value>Видалити список</value>
+    <comment>NOTE FOR Translators, please enter a return at the end of the text.</comment>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+    <value>Загружен</value>
+  </data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+    <value>Кнопки медіаплеєр</value>
+  </data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+    <value>Кнопки списку</value>
+  </data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+    <value>Прес логотип, щоб відкрити допомогу</value>
+  </data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+    <value>Видалити поточний відтворення</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+    <value>Видалити список</value>
+  </data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+    <value>Ця кнопка видаляє поточного відтворення та зняти прапорець усі пісні в списках.</value>
+  </data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+    <value>Допомога</value>
+  </data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+    <value>Використовуйте цю кнопку, щоб зафіксувати орієнтацію.
+Він буде завжди блокували поточну орієнтацію.
+Натисніть кнопку ще раз, щоб розблокувати його.</value>
+  </data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+    <value>За допомогою цієї кнопки, списки закриті і оновлюється.
+По подвійному кліку на опубліковано повідомлення, кеш оновлюється.
+Кеш повинен бути продовжений, тільки якщо був змінений музика смартфоні.</value>
+  </data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+    <value>За допомогою цієї кнопки поточний відтворення як список відтворення може бути збережений. Доступно тільки в режимі, вибрати і відтворити.</value>
+  </data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+    <value>Одне натискання на пошук, то відкривається текстове введення.
+Введіть умови пошуку і натисніть повернення.
+Пошук фільтрує всі списки.
+Використовуйте близько і відновити списки видалити пошук.
+Редактор</value>
+  </data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+    <value>Дизайн</value>
+  </data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+    <value>Майже все можна відрегулювати в цьому додатку.
+Фонові зображення, колір фону, колір тексту, окремі кольори в списку.
+Щоб змінити налаштування кольору, необхідно відкрити дизайн.
+Тут ви можете зробити додаток на свій смак.
+
+Ви можете завантажити повні теми і встановити безпосередньо.
+
+За допомогою кнопки акціонерного ви можете відправити нам свій дизайн.
+Будь ласка, не забудьте додати створені зображення.
+Ми хотіли, щоб завантажити свій дизайн.
+Помилка</value>
+  </data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+    <value>Дизайн</value>
+  </data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+    <value>Коли завантаження проектних помилок може статися.
+У виберіть теми аварій додаток.
+Дизайн скидається при наступному запуску.
+Щоб використовувати цю конструкцію, вона повинна бути встановлена ​​знову.</value>
+  </data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+    <value>Виберіть плейлист</value>
+  </data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+    <value>Огляд</value>
+  </data>
+  <data name="ZZ005_Play" xml:space="preserve">
+    <value>Грати</value>
+  </data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+    <value>Грати тільки на цей титул</value>
+  </data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+    <value>Зберегти плейлист</value>
+  </data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+    <value>У режимі вибору і відтворення списку відтворення можуть бути збережені.
+Ця кнопка з'являється в області поточного відтворення.
+Натискання кнопки відкриває поле введення тексту.
+Після прізвище було внесено тут потрібно натиснути кнопку повернення.
+Вкажіть список відтворення у списку відтворення зберігається.
+Ви можете знайти їх в другому списку.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+    <value>Вибору і відтворення
+Ця кнопка змінює режим додатки.
+
+Стандартний режим
+У режимі за замовчуванням додаток використовувати вказаний API.
+Переваги
+- Додаток може бути закритий після вибору.
+- Музика можна управляти за допомогою системи.
+Недоліки
+- Він може грати тільки те, що API дозволяє. Ні власної суміші не може бути створений.
+- Там немає плейлистів, які можна створити.
+- Тепер гра не може бути змінений.
+
+Виберіть і грати в режимі
+У цьому режимі всі можуть бути вибрані і відтворені безпосередньо.
+Переваги
+- Він може нічого вибирається зі списку і грав.
+- Ви можете створювати власні плейлисти.
+- Списки відтворення можуть бути збережені.
+- Зараз грає відображається і може бути змінений і сортуються.
+Недоліки
+- Додаток вимагає контролю під час відтворення. Додаток повинен працювати під екрані блокування. Додаток не слід перенести у фоновому режимі.
+- Відтворення може бути змінений тільки через програвач додатки.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+    <value>Вибору і відтворення</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+    <value>Виберіть і грати в режимі</value>
+  </data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+    <value>Установіть або зніміть прапорець
+Режим</value>
+  </data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+    <value>Стандартний
+Панель кнопок</value>
+  </data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+    <value>Топ</value>
+  </data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+    <value>Автоматичний переклад
+Помилка</value>
+  </data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+    <value>дизайн!
+Видалити дизайн і завантажити його знову, щоб виправити цю помилку.</value>
+  </data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+    <value>Ласка, прочитайте!
+Ласкаво просимо в новий версія 8.1 музики.
+Щоб допомогти вам почати роботу, ми створили нову допомогу. Натисніть логотип вище, щоб відкрити допомогу.
+Починаючи з цього випуску, є абсолютно новий режим.
+Будь ласка, зверніть увагу на новий режим ", виберіть і грати" як і раніше знаходиться в стадії тестування.
+Дайте нам, будь ласка, знайте, якщо ви знайдете помилку.
+Большое спасибо!
+
+Удачи в новій версії</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+    <value>Створити список відтворення</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+    <value>Списки відтворення можуть тільки в режимі "вибору та відтворення" буде створена.
+- Активувати "Вибір і відтворення"
+- Перейти до поточного відтворення і видалити їх
+- Виберіть зі списку вашу музику
+- Перейти до поточного відтворення та натисніть Зберегти
+- Введіть ім'я нового списку відтворення
+- Ви знайдете свій новий список відтворення в другому списку під плейлисти
+Система</value>
+  </data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+    <value>Кеш</value>
+  </data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+    <value>Перший вантаж змісту потрібен якийсь час. Тоді завантажувати вміст з кеша. Якщо ви додаєте новий контент на пристрій необхідно оновити кеш.
+Ви можете оновити кеш в налаштуваннях.</value>
+  </data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+    <value>Проблеми Показати</value>
+  </data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+    <value>Багато пісень можуть викликати проблеми з дисплея. Проблеми, пов'язані з прозорим кольором конструкцій.
+Ви можете вирішити цю проблему, якщо ви видалите прозорість конструкцій.</value>
+  </data>
+</root>

@@ -1,0 +1,985 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>lv-LV</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>mans pieteikums</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>pievienot</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>izvēlne postenis</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>par</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>albums</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 Music</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>mākslinieks</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>vairāk</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>mūzika</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>atskaņošanas sarakstus</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>iestatījumi</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>dziesma</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>albumi</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>žanri</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>Pirkt šo lietotni</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>Pārbaudīt atjauninājumus</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>kontakts</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>fonta lielums</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>instrukcijas</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>valoda</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>tāpat xtrose</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>Parādīt logo uz starta</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>jā</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>Citi xtrose apps</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>Vērtēt šo programmu</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>noklikšķiniet uz ekrāna , lai izlaistu</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>Paldies par lejupielādi</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>Accent krāsas</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>krāsa</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>telefona fona</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>iestatīt krāsu</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>jā</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>Krāsu sarakstu atlase</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>paplašināta informācija</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>veids</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Multivides atskaņotājs akcents krāsu</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>playlist</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>dziesmas</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>atjaunot iestatījumus</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>albuma fona</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>albums priekšplāns</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>mākslinieks fona</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>mākslinieks priekšplāns</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>tālrunis Jaunas zināšanas</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>izvēlēts fons</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>izvēlēts priekšplāns</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>dziesmu fona</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>dziesma priekšplāns</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>caurspīdīgums</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>melns</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>balts</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>Visas dziesmas</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>Izvēle nevar atskaņot</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>Jaunākie Atskaņošanas</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>adrese</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>spēlēt</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>Spēlēt uz laiku</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>vēlāk</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>nekad</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>likme</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>Šis pieteikums šķiet, vēršos pie jums .
+Lai ieprogrammētu progr , ir laikietilpīgs un sarežģīts .
+Labs pārskats var palīdzēt mums izplatīt to tālāk .
+
+Thank you very much</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>atbalsts</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>atvērts</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>Atskaņot</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>spēlēt albums</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>atskaņot dziesmu</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>izdzēst</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>Dzēst pēdējos Atskaņošanas</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>Dzēst sarakstu ar pēdējo atskaņošanas</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>pārtraukums</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>atskaņošana</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>apstāties</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>Apstāties un noņemt atskaņošanu</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>Apturētu atskaņošanu un dzēst no spēlētāja</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>BRĪDINĀJUMS</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>Klikšķiniet, lai atvērtu</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>savieno</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>savienojums neizdevās</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>Savienojuma laiks,</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>Dizaina iestatījumi</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>Apsveicam, jūsu pilna versija ir atbrīvota</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>Nav pieejams atjauninājums</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>Vienu brīdi , lūdzu</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>stunda</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>stundas</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>minūte</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>protokols</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>Paldies, ka iegādājāties šo app</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>Trial Version beidzies</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>Trial Version beidzies ! Lai izveidotu progr maksās daudz laika . Par šo darbu cena nav dārga . Lai turpinātu izveidotu slūžu ekrāni attēlus , jums ir nopirkt app . Paldies!</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>izmēģinājuma versija</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>krāsu iestatījumus</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>Aizvērt saraksti</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>Nospiediet slēpto pogu augšas pa kreisi , lai aizvērtu visus sarakstus .</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>Uzklikšķinot uz kreisās bultiņas atver pilnekrāna atskaņotāju .</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>vispārējs</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>Ar šo pieteikumu , jūs saņemsietātrākais mūziku . Jūs varat izvēlēties visu savu mūziku tikai no diviem sarakstiem . Turklātpieteikums sniedz jums daudz lielu paplašinājumi .</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>Saraksta skatā</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>Izmantojot saraksta skatu, jūs varat ātri sasniegt savu mūziku . Visi mākslinieki ir uzskaitīti pirmajā sarakstā . Ja jūs noklikšķiniet uzvēlamo tad atvēra viņa albumus . Tālāk noklikšķiniet uz albuma parāda visas dziesmas .
+Otrajā sarakstā sarakstus, žanri , albumi un visas dziesmas ir uzskaitīti .</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>Dažādi</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>Lūdzu, novērtējiet labs šo pieteikumu, ja vēlaties. Ja Jums ir problēmas ar šo pieteikumu , tad, lūdzu, sazinieties ar atbalsta ! Jautājumi un problēmas ir zaudējuši neko viedokļos .
+Thank you very much !</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>spēlēt</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>Pieteikums ir spēlēt uz funkciju. Izmantojot šo funkciju , nosaukumi tiks atskaņotas tikai noteikto laiku . Lai iespējotu spēli, jums ir jābūt uz atskaņošanas pogas uz otru atskaņošanas laikā .</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>Izvēlne media player</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>Mazs media player ir uzstādīts apakšējā izvēlnē .</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>Vidējiem atskaņotājs ir atvērts ar klikšķi uz labo bultiņu .</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 Mūzikas beidzot sasniegtu savu mūziku ātrāk .
+Jaunais saraksts skats ļauj Super ātri atrast savu mākslinieku , albumus vai dziesmas .
+Mini atskaņotājs,mazs spēlētājs , unpilna ekrāna atskaņotājs ļauj sniegt jums pilnīgu kontroli pār savu mūziku . Portreta , gan ainavas režīmā .
+Bez tam , ir daudz ekstras .
+
+-List skats mūziku
+-List skats savus mūzikas sarakstus
+-3 Dažādas multimediju atskaņotāji
+-Atbalsta portreta un ainavas
+- Short spēlē titulu
+- Stop mūziku un izdzēst no multivides atskaņotāju
+-100 Pēdējās reprodukcijas tiek glabāti
+- Pilnkrāsu pielāgošana
+- Daudz lielu ekstras</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>mūzika</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>spēlētājs Mediaplayer</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>atskaņošana</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>ātrs</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>Skaņu mākslinieks mākslinieki dziesma dziesmas albuma tagu albums</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>Mainīt valodu</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>Restart pieteikumu</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>Izvēlieties valodu</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>fona krāsu</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>Fona attēlu ainava</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>Fona attēlu portrets</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>ERROR
+Priekšplāna krāsa ir tāda pati kā fona krāsu .</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>priekšplāna krāsu</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>Atjaunot dizaina iestatījumus</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>atjaunot</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>dzēst attēlu</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>Multivides atskaņotājs maza fona krāsu</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Multivides atskaņotājs neliels akcents krāsu</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>Multivides atskaņotājs liels akcents krāsu</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>Multivides atskaņotājs liels fona krāsa</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>Multivides atskaņotājs attēlu ainava</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>Multivides atskaņotājs attēlu portrets</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>pieteikties</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>koncerts</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>kopija</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>izdzēst</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>dizainu</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>rediģēt</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>tiešsaistē</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>pārdēvēt</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>glābt</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>fons melns</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>fons balts</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>Zaudēt nesaglabātos dizaina iestatījumus</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>atlasīts</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>KĻŪDA ! Nosaukt jau izmanto vai nederīgu burtiem!</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>jaunais nosaukums</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>izvēlēts Background</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>izvēlēts JAUNAS ZINĀŠANAS</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>dizains</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>atjaunot iestatījumus</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>Savieno .....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>savienojums neizdevās</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>Savienot ar xtrose</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>Savienojuma laiks,</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>Trial Version beidzies ! Lai izveidotu progr maksās daudz laika . Par šo darbu cena nav dārga . Lai turpinātu izmantot šo app , jums ir nopirkt to . Paldies!</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>autors</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>kategorija</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>Uzstādīt dizainu .....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>instalēt dizains</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>nosaukums</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>paziņojums</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>Lūdzu uzgaidiet</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>Tas ir, kā tā darbojas .
+- Fona attēli tiek kopēti uz " saglabāto attēlu "
+- Norāda atver e-pastu , lai xtrose
+- Pievienot autora vārdu
+, Pievienot attēlus no " saglabātos attēlus "
+- Sūtīt ziņu
+
+Pēc pārskatīšanas , mēs sniegsim informāciju par mūsu serveri .
+Thank you very much</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>Lūdzu, aizpildiet un ietver attēlus , kas izveidoti</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>Autors nosaukums :</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>Nemaina</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>Pievienot fona attēlus no " saglabātos attēlus "</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>publicēt</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>Nospiediet vēlreiz, lai aizvērtu</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>Pogas un funkcijas</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>orientācija atslēga</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>nākamā dziesma</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>( Press) Pauze
+( Hold ) Scan</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>Atskaņot</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>iepriekšējā dziesma</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>atsvaidzināt sarakstu</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Repead</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>meklēšana</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>dīdīties</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 mūzika beidzot sasniegtu savu mūziku ātrāk .
+Jaunais saraksts skats ļauj Super ātri atrast savu mākslinieku , albumus vai dziesmas .
+Mini atskaņotājs,mazs spēlētājs , unpilna ekrāna atskaņotājs ļauj sniegt jums pilnīgu kontroli pār savu mūziku . Portreta , gan ainavas režīmā .
+Izveidot savu dizainu vai lejupielādēt gatavus dizainu no interneta .
+Bez tam , ir daudz ekstras .
+
+-List skats mūziku
+-List skats savus mūzikas sarakstus
+-3 Dažādas multimediju atskaņotāji
+-Atbalsta portreta un ainavas
+- Short spēlē titulu
+-Design Editor
+- Download gatavo dizains no interneta
+- Stop mūziku un izdzēst no multivides atskaņotāju
+-100 Pēdējie reprodukcijas tiek glabāti
+- Pilnkrāsu pielāgošana
+- Daudz lielu ekstras</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>Paspauskite du kartus, vėl atnaujinti talpyklą</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>Nospiediet vēlreiz, lai atjaunotu nozveju</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>fona attēlu</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>Logo uz albuma attēlu</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>galvenais flīzes</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>Reset galvenais flīzes</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>Sākt ekrāna iestatījumus</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>sākuma ekrānā</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>Flīžu apstāties un dzēst</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>Klikšķiniet šeit, lai izveidotu apstāties un dzēst flīzes</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>reset</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>Ievadiet skaitli 0-360</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0-360 minūtes</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>Braukt ar bloķēšanas ekrānā</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>stop taimeri</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>Par taimeriapp ir jādarbojas saskaņā ar bloķēšanas ekrānā .
+Ļauj braukt ar bloķēšanas ekrānu</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>Atjaunināt sarakstu
+Dubultklikšķi uz paziņojumu , lai atjaunotu sarakstu. Nepieciešama tikai tad, ja mainījies mūziku savā mobilajā telefonā .</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8.1 mūzika beidzot sasniegtu savu mūziku ātrāk .
+Jaunais saraksts skats ļauj Super ātri atrast savu mākslinieku , albumus vai dziesmas .
+Mini atskaņotājs,mazs spēlētājs , unpilna ekrāna atskaņotājs ļauj sniegt jums pilnīgu kontroli pār savu mūziku . Portreta , gan ainavas režīmā .
+Izveidot savu dizainu vai lejupielādēt gatavus dizainu no interneta .
+Bez tam , ir daudz ekstras .
+
+-List skats mūziku
+-List skats savus mūzikas sarakstus
+-3 Dažādas multimediju atskaņotāji
+-Atbalsta portreta un ainavas
+- Short spēlē titulu
+-Design Editor
+- Download gatavo dizains no interneta
+- Stop mūziku un izdzēst no multivides atskaņotāju
+-100 Pēdējie reprodukcijas tiek glabāti
+- Pilnkrāsu pielāgošana
+- Daudz lielu ekstras</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>Nospiediet divreiz atkal atjaunot kešatmiņu</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>atjaunot</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>atjaunot kešatmiņu</value>
+  </data>
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+    <value>Dabartinis grojaraštis</value>
+  </data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+    <value>Dabartinės grojaraštį</value>
+  </data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+    <value>Nėra dabartinės replay turimos dainos</value>
+  </data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+    <value>Grojaraštis su tuo pačiu pavadinimu jau egzistuoja.</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+    <value>Ištrinti grojaraštį</value>
+    <comment>NOTE FOR Translators, please enter a return at the end of the text.</comment>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+    <value>Pakrautas</value>
+  </data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+    <value>Mygtukai multimedijos grotuvas</value>
+  </data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+    <value>Sagos šio sąrašo</value>
+  </data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+    <value>Paspauskite logotipas atidaryti pagalbos</value>
+  </data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+    <value>Ištrinti grojamą</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+    <value>Ištrinti grojaraštį</value>
+  </data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+    <value>Šis mygtukas panaikina atkuriamą ir atžymėti visų dainų sąrašus.</value>
+  </data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+    <value>Pagalba</value>
+  </data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+    <value>Naudokite šį mygtuką, jei norite užrakinti orientaciją.
+Tai bus blokuojamas visada esamą padėtį.
+Dar kartą paspauskite mygtuką, kad jį atrakinti.</value>
+  </data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+    <value>Su šiuo mygtuku, sąrašai yra uždarytos ir atnaujinami.
+Dukart paspaudę ant paskelbto perspėjimo, atmintis yra atnaujinama.
+Talpyklos turi būti atnaujinamas tik tada, jei iš smartphone muzika buvo pakeistas.</value>
+  </data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+    <value>Su šiuo mygtuku, dabartinis grojimas kaip grojaraščio gali būti išsaugotas. Galima tik režimu, pasirinkite ir žaisti.</value>
+  </data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+    <value>Vienas paspaudimas paiešką, tada atidaro teksto įvestį.
+Įveskite paieškos terminą ir paspauskite Enter.
+Paieškos filtrai visus sąrašus.
+Naudokite arti ir atnaujinti sąrašus ištrinti paiešką.</value>
+  </data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+    <value>Dizainas redaktorius</value>
+  </data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+    <value>Beveik viską galima koreguoti šioje programoje.
+Fono paveikslėliai, fono spalvas, Priekinio plano spalva, atskiri spalvų sąrašą.
+Norėdami pakeisti spalvų nustatymus, jums reikia atsidaryti dizainas.
+Čia jūs galite padaryti programą pagal savo skonį.
+
+Jūs galite atsisiųsti pilną temas ir įdiegti tiesiai.
+
+Su akcijomis mygtuką galite siųsti mums savo dizainą.
+Nepamirškite pridėti sukurtus vaizdus.
+Mes norėtume įkelti savo dizainą.</value>
+  </data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+    <value>Dizaino klaidos</value>
+  </data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+    <value>Kai gali atsirasti dėl projektavimo klaidų parsisiųsti.
+Be pasirinkite temos app gedimų.
+Dizainas iš naujo kitame paleidimo.
+Norėdami naudoti dizainą, jis turi būti įdiegtas iš naujo.</value>
+  </data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+    <value>Pasirinkite grojaraštį</value>
+  </data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+    <value>Apžvalga</value>
+  </data>
+  <data name="ZZ005_Play" xml:space="preserve">
+    <value>Groti</value>
+  </data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+    <value>Žaisti tik šį titulą</value>
+  </data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+    <value>Išsaugoti grojaraštį</value>
+  </data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+    <value>Režimu pasirinkti ir žaisti grojaraštį gali būti išsaugotas.
+Šis mygtukas rodomas dabartinės peržiūros srityje.
+Paspaudus mygtuką atsidaro teksto įvesties lauką.
+Po vardas čia buvo įrašytas turite paspausti mygtuką RETURN.
+Atkreipti dėmesį į grojaraštį grojaraštį išsaugotas.
+Jūs galite juos rasti antrojo sąrašo.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+    <value>Pasirinkti ir žaisti
+Šis mygtukas keičia app režimą.
+
+Standartinis režimas
+Numatytuoju režimu programa naudoja nurodytą API.
+Privalumai
+- Programa gali būti baigtas po atrankos.
+- Muzika gali būti kontroliuojama sistema.
+Trūkumai
+- Jis gali būti žaidžiamas tik ką API leidžia. Savos mišiniai gali būti sukurta.
+- Nėra grojaraštį kad gali būti sukurta.
+- Dabar grojami negali būti keičiamos.
+
+Pasirinkti ir žaisti režimą
+Veikiant šiuo režimu, viskas gali būti atrenkami ir atkuriami tiesiogiai.
+Privalumai
+- Jis gali nieko pasirinktas iš sąrašo ir grojo.
+- Galite sukurti pasirinktinius grojaraštį.
+- Grojaraščiai gali būti išsaugotas.
+- Dabar žaidžia rodomas ir gali būti keičiama ir rūšiuojami.
+Trūkumai
+- Programa reikalauja, kad atkūrimo metu kontroliuoti. Programa turi veikti pagal užrakto ekrane. Programa neturėtų būti perkeltas į fone.
+- Atkūrimas gali būti pakeistas tik per app grotuvas.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+    <value>Pasirinkti ir žaisti</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+    <value>Pasirinkite ir atkūrimo režimą</value>
+  </data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+    <value>Pažymėkite arba panaikinkite
+Režimas</value>
+  </data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+    <value>Standartinis</value>
+  </data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+    <value>Viršų mygtukas baras</value>
+  </data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+    <value>Automatinis vertimas</value>
+  </data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+    <value>Dizainas klaida!
+Ištrinti dizainas ir atsisiųskite iš naujo išspręsti šią klaidą.</value>
+  </data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+    <value>Prašome perskaityti!
+Sveiki atvykę į naują versiją 8.1 muzikos.
+Norėdami padėti jums pradėti, mes sukūrėme naują pagalbos. Paspauskite logo viršuje atidaryti pagalbos.
+Pradedant šioje laidoje, yra visiškai naujas būdas.
+Prašome atkreipti dėmesį į naują režimą ", pasirinkti ir žaisti" vis dar yra testavimo stadijoje.
+Duok mums, prašome, jei pamatysite klaidą.
+Labai ačiū!
+
+Smagiai su nauja versija</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+    <value>Kurti grojaraštį</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+    <value>Grojaraščiai gali tik "pasirinkti ir žaisti" režimu bus sukurta.
+- Įjunkite "Pasirinkti and Play"
+- Eiti į grojamą ir juos pašalinti
+- Pasirinkite iš sąrašo muziką
+- Eiti į dabartinę atkūrimą ir paspauskite Save
+- Įveskite savo naujojo grojaraščio pavadinimą
+- Rasite savo naują grojaraštį į antrąjį sąrašą pagal grojaraščius</value>
+  </data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+    <value>Laikinoji sistema</value>
+  </data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+    <value>Pirmasis apkrova turinį reikia šiek tiek laiko. Tada įkelti turinį iš talpyklos. Jei norite pridėti naują turinį į jūsų prietaisą, turite atnaujinti talpyklą.
+Galite atnaujinti talpyklą nustatymus.</value>
+  </data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+    <value>Rodyti problemos</value>
+  </data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+    <value>Daugelis dainos gali sukelti problemų su ekrano. Problemos, susijusios su skaidriu spalvos dizaino.
+Jūs galite išspręsti šią problemą, jei jūs pašalinti dizaino skaidrumą.</value>
+  </data>
+</root>

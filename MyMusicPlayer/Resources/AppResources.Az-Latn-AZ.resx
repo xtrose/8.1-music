@@ -1,0 +1,985 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>Az-Latn-AZ</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>MY TƏTBİQ</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>əlavə etmək</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menu Item</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>haqqında</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>albom</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 Musiqi</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>rəssam</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>daha</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>musiqi</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>Playlists</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>mahnı</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>Albums</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>janrları</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>Bu app almaq</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>Yeniləmə yoxlayın</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>əlaqə</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>Font ölçüsü</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>təlimat</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>dil</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>xtrose Like</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>Başlanğıc logo göstər</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>bəli</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>Digər xtrose apps</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>Bu app dizaynını</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>keçmək üçün ekran basın</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>Yüklemek üçün təşəkkür edirik</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>Accent rəng</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>rəng</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>Telefon background</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>Set rəng</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>bəli</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>Color siyahısı seçim</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>Genişləndirilmiş bilgiləri</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>cür</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Media player vurğu rəng</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>playlist</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>Mahnılar</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>parametrlərini bərpa</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>Album background</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>Album foreground</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>Artist background</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>Artist foreground</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>Telefon Ön planda</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>seçilmiş background</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>seçilmiş foreground</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>Lirik background</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>Lirik foreground</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>şəffaflıq</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>qara</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>ağ</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>bütün mahnılar</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>Seçim ifa edilə bilməz</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>son Kayıttan</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>ünvan</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>oynamaq</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>Vaxt oynamaq</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>sonra</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>heç</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>faiz</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>Bu proqram sizə müraciət görünür.
+Apps proqram vaxt aparan və çətin deyil .
+A yaxşı nəzərdən us daha da yaymaq kömək edə bilər.
+
+Çox sağ olun</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>dəstək</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>açıq</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>albom Play</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>mahnı Play</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>sil</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>Son çəkiliş sil</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>Son oynatılmasından ilə siyahısını sil</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>fasilə</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>playback</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>dayandırmaq</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>Playback dayandırmaq və aradan qaldırılması</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>Playback dayandırmaq və oyunçu silmək</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>XƏBƏRDARLIQ</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>Açmaq üçün basın</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>birləşdirici</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>Connection uğursuz</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>Out Connection dəfə</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>dizayn parametrləri</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>Tebrik edirik, tam versiyası buraxılıb</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>Mövcud No yeniləmə</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>Bir an edin</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>saat</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>saat</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>dəqiqə</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>dəqiqə</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>Bu app alınması üçün təşəkkür edirik</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>Trial Version Vaxtı</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>Trial Version Müddəti bitmiş ! Apps yaratmaq üçün çox vaxt başa gələcək. Bu iş üçün qiyməti bahalı deyil . Kilidi ekranlar Şəkillər yaratmaq davam etmək üçün, app almaq lazımdır . Təşəkkür edirik!</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>Deneme versiyası</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>Color parametrləri</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>close siyahıları</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>Gizli düyməsini basın , top bütün siyahıları bağlamaq üçün sol .</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>Sol arrow tıklayarak tam ekran oyunçu açır.</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>ümumi</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>Bu proqram ilə siz musiqi sürətli almaq . Siz yalnız iki siyahıları bütün musiqi seçə bilərsiniz. Bundan əlavə, proqram sizə çox böyük uzantıları verir.</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>Siyahı görünüşü</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>Siyahısı görünüşü istifadə edərək, tez musiqi edə bilərsiniz. Bütün rəssamların ilk siyahısında olunur . Siz istədiyiniz basın onda onun albomları açdı. Albom daha bir klik bütün mahnıları göstərir .
+İkinci siyahısında , çalğı siyahıları , janrlar, albom və bütün mahnıları verilmişdir.</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>müxtəlifnövlü</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>Isterseniz yaxşı dərəcəsi bu proqram edin . Bu proqram ilə bağlı problemlər varsa , onda dəstək müraciət edin! Suallar və problemlər təhlil heç bir şey itirmişdir .
+Çox sağ olun !</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>Bu proqram funksiyası bir oyun var. Bu funksiya ilə , adları yalnız set vaxt replayed olunacaq. Haqqında oyun etkinleştirmek üçün, playback zamanı ikinci play düyməsinə olmalıdır .</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>Menu media player</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>A kiçik media player aşağı menyu quraşdırılıb.</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>Orta ölçülü oyunçu sağ arrow bir klik ilə açılır .</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 Musiqi nəhayət daha sürətli musiqi çatmaq .
+Yeni siyahı görünüşü Super sürətli sizin rəssamlar , albom və ya mahnı tapmaq imkan verir.
+A mini Player, kiçik bir oyunçu , və tam ekran player sizin musiqi üzərində tam nəzarət verir imkan verir. Portret eləcə də landşaft rejimində .
+Bundan əlavə, bir çox Əlavələr var .
+
+Musiqi - Siyahı görünüşü
+Sizin çalğı siyahıları - Siyahı görünüşü
+-3 Müxtəlif media oyunçular
+Portret və landşaft dəstəkləyir
+Qısa adı oynayan
+Musiqi - Stop və media player silmək
+-100 Son reproduksiyaları saxlanılır
+- Tam rəng özelleştirme
+Böyük Əlavələr -çox</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>musiqi</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>Player Mediaplayer</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>playback</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>sürətli</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>Səs sənətçisi rəssamların song songs albom tag albums</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>Change language</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>Tətbiqi yenidən başladın</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>Select language</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>background color</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>Fon şəkil mənzərə</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>Fon şəkil portret</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>ERROR
+Ön planda rəng fon rəngi kimi eyni .</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>ön plan rəngi</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>Dizayn parametrlərini bərpa</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>bərpa etmək</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>şəkil sil</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>Media player kiçik background color</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Media player kiçik vurğu rəng</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>Media player böyük vurğu rəng</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>Media player böyük background color</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>Media player şəkil mənzərə</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>Media player şəkil portret</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>tətbiq etmək</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>konsert</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>köçürmək</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>sil</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>Designs</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>redaktə etmək</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>saxla</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>background black</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>background ağ</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>Kaydedilmemiş dizayn parametrləri itirmək</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>seçilmiş</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>ERROR ! Artıq istifadə və ya etibarsız simvol ad!</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>yeni adı</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>seçilmiş Background</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>ön seçilmiş</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>layihə</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>parametrlərini bərpa</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>Connecting .....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>Connection uğursuz</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>Xtrose ilə əlaqə</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>Out Connection dəfə</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>Trial Version Müddəti bitmiş ! Apps yaratmaq üçün çox vaxt başa gələcək. Bu iş üçün qiyməti bahalı deyil . Bu app istifadə etmək üçün , onu almaq lazımdır. Təşəkkür edirik!</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>müəllif</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>kateqoriya</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>Dizayn Install .....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>dizayn Install</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>ad</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>xəbərdarlıq</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>Xahiş edirik gözləyin</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>Bu işləri necə.
+-Background images "xilas images" daxil kopyalanır
+Xtrose bir e-poçt açılır out- Point
+Müəllif adı əlavə et
+"Images xilas" images əlavə et
+Mesaj göndər
+
+Nəzərdən sonra, bizim server məlumatları təmin edəcək .
+Çox sağ olun</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>Doldurun və şəkilləri yaradılmışdır daxil edin</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>Author adı :</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>Dəyişiklik etməyin</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>Əlavə fon images "images xilas"</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>Publish</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>Yenidən Press yaxın</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>Buttons və funksiyaları</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>Orientation kilidi</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>Next song</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>( Press ) Pause
+( Hold) Scan</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>əvvəlki song</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>yenile siyahısı</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Repead</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>axtarış</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>sürümək</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 musiqi nəhayət daha sürətli musiqi çatmaq .
+Yeni siyahı görünüşü Super sürətli sizin rəssamlar , albom və ya mahnı tapmaq imkan verir.
+A mini Player, kiçik bir oyunçu , və tam ekran player sizin musiqi üzərində tam nəzarət verir imkan verir. Portret eləcə də landşaft rejimində .
+Öz dizayn yaratmaq və ya İnternet hazır dizayn download.
+Bundan əlavə, bir çox Əlavələr var .
+
+Musiqi - Siyahı görünüşü
+Sizin çalğı siyahıları - Siyahı görünüşü
+-3 Müxtəlif media oyunçular
+Portret və landşaft dəstəkləyir
+Qısa adı oynayan
+-Design Editor
+İnternet -Download tamamladı dizayn
+Musiqi - Stop və media player silmək
+-100 Son reproduksiyaları saxlanılır
+- Tam rəng özelleştirme
+Böyük Əlavələr -çox</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>Press iki dəfə cache yeniləmək</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>Tutmaq yeniləmək üçün yenidən basın</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>fon şəkil</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>Albom image Logo</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>Main kafel</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>Əsas kafel Reset</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>Ekran parametrləri Start</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>ekran başlayın</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>Kafel dayandırmaq və silmək</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>Stop yaratmaq üçün buraya basın və kafel silmək</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>əvvəlki vəziyyətinə qaytarmaq</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>360 - Bir sıra 0 daxil edin</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0 - 360 Minutes</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>Kilidi ekran altında run</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>Taymeri dayandırmaq</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>Çekim üçün app kilidi ekran altında çalışan olmalıdır.
+Kilidi ekran altında run imkan</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>Update siyahısı
+Siyahısını yeniden bildiriş cüt basın . Mobil musiqi dəyişib yalnız zəruri halda .</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8.1 musiqi nəhayət daha sürətli musiqi çatmaq .
+Yeni siyahı görünüşü Super sürətli sizin rəssamlar , albom və ya mahnı tapmaq imkan verir.
+A mini Player, kiçik bir oyunçu , və tam ekran player sizin musiqi üzərində tam nəzarət verir imkan verir. Portret eləcə də landşaft rejimində .
+Öz dizayn yaratmaq və ya İnternet hazır dizayn download.
+Bundan əlavə, bir çox Əlavələr var .
+
+Musiqi - Siyahı görünüşü
+Sizin çalğı siyahıları - Siyahı görünüşü
+-3 Müxtəlif media oyunçular
+Portret və landşaft dəstəkləyir
+Qısa adı oynayan
+-Design Editor
+İnternet -Download tamamladı dizayn
+Musiqi - Stop və media player silmək
+-100 Son reproduksiyaları saxlanılır
+- Tam rəng özelleştirme
+Böyük Əlavələr 
+-çox</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>Press iki dəfə cache yeniləmək</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>təzələmək</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>cache Yenilənən</value>
+  </data>
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+    <value>Cari playlist</value>
+  </data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+    <value>Clear cari playlist</value>
+  </data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+    <value>Cari replay No songs mövcud</value>
+  </data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+    <value>Eyni adı ilə playlist artıq mövcuddur.
+Override playlist</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+    <value>Siyahısını sil</value>
+    <comment>NOTE FOR Translators, please enter a return at the end of the text.</comment>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+    <value>Dolu</value>
+  </data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+    <value>Buttons media player Siyahısı</value>
+  </data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+    <value>Buttons</value>
+  </data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+    <value>Press yardım açmaq üçün logo</value>
+  </data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+    <value>Cari playback sil</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+    <value>Siyahısını sil</value>
+  </data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+    <value>Bu düyməsinə cari playback siler və siyahıları bütün mahnıları unselect.</value>
+  </data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+    <value>Orientation kilidi Bu düyməsini istifadə edin.
+O, həmişə cari oriyentasiya bağlanacaq.
+Onu açmaq üçün yenidən düyməsini basın.</value>
+  </data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+    <value>Düyməsini ilə siyahıları bağlıdır və təzələnir.
+Nəşr ihbar üzərinə cüt tıklayarak, cache yenilənir.
+Keş Smartphone musiqi dəyişdirildi yalnız bərpa olunmalıdır.</value>
+  </data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+    <value>Bu butonu ilə, bir playlist kimi cari playback xilas ola bilər. Yalnız rejimində seçin və oynamaq Available.
+  Axtarış One mətbuat</value>
+  </data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+    <value>sonra mətn daxil açır.
+Axtarış termini və mətbuat qaytarılması daxil edin.
+Axtarış bütün siyahıları filtreler.
+Yaxın istifadə edin və axtarış silmek üçün siyahıları yeniləmək.</value>
+  </data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+    <value>Design redaktoru</value>
+  </data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+    <value>Demək olar ki, hər şey bu app düzəlişlər edilə bilər.
+Fon şəkilləri, fon rəngləri, ön rəng, siyahıda fərdi rəng.
+Renk ayarları dəyişdirmək üçün, dizayn açmaq lazımdır.
+Burada, sizin təvəccöh üçün app edə bilərsiniz.
+Siz tam mövzuları yükləmək və birbaşa quraşdıra bilərsiniz.
+Payı düyməsinə ilə siz bizə dizayn göndərə bilərsiniz.
+Yaradıldı images əlavə etmək unutmayın.
+Biz sizin dizayn yüklemek üçün istəyirəm.</value>
+  </data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+    <value>Design səhv</value>
+  </data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+    <value>Dizayn səhvlər download baş verə bilər zaman.
+Mövzular app qəzaları seçin.
+Dizayn növbəti başlanğıc sıfırlanır.
+Dizayn istifadə etmək üçün, yenidən yüklü olmalıdır.</value>
+  </data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+    <value>Seçin playlist</value>
+  </data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+    <value>Baxış</value>
+  </data>
+  <data name="ZZ005_Play" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+    <value>Yalnız bu adı oyna</value>
+  </data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+    <value>Save playlist</value>
+  </data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+    <value>Bu rejimində seçin və playlist xilas ola bilər oynayır.
+Bu düyməsinə cari playback sahəsində görünür.
+Bu düğmeyi düyməsinə basmaq mətn daxil sahə açır.
+Adı burada girildi sonra qaytarılması düyməsini basın lazımdır.
+Bir playlist playlist qeyd qeyd olunur.
+Siz ikinci siyahıda onları tapa bilərsiniz.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+    <value>Seçin və oynamaq
+Bu düyməsinə app rejimi dəyişir.
+
+Standard rejimi
+Default rejimində app göstərilən API istifadə edin.
+Üstünlükləri
+- The app seçilməsi sonra ləğv edilə bilər.
+- Musiqi sistem tərəfindən nəzarət oluna bilər.
+Dezavantajları
+- Bu API nə imkan yalnız ifa edilə bilər. No öz qarışıqları yaradıla bilər.
+- Yaradıla bilər ki, heç bir çalğı siyahıları var.
+- İndi oynayan dəyişdirilə bilməz.
+
+Rejimi seçin və oynamaq
+Bu modda, hər şey seçilmiş və birbaşa geri ifa edilə bilər.
+Üstünlükləri
+- Bu bir şey siyahıdan seçilmiş və ifa edə bilər.
+- Siz xüsusi çalğı siyahıları yarada bilərsiniz.
+- Playlists xilas ola bilər.
+- İndi oynayan göstərilir və dəyişdirilə və sıralaması edə bilər.
+Dezavantajları
+- The app Fonoqram zamanı nəzarət tələb edir. The app kilidi ekran altında run lazımdır. The app fonunda köçürülüb bilməz.
+- The playback yalnız app oyunçu ilə dəyişdirilə bilər.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+    <value>Seçin və oynamaq</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+    <value>Rejimi seçin və oynamaq</value>
+  </data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+    <value>Seçin və ya seçimini aradan qaldırılması</value>
+  </data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+    <value>Standard rejimi</value>
+  </data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+    <value>Top düyməsini bar</value>
+  </data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+    <value>Avtomatik tərcümə</value>
+  </data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+    <value>Design səhv!
+Dizayn Sil və bu səhv düzeltmek üçün yenidən yükləyə bilərsiniz.</value>
+  </data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+    <value>Oxuyun!
+Yeni versiya 8.1 musiqi xoş gəlmisiniz.
+Siz başlamaq kömək etmək üçün, biz yeni bir yardım yaratmışdır. Yardım açmaq üçün yuxarıda logo basın.
+Bu azad ilə başlayaraq, bir tamamilə yeni rejimi var.
+"Seçin və oynamaq" test mərhələsində hələ də yeni rejimi unutmayın.
+Əgər bir səhv tapmaq, bizə xahiş edirik verir.
+Çox sağ olun!
+Yeni versiyası ilə Əylən</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+    <value>Siyahısını yarat</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+    <value>Playlists yalnız "seçin və oynamaq" rejimi yaradılmışdır olunacaq.
+- Activate "seçin və Play"
+- Cari playback gedin və onları silmək
+- Siyahıdan musiqi seçin
+- Qazanc cari playback və mətbuat gedin
+- Yeni playlist üçün ad daxil edin
+- Siz siyahıları altında ikinci siyahısında yeni siyahısını tapa bilərsiniz</value>
+  </data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+    <value>Cache sistemi</value>
+  </data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+    <value>Məzmunu ilk yük bəzi vaxt lazımdır. Sonra cache məzmunu yük. Sizin cihaz yeni məzmun əlavə əgər siz keşi yeniləmək lazımdır.
+Siz parametrləri cache yenileyin bilər.</value>
+  </data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+    <value>Display problemləri
+Bir çox mahnılar</value>
+  </data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+    <value>ekran ilə problemlər yarada bilər. Dizayn şəffaf rəng ilə bağlı problemlər.
+Siz dizayn şəffaflığı aradan Əgər bu problemi həll edə bilərsiniz.</value>
+  </data>
+</root>

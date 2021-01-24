@@ -1,0 +1,985 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>RightToLeft</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ar-SA</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>MY التطبيق</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>القائمة البند</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>حول</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>الألبوم</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 الموسيقى</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>فنان</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>أكثر</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>موسيقى</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>قوائم التشغيل</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>إعدادات</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>أغنية</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>البوم</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>الأنواع</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>شراء هذا التطبيق</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>التحقق من وجود تحديث</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>اتصال</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>حجم الخط</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>تعليمات</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>لغة</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>مثل xtrose</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>عرض الشعار على بدء</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>تطبيقات أخرى xtrose</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>قيم هذا التطبيق</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>انقر فوق الشاشة ل تخطي</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>شكرا لكم لتحميل</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>لون هجة</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>لون</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>خلفية الهاتف</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>تعيين اللون</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>اختيار قائمة اللون</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>المعلومات الموسعة</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>نوع</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>مشغل وسائط هجة اللون</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>قائمة التشغيل</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>الأغاني</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>استعادة الإعدادات</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>خلفية الألبوم</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>المقدمة الألبوم</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>خلفية الفنان</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>الفنان الصدارة</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>الهاتف المقدمة</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>الخلفية المحدد</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>المقدمة مختارة</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>خلفية أغنية</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>أغنية المقدمة</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>شفافية</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>أسود</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>أبيض</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>كل الأغاني</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>اختيار لا يمكن لعب</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>قراءات مشاركة</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>اللعب على</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>اللعب في الوقت المحدد</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>فيما بعد</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>أبدا</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>معدل</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>يبدو هذا التطبيق ل أناشدكم .
+لبرمجة التطبيقات هو مضيعة للوقت وصعبة.
+مراجعة جيدة يمكن أن تساعدنا على نشر أكثر من ذلك .
+
+شكرا جزيلا</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>دعم</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>فتح</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>اللعب</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>تلعب الألبوم</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>تلعب الأغنية</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>حذف قراءات مشاركة</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>حذف قائمة مع قراءات مشاركة</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>استراحة</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>تشغيل</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>توقف</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>وقف وإزالة تشغيل</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>إيقاف التشغيل وحذف من اللاعب</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>تحذير</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>انقر ل فتح</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>الرابط</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>فشل الاتصال</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>وقت الاتصال بها</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>إعدادات التصميم</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>تهانينا، لقد تم الافراج عن النسخة الكاملة الخاصة بك</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>أي تحديث متاح</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>لحظة من فضلك</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>ساعة</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>ساعات</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>دقيقة</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>دقيقة</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>أشكركم على شراء هذا التطبيق</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>الإصدار التجريبي انتهى</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>الإصدار التجريبي انتهى ! ل إنشاء تطبيقات سيكلف الكثير من الوقت . ثمن هذا العمل ليست مكلفة. مواصلة خلق شاشات قفل الصور ، يجب عليك شراء التطبيق. شكرا لك !</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>نسخة تجريبية</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>إعدادات الألوان</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>قوائم قريبة</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>اضغط على زر خفية، أعلى اليسار لإغلاق كافة القوائم.</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>بالضغط على السهم الأيسر يفتح اعب ملء الشاشة .</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>مع هذا التطبيق ، يمكنك الحصول على أسرع إلى الموسيقى الخاصة بك. يمكنك اختيار كل ما تبذلونه من الموسيقى من قائمتين فقط. بالإضافة إلى ذلك، تطبيق يتيح لك العديد من امتدادات كبيرة.</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>عرض قائمة</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>باستخدام طريقة عرض القائمة ، يمكنك الوصول بسرعة الموسيقى الخاصة بك. يتم سرد كافة الفنانين في القائمة الأولى . إذا نقرت على المطلوب ثم فتح ألبوماته . وبنقرة أخرى على الألبوم يعرض جميع الأغاني .
+في القائمة الثانية ، يتم سرد قوائم التشغيل ، والأنواع ، والألبومات وجميع الأغاني.</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>المتنوعة</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>يرجى معدل جيد هذا التطبيق إذا أردت. إذا كان لديك مشاكل مع هذا التطبيق، ثم الرجاء الاتصال الدعم! فقد الأسئلة و المشاكل لا شيء في الاستعراضات .
+شكرا جزيلا لك !</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>اللعب على</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>التطبيق يحتوي على اللعب على وظيفة . مع هذه الوظيفة، سيتم ردها العناوين فقط الوقت المحدد . لتمكين اللعب على ، يجب الاستمرار على زر التشغيل لمدة ثانية أثناء التشغيل.</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>القائمة سائل الاعلام لاعب</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>يتم تثبيت مشغل وسائط صغيرة في أدنى القائمة .</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>فتح لاعب متوسطة الحجم مع الضغط على السهم الأيمن.</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 الموسيقى تصل أخيرا الموسيقى الخاصة بك بشكل أسرع.
+عرض قائمة جديدة تمكنك من العثور سوبر صيامك الفنانين ، والألبومات أو الأغاني .
+A لاعب صغير، لاعب صغير ، ومشغل ملء الشاشة تسمح لتعطيك السيطرة الكاملة على الموسيقى الخاصة بك. في صورة وكذلك وضع أفقي.
+بالإضافة إلى ذلك، هناك العديد من إضافات.
+
+- عرض القائمة من الموسيقى الخاصة بك
+- عرض القائمة من قوائم التشغيل
+-3 لاعبين وسائل الإعلام المختلفة
+ويدعم صورة والمناظر الطبيعية
+- قصير لعب على اللقب
+- إيقاف الموسيقى وحذف من وسائل الاعلام لاعب
+يتم تخزين النسخ الأخيرة -100
+كامل لون التخصيص
+، الكثير من إضافات كبيرة</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>موسيقى</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>مشغل الوسائط الإعلامية</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>تشغيل</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>سريع</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>ألبوم الفنان الفنانين الصوت أغنية الأغاني الألبومات علامة</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>تغيير اللغة</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>إعادة تشغيل التطبيق</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>اختر اللغة</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>لون الخلفية</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>المشهد صورة الخلفية</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>خلفية الصورة صورة</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>خطأ
+اللون الأمامي هو نفس لون الخلفية.</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>اللون الأمامي</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>استعادة الإعدادات التصميم</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>استعادة</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>حذف الصورة</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>لون خلفية سائل الاعلام لاعب صغير</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>مشغل وسائط صغيرة لون لهجة</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>مشغل وسائط كبيرة لون لهجة</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>مشغل وسائط لون الخلفية الكبيرة</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>المشهد صور اعب وسائل الاعلام</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>مشغل وسائط صورة صورة</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>تطبق</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>حفلة موسيقية</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>نسخة</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>التصاميم</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>تحرير</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>على الانترنت</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>إعادة تسمية</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>خلفية سوداء</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>خلفية بيضاء</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>تفقد إعدادات التصميم غير محفوظة</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>مختار</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>خطأ ! الاسم بالفعل في استخدام أو أحرف غير صالحة !</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>اسم جديد</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>خلفية اختيارها</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>اختيار المقدمة</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>تصميم</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>استعادة الإعدادات</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>ربط .....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>فشل الاتصال</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>تواصل مع xtrose</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>وقت الاتصال بها</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>الإصدار التجريبي انتهى ! ل إنشاء تطبيقات سيكلف الكثير من الوقت . ثمن هذا العمل ليست مكلفة. الاستمرار في استخدام هذا التطبيق ، لديك لشرائه. شكرا لك !</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>الكاتب</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>فئة</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>تثبيت التصميم .....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>تصميم تثبيت</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>اسم</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>إعلام</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>يرجى الانتظار</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>هذه هي الطريقة التي يعمل بها.
+يتم نسخ الصور في الخلفية ، " الصور المحفوظة "
+نقطة من يفتح بريد الكتروني الى xtrose
+- إضافة اسم الكاتب
+- إضافة الصور من " الصور المحفوظة "
+ارسل رسالة
+
+بعد الاستعراض، وسوف نقدم البيانات على الخادم لدينا .
+شكرا جزيلا</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>يرجى ملء و تشمل الصور التي تم إنشاؤها</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>اسم الكاتب :</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>لا تغيير</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>إضافة صور الخلفية من " الصور المحفوظة "</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>نشر</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>اضغط مرة أخرى لإغلاق</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>أزرار و ظائف</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>قفل التوجه</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>الأغنية التالية</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>( الصحافة ) وقفة
+( عقد ) المسح الضوئي</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>اللعب</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>الأغنية السابقة</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>تحديث قائمة</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Repead</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>خلط ورق اللعب</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 الموسيقى أخيرا تصل إلى الموسيقى الخاصة بك بشكل أسرع.
+عرض قائمة جديدة تمكنك من العثور سوبر صيامك الفنانين ، والألبومات أو الأغاني .
+A لاعب صغير، لاعب صغير ، ومشغل ملء الشاشة تسمح لتعطيك السيطرة الكاملة على الموسيقى الخاصة بك. في صورة وكذلك وضع أفقي.
+إنشاء التصميم الخاص بك أو تحميل التصاميم الانتهاء من الإنترنت.
+بالإضافة إلى ذلك، هناك العديد من إضافات.
+
+- عرض القائمة من الموسيقى الخاصة بك
+- عرض القائمة من قوائم التشغيل
+-3 لاعبين وسائل الإعلام المختلفة
+ويدعم صورة والمناظر الطبيعية
+- قصير لعب على اللقب
+التصميم محرر
+- تحميل تصميم الانتهاء من الإنترنت
+- إيقاف الموسيقى وحذف من وسائل الاعلام لاعب
+يتم تخزين نسخ -100 مشاركة
+كامل لون التخصيص
+، الكثير من إضافات كبيرة</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>اضغط على مرتين مرة أخرى لتجديد مخبأ</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>اضغط مرة أخرى ل تجديد الصيد</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>صورة الخلفية</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>الشعار على صورة الألبوم</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>بلاط الرئيسية</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>إعادة البلاط الرئيسي</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>بدء إعدادات الشاشة</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>بدء الشاشة</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>بلاط وقف وحذف</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>انقر هنا لإنشاء محطة وحذف البلاط</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>إعادة تعيين</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>يرجى إدخال رقم 0-360</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0-360 دقيقة</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>تعمل تحت قفل الشاشة</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>إيقاف الموقت</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>ل توقيت التطبيق يجب تشغيل تحت قفل الشاشة .
+تمكين لتعمل تحت قفل الشاشة</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>قائمة التحديث
+انقر مرتين على إخطار لإعادة القائمة. فقط ضروريا إذا تغيرت الموسيقى على هاتفك النقال.</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8.1 الموسيقى أخيرا تصل إلى الموسيقى الخاصة بك بشكل أسرع.
+عرض قائمة جديدة تمكنك من العثور سوبر صيامك الفنانين ، والألبومات أو الأغاني .
+A لاعب صغير، لاعب صغير ، ومشغل ملء الشاشة تسمح لتعطيك السيطرة الكاملة على الموسيقى الخاصة بك. في صورة وكذلك وضع أفقي.
+إنشاء التصميم الخاص بك أو تحميل التصاميم الانتهاء من الإنترنت.
+بالإضافة إلى ذلك، هناك العديد من إضافات.
+
+- عرض القائمة من الموسيقى الخاصة بك
+- عرض القائمة من قوائم التشغيل
+-3 لاعبين وسائل الإعلام المختلفة
+ويدعم صورة والمناظر الطبيعية
+- قصير لعب على اللقب
+التصميم محرر
+- تحميل تصميم الانتهاء من الإنترنت
+- إيقاف الموسيقى وحذف من وسائل الاعلام لاعب
+يتم تخزين نسخ -100 مشاركة
+كامل لون التخصيص
+، الكثير من إضافات كبيرة</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>اضغط على مرتين مرة أخرى ل تجديد مخبأ</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>جدد</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>تجديد مخبأ</value>
+  </data>
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+    <value>قائمة التشغيل الحالية</value>
+  </data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+    <value>قائمة التشغيل الحالية</value>
+  </data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+    <value>لا الأغاني في إعادتها الحالية المتوفرة</value>
+  </data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+    <value>قائمة تشغيل بنفس الاسم موجود مسبقاً.
+تجاوز قائمة التشغيل</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+    <value>حذف قائمة التشغيل</value>
+    <comment>NOTE FOR Translators, please enter a return at the end of the text.</comment>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+    <value> أزرار ميديا بلاير</value>
+  </data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+    <value>أزرار للقائمة</value>
+  </data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+    <value>اضغط على شعار لفتح التعليمات</value>
+  </data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+    <value>حذف التشغيل الحالي</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+    <value>حذف قائمة التشغيل</value>
+  </data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+    <value>هذا الزر حذف التشغيل الحالي وإلغاء تحديد جميع الأغاني في القوائم.</value>
+  </data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+    <value>مساعدة</value>
+  </data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+    <value>استخدام هذا الزر لقفل الاتجاه.
+وسيكون حظر دائماً التوجه الحالي.
+اضغط على الزر مرة أخرى لإلغاء تأمينه.</value>
+  </data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+    <value>مع هذا الزر، القوائم مغلقة وتجديدها.
+بواسطة النقر المزدوج على الإشعار المنشورة، يتم تحديث ذاكرة التخزين المؤقت.
+يجب تجديد ذاكرة التخزين المؤقت فقط إذا تم تغيير الموسيقى من الهاتف الذكي.</value>
+  </data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+    <value>مع هذا الزر، يمكن حفظ القراءة الحالية كقائمة تشغيل. متاح فقط في وضع وتحديد واللعب.</value>
+  </data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+    <value> الصحافة واحد في البحث، ثم يفتح إدخال نص.
+أدخل مصطلح البحث الخاص بك واضغط على العودة.
+بتصفية البحث كافة القوائم.
+استخدام إغلاق وتجديد قوائم حذف البحث.</value>
+  </data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+    <value>محرر تصميم</value>
+  </data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+    <value>تقريبا كل شيء يمكن تعديلها في هذا التطبيق.
+صور خلفية، ألوان الخلفية، ولون المقدمة، ألوان فردية من القائمة.
+لتغيير إعدادات الألوان، تحتاج إلى فتح التصميم.
+هنا، يمكنك جعل التطبيق ترضيك.
+
+يمكنك تحميل مواضيع كاملة وتثبيت مباشرة.
+
+مع الزر مشاركة يمكنك إرسال لنا التصميم الخاص بك.
+الرجاء تذكر لإضافة الصور التي تم إنشاؤها.
+ونحن سوف ترغب في تحميل التصميم الخاص بك.</value>
+  </data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+    <value>خطأ تصميم</value>
+  </data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+    <value>عند تحميل أخطاء التصميم يمكن أن يحدث.
+في تحديد المواضيع التي تعطل التطبيق.
+هو إعادة التصميم في بدء التشغيل التالي.
+لاستخدام التصميم، يجب أن يكون تثبيته مرة أخرى.</value>
+  </data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+    <value>حدد قائمة التشغيل</value>
+  </data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+    <value>نظرة عامة</value>
+  </data>
+  <data name="ZZ005_Play" xml:space="preserve">
+    <value>اللعب</value>
+  </data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+    <value>اللعب فقط من هذا العنوان</value>
+  </data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+    <value>حفظ قائمة التشغيل</value>
+  </data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+    <value>يمكن حفظ قائمة التشغيل في تحديد الوضع واللعب.
+يظهر هذا الزر في ميدان التشغيل الحالية.
+يؤدي النقر فوق الزر فتح حقل إدخال نص.
+بعد أن تم إدخال اسم هنا لديك للضغط على زر العودة.
+يتم حفظ يشيرون إلى قائمة التشغيل في قائمة تشغيل.
+يمكنك العثور عليها في القائمة الثانية.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+    <value>حدد وتلعب
+هذا الزر يغير وضع التطبيق.
+
+الوضع القياسي
+في الوضع الافتراضي للتطبيق استخدام API المحدد.
+مزايا
+-يمكن أن تكون مغلقة التطبيق بعد التحديد.
+-الموسيقى يمكن التحكم بواسطة النظام.
+عيوب
+-يمكن أن تقوم ما API يسمح فقط. يمكن إنشاء لا يمزج الخاصة.
+-لا توجد أي قوائم التشغيل التي يمكن إنشاؤها.
+-والآن لا يمكن تغيير اللعب.
+
+حدد وطريقة اللعب
+في هذا الوضع، كل شيء يمكن تحديدها ولعبت مرة أخرى مباشرة.
+مزايا
+-فإنه يمكن أي شيء المحدد من القائمة ولعب.
+-يمكنك إنشاء قوائم تشغيل مخصصة.
+-يمكن حفظ قوائم التشغيل.
+-والآن يلعب عرض ويمكن تغييرها وفرزها.
+عيوب
+-التطبيق يتطلب عنصر التحكم أثناء التشغيل. يجب تشغيل التطبيق تحت قفل الشاشة. وينبغي أن لا يتم نقل التطبيق إلى الخلفية.
+-يمكن تغيير القراءة فقط عن طريق اللاعب للتطبيق.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+    <value>حدد وتلعب</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+    <value>تحديد ووضع اللعب</value>
+  </data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+    <value>حدد أو قم بإلغاء تحديد</value>
+  </data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+    <value>وضع القياسية</value>
+  </data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+    <value>التلقائي الترجمة</value>
+  </data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+    <value>التلقائي الترجمة</value>
+  </data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+    <value>تصميم خطأ!
+حذف التصميم وتحميله مرة أخرى إصلاح هذا الخطأ.</value>
+  </data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+    <value> الرجاء قراءة!
+مرحبا بكم في الإصدار 8.1 الموسيقى الجديدة.
+لمساعدتك على البدء، أنشأنا تعليمات جديدة. اضغط على الشعار أعلاه فتح "تعليمات".
+بدءاً بهذا الإصدار، هناك وضع جديد تماما.
+الرجاء ملاحظة الوضع الجديد، "حدد وتلعب" ما زال في مرحلة الاختبار.
+تعطي لنا معرفة يرجى في حالة العثور على خطأ.
+شكرا جزيلا!
+
+المتعة مع الإصدار الجديد</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+    <value>إنشاء قائمة التشغيل</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+    <value>العازفين يمكن فقط في وضع "حدد وتلعب" سيتم إنشاء.
+-تفعيل "حدد ومسرحية"
+-الذهاب إلى التشغيل الحالي وحذفها
+-حدد من القائمة الخاصة بك الموسيقى
+-الذهاب إلى تشغيل الحالية واضغط على حفظ
+-أدخل اسماً لقائمة التشغيل الجديدة
+-سوف تجد قائمة التشغيل الجديدة الخاصة بك في القائمة الثانية أسفل قوائم التشغيل</value>
+  </data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+    <value>ذاكرة التخزين المؤقت للنظام</value>
+  </data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+    <value>أول شحنة من المحتوى يحتاج إلى بعض الوقت. قم بتحميل المحتويات من ذاكرة التخزين مؤقت. إذا قمت بإضافة محتوى جديد إلى الجهاز الخاص بك يجب أن تقوم بتحديث ذاكرة التخزين المؤقت.
+يمكنك تحديث ذاكرة التخزين المؤقت في الإعدادات.</value>
+  </data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+    <value>عرض المشاكل</value>
+  </data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+    <value>العديد من الأغاني يمكن أن يسبب مشاكل في العرض. المشاكل المرتبطة بلون شفاف للتصاميم.
+يمكنك إصلاح المشكلة إذا قمت بإزالة شفافية التصاميم.</value>
+  </data>
+</root>

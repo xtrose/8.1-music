@@ -1,0 +1,990 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>sq-AL</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>KËRKESË MY</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>shtoj</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menu Item</value>
+  </data>
+  <data name="Z001_About" xml:space="preserve">
+    <value>për</value>
+  </data>
+  <data name="Z001_Album" xml:space="preserve">
+    <value>album</value>
+  </data>
+  <data name="Z001_AppTitle" xml:space="preserve">
+    <value>8.1 Music</value>
+  </data>
+  <data name="Z001_Artist" xml:space="preserve">
+    <value>artist</value>
+  </data>
+  <data name="Z001_More" xml:space="preserve">
+    <value>më shumë</value>
+  </data>
+  <data name="Z001_Music" xml:space="preserve">
+    <value>muzikë</value>
+  </data>
+  <data name="Z001_Playlists" xml:space="preserve">
+    <value>Listat e dëgjimit</value>
+  </data>
+  <data name="Z001_Settings" xml:space="preserve">
+    <value>Cilësimet</value>
+  </data>
+  <data name="Z001_Song" xml:space="preserve">
+    <value>këngë</value>
+  </data>
+  <data name="Z001_Albums" xml:space="preserve">
+    <value>Albumi</value>
+  </data>
+  <data name="Z001_Genres" xml:space="preserve">
+    <value>Genres</value>
+  </data>
+  <data name="Z001_Buy" xml:space="preserve">
+    <value>Blej këtë app</value>
+  </data>
+  <data name="Z001_CheckUpdate" xml:space="preserve">
+    <value>Kontrollo për përditësim</value>
+  </data>
+  <data name="Z001_Contact" xml:space="preserve">
+    <value>kontakt</value>
+  </data>
+  <data name="Z001_FontSize" xml:space="preserve">
+    <value>font size</value>
+  </data>
+  <data name="Z001_Instructions" xml:space="preserve">
+    <value>udhëzime</value>
+  </data>
+  <data name="Z001_Language" xml:space="preserve">
+    <value>gjuhë</value>
+  </data>
+  <data name="Z001_Like" xml:space="preserve">
+    <value>Ashtu si xtrose</value>
+  </data>
+  <data name="Z001_LogoStart" xml:space="preserve">
+    <value>Shfaq logo ne fillim</value>
+  </data>
+  <data name="Z001_Off" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_On" xml:space="preserve">
+    <value>po</value>
+  </data>
+  <data name="Z001_Other" xml:space="preserve">
+    <value>Apps tjera xtrose</value>
+  </data>
+  <data name="Z001_Rate" xml:space="preserve">
+    <value>Vlerësoni këtë app</value>
+  </data>
+  <data name="Z001_StartInfo" xml:space="preserve">
+    <value>klikoni ekran të kaloni</value>
+  </data>
+  <data name="Z001_ThankYou" xml:space="preserve">
+    <value>Faleminderit për shkarkimin</value>
+  </data>
+  <data name="Z001_AccentColor" xml:space="preserve">
+    <value>ngjyra Accent</value>
+  </data>
+  <data name="Z001_Color" xml:space="preserve">
+    <value>ngjyrë</value>
+  </data>
+  <data name="Z001_No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Z001_PhoneBackground" xml:space="preserve">
+    <value>background Phone</value>
+  </data>
+  <data name="Z001_SetColor" xml:space="preserve">
+    <value>ngjyra Set</value>
+  </data>
+  <data name="Z001_Yes" xml:space="preserve">
+    <value>po</value>
+  </data>
+  <data name="Z001_ListSelectionColor" xml:space="preserve">
+    <value>Zgjedhja lista Color</value>
+  </data>
+  <data name="Z001_ExtendedInfo" xml:space="preserve">
+    <value>informacione Extended</value>
+  </data>
+  <data name="Z001_Genre" xml:space="preserve">
+    <value>lloj</value>
+  </data>
+  <data name="Z001_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Media player ngjyra theks</value>
+  </data>
+  <data name="Z001_Playlist" xml:space="preserve">
+    <value>Playlist</value>
+  </data>
+  <data name="Z001_Songs" xml:space="preserve">
+    <value>këngët</value>
+  </data>
+  <data name="Z001_RestoreSettings" xml:space="preserve">
+    <value>Rikthimi i cilësimeve të</value>
+  </data>
+  <data name="Z001_AlbumBackground" xml:space="preserve">
+    <value>background Album</value>
+  </data>
+  <data name="Z001_AlbumForeground" xml:space="preserve">
+    <value>dukshëm Album</value>
+  </data>
+  <data name="Z001_ArtistBackground" xml:space="preserve">
+    <value>Artist sfond</value>
+  </data>
+  <data name="Z001_ArtistForeground" xml:space="preserve">
+    <value>Artist i dukshëm</value>
+  </data>
+  <data name="Z001_ForegroundColor" xml:space="preserve">
+    <value>telefon Dukshëm</value>
+  </data>
+  <data name="Z001_SelectedBackground" xml:space="preserve">
+    <value>background Zgjedhur</value>
+  </data>
+  <data name="Z001_SelectedForeground" xml:space="preserve">
+    <value>dukshëm Zgjedhur</value>
+  </data>
+  <data name="Z001_SongBackground" xml:space="preserve">
+    <value>background Song</value>
+  </data>
+  <data name="Z001_SongForeground" xml:space="preserve">
+    <value>dukshëm Song</value>
+  </data>
+  <data name="Z001_Transparency" xml:space="preserve">
+    <value>transparenca</value>
+  </data>
+  <data name="Z001_Black" xml:space="preserve">
+    <value>e zezë</value>
+  </data>
+  <data name="Z001_White" xml:space="preserve">
+    <value>e bardhë</value>
+  </data>
+  <data name="Z001_AllSongs" xml:space="preserve">
+    <value>Të gjitha këngët</value>
+  </data>
+  <data name="Z001_NoteFail" xml:space="preserve">
+    <value>Përzgjedhja nuk mund të luhet</value>
+  </data>
+  <data name="Z001_Playbacks" xml:space="preserve">
+    <value>playbacks më të fundit</value>
+  </data>
+  <data name="Z001_Address" xml:space="preserve">
+    <value>adresë</value>
+  </data>
+  <data name="Z001_PlayOn" xml:space="preserve">
+    <value>luajtur në</value>
+  </data>
+  <data name="Z001_PlayOnTime" xml:space="preserve">
+    <value>Luaj në kohë</value>
+  </data>
+  <data name="Z001_RateLater" xml:space="preserve">
+    <value>më vonë</value>
+  </data>
+  <data name="Z001_RateNever" xml:space="preserve">
+    <value>kurrë</value>
+  </data>
+  <data name="Z001_RateNow" xml:space="preserve">
+    <value>normë</value>
+  </data>
+  <data name="Z001_RateText" xml:space="preserve">
+    <value>Kjo kërkesë duket se apel për ju .
+Te programosh Apps është kohë dhe e vështirë .
+Një përmbledhje të mirë mund të na ndihmojë për të përhapur atë më tej .
+
+Ju faleminderit shumë</value>
+  </data>
+  <data name="Z001_Support" xml:space="preserve">
+    <value>mbështetje</value>
+  </data>
+  <data name="Z001_CMOpen" xml:space="preserve">
+    <value>hapur</value>
+  </data>
+  <data name="Z001_CMPlay" xml:space="preserve">
+    <value>Luaj</value>
+  </data>
+  <data name="Z001_CMPlayAlbum" xml:space="preserve">
+    <value>Luaj album</value>
+  </data>
+  <data name="Z001_CMPlaySong" xml:space="preserve">
+    <value>luajnë këngën</value>
+  </data>
+  <data name="Z001_Delete" xml:space="preserve">
+    <value>fshij</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacks" xml:space="preserve">
+    <value>Fshij playbacks fundit</value>
+  </data>
+  <data name="Z001_DeleteLastPlaybacksNote" xml:space="preserve">
+    <value>Fshij listë me playbacks fundit</value>
+  </data>
+  <data name="Z001_Pause" xml:space="preserve">
+    <value>pushim</value>
+  </data>
+  <data name="Z001_Playback" xml:space="preserve">
+    <value>rishikim</value>
+  </data>
+  <data name="Z001_Stop" xml:space="preserve">
+    <value>stop</value>
+  </data>
+  <data name="Z001_StopPlayback" xml:space="preserve">
+    <value>Stop dhe për të hequr rishikim</value>
+  </data>
+  <data name="Z001_StopPlaybackNote" xml:space="preserve">
+    <value>Stop rishikim dhe fshini nga lojtar</value>
+  </data>
+  <data name="Z001_Warning" xml:space="preserve">
+    <value>KUJDES</value>
+  </data>
+  <data name="Z001_ClickToOpen" xml:space="preserve">
+    <value>Kliko për të hapur</value>
+  </data>
+  <data name="Z001_Connecting" xml:space="preserve">
+    <value>Duke u lidhur</value>
+  </data>
+  <data name="Z001_ConnectionFailed" xml:space="preserve">
+    <value>Lidhja dështoi</value>
+  </data>
+  <data name="Z001_ConnectionTimeOut" xml:space="preserve">
+    <value>Ora Connection jashtë</value>
+  </data>
+  <data name="Z001_DesignSettings" xml:space="preserve">
+    <value>cilësimet e Dizajn</value>
+  </data>
+  <data name="Z001_NoteUpdateFullVersion" xml:space="preserve">
+    <value>Urime , versioni juaj i plotë është liruar</value>
+  </data>
+  <data name="Z001_NoUpdateAvailable" xml:space="preserve">
+    <value>Përditësimi është në dispozicion</value>
+  </data>
+  <data name="Z001_OneMomentPlease" xml:space="preserve">
+    <value>Një moment ju lutemi</value>
+  </data>
+  <data name="Z001_Hour" xml:space="preserve">
+    <value>orë</value>
+  </data>
+  <data name="Z001_Hours" xml:space="preserve">
+    <value>orë</value>
+  </data>
+  <data name="Z001_Minute" xml:space="preserve">
+    <value>minutë</value>
+  </data>
+  <data name="Z001_Minutes" xml:space="preserve">
+    <value>minuta</value>
+  </data>
+  <data name="Z001_PurchaseNote" xml:space="preserve">
+    <value>Faleminderit për blerjen e këtij app</value>
+  </data>
+  <data name="Z001_TrialExpired" xml:space="preserve">
+    <value>Version gjyqi Skaduar</value>
+  </data>
+  <data name="Z001_TrialNote" xml:space="preserve">
+    <value>Version gjyqi skaduar ! Për të krijuar aplikacione do të kushtojë shumë kohë . Çmimi për këtë punë nuk është e shtrenjtë . Për të vazhduar të krijuar ekranet bllokoj Images , ju duhet të blerë app . Ju faleminderit !</value>
+  </data>
+  <data name="Z001_TrialVersion" xml:space="preserve">
+    <value>version Trial</value>
+  </data>
+  <data name="Z001_ColorSettings" xml:space="preserve">
+    <value>settings Color</value>
+  </data>
+  <data name="Z001_CloseLists" xml:space="preserve">
+    <value>Mbylle listat</value>
+  </data>
+  <data name="Z001_CloseListsTxt" xml:space="preserve">
+    <value>Shtypni butonin e fshehur , të lartë të majtë për të mbyllur të gjitha listat .</value>
+  </data>
+  <data name="Z001_FullscreenPlayerTxt" xml:space="preserve">
+    <value>Duke klikuar në shigjeten e majtë hap lojtar ekran të plotë .</value>
+  </data>
+  <data name="Z001_InstGeneral" xml:space="preserve">
+    <value>i përgjithshëm</value>
+  </data>
+  <data name="Z001_InstGeneralTxt" xml:space="preserve">
+    <value>Me këtë kërkesë , ju të merrni më të shpejtë në muzikë tuaj . Ju mund të zgjidhni të gjithë muzikën tuaj nga vetëm dy lista . Përveç kësaj , aplikimi ju jep shumë zgjerime të mëdha .</value>
+  </data>
+  <data name="Z001_InstListView" xml:space="preserve">
+    <value>Pamja Lista</value>
+  </data>
+  <data name="Z001_InstListViewTxt" xml:space="preserve">
+    <value>Duke përdorur pamje listë , ju mund të shpejt të arrijnë muzikë tuaj . Të gjithë artistët janë të shënuara në listën e parë . Nëse ju klikoni nëdëshiruar pastaj hapi albumet e tij . Një klikoni mëtejshëm në album tregon të gjitha këngët .
+Në listën e dytë , playlists, zhanret , albume dhe të gjitha këngët janë të listuara .</value>
+  </data>
+  <data name="Z001_InstMiscellaneous" xml:space="preserve">
+    <value>i llojllojshëm</value>
+  </data>
+  <data name="Z001_InstMiscellaneousTxt" xml:space="preserve">
+    <value>Ju lutemi të jepni vlerësim për këtë të mirë këtë kërkesë , nëse ju pëlqen . Nëse keni probleme me këtë kërkesë , atëherë ju lutemi kontaktoni mbështetjen ! Pyetje dhe problemet kanë humbur asgjë në shqyrtime.
+Ju faleminderit shumë !</value>
+  </data>
+  <data name="Z001_InstPlayOn" xml:space="preserve">
+    <value>Luaj në</value>
+  </data>
+  <data name="Z001_InstPlayOnTxt" xml:space="preserve">
+    <value>Kërkesa ka një të luajë në funksion . Me këtë funksion , titujt do të replayed vetëm kohën e caktuar . Për të mundësuar të luajë në , ju duhet të mbajë butonin luajnë për një të dytë gjatë rishikim .</value>
+  </data>
+  <data name="Z001_MiniPlayer" xml:space="preserve">
+    <value>Menu media player</value>
+  </data>
+  <data name="Z001_MiniPlayerTxt" xml:space="preserve">
+    <value>Një media player i vogël është instaluar në menu e poshtme .</value>
+  </data>
+  <data name="Z001_StandardPlayerTxt" xml:space="preserve">
+    <value>Lojtarimesme është hapur me një klik në shigjetën e djathtë .</value>
+  </data>
+  <data name="ZZ000_Beschreibung" xml:space="preserve">
+    <value>8.1 Music fund arrijnë muzikën tuaj më të shpejtë .
+Pamjee re listë ju lejon të shpejt të gjeni Super artistë tuaja , albume apo këngë .
+Një mini Player , një lojtar i vogël , dhe një lojtar ekran të plotë të lejojë që të ju jap kontroll të plotë mbi muzikën tuaj . Në portret , si dhe peizazhin mode .
+Përveç kësaj , ka shumë ekstra .
+
+- Lista pamje e muzikës tuaj
+- View Lista e playlists tuaj
+-3 Lojtarë të ndryshëm të mediave
+- Mbështet portret dhe peizazh
+- Shkurtër duke luajtur titullin
+- Stop muzikë dhe fshini nga media player
+-100 Riprodhimet e fundit janë ruajtur
+- I plotë customization ngjyra
+- Shumë e ekstra të mëdha</value>
+  </data>
+  <data name="ZZ000_Wort1" xml:space="preserve">
+    <value>muzikë</value>
+  </data>
+  <data name="ZZ000_Wort2" xml:space="preserve">
+    <value>Player MediaPlayer</value>
+  </data>
+  <data name="ZZ000_Wort3" xml:space="preserve">
+    <value>rishikim</value>
+  </data>
+  <data name="ZZ000_Wort4" xml:space="preserve">
+    <value>i shpejtë</value>
+  </data>
+  <data name="ZZ000_Wort5" xml:space="preserve">
+    <value>Albumet tag album artistë artist Sound song songs</value>
+  </data>
+  <data name="Z002_NoteLanguage" xml:space="preserve">
+    <value>Ndërro gjuhën</value>
+  </data>
+  <data name="Z002_NoteLanguage2" xml:space="preserve">
+    <value>Restart aplikimin</value>
+  </data>
+  <data name="Z002_SelectLanguage" xml:space="preserve">
+    <value>Zgjidhni gjuhën</value>
+  </data>
+  <data name="ZZ002_BackgroundColor" xml:space="preserve">
+    <value>ngjyra e sfondit</value>
+  </data>
+  <data name="ZZ002_BackgroundPictureLandscape" xml:space="preserve">
+    <value>Historiku peizazh foto</value>
+  </data>
+  <data name="ZZ002_BackgroundPicturePortrait" xml:space="preserve">
+    <value>Historiku foto portret</value>
+  </data>
+  <data name="ZZ002_ErrorForeground" xml:space="preserve">
+    <value>GABIM
+Ngjyra fronti është i njëjtë me ngjyrën e sfondit .</value>
+  </data>
+  <data name="ZZ002_ForegroundColor" xml:space="preserve">
+    <value>ngjyra e përparme</value>
+  </data>
+  <data name="ZZ002_ResetColorSettings" xml:space="preserve">
+    <value>Rikthimi i cilësimeve të projektimit</value>
+  </data>
+  <data name="ZZ002_Restore" xml:space="preserve">
+    <value>kthej</value>
+  </data>
+  <data name="ZZ002_DeletePicture" xml:space="preserve">
+    <value>Fshij foto</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBackgroundColor" xml:space="preserve">
+    <value>Media player Ngjyra e sfondit të vogla</value>
+  </data>
+  <data name="ZZ002_MediaPlayerAccentColor" xml:space="preserve">
+    <value>Media player ngjyra vogël theks</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigAccentColor" xml:space="preserve">
+    <value>Media player ngjyra theks i madh</value>
+  </data>
+  <data name="ZZ002_MediaPlayerBigBackgroundColor" xml:space="preserve">
+    <value>Media player Ngjyra e sfondit e madhe</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPictureLandscape" xml:space="preserve">
+    <value>Media player peizazh foto</value>
+  </data>
+  <data name="ZZ002_MPBigBackgroundPicturePortrait" xml:space="preserve">
+    <value>Lojtari Media foto portret</value>
+  </data>
+  <data name="ZZ002_Apply" xml:space="preserve">
+    <value>Aplikoni</value>
+  </data>
+  <data name="ZZ002_Concert" xml:space="preserve">
+    <value>koncert</value>
+  </data>
+  <data name="ZZ002_Copy" xml:space="preserve">
+    <value>kopje</value>
+  </data>
+  <data name="ZZ002_Delete" xml:space="preserve">
+    <value>fshij</value>
+  </data>
+  <data name="ZZ002_Designs" xml:space="preserve">
+    <value>Designs</value>
+  </data>
+  <data name="ZZ002_Edit" xml:space="preserve">
+    <value>redaktoj</value>
+  </data>
+  <data name="ZZ002_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="ZZ002_Rename" xml:space="preserve">
+    <value>riemërtoj</value>
+  </data>
+  <data name="ZZ002_Save" xml:space="preserve">
+    <value>ruaj</value>
+  </data>
+  <data name="ZZ002_StandardBlack" xml:space="preserve">
+    <value>Historiku i zi</value>
+  </data>
+  <data name="ZZ002_StandardWhite" xml:space="preserve">
+    <value>Historiku bardhë</value>
+  </data>
+  <data name="ZZ002_WarningApplyDesign" xml:space="preserve">
+    <value>Lose cilësimet shpëtimit të projektimit</value>
+  </data>
+  <data name="ZZ002_ColorSelected" xml:space="preserve">
+    <value>i zgjedhur</value>
+  </data>
+  <data name="ZZ002_ErrorName" xml:space="preserve">
+    <value>GABIM ! Emri tashmë në përdorim ose karaktere të pavlefshme !</value>
+  </data>
+  <data name="ZZ002_NewName" xml:space="preserve">
+    <value>Emri i ri</value>
+  </data>
+  <data name="ZZ002_SelectedBackground" xml:space="preserve">
+    <value>Historiku Zgjedhur</value>
+  </data>
+  <data name="ZZ002_SelectedForeground" xml:space="preserve">
+    <value>Selected plan të parë</value>
+  </data>
+  <data name="ZZ002_Design" xml:space="preserve">
+    <value>Projektimi</value>
+  </data>
+  <data name="ZZ002_ResetSettings" xml:space="preserve">
+    <value>Rikthimi i cilësimeve të</value>
+  </data>
+  <data name="ZZ002_ConnectingNow" xml:space="preserve">
+    <value>Duke u lidhur .....</value>
+  </data>
+  <data name="ZZ002_ConnectionFailed" xml:space="preserve">
+    <value>Lidhja dështoi</value>
+  </data>
+  <data name="ZZ002_ConnectXtrose" xml:space="preserve">
+    <value>Lidhu me xtrose</value>
+  </data>
+  <data name="ZZ002_TimeOut" xml:space="preserve">
+    <value>Ora Connection jashtë</value>
+  </data>
+  <data name="ZZ002_TrialNote" xml:space="preserve">
+    <value>Version gjyqi skaduar ! Për të krijuar aplikacione do të kushtojë shumë kohë . Çmimi për këtë punë nuk është e shtrenjtë . Për të vazhduar për të përdorur këtë app , ju keni për të blerë atë . Ju faleminderit !</value>
+  </data>
+  <data name="ZZ002_Autor" xml:space="preserve">
+    <value>autor</value>
+  </data>
+  <data name="ZZ002_Category" xml:space="preserve">
+    <value>kategori</value>
+  </data>
+  <data name="ZZ002_InstallDesign" xml:space="preserve">
+    <value>Install dizajn .....</value>
+  </data>
+  <data name="ZZ002_InstallNotification" xml:space="preserve">
+    <value>Install dizajn</value>
+  </data>
+  <data name="ZZ002_Name" xml:space="preserve">
+    <value>emër</value>
+  </data>
+  <data name="ZZ002_Notification" xml:space="preserve">
+    <value>njoftim</value>
+  </data>
+  <data name="ZZ002_PleaseWait" xml:space="preserve">
+    <value>Ju lutem prisni</value>
+  </data>
+  <data name="ZZ002_DesignShareNote" xml:space="preserve">
+    <value>Kjo është se si funksionon .
+- Historiku imazhet janë kopjuar në " imazhet e ruajtura "
+- Vini në dukje hap një email për të xtrose
+- Add emrin e autorit
+- Add imazhe nga " imazhe ruhen "
+- Dergoj mesazh
+
+Pas një shqyrtimi , ne do të sigurojë të dhënat për serverin tonë .
+Ju faleminderit shumë</value>
+  </data>
+  <data name="ZZ002_DesignShare_01" xml:space="preserve">
+    <value>Ju lutem plotësoni dhe të përfshijnë imazhet e krijuara</value>
+  </data>
+  <data name="ZZ002_DesignShare_02" xml:space="preserve">
+    <value>Emri Author :</value>
+  </data>
+  <data name="ZZ002_DesignShare_03" xml:space="preserve">
+    <value>Mos e ndryshoni</value>
+  </data>
+  <data name="ZZ002_DesignShare_04" xml:space="preserve">
+    <value>Shto imazhe sfond nga " imazhe ruhen "</value>
+  </data>
+  <data name="ZZ002_Share" xml:space="preserve">
+    <value>publikoj</value>
+  </data>
+  <data name="ZZ002_AgainClose" xml:space="preserve">
+    <value>Shtypni përsëri për të mbyllur</value>
+  </data>
+  <data name="ZZ002_InstButtons" xml:space="preserve">
+    <value>Buttons dhe funksionet</value>
+  </data>
+  <data name="ZZ002_InstLock" xml:space="preserve">
+    <value>lock Orientim</value>
+  </data>
+  <data name="ZZ002_InstNext" xml:space="preserve">
+    <value>song Next</value>
+  </data>
+  <data name="ZZ002_InstPause" xml:space="preserve">
+    <value>( Press ) Pushim
+( Hold ) Scan</value>
+  </data>
+  <data name="ZZ002_InstPlay" xml:space="preserve">
+    <value>Luaj</value>
+  </data>
+  <data name="ZZ002_InstPrevious" xml:space="preserve">
+    <value>song Kthehu</value>
+  </data>
+  <data name="ZZ002_InstRefresh" xml:space="preserve">
+    <value>refresh listën</value>
+  </data>
+  <data name="ZZ002_InstRepead" xml:space="preserve">
+    <value>Repead</value>
+  </data>
+  <data name="ZZ002_InstSearch" xml:space="preserve">
+    <value>kërkim</value>
+  </data>
+  <data name="ZZ002_InstShuffle" xml:space="preserve">
+    <value>shkartisje</value>
+  </data>
+  <data name="ZZ002_ZZ_BeschreibungNeu" xml:space="preserve">
+    <value>8.1 muzikë më në fund arrijnë muzikën tuaj më të shpejtë .
+Pamjee re listë ju lejon të shpejt të gjeni Super artistë tuaja , albume apo këngë .
+Një mini Player , një lojtar i vogël , dhe një lojtar ekran të plotë të lejojë që të ju jap kontroll të plotë mbi muzikën tuaj . Në portret , si dhe peizazhin mode .
+Krijo dizajnit tuaj ose shkarkoni dizajne të gatshme nga interneti .
+Përveç kësaj , ka shumë ekstra .
+
+- Lista pamje e muzikës tuaj
+- View Lista e playlists tuaj
+-3 Lojtarë të ndryshëm të mediave
+- Mbështet portret dhe peizazh
+- Shkurtër duke luajtur titullin
+-Design Editor
+- Shkarko përfundoi dizajn nga Interneti
+- Stop muzikë dhe fshini nga media player
+-100 Riprodhimet e fundit janë ruajtur
+- I plotë customization ngjyra
+- Shumë e ekstra të mëdha</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch" xml:space="preserve">
+    <value>Shtypni dy herë përsëri për të rinovuar cache</value>
+  </data>
+  <data name="ZZ003_ClickClearCatch2" xml:space="preserve">
+    <value>Shtypni përsëri për të ripërtërirë kapur</value>
+  </data>
+  <data name="ZZ003_BackgroundPicture" xml:space="preserve">
+    <value>foto Historiku</value>
+  </data>
+  <data name="ZZ003_LogoAlbumImage" xml:space="preserve">
+    <value>Logo në album imazhin</value>
+  </data>
+  <data name="ZZ003_MainTile" xml:space="preserve">
+    <value>tjegull kryesore</value>
+  </data>
+  <data name="ZZ003_ResetMainTile" xml:space="preserve">
+    <value>Reset tjegull kryesore</value>
+  </data>
+  <data name="ZZ003_StartMenüSettings" xml:space="preserve">
+    <value>Filloni parametrat ekran</value>
+  </data>
+  <data name="ZZ003_StartScreen" xml:space="preserve">
+    <value>Filloni ekran</value>
+  </data>
+  <data name="ZZ003_StopDeleteTile" xml:space="preserve">
+    <value>Tile ndaluar dhe fshini</value>
+  </data>
+  <data name="ZZ003_CreateTileNote" xml:space="preserve">
+    <value>Kliko këtu për të krijuar të ndaluar dhe të fshini tjegull</value>
+  </data>
+  <data name="ZZ003_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="ZZ003_ErrorRunUnder" xml:space="preserve">
+    <value>Ju lutem shkruani një numër 0-360</value>
+  </data>
+  <data name="ZZ003_Minutes" xml:space="preserve">
+    <value>0-360 Procesverbalet</value>
+  </data>
+  <data name="ZZ003_RunUnderLockScreen" xml:space="preserve">
+    <value>Run nën bllokohet ekran</value>
+  </data>
+  <data name="ZZ003_StopTimer" xml:space="preserve">
+    <value>Stop timer</value>
+  </data>
+  <data name="ZZ003_TimerRunNote" xml:space="preserve">
+    <value>Për timerapp duhet të konkurrojnë nën bllokohet ekran .
+Aktivizo për të kandiduar nën bllokohet ekran</value>
+  </data>
+  <data name="ZZ003_Refresh" xml:space="preserve">
+    <value>Lista Update
+Double klikoni në njoftimin për të rikrijuar listë . Nevojshme vetëm nëse ndryshohet muzikë në telefonin tuaj .</value>
+  </data>
+  <data name="ZZ003_ZZ_Beschreibung" xml:space="preserve">
+    <value>8.1 muzikë më në fund arrijnë muzikën tuaj më të shpejtë .
+Pamjee re listë ju lejon të shpejt të gjeni Super artistë tuaja , albume apo këngë .
+Një mini Player , një lojtar i vogël , dhe një lojtar ekran të plotë të lejojë që të ju jap kontroll të plotë mbi muzikën tuaj . Në portret , si dhe peizazhin mode .
+Krijo dizajnit tuaj ose shkarkoni dizajne të gatshme nga interneti .
+Përveç kësaj , ka shumë ekstra .
+
+- Lista pamje e muzikës tuaj
+- View Lista e playlists tuaj
+-3 Lojtarë të ndryshëm të mediave
+- Mbështet portret dhe peizazh
+- Shkurtër duke luajtur titullin
+-Design Editor
+- Shkarko përfundoi dizajn nga Interneti
+- Stop muzikë dhe fshini nga media player
+-100 Riprodhimet e fundit janë ruajtur
+- I plotë customization ngjyra
+- Shumë e ekstra të mëdha</value>
+  </data>
+  <data name="ZZ004_ClickClearCache" xml:space="preserve">
+    <value>Shtypni dy herë përsëri për të rinovuar cache</value>
+  </data>
+  <data name="ZZ004_Renew" xml:space="preserve">
+    <value>rinovo</value>
+  </data>
+  <data name="ZZ004_RenewCache" xml:space="preserve">
+    <value>rinovo cache</value>
+  </data>
+  <data name="ZZ005_CurrentPlaylist" xml:space="preserve">
+    <value>Playlist aktual</value>
+  </data>
+  <data name="ZZ005_ClearCurrent" xml:space="preserve">
+    <value>Clear playlist tanishme</value>
+  </data>
+  <data name="ZZ005_NoSongsAvailable" xml:space="preserve">
+    <value>Asnjë këngë në dispozicion sërish tanishme</value>
+  </data>
+  <data name="ZZ005_PlaylistAvailable" xml:space="preserve">
+    <value>Një playlist me të njëjtin emër tashmë ekziston.</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist" xml:space="preserve">
+    <value>Fshij playlist</value>
+    <comment>NOTE FOR Translators, please enter a return at the end of the text.</comment>
+  </data>
+  <data name="ZZ005_loaded" xml:space="preserve">
+    <value>Ngarkuar</value>
+  </data>
+  <data name="ZZ005_ButtonsMediaPlayer" xml:space="preserve">
+    <value>Buttons media player</value>
+  </data>
+  <data name="ZZ005_ButtonsOfList" xml:space="preserve">
+    <value>Buttons e listës</value>
+  </data>
+  <data name="ZZ005_ClickLogoToHelp" xml:space="preserve">
+    <value>Shtypni logo për të hapur ndihmën</value>
+  </data>
+  <data name="ZZ005_DeletePlayback" xml:space="preserve">
+    <value>Fshij riprodhimin e tanishme</value>
+  </data>
+  <data name="ZZ005_DeletePlaylist2" xml:space="preserve">
+    <value>Fshij playlist</value>
+  </data>
+  <data name="ZZ005_HelpDelete" xml:space="preserve">
+    <value>Ky buton fshin rishikim aktuale dhe të zgjidh gjithçka këngët në listat.</value>
+  </data>
+  <data name="ZZ005_HelpHeader" xml:space="preserve">
+    <value>Ndihmë</value>
+  </data>
+  <data name="ZZ005_HelpOrientationLock" xml:space="preserve">
+    <value>Përdorni këtë buton për të bllokoj orientimin.
+Ajo do të bllokohet gjithmonë orientimin aktual.
+Shtypni butonin përsëri për të zhbllokuar atë.</value>
+  </data>
+  <data name="ZZ005_HelpRefresh" xml:space="preserve">
+    <value>Me këtë buton, listat janë të mbyllura dhe të rinovohet.
+Duke klikuar dy herë mbi njoftimin e publikuar, cache është përditësuar.
+Cache duhet të rinovohet vetëm nëse muzika e Smartphone ka ndryshuar.</value>
+  </data>
+  <data name="ZZ005_HelpSave" xml:space="preserve">
+    <value>Me këtë buton, rishikim i tanishëm si një listë dëgjimi mund të ruhen. Në dispozicion vetëm në mënyrë, zgjidhni dhe të luajnë.</value>
+  </data>
+  <data name="ZZ005_HelpSearch" xml:space="preserve">
+    <value>Një shtyp në kërkim, pastaj hap një futjen e tekstit.
+Shkruani termin tuaj të kërkimit dhe kthimin shtyp.
+Kërkimi filtra të gjitha listat.
+Përdorimi i afërt dhe rinovo listat të fshini kërkim.
+Editor</value>
+  </data>
+  <data name="ZZ005_InstDesignEditor" xml:space="preserve">
+    <value>Dizajn</value>
+  </data>
+  <data name="ZZ005_InstDesignEditorTxt" xml:space="preserve">
+    <value>Pothuajse çdo gjë mund të rregullohen në këtë app.
+Imazhe sfond, ngjyrat e sfondit, ngjyra qendrore, ngjyrat individuale të listës.
+Për të ndryshuar cilësimet e ngjyra, ju keni nevojë për të hapur të projektimit.
+Këtu, ju mund të bëni app për të pëlqen tuaj.
+
+Ju mund të shkarkoni dhe të instaloni tema të plotë të drejtpërdrejtë.
+
+Me butonin e aksioneve ju mund të na dërgoni dizajnit tuaj.
+Ju lutem mos harroni të shtoni imazhe të krijuara.
+Ne do të donim për të ngarkoni dizajnit tuaj.
+Error</value>
+  </data>
+  <data name="ZZ005_InstDesignError" xml:space="preserve">
+    <value>Dizajn</value>
+  </data>
+  <data name="ZZ005_InstDesignErrorTxt" xml:space="preserve">
+    <value>Kur shkarkimi i gabimeve të projektimit mund të ndodhë.
+Në zgjidhni temat e crashes app.
+Dizajni është rivendosur në fillimin e ardhshëm.
+Për të përdorur të projektimit, ajo duhet të jetë i instaluar përsëri.</value>
+  </data>
+  <data name="ZZ005_LoadPlaylist" xml:space="preserve">
+    <value>Zgjidh playlist</value>
+  </data>
+  <data name="ZZ005_Overview" xml:space="preserve">
+    <value>Përmbledhje
+Luaj</value>
+  </data>
+  <data name="ZZ005_Play" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ZZ005_PlayOnly" xml:space="preserve">
+    <value>Luaj vetëm këtë titull</value>
+  </data>
+  <data name="ZZ005_SavePlaylist" xml:space="preserve">
+    <value>Save playlist</value>
+  </data>
+  <data name="ZZ005_SavePlaylistText" xml:space="preserve">
+    <value>Në mënyrë të zgjidhni dhe të luajnë playlist mund të ruhen.
+Ky buton shfaqet në fushën e rishikim aktual.
+Duke klikuar butonin hap një fushë të futjes së tekstit.
+Pas një emër i është futur këtu ju duhet të shtypni butonin e kthimit.
+Vini në dukje playlist në një listë dëgjimi është ruajtur.
+Ju mund të gjeni ato në listën e dytë.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlay" xml:space="preserve">
+    <value>Zgjidhni dhe të luajë
+Ky buton ndryshon mënyrën e app.
+
+Mënyra Standard
+Në gjendjen e parazgjedhur app përdorni API specifikuar.
+Avantazhet
+- App mund të mbyllet pas përzgjedhjes.
+- Muzika mund të kontrollohet nga sistemi.
+Disavantazhet
+- Ajo mund të luhet vetëm çfarë lejuar API. Jo mixes veta mund të jetë krijuar.
+- Nuk ka playlists që mund të krijohen.
+- Tani duke luajtur nuk mund të ndryshohet.
+
+Zgjidhni dhe të luajë mënyrën
+Në këtë mënyrë, çdo gjë mund të përzgjidhen dhe të luhet përsëri direkt.
+Avantazhet
+- Ajo mund të asgjë zgjedhur nga lista dhe të luajtur.
+- Ju mund të krijoni playlists porosi.
+- Listat e dëgjimit mund të ruhen.
+- Tani duke luajtur shfaqet dhe mund të ndryshohet dhe të renditura.
+Disavantazhet
+- App kërkon kontrollin gjatë rishikim. Aplikacioni duhet të kandidojë nën bllokohet ekran. App nuk duhet të zhvendoset në sfond.
+- Playback mund të ndryshohet vetëm përmes lojtar të app.</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayHeader" xml:space="preserve">
+    <value>Zgjidhni dhe të luajë</value>
+  </data>
+  <data name="ZZ005_SelectAndPlayMode" xml:space="preserve">
+    <value>Zgjidhni dhe të luajë mënyrën</value>
+  </data>
+  <data name="ZZ005_SelectDeselect" xml:space="preserve">
+    <value>Përzgjidhe ose deselect
+Mënyra</value>
+  </data>
+  <data name="ZZ005_StandardMode" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="ZZ005_TopBar" xml:space="preserve">
+    <value>Top button bar</value>
+  </data>
+  <data name="ZZ005_AutoTranslate" xml:space="preserve">
+    <value>Automatic përkthim
+Error</value>
+  </data>
+  <data name="ZZ005_DesignError" xml:space="preserve">
+    <value>Dizajn!
+Fshij të projektimit dhe të shkarkoni atë përsëri për të rregulluar këtë gabim.</value>
+  </data>
+  <data name="ZZ005_FirstNote" xml:space="preserve">
+    <value>Ju lutem lexoni!
+Mirë se vini në e ri versioni 8.1 muzikë.
+Për të ndihmuar ju të filloni, ne kemi krijuar një ndihmë të re. Shtypni logon e mësipërme për të hapur ndihmën.
+Duke filluar me këtë version, ka një mënyrë krejtësisht të re.
+Ju lutem vini re mode e re, "zgjidhni dhe të luajnë" është ende në fazën e testimit.
+Na ju lutem tregoni, nëse ju të gjeni një gabim.
+Ju faleminderit shumë!
+
+Have fun me versionin e ri</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylist" xml:space="preserve">
+    <value>Krijo playlist</value>
+  </data>
+  <data name="ZZ005_HelpCreatePlaylistTxt" xml:space="preserve">
+    <value>Listat e dëgjimit mund të vetëm në "zgjidhni dhe të luajnë" mode do të jetë krijuar.
+- Aktivizo "Zgjidh dhe Play"
+- Shko në rishikim aktuale dhe fshirjen e tyre
+- Zgjidhni nga lista muzikën tuaj
+- Shko në rishikim aktuale dhe shtypni kursejnë
+- Futni një emër për playlist tuaj të re
+- Ju do të gjeni playlist tuaj të re në listën e dytë nën playlists
+Sistemi</value>
+  </data>
+  <data name="ZZ005_CacheSystem" xml:space="preserve">
+    <value>Cache</value>
+  </data>
+  <data name="ZZ005_CacheSystemTxt" xml:space="preserve">
+    <value>Ngarkesa e parë e përmbajtjes nevojë për disa kohë. Pastaj ngarkesës përmbajtjen nga një cache. Në qoftë se ju të shtoni përmbajtje të re për pajisjen tuaj ju duhet të rifreskoni cache.
+Ju mund të rifreskoni cache në rregullimet.</value>
+  </data>
+  <data name="ZZ005_DisplayProblems" xml:space="preserve">
+    <value>Display probleme</value>
+  </data>
+  <data name="ZZ005_DisplayProblemsTxt" xml:space="preserve">
+    <value>Shumë këngë mund të shkaktojë probleme me ekranin. Problemet që lidhen me ngjyrë transparente të harton.
+Ju mund të zgjidhur problemin nëse ju hiqni transparencën e harton.</value>
+  </data>
+</root>
